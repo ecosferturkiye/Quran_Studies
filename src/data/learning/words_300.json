@@ -1,0 +1,4272 @@
+[
+  {
+    "id": "word_1",
+    "arabic": "من",
+    "frequency": 2763,
+    "translations": {
+      "en": "from",
+      "tr": "-den,-dan",
+      "ur": "سے",
+      "hi": "जो",
+      "id": "dari",
+      "bn": "থেকে",
+      "ru": "из"
+    }
+  },
+  {
+    "id": "word_2",
+    "arabic": "الله",
+    "frequency": 2153,
+    "translations": {
+      "en": "Allah",
+      "tr": "Allah",
+      "ur": "اللہ",
+      "hi": "अल्लाह",
+      "id": "Allah",
+      "bn": "আল্লাহ",
+      "ru": "Аллах"
+    }
+  },
+  {
+    "id": "word_3",
+    "arabic": "في",
+    "frequency": 1185,
+    "translations": {
+      "en": "in",
+      "tr": "içinde",
+      "ur": "میں",
+      "hi": "ज़मीन में ",
+      "id": "dalam",
+      "bn": "মধ্যে",
+      "ru": "в"
+    }
+  },
+  {
+    "id": "word_4",
+    "arabic": "ما",
+    "frequency": 1013,
+    "translations": {
+      "en": "what",
+      "tr": "şeyleri",
+      "ur": "جو",
+      "hi": "जो",
+      "id": "apa",
+      "bn": "যা",
+      "ru": "то, что"
+    }
+  },
+  {
+    "id": "word_5",
+    "arabic": "إن",
+    "frequency": 966,
+    "translations": {
+      "en": "Indeed",
+      "tr": "şüphesiz",
+      "ur": "بیشک",
+      "hi": "बेशक",
+      "id": "sesungguhnya",
+      "bn": "নিশ্চয়ই",
+      "ru": "Поистине,"
+    }
+  },
+  {
+    "id": "word_6",
+    "arabic": "لا",
+    "frequency": 812,
+    "translations": {
+      "en": "not",
+      "tr": "yoktur",
+      "ur": "نہیں",
+      "hi": "नहीं",
+      "id": "tidak",
+      "bn": "না",
+      "ru": "не"
+    }
+  },
+  {
+    "id": "word_7",
+    "arabic": "الذين",
+    "frequency": 810,
+    "translations": {
+      "en": "those who",
+      "tr": "kimseler",
+      "ur": "وہ لوگ",
+      "hi": "वो जो",
+      "id": "orang-orang yang",
+      "bn": "যারা",
+      "ru": "тех, которые"
+    }
+  },
+  {
+    "id": "word_8",
+    "arabic": "على",
+    "frequency": 670,
+    "translations": {
+      "en": "on",
+      "tr": "üzerine",
+      "ur": "پر",
+      "hi": "ऊपर",
+      "id": "atas",
+      "bn": "উপর",
+      "ru": "на"
+    }
+  },
+  {
+    "id": "word_9",
+    "arabic": "إلا",
+    "frequency": 664,
+    "translations": {
+      "en": "except",
+      "tr": "dışında",
+      "ur": "مگر",
+      "hi": "मगर",
+      "id": "kecuali",
+      "bn": "ছাড়া",
+      "ru": "кроме"
+    }
+  },
+  {
+    "id": "word_10",
+    "arabic": "ولا",
+    "frequency": 658,
+    "translations": {
+      "en": "and not",
+      "tr": "ve değil",
+      "ur": "اور نہ",
+      "hi": "और ना",
+      "id": "dan tidak",
+      "bn": "এবং না",
+      "ru": "и не"
+    }
+  },
+  {
+    "id": "word_11",
+    "arabic": "وما",
+    "frequency": 646,
+    "translations": {
+      "en": "And not",
+      "tr": "ve ne",
+      "ur": "اور نہیں",
+      "hi": "और नहीं",
+      "id": "dan tidak",
+      "bn": "এবং না",
+      "ru": "И не"
+    }
+  },
+  {
+    "id": "word_12",
+    "arabic": "أن",
+    "frequency": 638,
+    "translations": {
+      "en": "that",
+      "tr": "diye",
+      "ur": "کہ",
+      "hi": "कि",
+      "id": "bahwa",
+      "bn": "যে",
+      "ru": "что"
+    }
+  },
+  {
+    "id": "word_13",
+    "arabic": "قال",
+    "frequency": 416,
+    "translations": {
+      "en": "He said",
+      "tr": "dedi",
+      "ur": "کہا",
+      "hi": "उसने कहा",
+      "id": "berkata",
+      "bn": "সে বললো",
+      "ru": "Сказал он:"
+    }
+  },
+  {
+    "id": "word_14",
+    "arabic": "إلى",
+    "frequency": 405,
+    "translations": {
+      "en": "to",
+      "tr": "-e, -a",
+      "ur": "طرف",
+      "hi": "तरफ़",
+      "id": "kepada",
+      "bn": "দিকে",
+      "ru": "к"
+    }
+  },
+  {
+    "id": "word_15",
+    "arabic": "لهم",
+    "frequency": 373,
+    "translations": {
+      "en": "for them",
+      "tr": "onlara",
+      "ur": "ان کے لیے",
+      "hi": "उनके लिए",
+      "id": "bagi mereka",
+      "bn": "জন্যে তাদের",
+      "ru": "им"
+    }
+  },
+  {
+    "id": "word_16",
+    "arabic": "يا",
+    "frequency": 350,
+    "translations": {
+      "en": "O you",
+      "tr": "ey",
+      "ur": "اے",
+      "hi": "ऐ लोगो जो",
+      "id": "wahai",
+      "bn": "হে",
+      "ru": "О"
+    }
+  },
+  {
+    "id": "word_17",
+    "arabic": "ومن",
+    "frequency": 342,
+    "translations": {
+      "en": "And whoever",
+      "tr": "ve kim",
+      "ur": "اور جو کوئی",
+      "hi": "और जो कोई",
+      "id": "dan barang siapa",
+      "bn": "এবং যে",
+      "ru": "А кто"
+    }
+  },
+  {
+    "id": "word_18",
+    "arabic": "ثم",
+    "frequency": 340,
+    "translations": {
+      "en": "then",
+      "tr": "sonra",
+      "ur": "پھر",
+      "hi": "फिर",
+      "id": "kemudian",
+      "bn": "এরপর",
+      "ru": "Потом"
+    }
+  },
+  {
+    "id": "word_19",
+    "arabic": "لكم",
+    "frequency": 337,
+    "translations": {
+      "en": "for you",
+      "tr": "size",
+      "ur": "تمہارے لیے",
+      "hi": "तुम्हारे लिए",
+      "id": "bagi kalian",
+      "bn": "জন্যে তোমাদের",
+      "ru": "вам"
+    }
+  },
+  {
+    "id": "word_20",
+    "arabic": "به",
+    "frequency": 327,
+    "translations": {
+      "en": "with it",
+      "tr": "onunla",
+      "ur": "ساتھ اس کے",
+      "hi": "साथ उसके",
+      "id": "dengannya",
+      "bn": "দিয়ে তা",
+      "ru": "ею"
+    }
+  },
+  {
+    "id": "word_21",
+    "arabic": "كان",
+    "frequency": 323,
+    "translations": {
+      "en": "is",
+      "tr": "-dır, -dir",
+      "ur": "ہے",
+      "hi": "है",
+      "id": "adalah",
+      "bn": "ছিলো",
+      "ru": "является"
+    }
+  },
+  {
+    "id": "word_22",
+    "arabic": "بما",
+    "frequency": 296,
+    "translations": {
+      "en": "of what",
+      "tr": "-nın, -nin, -ı, -i",
+      "ur": "ساتھ اس کے جو",
+      "hi": "बवजह उसके जो",
+      "id": "dengan apa",
+      "bn": "এ কারণে যা",
+      "ru": "за то, что"
+    }
+  },
+  {
+    "id": "word_23",
+    "arabic": "قل",
+    "frequency": 294,
+    "translations": {
+      "en": "Say",
+      "tr": "de ki",
+      "ur": "کہہ دیجیے",
+      "hi": "कह दीजिए",
+      "id": "katakanlah",
+      "bn": "বলো",
+      "ru": "Скажи:"
+    }
+  },
+  {
+    "id": "word_24",
+    "arabic": "الأرض",
+    "frequency": 287,
+    "translations": {
+      "en": "the earth",
+      "tr": "yeryüzü",
+      "ur": "زمین",
+      "hi": "ज़मीन में ",
+      "id": "bumi",
+      "bn": "পৃথিবীর",
+      "ru": "земле"
+    }
+  },
+  {
+    "id": "word_25",
+    "arabic": "ذلك",
+    "frequency": 280,
+    "translations": {
+      "en": "that",
+      "tr": "ordaki, şu",
+      "ur": "یہ",
+      "hi": "ये ",
+      "id": "demikian itu",
+      "bn": "এটা",
+      "ru": "Это –"
+    }
+  },
+  {
+    "id": "word_26",
+    "arabic": "أو",
+    "frequency": 280,
+    "translations": {
+      "en": "or",
+      "tr": "yahut",
+      "ur": "یا",
+      "hi": "या",
+      "id": "atau",
+      "bn": "অথবা",
+      "ru": "или"
+    }
+  },
+  {
+    "id": "word_27",
+    "arabic": "له",
+    "frequency": 275,
+    "translations": {
+      "en": "for him",
+      "tr": "ona",
+      "ur": "اس کے لیے",
+      "hi": "उसके लिए",
+      "id": "baginya",
+      "bn": "তার জন্যে",
+      "ru": "ему"
+    }
+  },
+  {
+    "id": "word_28",
+    "arabic": "الذي",
+    "frequency": 268,
+    "translations": {
+      "en": "(is) the One Who",
+      "tr": "ki",
+      "ur": "وہ ذات ہے",
+      "hi": "वो जो",
+      "id": "yang",
+      "bn": "যিনি",
+      "ru": "Тот, Который"
+    }
+  },
+  {
+    "id": "word_29",
+    "arabic": "هو",
+    "frequency": 265,
+    "translations": {
+      "en": "He",
+      "tr": "O",
+      "ur": "وہ",
+      "hi": "वो",
+      "id": "Dia",
+      "bn": "তিনিই",
+      "ru": "Он"
+    }
+  },
+  {
+    "id": "word_30",
+    "arabic": "آمنوا",
+    "frequency": 263,
+    "translations": {
+      "en": "believe",
+      "tr": "inanan(lar)",
+      "ur": "جو ایمان لائے",
+      "hi": "ईमान लाए",
+      "id": "beriman",
+      "bn": "ঈমান এনেছে",
+      "ru": "уверовали"
+    }
+  },
+  {
+    "id": "word_31",
+    "arabic": "هم",
+    "frequency": 261,
+    "translations": {
+      "en": "they",
+      "tr": "onlar",
+      "ur": "وہ",
+      "hi": "वो",
+      "id": "mereka",
+      "bn": "তারাই",
+      "ru": "они"
+    }
+  },
+  {
+    "id": "word_32",
+    "arabic": "وإن",
+    "frequency": 254,
+    "translations": {
+      "en": "And indeed",
+      "tr": "ve eğer",
+      "ur": "اور بیشک",
+      "hi": "और अगर",
+      "id": "dan jika",
+      "bn": "এবং যদি",
+      "ru": "И, поистине,"
+    }
+  },
+  {
+    "id": "word_33",
+    "arabic": "قالوا",
+    "frequency": 250,
+    "translations": {
+      "en": "They said",
+      "tr": "dediler",
+      "ur": "انہوں نے کہا",
+      "hi": "उन्होंने कहा",
+      "id": "mereka berkata",
+      "bn": "তারা বললো",
+      "ru": "Сказали они:"
+    }
+  },
+  {
+    "id": "word_34",
+    "arabic": "كل",
+    "frequency": 245,
+    "translations": {
+      "en": "every",
+      "tr": "her",
+      "ur": "ہر",
+      "hi": "हर",
+      "id": "tiap-tiap",
+      "bn": "প্রত্যেক",
+      "ru": "каждой"
+    }
+  },
+  {
+    "id": "word_35",
+    "arabic": "فيها",
+    "frequency": 241,
+    "translations": {
+      "en": "therein",
+      "tr": "orada",
+      "ur": "اس میں",
+      "hi": "उसमें ",
+      "id": "didalamnya",
+      "bn": "তার মধ্যে",
+      "ru": "в них"
+    }
+  },
+  {
+    "id": "word_36",
+    "arabic": "والله",
+    "frequency": 240,
+    "translations": {
+      "en": "And Allah",
+      "tr": "ve Allah",
+      "ur": "اور اللہ",
+      "hi": "और अल्लाह",
+      "id": "dan Allah",
+      "bn": "এবং আল্লাহ",
+      "ru": "И Аллах"
+    }
+  },
+  {
+    "id": "word_37",
+    "arabic": "كانوا",
+    "frequency": 229,
+    "translations": {
+      "en": "they were",
+      "tr": "oldukları",
+      "ur": "تھے وہ",
+      "hi": "थे वो",
+      "id": "adalah mereka",
+      "bn": "তারা ছিলো",
+      "ru": "были они"
+    }
+  },
+  {
+    "id": "word_38",
+    "arabic": "عن",
+    "frequency": 223,
+    "translations": {
+      "en": "from",
+      "tr": "-de, -da ",
+      "ur": "سے",
+      "hi": "अल्लाह के रास्ते से",
+      "id": "dari",
+      "bn": "হতে",
+      "ru": "от"
+    }
+  },
+  {
+    "id": "word_39",
+    "arabic": "إذا",
+    "frequency": 221,
+    "translations": {
+      "en": "when",
+      "tr": "O zaman",
+      "ur": "جب",
+      "hi": "जब",
+      "id": "apabila",
+      "bn": "যখন",
+      "ru": "когда"
+    }
+  },
+  {
+    "id": "word_40",
+    "arabic": "ربك",
+    "frequency": 220,
+    "translations": {
+      "en": "your Lord",
+      "tr": "Rabbinin",
+      "ur": "تیرے رب کی",
+      "hi": "रब आपका",
+      "id": "Tuhanmu",
+      "bn": "তোমার রবের",
+      "ru": "Господь твой"
+    }
+  },
+  {
+    "id": "word_41",
+    "arabic": "يوم",
+    "frequency": 217,
+    "translations": {
+      "en": "(The) Day",
+      "tr": "günü",
+      "ur": "جس دن",
+      "hi": "जिस दिन",
+      "id": "hari",
+      "bn": "দিনে",
+      "ru": "дня"
+    }
+  },
+  {
+    "id": "word_42",
+    "arabic": "عليهم",
+    "frequency": 214,
+    "translations": {
+      "en": "to them",
+      "tr": "onlara",
+      "ur": "ان پر",
+      "hi": "उन पर",
+      "id": "atas mereka",
+      "bn": "তাদের উপর",
+      "ru": "им"
+    }
+  },
+  {
+    "id": "word_43",
+    "arabic": "شيء",
+    "frequency": 190,
+    "translations": {
+      "en": "thing",
+      "tr": "şeyi",
+      "ur": "چیز کے",
+      "hi": "चीज़ के",
+      "id": "sesuatu",
+      "bn": "কিছুর",
+      "ru": "вещи"
+    }
+  },
+  {
+    "id": "word_44",
+    "arabic": "هذا",
+    "frequency": 190,
+    "translations": {
+      "en": "this",
+      "tr": "bu",
+      "ur": "یہ",
+      "hi": "ये ",
+      "id": "ini",
+      "bn": "এটা",
+      "ru": "это"
+    }
+  },
+  {
+    "id": "word_45",
+    "arabic": "كفروا",
+    "frequency": 189,
+    "translations": {
+      "en": "disbelieved",
+      "tr": "inkar eden(ler)",
+      "ur": "جنہوں نے کفر کیا",
+      "hi": "कुफ़्र किया",
+      "id": "kafir",
+      "bn": "অস্বীকার করেছে",
+      "ru": "стали неверующими"
+    }
+  },
+  {
+    "id": "word_46",
+    "arabic": "كنتم",
+    "frequency": 188,
+    "translations": {
+      "en": "you are",
+      "tr": "iseniz",
+      "ur": "ہو تم",
+      "hi": "हो तुम",
+      "id": "kalian adalah",
+      "bn": "তোমরা ছিলে",
+      "ru": "вы были"
+    }
+  },
+  {
+    "id": "word_47",
+    "arabic": "الناس",
+    "frequency": 182,
+    "translations": {
+      "en": "the people",
+      "tr": "insanlar",
+      "ur": "لوگوں کو",
+      "hi": "लोगों को",
+      "id": "manusia",
+      "bn": "মানুষের",
+      "ru": "людей"
+    }
+  },
+  {
+    "id": "word_48",
+    "arabic": "السماوات",
+    "frequency": 182,
+    "translations": {
+      "en": "the heavens",
+      "tr": "gökler",
+      "ur": "آسمانوں",
+      "hi": "आसमानों ",
+      "id": "langit(jamak)",
+      "bn": "আকাশের",
+      "ru": "небесах"
+    }
+  },
+  {
+    "id": "word_49",
+    "arabic": "لم",
+    "frequency": 178,
+    "translations": {
+      "en": "why?",
+      "tr": "niçin?",
+      "ur": "نہیں",
+      "hi": "नहीं ",
+      "id": "tidak",
+      "bn": "না",
+      "ru": "не"
+    }
+  },
+  {
+    "id": "word_50",
+    "arabic": "وهو",
+    "frequency": 171,
+    "translations": {
+      "en": "And He",
+      "tr": "ve O",
+      "ur": "اور وہ",
+      "hi": "और वो",
+      "id": "dan Dia",
+      "bn": "এবং তিনিই",
+      "ru": "И Он –"
+    }
+  },
+  {
+    "id": "word_51",
+    "arabic": "فإن",
+    "frequency": 168,
+    "translations": {
+      "en": "then indeed",
+      "tr": "eğer",
+      "ur": "پھر اگر",
+      "hi": "फिर अगर",
+      "id": "maka jika",
+      "bn": "অতঃপর যদি",
+      "ru": "Если же"
+    }
+  },
+  {
+    "id": "word_52",
+    "arabic": "إذ",
+    "frequency": 165,
+    "translations": {
+      "en": "when",
+      "tr": "hani",
+      "ur": "جب",
+      "hi": "जब",
+      "id": "ketika",
+      "bn": "যখন",
+      "ru": "когда"
+    }
+  },
+  {
+    "id": "word_53",
+    "arabic": "والذين",
+    "frequency": 164,
+    "translations": {
+      "en": "And those who",
+      "tr": "ve kimseler",
+      "ur": "اور وہ لوگ",
+      "hi": "और वो जो",
+      "id": "dan orang-orang yang",
+      "bn": "এবং যারা",
+      "ru": "А те, которые"
+    }
+  },
+  {
+    "id": "word_54",
+    "arabic": "عليكم",
+    "frequency": 164,
+    "translations": {
+      "en": "upon you",
+      "tr": "size",
+      "ur": "تم پر",
+      "hi": "तुम पर",
+      "id": "atas kalian",
+      "bn": "তোমাদের উপর",
+      "ru": "вам"
+    }
+  },
+  {
+    "id": "word_55",
+    "arabic": "الكتاب",
+    "frequency": 163,
+    "translations": {
+      "en": "the Book",
+      "tr": "Kitap",
+      "ur": "کتاب",
+      "hi": "किताब",
+      "id": "Kitab",
+      "bn": "কিতাব",
+      "ru": "Писание"
+    }
+  },
+  {
+    "id": "word_56",
+    "arabic": "والأرض",
+    "frequency": 157,
+    "translations": {
+      "en": "and the earth",
+      "tr": "ve yer",
+      "ur": "اور زمین میں",
+      "hi": "और ज़मीन में है",
+      "id": "dan bumi",
+      "bn": "ও পৃথিবীর",
+      "ru": "и земли"
+    }
+  },
+  {
+    "id": "word_57",
+    "arabic": "إنا",
+    "frequency": 156,
+    "translations": {
+      "en": "Indeed We",
+      "tr": "elbette biz",
+      "ur": "بیشک ہم",
+      "hi": "बेशक हम",
+      "id": "sesungguhnya kami",
+      "bn": "নিশ্চয়ই আমরা",
+      "ru": "Поистине, Мы"
+    }
+  },
+  {
+    "id": "word_58",
+    "arabic": "فلا",
+    "frequency": 156,
+    "translations": {
+      "en": "So (do) not",
+      "tr": "yoktur",
+      "ur": "تو نہ",
+      "hi": "तो ना",
+      "id": "maka tidak",
+      "bn": "অতএব না",
+      "ru": "то не"
+    }
+  },
+  {
+    "id": "word_59",
+    "arabic": "منهم",
+    "frequency": 153,
+    "translations": {
+      "en": "among them",
+      "tr": "onlardan",
+      "ur": "ان میں سے",
+      "hi": "उनमें से",
+      "id": "dari mereka",
+      "bn": "মধ্য থেকে তাদের",
+      "ru": "из них"
+    }
+  },
+  {
+    "id": "word_60",
+    "arabic": "عذاب",
+    "frequency": 150,
+    "translations": {
+      "en": "a punishment",
+      "tr": "bir azab",
+      "ur": "عذاب",
+      "hi": "अज़ाब",
+      "id": "azab",
+      "bn": "শাস্তি",
+      "ru": "наказание"
+    }
+  },
+  {
+    "id": "word_61",
+    "arabic": "أيها",
+    "frequency": 150,
+    "translations": {
+      "en": "O you",
+      "tr": "ey",
+      "ur": "اے",
+      "hi": "ऐ लोगो जो",
+      "id": "wahai",
+      "bn": "হে",
+      "ru": "О"
+    }
+  },
+  {
+    "id": "word_62",
+    "arabic": "بعد",
+    "frequency": 149,
+    "translations": {
+      "en": "after",
+      "tr": "sonra",
+      "ur": "بعد",
+      "hi": "बाद",
+      "id": "sesudah",
+      "bn": "পরে",
+      "ru": "после"
+    }
+  },
+  {
+    "id": "word_63",
+    "arabic": "إنه",
+    "frequency": 147,
+    "translations": {
+      "en": "Indeed He",
+      "tr": "şüphesiz O",
+      "ur": "بیشک وہ",
+      "hi": "बेशक वो",
+      "id": "sesungguhnya Dia",
+      "bn": "নিশ্চয়ই তিনি",
+      "ru": "Поистине, Он"
+    }
+  },
+  {
+    "id": "word_64",
+    "arabic": "عليه",
+    "frequency": 146,
+    "translations": {
+      "en": "on him",
+      "tr": "ona",
+      "ur": "اس پر",
+      "hi": "उस पर",
+      "id": "atasnya",
+      "bn": "তার উপর",
+      "ru": "ему"
+    }
+  },
+  {
+    "id": "word_65",
+    "arabic": "حتى",
+    "frequency": 142,
+    "translations": {
+      "en": "until",
+      "tr": "-e kadar, -a kadar",
+      "ur": "یہاں تک کہ",
+      "hi": "यहाँ तक कि",
+      "id": "sehingga",
+      "bn": "যতক্ষণ না",
+      "ru": "пока не"
+    }
+  },
+  {
+    "id": "word_66",
+    "arabic": "بالله",
+    "frequency": 139,
+    "translations": {
+      "en": "in Allah",
+      "tr": "Allah'a",
+      "ur": "اللہ پر",
+      "hi": "अल्लाह पर",
+      "id": "kepada Allah",
+      "bn": "আল্লাহই",
+      "ru": "в Аллаха"
+    }
+  },
+  {
+    "id": "word_67",
+    "arabic": "وهم",
+    "frequency": 137,
+    "translations": {
+      "en": "and they",
+      "tr": "ve onlar",
+      "ur": "اور وہ",
+      "hi": "और वो",
+      "id": "dan mereka",
+      "bn": "এবং তারা",
+      "ru": "в то время как они"
+    }
+  },
+  {
+    "id": "word_68",
+    "arabic": "وإذا",
+    "frequency": 134,
+    "translations": {
+      "en": "And when",
+      "tr": "ve ne zaman",
+      "ur": "اور جب",
+      "hi": "और जब",
+      "id": "dan apabila",
+      "bn": "এবং যখন",
+      "ru": "А когда"
+    }
+  },
+  {
+    "id": "word_69",
+    "arabic": "أولئك",
+    "frequency": 133,
+    "translations": {
+      "en": "Those",
+      "tr": "onlar",
+      "ur": "یہی لوگ",
+      "hi": "यही लोग हैं",
+      "id": "mereka itu",
+      "bn": "ঐসব লোক",
+      "ru": "Те [такие] –"
+    }
+  },
+  {
+    "id": "word_70",
+    "arabic": "إني",
+    "frequency": 131,
+    "translations": {
+      "en": "Indeed I",
+      "tr": "şüphesiz ben",
+      "ur": "بیشک میں",
+      "hi": "बेशक मैं",
+      "id": "sesungguhnya aku",
+      "bn": "নিশ্চয়ই আমি",
+      "ru": "Поистине, я"
+    }
+  },
+  {
+    "id": "word_71",
+    "arabic": "أم",
+    "frequency": 131,
+    "translations": {
+      "en": "Or",
+      "tr": "yoksa",
+      "ur": "یا",
+      "hi": "या ",
+      "id": "atau",
+      "bn": "অথবা",
+      "ru": "или"
+    }
+  },
+  {
+    "id": "word_72",
+    "arabic": "رب",
+    "frequency": 130,
+    "translations": {
+      "en": "(the) Lord",
+      "tr": "Rabb",
+      "ur": "اے میرے رب",
+      "hi": "ऐ मेरे रब",
+      "id": "Tuhan",
+      "bn": "রব",
+      "ru": "Господь"
+    }
+  },
+  {
+    "id": "word_73",
+    "arabic": "ولقد",
+    "frequency": 129,
+    "translations": {
+      "en": "And certainly",
+      "tr": "ve andolsun",
+      "ur": "اور البتہ تحقیق",
+      "hi": "और अलबत्ता तहक़ीक़",
+      "id": "dan sesungguhnya",
+      "bn": "এবং নিশ্চয়ই",
+      "ru": "Клянусь (Я) что действительно"
+    }
+  },
+  {
+    "id": "word_74",
+    "arabic": "موسى",
+    "frequency": 129,
+    "translations": {
+      "en": "Musa",
+      "tr": "Musa (a.s)",
+      "ur": "اے موسیٰ",
+      "hi": "ऐ मूसा",
+      "id": "Musa",
+      "bn": "মূসার",
+      "ru": "Мусы"
+    }
+  },
+  {
+    "id": "word_75",
+    "arabic": "بل",
+    "frequency": 127,
+    "translations": {
+      "en": "Nay",
+      "tr": "hayır",
+      "ur": "بلکہ",
+      "hi": "बल्कि ",
+      "id": "bahkan",
+      "bn": "বরং",
+      "ru": "Но"
+    }
+  },
+  {
+    "id": "word_76",
+    "arabic": "فيه",
+    "frequency": 127,
+    "translations": {
+      "en": "in it",
+      "tr": "onda",
+      "ur": "اس میں",
+      "hi": "उसमें ",
+      "id": "didalamnya",
+      "bn": "তার মধ্যে",
+      "ru": "в чём"
+    }
+  },
+  {
+    "id": "word_77",
+    "arabic": "قوم",
+    "frequency": 126,
+    "translations": {
+      "en": "(are) a people",
+      "tr": "ey kavim",
+      "ur": "قوم",
+      "hi": "ऐ मेरी क़ौम",
+      "id": "kaum",
+      "bn": "জাতির",
+      "ru": "«О народ мой!"
+    }
+  },
+  {
+    "id": "word_78",
+    "arabic": "قد",
+    "frequency": 126,
+    "translations": {
+      "en": "Verily",
+      "tr": "muhakkak",
+      "ur": "تحقیق",
+      "hi": "तहक़ीक़",
+      "id": "sungguh",
+      "bn": "নিশ্চয়ই",
+      "ru": "уже"
+    }
+  },
+  {
+    "id": "word_79",
+    "arabic": "عند",
+    "frequency": 119,
+    "translations": {
+      "en": "with",
+      "tr": "katında",
+      "ur": "پاس",
+      "hi": "पास",
+      "id": "disisi",
+      "bn": "কাছে",
+      "ru": "у"
+    }
+  },
+  {
+    "id": "word_80",
+    "arabic": "قبل",
+    "frequency": 118,
+    "translations": {
+      "en": "before",
+      "tr": "önce",
+      "ur": "اس سے پہلے",
+      "hi": "इससे पहले",
+      "id": "sebelum",
+      "bn": "পূর্ব",
+      "ru": "прежде"
+    }
+  },
+  {
+    "id": "word_81",
+    "arabic": "خير",
+    "frequency": 116,
+    "translations": {
+      "en": "(is) better",
+      "tr": "daha hayırlıdır",
+      "ur": "بہتر ہے",
+      "hi": "बेहतर है",
+      "id": "lebih baik",
+      "bn": "উত্তম",
+      "ru": "лучше"
+    }
+  },
+  {
+    "id": "word_82",
+    "arabic": "يشاء",
+    "frequency": 116,
+    "translations": {
+      "en": "He wills",
+      "tr": "dilediği",
+      "ur": "چاہتا ہے",
+      "hi": "वो चाहता है",
+      "id": "Dia kehendaki",
+      "bn": "তিনি ইচ্ছে করেন",
+      "ru": "пожелает"
+    }
+  },
+  {
+    "id": "word_83",
+    "arabic": "لله",
+    "frequency": 116,
+    "translations": {
+      "en": "to Allah",
+      "tr": "Allah'a",
+      "ur": "اللہ کے لیے",
+      "hi": "अल्लाह के लिए",
+      "id": "bagi Allah",
+      "bn": "জন্যে আল্লাহর",
+      "ru": "Аллаху,"
+    }
+  },
+  {
+    "id": "word_84",
+    "arabic": "الدنيا",
+    "frequency": 115,
+    "translations": {
+      "en": "(of) the world",
+      "tr": "dünya",
+      "ur": "دنیا کی",
+      "hi": "दुनिया की",
+      "id": "dunia",
+      "bn": "পার্থিব",
+      "ru": "ближайшей"
+    }
+  },
+  {
+    "id": "word_85",
+    "arabic": "إنما",
+    "frequency": 113,
+    "translations": {
+      "en": "Only",
+      "tr": "sadece",
+      "ur": "بیشک",
+      "hi": "बेशक",
+      "id": "sesungguhnya hanyalah",
+      "bn": "প্রকৃতপক্ষে",
+      "ru": "Ведь"
+    }
+  },
+  {
+    "id": "word_86",
+    "arabic": "ولكن",
+    "frequency": 112,
+    "translations": {
+      "en": "but",
+      "tr": "fakat",
+      "ur": "لیکن",
+      "hi": "और लेकिन",
+      "id": "akan tetapi",
+      "bn": "কিন্তু",
+      "ru": "но однако"
+    }
+  },
+  {
+    "id": "word_87",
+    "arabic": "ربهم",
+    "frequency": 111,
+    "translations": {
+      "en": "their Lord",
+      "tr": "Rableri",
+      "ur": "اپنے رب کی",
+      "hi": "अपने रब से",
+      "id": "Tuhan mereka",
+      "bn": "তাদের রবের",
+      "ru": "своего Господа"
+    }
+  },
+  {
+    "id": "word_88",
+    "arabic": "مما",
+    "frequency": 111,
+    "translations": {
+      "en": "of what",
+      "tr": "şeylerden",
+      "ur": "اس میں سے جو",
+      "hi": "उसमें से जो",
+      "id": "dari apa",
+      "bn": "তা হতে যা",
+      "ru": "из того, что"
+    }
+  },
+  {
+    "id": "word_89",
+    "arabic": "ولو",
+    "frequency": 111,
+    "translations": {
+      "en": "And if",
+      "tr": "ve eğer",
+      "ur": "اور اگر",
+      "hi": "और अगर",
+      "id": "dan kalau",
+      "bn": "এবং যদি",
+      "ru": "А если бы"
+    }
+  },
+  {
+    "id": "word_90",
+    "arabic": "الحق",
+    "frequency": 109,
+    "translations": {
+      "en": "the truth",
+      "tr": "gerçek",
+      "ur": "حق",
+      "hi": "हक़ है",
+      "id": "kebenaran",
+      "bn": "সত্য",
+      "ru": "истина"
+    }
+  },
+  {
+    "id": "word_91",
+    "arabic": "السماء",
+    "frequency": 109,
+    "translations": {
+      "en": "the heaven",
+      "tr": "sema",
+      "ur": "آسمان",
+      "hi": "आसमान से",
+      "id": "langit",
+      "bn": "আকাশ",
+      "ru": "небо"
+    }
+  },
+  {
+    "id": "word_92",
+    "arabic": "منكم",
+    "frequency": 107,
+    "translations": {
+      "en": "among you",
+      "tr": "sizden",
+      "ur": "تم میں سے",
+      "hi": "तुम में से",
+      "id": "diantara kamu",
+      "bn": "তোমাদের মধ্যে",
+      "ru": "из вас"
+    }
+  },
+  {
+    "id": "word_93",
+    "arabic": "ربنا",
+    "frequency": 106,
+    "translations": {
+      "en": "Our Lord",
+      "tr": "Rabbimiz",
+      "ur": "اے ہمارے رب",
+      "hi": "ऐ हमारे रब",
+      "id": "ya Tuhan kami",
+      "bn": "হে আমাদের রব",
+      "ru": "«Господь наш!"
+    }
+  },
+  {
+    "id": "word_94",
+    "arabic": "عليم",
+    "frequency": 106,
+    "translations": {
+      "en": "(is) All-Knower",
+      "tr": "bilendir",
+      "ur": "جاننے والا ہے",
+      "hi": "ख़ूब जानने वाला है",
+      "id": "Maha Mengetahui",
+      "bn": "খুব অবহিত",
+      "ru": "знающий"
+    }
+  },
+  {
+    "id": "word_95",
+    "arabic": "ربكم",
+    "frequency": 102,
+    "translations": {
+      "en": "your Lord",
+      "tr": "Rabbiniz",
+      "ur": "رب تمہارا",
+      "hi": "तुम्हारे रब की तरफ़ से",
+      "id": "Tuhan kalian",
+      "bn": "তোমাদের রবের",
+      "ru": "вашего Господа"
+    }
+  },
+  {
+    "id": "word_96",
+    "arabic": "النار",
+    "frequency": 102,
+    "translations": {
+      "en": "the Fire",
+      "tr": "ateş",
+      "ur": "آگ",
+      "hi": "आग के",
+      "id": "neraka",
+      "bn": "আগুনের",
+      "ru": "Огня,"
+    }
+  },
+  {
+    "id": "word_97",
+    "arabic": "فلما",
+    "frequency": 101,
+    "translations": {
+      "en": "But when",
+      "tr": "ne zaman ki",
+      "ur": "پھر جب",
+      "hi": "फिर जब",
+      "id": "maka tatkala",
+      "bn": "অতঃপর যখন",
+      "ru": "А когда"
+    }
+  },
+  {
+    "id": "word_98",
+    "arabic": "ألا",
+    "frequency": 99,
+    "translations": {
+      "en": "that not",
+      "tr": "iyi bilin ki",
+      "ur": "خبردار",
+      "hi": "ख़बरदार",
+      "id": "ingatlah",
+      "bn": "যে না",
+      "ru": "О да [знайте]!"
+    }
+  },
+  {
+    "id": "word_99",
+    "arabic": "أنزل",
+    "frequency": 95,
+    "translations": {
+      "en": "was revealed",
+      "tr": "indirilen",
+      "ur": "نازل کیا گیا",
+      "hi": "नाज़िल किया गया",
+      "id": "diturunkan",
+      "bn": "অবতীর্ণ করেছেন",
+      "ru": "ниспослано"
+    }
+  },
+  {
+    "id": "word_100",
+    "arabic": "لمن",
+    "frequency": 94,
+    "translations": {
+      "en": "for whom",
+      "tr": "kimseye",
+      "ur": "واسطے اس کے جو",
+      "hi": "उसके लिए जो",
+      "id": "bagi orang",
+      "bn": "অবশ্যই অন্তর্ভুক্ত",
+      "ru": "кому"
+    }
+  },
+  {
+    "id": "word_101",
+    "arabic": "ربي",
+    "frequency": 94,
+    "translations": {
+      "en": "my Lord",
+      "tr": "Rabbim",
+      "ur": "میرا رب",
+      "hi": "मेरा रब",
+      "id": "Tuhanku",
+      "bn": "আমার রব",
+      "ru": "Господь мой"
+    }
+  },
+  {
+    "id": "word_102",
+    "arabic": "دون",
+    "frequency": 91,
+    "translations": {
+      "en": "besides",
+      "tr": "başka",
+      "ur": "سوا",
+      "hi": "सिवाय",
+      "id": "selain",
+      "bn": "ছাড়া",
+      "ru": "помимо"
+    }
+  },
+  {
+    "id": "word_103",
+    "arabic": "فمن",
+    "frequency": 90,
+    "translations": {
+      "en": "Then whoever",
+      "tr": "kim",
+      "ur": "تو جو کوئی",
+      "hi": "तो जो कोई",
+      "id": "maka barang siapa",
+      "bn": "যে অতঃপর",
+      "ru": "Кто же"
+    }
+  },
+  {
+    "id": "word_104",
+    "arabic": "منه",
+    "frequency": 88,
+    "translations": {
+      "en": "from it",
+      "tr": "ondan",
+      "ur": "اس سے",
+      "hi": "उससे",
+      "id": "daripadanya",
+      "bn": "তা থেকে",
+      "ru": "из него"
+    }
+  },
+  {
+    "id": "word_105",
+    "arabic": "سبيل",
+    "frequency": 87,
+    "translations": {
+      "en": "(the) way",
+      "tr": "yolunda",
+      "ur": "راستے",
+      "hi": "अल्लाह के रास्ते में",
+      "id": "jalan",
+      "bn": "পথ",
+      "ru": "пути"
+    }
+  },
+  {
+    "id": "word_106",
+    "arabic": "فإذا",
+    "frequency": 87,
+    "translations": {
+      "en": "Then when",
+      "tr": "O zaman",
+      "ur": "پھر جب",
+      "hi": "फिर जब",
+      "id": "maka apabila",
+      "bn": "অতঃপর যখন",
+      "ru": "А когда"
+    }
+  },
+  {
+    "id": "word_107",
+    "arabic": "كذلك",
+    "frequency": 86,
+    "translations": {
+      "en": "Thus",
+      "tr": "işte böyle",
+      "ur": "اسی طرح",
+      "hi": "इसी तरह",
+      "id": "demikianlah",
+      "bn": "এভাবে",
+      "ru": "Так"
+    }
+  },
+  {
+    "id": "word_108",
+    "arabic": "منها",
+    "frequency": 86,
+    "translations": {
+      "en": "from it",
+      "tr": "ondan",
+      "ur": "اس سے",
+      "hi": "उससे",
+      "id": "daripadanya",
+      "bn": "তা থেকে",
+      "ru": "из них"
+    }
+  },
+  {
+    "id": "word_109",
+    "arabic": "يؤمنون",
+    "frequency": 86,
+    "translations": {
+      "en": "They believe",
+      "tr": "inanırlar",
+      "ur": "وہ ایمان لائیں گے",
+      "hi": "नहीं वो ईमान लाते",
+      "id": "mereka beriman",
+      "bn": "ঈমান আনে",
+      "ru": "веруют"
+    }
+  },
+  {
+    "id": "word_110",
+    "arabic": "فما",
+    "frequency": 86,
+    "translations": {
+      "en": "then not",
+      "tr": "nedir?",
+      "ur": "تو نہیں",
+      "hi": "तो नहीं",
+      "id": "maka tidak",
+      "bn": "অতঃপর না",
+      "ru": "И не"
+    }
+  },
+  {
+    "id": "word_111",
+    "arabic": "وقال",
+    "frequency": 85,
+    "translations": {
+      "en": "And said",
+      "tr": "ve dedi ki",
+      "ur": "اور کہا",
+      "hi": "और कहा",
+      "id": "dan berkata",
+      "bn": "এবং বললো",
+      "ru": "И сказал"
+    }
+  },
+  {
+    "id": "word_112",
+    "arabic": "العذاب",
+    "frequency": 85,
+    "translations": {
+      "en": "the punishment",
+      "tr": "azabı",
+      "ur": "عذاب",
+      "hi": "अज़ाब",
+      "id": "azab",
+      "bn": "শাস্তি",
+      "ru": "наказание"
+    }
+  },
+  {
+    "id": "word_113",
+    "arabic": "وكان",
+    "frequency": 84,
+    "translations": {
+      "en": "And is",
+      "tr": "-dır, -dir",
+      "ur": "اور ہے",
+      "hi": "और है",
+      "id": "dan adalah",
+      "bn": "এবং হলেন",
+      "ru": "И является"
+    }
+  },
+  {
+    "id": "word_114",
+    "arabic": "مبين",
+    "frequency": 84,
+    "translations": {
+      "en": "clear",
+      "tr": "apaçık",
+      "ur": "کھلی",
+      "hi": "खुल्लम-खुल्ला",
+      "id": "yang nyata",
+      "bn": "সুস্পষ্ট",
+      "ru": "явном."
+    }
+  },
+  {
+    "id": "word_115",
+    "arabic": "خلق",
+    "frequency": 83,
+    "translations": {
+      "en": "created",
+      "tr": "yarattı",
+      "ur": "پیدا کیا",
+      "hi": "पैदा किया ",
+      "id": "menciptakan",
+      "bn": "সৃষ্টি করেছেন",
+      "ru": "сотворил"
+    }
+  },
+  {
+    "id": "word_116",
+    "arabic": "تعملون",
+    "frequency": 83,
+    "translations": {
+      "en": "you do",
+      "tr": "yaptıklarınız",
+      "ur": "تم عمل کرتے ہو",
+      "hi": "तुम अमल करते हो",
+      "id": "kamu kerjakan",
+      "bn": "তোমরা কাজ করছ",
+      "ru": "вы делаете"
+    }
+  },
+  {
+    "id": "word_117",
+    "arabic": "لنا",
+    "frequency": 83,
+    "translations": {
+      "en": "for us",
+      "tr": "bize",
+      "ur": "ہمارے لیے",
+      "hi": "हमारे लिए",
+      "id": "bagi kami",
+      "bn": "জন্যে আমাদের",
+      "ru": "нам"
+    }
+  },
+  {
+    "id": "word_118",
+    "arabic": "يعلمون",
+    "frequency": 82,
+    "translations": {
+      "en": "know",
+      "tr": "bilirler",
+      "ur": "علم رکھتے",
+      "hi": "नहीं वो इल्म रखते",
+      "id": "mereka mengetahui",
+      "bn": "তারা জানে",
+      "ru": "знают"
+    }
+  },
+  {
+    "id": "word_119",
+    "arabic": "أنتم",
+    "frequency": 80,
+    "translations": {
+      "en": "you",
+      "tr": "siz",
+      "ur": "تم",
+      "hi": "तुम",
+      "id": "kamu",
+      "bn": "তোমরা",
+      "ru": "вы"
+    }
+  },
+  {
+    "id": "word_120",
+    "arabic": "بين",
+    "frequency": 80,
+    "translations": {
+      "en": "between",
+      "tr": "arasında",
+      "ur": "درمیان",
+      "hi": "दर्मियान",
+      "id": "antara",
+      "bn": "মাঝে",
+      "ru": "между"
+    }
+  },
+  {
+    "id": "word_121",
+    "arabic": "لو",
+    "frequency": 80,
+    "translations": {
+      "en": "If",
+      "tr": "eğer",
+      "ur": "اگر",
+      "hi": "अगर",
+      "id": "sekiranya",
+      "bn": "যদি",
+      "ru": "если бы"
+    }
+  },
+  {
+    "id": "word_122",
+    "arabic": "للذين",
+    "frequency": 80,
+    "translations": {
+      "en": "to those who",
+      "tr": "kimselere",
+      "ur": "ان لوگوں کے لیے",
+      "hi": "उनके लिए जो",
+      "id": "bagi orang-orang yang",
+      "bn": "(তাদের) জন্যে যারা",
+      "ru": "тем, которые"
+    }
+  },
+  {
+    "id": "word_123",
+    "arabic": "بها",
+    "frequency": 79,
+    "translations": {
+      "en": "with it",
+      "tr": "onunla",
+      "ur": "ساتھ ان کے",
+      "hi": "साथ उनके",
+      "id": "dengannya",
+      "bn": "দিয়ে তা",
+      "ru": "их"
+    }
+  },
+  {
+    "id": "word_124",
+    "arabic": "المؤمنين",
+    "frequency": 78,
+    "translations": {
+      "en": "the believers",
+      "tr": "mü'minlerden",
+      "ur": "مومنوں کو",
+      "hi": "मोमिनों को",
+      "id": "orang-orang yang beriman",
+      "bn": "মু'মিনদের",
+      "ru": "верующих"
+    }
+  },
+  {
+    "id": "word_125",
+    "arabic": "ألم",
+    "frequency": 78,
+    "translations": {
+      "en": "Do not",
+      "tr": "-medin mi?",
+      "ur": "کیا نہیں",
+      "hi": "क्या नहीं",
+      "id": "tidakkah",
+      "bn": "নি কি",
+      "ru": "Разве не"
+    }
+  },
+  {
+    "id": "word_126",
+    "arabic": "شيئا",
+    "frequency": 77,
+    "translations": {
+      "en": "anything",
+      "tr": "hiçbir",
+      "ur": "کچھ بھی",
+      "hi": "कुछ भी",
+      "id": "sesuatu",
+      "bn": "কিছুমাত্র",
+      "ru": "ничего"
+    }
+  },
+  {
+    "id": "word_127",
+    "arabic": "إليك",
+    "frequency": 77,
+    "translations": {
+      "en": "to you",
+      "tr": "sana",
+      "ur": "تیری طرف",
+      "hi": "तरफ़ आपके",
+      "id": "kepadamu",
+      "bn": "তোমার প্রতি",
+      "ru": "тебе"
+    }
+  },
+  {
+    "id": "word_128",
+    "arabic": "إليه",
+    "frequency": 76,
+    "translations": {
+      "en": "to Him",
+      "tr": "O'na",
+      "ur": "اس کی طرف",
+      "hi": "तरफ़ उसके",
+      "id": "kepadanya",
+      "bn": "তাঁর দিকে",
+      "ru": "к Нему"
+    }
+  },
+  {
+    "id": "word_129",
+    "arabic": "عنهم",
+    "frequency": 75,
+    "translations": {
+      "en": "from them",
+      "tr": "onlardan",
+      "ur": "ان سے",
+      "hi": "उनसे",
+      "id": "dari mereka",
+      "bn": "তাদের থেকে",
+      "ru": "от них"
+    }
+  },
+  {
+    "id": "word_130",
+    "arabic": "لما",
+    "frequency": 74,
+    "translations": {
+      "en": "when",
+      "tr": "O zaman",
+      "ur": "واسطے اس کے جو",
+      "hi": "उसकी जो",
+      "id": "terhadap apa",
+      "bn": "যখন",
+      "ru": "когда"
+    }
+  },
+  {
+    "id": "word_131",
+    "arabic": "بالحق",
+    "frequency": 74,
+    "translations": {
+      "en": "in truth",
+      "tr": "hak ile",
+      "ur": "حق کے ساتھ",
+      "hi": "साथ हक़ के",
+      "id": "dengan benar",
+      "bn": "যথাযথভাবে",
+      "ru": "с истиной"
+    }
+  },
+  {
+    "id": "word_132",
+    "arabic": "إله",
+    "frequency": 73,
+    "translations": {
+      "en": "god",
+      "tr": "tanrı",
+      "ur": "کوئی الہ",
+      "hi": "कोई इलाह (बरहक़)",
+      "id": "Tuhan",
+      "bn": "ইলাহ",
+      "ru": "бога,"
+    }
+  },
+  {
+    "id": "word_133",
+    "arabic": "ربه",
+    "frequency": 73,
+    "translations": {
+      "en": "his Lord",
+      "tr": "Rabbine",
+      "ur": "اپنے رب کی",
+      "hi": "उसके रब की तरफ़ से",
+      "id": "Tuhannya",
+      "bn": "তার রবের",
+      "ru": "Господа своего"
+    }
+  },
+  {
+    "id": "word_134",
+    "arabic": "وإذ",
+    "frequency": 72,
+    "translations": {
+      "en": "And when",
+      "tr": "ve hani",
+      "ur": "اور جب",
+      "hi": "और जब",
+      "id": "dan ketika",
+      "bn": "এবং যখন",
+      "ru": "И (упомяни о том) как"
+    }
+  },
+  {
+    "id": "word_135",
+    "arabic": "جهنم",
+    "frequency": 72,
+    "translations": {
+      "en": "Hell",
+      "tr": "cehennem",
+      "ur": "جہنم",
+      "hi": "जहन्नम है",
+      "id": "neraka jahanam",
+      "bn": "জাহান্নামের",
+      "ru": "Геенны"
+    }
+  },
+  {
+    "id": "word_136",
+    "arabic": "أنفسهم",
+    "frequency": 72,
+    "translations": {
+      "en": "themselves",
+      "tr": "kendilerini",
+      "ur": "اپنے نفسوں کو",
+      "hi": "अपने नफ़्सों को",
+      "id": "diri mereka",
+      "bn": "নিজেদের তাদের",
+      "ru": "самих себя"
+    }
+  },
+  {
+    "id": "word_137",
+    "arabic": "لك",
+    "frequency": 71,
+    "translations": {
+      "en": "for you",
+      "tr": "sana",
+      "ur": "تیرے لیے",
+      "hi": "आपके लिए",
+      "id": "bagimu",
+      "bn": "তোমার জন্যে",
+      "ru": "тебе"
+    }
+  },
+  {
+    "id": "word_138",
+    "arabic": "الآخرة",
+    "frequency": 71,
+    "translations": {
+      "en": "the Hereafter",
+      "tr": "ahiret",
+      "ur": "آخرت",
+      "hi": "आख़िरत का",
+      "id": "akhirat",
+      "bn": "আখিরাতের",
+      "ru": "Последней жизни"
+    }
+  },
+  {
+    "id": "word_139",
+    "arabic": "يعلم",
+    "frequency": 71,
+    "translations": {
+      "en": "knows",
+      "tr": "bilir",
+      "ur": "جانتا ہے",
+      "hi": "वो जानता है",
+      "id": "mengetahui",
+      "bn": "জানেন",
+      "ru": "знает"
+    }
+  },
+  {
+    "id": "word_140",
+    "arabic": "القيامة",
+    "frequency": 70,
+    "translations": {
+      "en": "(of) the Resurrection",
+      "tr": "kıyamet",
+      "ur": "قیامت کے",
+      "hi": "क़यामत के",
+      "id": "kiamat",
+      "bn": "ক্বিয়ামাতের",
+      "ru": "Воскрешения"
+    }
+  },
+  {
+    "id": "word_141",
+    "arabic": "غير",
+    "frequency": 69,
+    "translations": {
+      "en": "not",
+      "tr": "başka",
+      "ur": "نہ",
+      "hi": "ना ",
+      "id": "tidak",
+      "bn": "নয়",
+      "ru": "не"
+    }
+  },
+  {
+    "id": "word_142",
+    "arabic": "وأن",
+    "frequency": 69,
+    "translations": {
+      "en": "and that",
+      "tr": "ve şüphesiz",
+      "ur": "اور بیشک",
+      "hi": "और बेशक",
+      "id": "dan sesungguhnya",
+      "bn": "এবং (এও) যে",
+      "ru": "и что"
+    }
+  },
+  {
+    "id": "word_143",
+    "arabic": "هل",
+    "frequency": 67,
+    "translations": {
+      "en": "Is",
+      "tr": "-mı, -mi?",
+      "ur": "کیا",
+      "hi": "क्या ",
+      "id": "apakah",
+      "bn": "কি",
+      "ru": "Разве"
+    }
+  },
+  {
+    "id": "word_144",
+    "arabic": "فرعون",
+    "frequency": 67,
+    "translations": {
+      "en": "Firaun",
+      "tr": "Fir'avn",
+      "ur": "فرعون",
+      "hi": "फ़िरऔन ने",
+      "id": "Fir'aun",
+      "bn": "ফিরআউনের",
+      "ru": "Фараона"
+    }
+  },
+  {
+    "id": "word_145",
+    "arabic": "ورسوله",
+    "frequency": 66,
+    "translations": {
+      "en": "and His Messenger",
+      "tr": "ve Elçisi",
+      "ur": "اور اس کے رسول کی",
+      "hi": "और उसके रसूल की",
+      "id": "dan RasulNya",
+      "bn": "ও তাঁর রাসূলের",
+      "ru": "и Его посланника"
+    }
+  },
+  {
+    "id": "word_146",
+    "arabic": "أنا",
+    "frequency": 66,
+    "translations": {
+      "en": "I am",
+      "tr": "ben",
+      "ur": "میں",
+      "hi": "मैं",
+      "id": "aku",
+      "bn": "আমি",
+      "ru": "я"
+    }
+  },
+  {
+    "id": "word_147",
+    "arabic": "نحن",
+    "frequency": 65,
+    "translations": {
+      "en": "We",
+      "tr": "biz",
+      "ur": "ہم",
+      "hi": "हम ",
+      "id": "kami",
+      "bn": "আমরা",
+      "ru": "Мы"
+    }
+  },
+  {
+    "id": "word_148",
+    "arabic": "يومئذ",
+    "frequency": 65,
+    "translations": {
+      "en": "that Day",
+      "tr": "o gün",
+      "ur": "اس دن",
+      "hi": "उस दिन ",
+      "id": "pada hari itu",
+      "bn": "সেদিন",
+      "ru": "в тот день"
+    }
+  },
+  {
+    "id": "word_149",
+    "arabic": "قلوبهم",
+    "frequency": 65,
+    "translations": {
+      "en": "their hearts",
+      "tr": "kalbleri",
+      "ur": "ان کے دلوں",
+      "hi": "दिल उनके",
+      "id": "hati mereka",
+      "bn": "অন্তরসমূহের তাদের",
+      "ru": "их сердца"
+    }
+  },
+  {
+    "id": "word_150",
+    "arabic": "الظالمين",
+    "frequency": 64,
+    "translations": {
+      "en": "the wrongdoers",
+      "tr": "zalimler",
+      "ur": "ظالموں کو",
+      "hi": "जो ज़ालिम हैं",
+      "id": "orang-orang yang zalim",
+      "bn": "সীমালঙ্ঘনকারীদের",
+      "ru": "притеснителей."
+    }
+  },
+  {
+    "id": "word_151",
+    "arabic": "العزيز",
+    "frequency": 64,
+    "translations": {
+      "en": "the All-Mighty",
+      "tr": "azizdir",
+      "ur": "زبردست ہے",
+      "hi": "बहुत ज़बरदस्त है",
+      "id": "Maha Perkasa",
+      "bn": "পরাক্রমশালী",
+      "ru": "Величественный,"
+    }
+  },
+  {
+    "id": "word_152",
+    "arabic": "الشيطان",
+    "frequency": 63,
+    "translations": {
+      "en": "the Shaitaan",
+      "tr": "şeytan",
+      "ur": "شیطان",
+      "hi": "शैतान",
+      "id": "syaitan",
+      "bn": "শয়তান",
+      "ru": "сатана"
+    }
+  },
+  {
+    "id": "word_153",
+    "arabic": "كنا",
+    "frequency": 63,
+    "translations": {
+      "en": "we were",
+      "tr": "-dik, -dık",
+      "ur": "تھے ہم",
+      "hi": "थे हम",
+      "id": "adalah kami",
+      "bn": "আমরা ছিলাম",
+      "ru": "были мы"
+    }
+  },
+  {
+    "id": "word_154",
+    "arabic": "الحياة",
+    "frequency": 63,
+    "translations": {
+      "en": "the life",
+      "tr": "hayat",
+      "ur": "زندگی",
+      "hi": "ज़िन्दगी ",
+      "id": "kehidupan",
+      "bn": "জীবনের",
+      "ru": "жизни"
+    }
+  },
+  {
+    "id": "word_155",
+    "arabic": "إنهم",
+    "frequency": 63,
+    "translations": {
+      "en": "Indeed they",
+      "tr": "çünkü onlar",
+      "ur": "بیشک وہ",
+      "hi": "बेशक वो",
+      "id": "sesungguhnya mereka",
+      "bn": "নিশ্চয়ই তারা",
+      "ru": "Поистине, они"
+    }
+  },
+  {
+    "id": "word_156",
+    "arabic": "لي",
+    "frequency": 63,
+    "translations": {
+      "en": "for me",
+      "tr": "bana",
+      "ur": "میرے لیے",
+      "hi": "मेरे लिए",
+      "id": "bagiku",
+      "bn": "আমাকে",
+      "ru": "мне"
+    }
+  },
+  {
+    "id": "word_157",
+    "arabic": "إبراهيم",
+    "frequency": 62,
+    "translations": {
+      "en": "Ibrahim",
+      "tr": "İbrahim (a.s)",
+      "ur": "ابراہیم",
+      "hi": "इब्राहीम",
+      "id": "Ibrahim",
+      "bn": "ইবরাহীমের",
+      "ru": "Ибрахима"
+    }
+  },
+  {
+    "id": "word_158",
+    "arabic": "كيف",
+    "frequency": 62,
+    "translations": {
+      "en": "how",
+      "tr": "nasıl",
+      "ur": "کس طرح",
+      "hi": "किस तरह",
+      "id": "bagaimana",
+      "bn": "কেমন",
+      "ru": "как"
+    }
+  },
+  {
+    "id": "word_159",
+    "arabic": "جنات",
+    "frequency": 62,
+    "translations": {
+      "en": "Gardens",
+      "tr": "cennetlere",
+      "ur": "باغات",
+      "hi": "बाग़ात में ",
+      "id": "surga",
+      "bn": "জান্নাতে",
+      "ru": "сады"
+    }
+  },
+  {
+    "id": "word_160",
+    "arabic": "القوم",
+    "frequency": 62,
+    "translations": {
+      "en": "the people",
+      "tr": "toplumu",
+      "ur": "قوم کو",
+      "hi": "उन लोगों को",
+      "id": "kaum",
+      "bn": "সম্প্রদায়কে",
+      "ru": "людей"
+    }
+  },
+  {
+    "id": "word_161",
+    "arabic": "أصحاب",
+    "frequency": 62,
+    "translations": {
+      "en": "(the) companions",
+      "tr": "halk",
+      "ur": "والے",
+      "hi": "साथी ",
+      "id": "penghuni",
+      "bn": "অধিবাসী",
+      "ru": "обитатели"
+    }
+  },
+  {
+    "id": "word_162",
+    "arabic": "بعض",
+    "frequency": 61,
+    "translations": {
+      "en": "others",
+      "tr": "bir kısmını",
+      "ur": "بعض",
+      "hi": "बाज़ पर",
+      "id": "sebagian",
+      "bn": "কারও",
+      "ru": "часть"
+    }
+  },
+  {
+    "id": "word_163",
+    "arabic": "وقالوا",
+    "frequency": 61,
+    "translations": {
+      "en": "And they say",
+      "tr": "ve dediler",
+      "ur": "اور انہوں نے کہا",
+      "hi": "और उन्होंने कहा",
+      "id": "dan mereka berkata",
+      "bn": "এবং তারা বলে",
+      "ru": "И сказали они:"
+    }
+  },
+  {
+    "id": "word_164",
+    "arabic": "الصالحات",
+    "frequency": 61,
+    "translations": {
+      "en": "righteous deeds",
+      "tr": "iyi işler",
+      "ur": "اچھے",
+      "hi": "नेक",
+      "id": "kebajikan",
+      "bn": "সৎ",
+      "ru": "праведные деяния"
+    }
+  },
+  {
+    "id": "word_165",
+    "arabic": "العالمين",
+    "frequency": 61,
+    "translations": {
+      "en": "(of) the worlds",
+      "tr": "alemler",
+      "ur": "تمام جہانوں کا",
+      "hi": "तमाम जहानों का",
+      "id": "semesta alam",
+      "bn": "বিশ্বজগতের",
+      "ru": "миров."
+    }
+  },
+  {
+    "id": "word_166",
+    "arabic": "رحيم",
+    "frequency": 61,
+    "translations": {
+      "en": "Most Merciful",
+      "tr": "esirgeyen",
+      "ur": "مہربان ہے",
+      "hi": "निहायत रहम करने वाला है",
+      "id": "Maha Penyayang",
+      "bn": "পরম দয়ালু",
+      "ru": "милосердный!"
+    }
+  },
+  {
+    "id": "word_167",
+    "arabic": "علم",
+    "frequency": 60,
+    "translations": {
+      "en": "knowledge",
+      "tr": "bilgi",
+      "ur": "علم",
+      "hi": "कोई इल्म",
+      "id": "pengetahuan",
+      "bn": "জ্ঞান",
+      "ru": "знания"
+    }
+  },
+  {
+    "id": "word_168",
+    "arabic": "كما",
+    "frequency": 59,
+    "translations": {
+      "en": "as",
+      "tr": "gibi",
+      "ur": "جیسا کہ",
+      "hi": "जैसा कि",
+      "id": "sebagaimana",
+      "bn": "যেমন",
+      "ru": "как"
+    }
+  },
+  {
+    "id": "word_169",
+    "arabic": "لعلكم",
+    "frequency": 59,
+    "translations": {
+      "en": "so that you may",
+      "tr": "umulur ki",
+      "ur": "تاکہ تم",
+      "hi": "ताकि तुम",
+      "id": "agar kalian",
+      "bn": "যাতে তোমরা",
+      "ru": "чтобы вы"
+    }
+  },
+  {
+    "id": "word_170",
+    "arabic": "الليل",
+    "frequency": 59,
+    "translations": {
+      "en": "the night",
+      "tr": "gece",
+      "ur": "رات",
+      "hi": "रात",
+      "id": "malam",
+      "bn": "রাতের",
+      "ru": "ночи"
+    }
+  },
+  {
+    "id": "word_171",
+    "arabic": "لن",
+    "frequency": 59,
+    "translations": {
+      "en": "never",
+      "tr": "asla",
+      "ur": "ہرگز نہیں",
+      "hi": "हरगिज़ नहीं",
+      "id": "tidak",
+      "bn": "কখনও না",
+      "ru": "не"
+    }
+  },
+  {
+    "id": "word_172",
+    "arabic": "مع",
+    "frequency": 58,
+    "translations": {
+      "en": "with",
+      "tr": "beraber",
+      "ur": "ساتھ",
+      "hi": "साथ",
+      "id": "bersama",
+      "bn": "সাথে",
+      "ru": "с"
+    }
+  },
+  {
+    "id": "word_173",
+    "arabic": "الصلاة",
+    "frequency": 58,
+    "translations": {
+      "en": "the prayer",
+      "tr": "namaz",
+      "ur": "نماز",
+      "hi": "नमाज़",
+      "id": "sholat",
+      "bn": "সালাত",
+      "ru": "молитву"
+    }
+  },
+  {
+    "id": "word_174",
+    "arabic": "بينهم",
+    "frequency": 58,
+    "translations": {
+      "en": "between them",
+      "tr": "aralarında",
+      "ur": "ان کے درمیان",
+      "hi": "दर्मियान उनके",
+      "id": "diantara mereka",
+      "bn": "তাদের মাঝে",
+      "ru": "между ними"
+    }
+  },
+  {
+    "id": "word_175",
+    "arabic": "الإنسان",
+    "frequency": 58,
+    "translations": {
+      "en": "man",
+      "tr": "insan",
+      "ur": "انسان",
+      "hi": "इन्सान ",
+      "id": "manusia",
+      "bn": "মানুষকে",
+      "ru": "человека"
+    }
+  },
+  {
+    "id": "word_176",
+    "arabic": "عليك",
+    "frequency": 57,
+    "translations": {
+      "en": "to you",
+      "tr": "sana",
+      "ur": "آپ پر",
+      "hi": "आप पर",
+      "id": "atasmu",
+      "bn": "তোমার উপর",
+      "ru": "тебе"
+    }
+  },
+  {
+    "id": "word_177",
+    "arabic": "التي",
+    "frequency": 57,
+    "translations": {
+      "en": "which",
+      "tr": "ki",
+      "ur": "وہ جو",
+      "hi": "वो जो",
+      "id": "yang",
+      "bn": "যা",
+      "ru": "который"
+    }
+  },
+  {
+    "id": "word_178",
+    "arabic": "بآياتنا",
+    "frequency": 57,
+    "translations": {
+      "en": "Our Signs",
+      "tr": "ayetlerimizi",
+      "ur": "ہماری آیات کو",
+      "hi": "हमारी आयात को",
+      "id": "dengan ayat-ayat Kami",
+      "bn": "প্রতি আয়াতগুলোর আমাদের",
+      "ru": "Наши знамения"
+    }
+  },
+  {
+    "id": "word_179",
+    "arabic": "جاء",
+    "frequency": 57,
+    "translations": {
+      "en": "comes",
+      "tr": "gelir",
+      "ur": "آگیا",
+      "hi": "आ गया",
+      "id": "datang",
+      "bn": "আসবে",
+      "ru": "придет"
+    }
+  },
+  {
+    "id": "word_180",
+    "arabic": "فقد",
+    "frequency": 57,
+    "translations": {
+      "en": "then surely",
+      "tr": "elbette",
+      "ur": "تو تحقیق",
+      "hi": "तो तहक़ीक़",
+      "id": "maka sesungguhnya",
+      "bn": "তবে নিশ্চয়ই",
+      "ru": "то уже"
+    }
+  },
+  {
+    "id": "word_181",
+    "arabic": "تعلمون",
+    "frequency": 56,
+    "translations": {
+      "en": "know",
+      "tr": "bildiğiniz",
+      "ur": "تم جانتے",
+      "hi": "नहीं तुम जानते",
+      "id": "(kalian) mengetahui",
+      "bn": "তোমরা জানো",
+      "ru": "знаете"
+    }
+  },
+  {
+    "id": "word_182",
+    "arabic": "يعملون",
+    "frequency": 56,
+    "translations": {
+      "en": "do",
+      "tr": "yapıyor(lar)",
+      "ur": "وہ عمل کرتے",
+      "hi": "वो अमल करते",
+      "id": "mereka kerjakan",
+      "bn": "তারা কাজ করতে",
+      "ru": "они совершали (досл. были совершающими)."
+    }
+  },
+  {
+    "id": "word_183",
+    "arabic": "أهل",
+    "frequency": 56,
+    "translations": {
+      "en": "(the) People",
+      "tr": "ehli",
+      "ur": "اہل",
+      "hi": "ऐ अहले किताब",
+      "id": "ahli",
+      "bn": "আহলি",
+      "ru": "людей"
+    }
+  },
+  {
+    "id": "word_184",
+    "arabic": "شاء",
+    "frequency": 56,
+    "translations": {
+      "en": "wills",
+      "tr": "dilemek",
+      "ur": "چاہے",
+      "hi": "चाहे ",
+      "id": "menghendaki",
+      "bn": "ইচ্ছে করতেন",
+      "ru": "пожелал"
+    }
+  },
+  {
+    "id": "word_185",
+    "arabic": "الجنة",
+    "frequency": 56,
+    "translations": {
+      "en": "Paradise",
+      "tr": "cennet",
+      "ur": "جنت",
+      "hi": "जन्नत में",
+      "id": "surga",
+      "bn": "জান্নাতের",
+      "ru": "Рая"
+    }
+  },
+  {
+    "id": "word_186",
+    "arabic": "أنت",
+    "frequency": 55,
+    "translations": {
+      "en": "you",
+      "tr": "sen",
+      "ur": "تو ہی",
+      "hi": "तू ही है",
+      "id": "kamu",
+      "bn": "তুমি",
+      "ru": "ты"
+    }
+  },
+  {
+    "id": "word_187",
+    "arabic": "قليلا",
+    "frequency": 55,
+    "translations": {
+      "en": "a little",
+      "tr": "azıcık",
+      "ur": "تھوڑا سا",
+      "hi": "बहुत थोड़ा",
+      "id": "sedikit",
+      "bn": "সামান্য",
+      "ru": "немногих"
+    }
+  },
+  {
+    "id": "word_188",
+    "arabic": "أعلم",
+    "frequency": 55,
+    "translations": {
+      "en": "(is) most knowing",
+      "tr": "daha iyi bilir",
+      "ur": "زیادہ جانتا ہے",
+      "hi": "ज़्यादा जानता है",
+      "id": "lebih mengetahui",
+      "bn": "খুব জানেন",
+      "ru": "лучше знает"
+    }
+  },
+  {
+    "id": "word_189",
+    "arabic": "لقد",
+    "frequency": 54,
+    "translations": {
+      "en": "Certainly",
+      "tr": "andolsun",
+      "ur": "البتہ تحقیق",
+      "hi": "अलबत्ता तहक़ीक़",
+      "id": "sesungguhnya",
+      "bn": "নিশ্চয়ই",
+      "ru": "(Клянусь Я) что действительно"
+    }
+  },
+  {
+    "id": "word_190",
+    "arabic": "وعملوا",
+    "frequency": 53,
+    "translations": {
+      "en": "and do",
+      "tr": "ve yapanlar",
+      "ur": "اور انہوں نے عمل کیے",
+      "hi": "और उन्होंने अमल किए ",
+      "id": "dan mereka beramal",
+      "bn": "ও কাজ করেছে",
+      "ru": "и совершали"
+    }
+  },
+  {
+    "id": "word_191",
+    "arabic": "قبلهم",
+    "frequency": 52,
+    "translations": {
+      "en": "before them",
+      "tr": "onlardan önce",
+      "ur": "ان سے پہلے",
+      "hi": "उनसे पहले थे",
+      "id": "sebelum mereka",
+      "bn": "তাদের পূর্বে",
+      "ru": "до них"
+    }
+  },
+  {
+    "id": "word_192",
+    "arabic": "آيات",
+    "frequency": 52,
+    "translations": {
+      "en": "(the) Verses",
+      "tr": "ayetleridir",
+      "ur": "آیات",
+      "hi": "आयात हैं",
+      "id": "ayat-ayat",
+      "bn": "আয়াতসমূহ",
+      "ru": "знамения"
+    }
+  },
+  {
+    "id": "word_193",
+    "arabic": "أليم",
+    "frequency": 52,
+    "translations": {
+      "en": "painful",
+      "tr": "acıklı",
+      "ur": "دردناک",
+      "hi": "दर्दनाक",
+      "id": "pedih",
+      "bn": "নিদারুণ",
+      "ru": "мучительное"
+    }
+  },
+  {
+    "id": "word_194",
+    "arabic": "الكافرين",
+    "frequency": 52,
+    "translations": {
+      "en": "the disbelievers",
+      "tr": "kafirler",
+      "ur": "کافروں کو",
+      "hi": "काफ़िरों पर",
+      "id": "orang-orang kafir",
+      "bn": "কাফিরদের",
+      "ru": "неверующих"
+    }
+  },
+  {
+    "id": "word_195",
+    "arabic": "رسول",
+    "frequency": 52,
+    "translations": {
+      "en": "a Messenger",
+      "tr": "elçi",
+      "ur": "رسول",
+      "hi": "कोई रसूल",
+      "id": "seorang Rasul",
+      "bn": "রাসূল",
+      "ru": "посланник"
+    }
+  },
+  {
+    "id": "word_196",
+    "arabic": "غفور",
+    "frequency": 52,
+    "translations": {
+      "en": "(is) Oft-Forgiving",
+      "tr": "bağışlayan",
+      "ur": "بخشنے والا",
+      "hi": "बहुत बख़्शने वाला है",
+      "id": "Maha Pengampun",
+      "bn": "ক্ষমাশীল",
+      "ru": "прощающий,"
+    }
+  },
+  {
+    "id": "word_197",
+    "arabic": "يقولون",
+    "frequency": 51,
+    "translations": {
+      "en": "they say",
+      "tr": "onların dedikleri",
+      "ur": "وہ کہتے ہیں",
+      "hi": "वो कहते हैं",
+      "id": "mereka mengatakan",
+      "bn": "তারা বলে",
+      "ru": "говорят:"
+    }
+  },
+  {
+    "id": "word_198",
+    "arabic": "كنت",
+    "frequency": 51,
+    "translations": {
+      "en": "you are",
+      "tr": "isen",
+      "ur": "ہے تو",
+      "hi": "है तू",
+      "id": "kamu adalah",
+      "bn": "তুমি ছিলে",
+      "ru": "был ты"
+    }
+  },
+  {
+    "id": "word_199",
+    "arabic": "أرسلنا",
+    "frequency": 51,
+    "translations": {
+      "en": "We sent",
+      "tr": "gönderdik",
+      "ur": "بھیجا ہم نے",
+      "hi": "भेजा हमने",
+      "id": "Kami telah mengutus",
+      "bn": "আমরা পাঠিয়েছি",
+      "ru": "посылали Мы"
+    }
+  },
+  {
+    "id": "word_200",
+    "arabic": "علينا",
+    "frequency": 51,
+    "translations": {
+      "en": "to us",
+      "tr": "bize",
+      "ur": "ہم پر",
+      "hi": "हम पर",
+      "id": "atas kami",
+      "bn": "আমাদের উপর",
+      "ru": "на нас"
+    }
+  },
+  {
+    "id": "word_201",
+    "arabic": "لقوم",
+    "frequency": 51,
+    "translations": {
+      "en": "for a people",
+      "tr": "bir toplum için",
+      "ur": "اس قوم کے لیے",
+      "hi": "उन लोगों के लिए",
+      "id": "bagi kaum",
+      "bn": "জন্যে সম্প্রদায়ের",
+      "ru": "для людей"
+    }
+  },
+  {
+    "id": "word_202",
+    "arabic": "بني",
+    "frequency": 51,
+    "translations": {
+      "en": "(the) Children",
+      "tr": "oğulları",
+      "ur": "بنی",
+      "hi": "बनी इस्राईल को",
+      "id": "Bani",
+      "bn": "বনী",
+      "ru": "потомков"
+    }
+  },
+  {
+    "id": "word_203",
+    "arabic": "للناس",
+    "frequency": 51,
+    "translations": {
+      "en": "for the mankind",
+      "tr": "insanlar için",
+      "ur": "لوگوں کے لیے",
+      "hi": "लोगों के लिए",
+      "id": "bagi manusia",
+      "bn": "জন্যে মানুষের",
+      "ru": "для людей"
+    }
+  },
+  {
+    "id": "word_204",
+    "arabic": "إنك",
+    "frequency": 50,
+    "translations": {
+      "en": "Indeed you",
+      "tr": "şüphesiz sen",
+      "ur": "بیشک تو",
+      "hi": "बेशक तू",
+      "id": "sesungguhnya kamu",
+      "bn": "নিশ্চয়ই তুমি",
+      "ru": "Поистине, ты"
+    }
+  },
+  {
+    "id": "word_205",
+    "arabic": "أمة",
+    "frequency": 49,
+    "translations": {
+      "en": "nation",
+      "tr": "ümmet",
+      "ur": "امت",
+      "hi": "उम्मत",
+      "id": "ummat",
+      "bn": "জাতি",
+      "ru": "общины"
+    }
+  },
+  {
+    "id": "word_206",
+    "arabic": "عظيم",
+    "frequency": 49,
+    "translations": {
+      "en": "great",
+      "tr": "büyük",
+      "ur": "بڑا",
+      "hi": "बहुत बड़ा",
+      "id": "besar",
+      "bn": "কঠিন",
+      "ru": "великое!"
+    }
+  },
+  {
+    "id": "word_207",
+    "arabic": "جميعا",
+    "frequency": 49,
+    "translations": {
+      "en": "all",
+      "tr": "hepsi",
+      "ur": "سب کے سب کو",
+      "hi": "सबके सबको",
+      "id": "semuanya",
+      "bn": "সকলকে",
+      "ru": "всех,"
+    }
+  },
+  {
+    "id": "word_208",
+    "arabic": "تجري",
+    "frequency": 48,
+    "translations": {
+      "en": "flow",
+      "tr": "akan",
+      "ur": "بہتی ہیں",
+      "hi": "बहती हैं",
+      "id": "mengalir",
+      "bn": "প্রবাহিত হয়",
+      "ru": "текут"
+    }
+  },
+  {
+    "id": "word_209",
+    "arabic": "نفس",
+    "frequency": 47,
+    "translations": {
+      "en": "soul",
+      "tr": "can",
+      "ur": "کوئی نفس",
+      "hi": "कोई नफ़्स",
+      "id": "diri",
+      "bn": "ব্যক্তি",
+      "ru": "душа"
+    }
+  },
+  {
+    "id": "word_210",
+    "arabic": "ليس",
+    "frequency": 47,
+    "translations": {
+      "en": "not",
+      "tr": "yoktur",
+      "ur": "نہیں ہے",
+      "hi": "नहीं है",
+      "id": "tidak",
+      "bn": "নেই",
+      "ru": "нет"
+    }
+  },
+  {
+    "id": "word_211",
+    "arabic": "ولم",
+    "frequency": 47,
+    "translations": {
+      "en": "and not",
+      "tr": "ve değil",
+      "ur": "اور نہیں",
+      "hi": "और नहीं",
+      "id": "dan tidak",
+      "bn": "এবং না",
+      "ru": "и не"
+    }
+  },
+  {
+    "id": "word_212",
+    "arabic": "آية",
+    "frequency": 47,
+    "translations": {
+      "en": "a sign",
+      "tr": "bir ibret",
+      "ur": "ایک نشانی",
+      "hi": "कोई निशानी",
+      "id": "tanda-tanda",
+      "bn": "একটি নিদর্শন",
+      "ru": "знамение"
+    }
+  },
+  {
+    "id": "word_213",
+    "arabic": "عما",
+    "frequency": 47,
+    "translations": {
+      "en": "above what",
+      "tr": "şeylerden",
+      "ur": "اس سے جو",
+      "hi": "उससे जो",
+      "id": "dari apa",
+      "bn": "তা হ'তে যা",
+      "ru": "относительно того, что"
+    }
+  },
+  {
+    "id": "word_214",
+    "arabic": "كتاب",
+    "frequency": 47,
+    "translations": {
+      "en": "(the) Book",
+      "tr": "bir Kitap",
+      "ur": "کتاب",
+      "hi": "एक किताब में है",
+      "id": "kitab",
+      "bn": "কিতাব",
+      "ru": "книга"
+    }
+  },
+  {
+    "id": "word_215",
+    "arabic": "هي",
+    "frequency": 47,
+    "translations": {
+      "en": "it",
+      "tr": "o",
+      "ur": "وہ",
+      "hi": "वो ",
+      "id": "ia",
+      "bn": "তা",
+      "ru": "она"
+    }
+  },
+  {
+    "id": "word_216",
+    "arabic": "مثل",
+    "frequency": 47,
+    "translations": {
+      "en": "like",
+      "tr": "durum",
+      "ur": "مانند",
+      "hi": "मिसाल",
+      "id": "seperti",
+      "bn": "দৃষ্টান্ত",
+      "ru": "подобное"
+    }
+  },
+  {
+    "id": "word_217",
+    "arabic": "الدين",
+    "frequency": 47,
+    "translations": {
+      "en": "the religion",
+      "tr": "dini",
+      "ur": "دین",
+      "hi": "दीन",
+      "id": "agama",
+      "bn": "দ্বীনের",
+      "ru": "верование"
+    }
+  },
+  {
+    "id": "word_218",
+    "arabic": "فأولئك",
+    "frequency": 46,
+    "translations": {
+      "en": "then those",
+      "tr": "ve onlar",
+      "ur": "تو یہی لوگ",
+      "hi": "तो यही लोग हैं",
+      "id": "maka mereka itu",
+      "bn": "অতঃপর ঐসব লোক",
+      "ru": "то те [такие] –"
+    }
+  },
+  {
+    "id": "word_219",
+    "arabic": "عليها",
+    "frequency": 46,
+    "translations": {
+      "en": "over it",
+      "tr": "onun üzerine",
+      "ur": "اس پر",
+      "hi": "उस पर",
+      "id": "atasnya",
+      "bn": "তার উপর",
+      "ru": "на них"
+    }
+  },
+  {
+    "id": "word_220",
+    "arabic": "هذه",
+    "frequency": 46,
+    "translations": {
+      "en": "this",
+      "tr": "bu",
+      "ur": "اس",
+      "hi": "ये ",
+      "id": "ini",
+      "bn": "এই",
+      "ru": "этого"
+    }
+  },
+  {
+    "id": "word_221",
+    "arabic": "كثيرا",
+    "frequency": 46,
+    "translations": {
+      "en": "many",
+      "tr": "çok",
+      "ur": "بہت زیادہ",
+      "hi": "बहुत से",
+      "id": "banyak",
+      "bn": "অনেককে",
+      "ru": "многие"
+    }
+  },
+  {
+    "id": "word_222",
+    "arabic": "أفلا",
+    "frequency": 45,
+    "translations": {
+      "en": "Then will not",
+      "tr": "-mez misin(iz)?",
+      "ur": "کیا بھلا نہیں",
+      "hi": "क्या भला नहीं",
+      "id": "apakah maka tidak",
+      "bn": "কি তবুও না",
+      "ru": "Неужели не"
+    }
+  },
+  {
+    "id": "word_223",
+    "arabic": "جعل",
+    "frequency": 45,
+    "translations": {
+      "en": "made",
+      "tr": "yaptı",
+      "ur": "بنایا",
+      "hi": "बनाया",
+      "id": "menjadikan",
+      "bn": "সৃষ্টি করেছেন",
+      "ru": "сделал"
+    }
+  },
+  {
+    "id": "word_224",
+    "arabic": "الرسول",
+    "frequency": 45,
+    "translations": {
+      "en": "the Messenger",
+      "tr": "Elçi",
+      "ur": "رسول",
+      "hi": "रसूल की",
+      "id": "Rasul",
+      "bn": "রাসূলের",
+      "ru": "Посланник"
+    }
+  },
+  {
+    "id": "word_225",
+    "arabic": "الرحمن",
+    "frequency": 45,
+    "translations": {
+      "en": "the Most Gracious",
+      "tr": "Rahman",
+      "ur": "رحمن",
+      "hi": "रहमान",
+      "id": "Maha Pengasih",
+      "bn": "দয়াময়",
+      "ru": "Милостивого"
+    }
+  },
+  {
+    "id": "word_226",
+    "arabic": "وأنتم",
+    "frequency": 45,
+    "translations": {
+      "en": "while you",
+      "tr": "ve siz",
+      "ur": "اور تم",
+      "hi": "और तुम",
+      "id": "dan kalian",
+      "bn": "যখন তোমরা",
+      "ru": "в то время как вы"
+    }
+  },
+  {
+    "id": "word_227",
+    "arabic": "خالدين",
+    "frequency": 44,
+    "translations": {
+      "en": "abiding forever",
+      "tr": "ebedi",
+      "ur": "ہمیشہ رہنے والے ہیں",
+      "hi": "हमेशा रहने वाले हैं",
+      "id": "mereka kekal",
+      "bn": "তারা চিরস্থায়ী হবে",
+      "ru": "(будучи) вечно пребывающими"
+    }
+  },
+  {
+    "id": "word_228",
+    "arabic": "ذلكم",
+    "frequency": 44,
+    "translations": {
+      "en": "That",
+      "tr": "onlar",
+      "ur": "یہ بات",
+      "hi": "ये है",
+      "id": "demikian itu",
+      "bn": "এটা",
+      "ru": "Это –"
+    }
+  },
+  {
+    "id": "word_229",
+    "arabic": "ويوم",
+    "frequency": 44,
+    "translations": {
+      "en": "And (the) Day",
+      "tr": "ve gün",
+      "ur": "اور جس دن",
+      "hi": "और जिस दिन",
+      "id": "dan pada hari",
+      "bn": "এবং যেদিন",
+      "ru": "И в тот день, когда"
+    }
+  },
+  {
+    "id": "word_230",
+    "arabic": "ولهم",
+    "frequency": 43,
+    "translations": {
+      "en": "and for them",
+      "tr": "ve onlar için vardır",
+      "ur": "اور ان کے لیے",
+      "hi": "और उनके लिए",
+      "id": "dan bagi mereka",
+      "bn": "এবং তাদের জন্যে",
+      "ru": "и для них"
+    }
+  },
+  {
+    "id": "word_231",
+    "arabic": "الأنهار",
+    "frequency": 43,
+    "translations": {
+      "en": "the rivers",
+      "tr": "ırmaklar",
+      "ur": "نہریں",
+      "hi": "नहरें",
+      "id": "sungai-sungai",
+      "bn": "ঝর্ণাসমূহ",
+      "ru": "реки,"
+    }
+  },
+  {
+    "id": "word_232",
+    "arabic": "القرآن",
+    "frequency": 43,
+    "translations": {
+      "en": "the Quran",
+      "tr": "Kur'an",
+      "ur": "قرآن",
+      "hi": "क़ुरआन",
+      "id": "Al Qur'an",
+      "bn": "কুরআন",
+      "ru": "Коран"
+    }
+  },
+  {
+    "id": "word_233",
+    "arabic": "وقد",
+    "frequency": 43,
+    "translations": {
+      "en": "And indeed",
+      "tr": "oysa",
+      "ur": "اور تحقیق",
+      "hi": "हालाँकि तहक़ीक़",
+      "id": "dan sesungguhnya",
+      "bn": "এবং নিশ্চয়ই",
+      "ru": "И уже"
+    }
+  },
+  {
+    "id": "word_234",
+    "arabic": "يهدي",
+    "frequency": 43,
+    "translations": {
+      "en": "guide",
+      "tr": "doğru yola iletmek",
+      "ur": "ہدایت دیتا",
+      "hi": "नहीं वो हिदायत देता",
+      "id": "memberi petunjuk",
+      "bn": "পথ দেখান",
+      "ru": "ведёт"
+    }
+  },
+  {
+    "id": "word_235",
+    "arabic": "كذبوا",
+    "frequency": 43,
+    "translations": {
+      "en": "denied",
+      "tr": "yalanladılar",
+      "ur": "جنہوں نے جھٹلایا",
+      "hi": "झुठलाया",
+      "id": "(mereka) mendustakan",
+      "bn": "মিথ্যারোপ করেছে",
+      "ru": "сочли ложью"
+    }
+  },
+  {
+    "id": "word_236",
+    "arabic": "واتقوا",
+    "frequency": 42,
+    "translations": {
+      "en": "And fear",
+      "tr": "ve korkun",
+      "ur": "اور ڈرو",
+      "hi": "और डरो",
+      "id": "dan bertakwalah",
+      "bn": "এবং তোমরা ভয় করো",
+      "ru": "И остерегайтесь"
+    }
+  },
+  {
+    "id": "word_237",
+    "arabic": "ظلموا",
+    "frequency": 42,
+    "translations": {
+      "en": "wronged",
+      "tr": "zulmeden(ler)",
+      "ur": "جنہوں نے ظلم کیا",
+      "hi": "ज़ुल्म किया",
+      "id": "(mereka) zalim",
+      "bn": "সীমালঙ্ঘন করেছে",
+      "ru": "притесняли"
+    }
+  },
+  {
+    "id": "word_238",
+    "arabic": "الحكيم",
+    "frequency": 42,
+    "translations": {
+      "en": "the All-Wise",
+      "tr": "hüküm ve hikmet sahibi",
+      "ur": "حکمت والا ہے",
+      "hi": "ख़ूब हिकमत वाला है",
+      "id": "Maha Bijaksana",
+      "bn": "প্রজ্ঞাময়",
+      "ru": "Мудрый"
+    }
+  },
+  {
+    "id": "word_239",
+    "arabic": "إسرائيل",
+    "frequency": 42,
+    "translations": {
+      "en": "(of) Israel",
+      "tr": "İsrail",
+      "ur": "اسرائیل",
+      "hi": "बनी इस्राईल को",
+      "id": "Israil",
+      "bn": "ইসরাঈলের",
+      "ru": "Исраила"
+    }
+  },
+  {
+    "id": "word_240",
+    "arabic": "جاءهم",
+    "frequency": 41,
+    "translations": {
+      "en": "came to them",
+      "tr": "onlara gelince",
+      "ur": "آگیا ان کے پاس",
+      "hi": "आ गया उनके पास",
+      "id": "datang kepada mereka",
+      "bn": "তাদের কাছে এসেছে",
+      "ru": "пришло к ним"
+    }
+  },
+  {
+    "id": "word_241",
+    "arabic": "بغير",
+    "frequency": 41,
+    "translations": {
+      "en": "without",
+      "tr": "olmaksızın",
+      "ur": "بغیر",
+      "hi": "बग़ैर ",
+      "id": "dengan tidak",
+      "bn": "ছাড়া",
+      "ru": "без"
+    }
+  },
+  {
+    "id": "word_242",
+    "arabic": "أنهم",
+    "frequency": 41,
+    "translations": {
+      "en": "that they",
+      "tr": "onlar",
+      "ur": "بیشک وہ",
+      "hi": "बेशक वो",
+      "id": "bahwasanya mereka",
+      "bn": "যে তারা",
+      "ru": "что они"
+    }
+  },
+  {
+    "id": "word_243",
+    "arabic": "اليوم",
+    "frequency": 41,
+    "translations": {
+      "en": "today",
+      "tr": "bugün",
+      "ur": "آج",
+      "hi": "आज",
+      "id": "hari ini",
+      "bn": "আজ",
+      "ru": "сегодня"
+    }
+  },
+  {
+    "id": "word_244",
+    "arabic": "لها",
+    "frequency": 41,
+    "translations": {
+      "en": "for it",
+      "tr": "ona",
+      "ur": "اس کے لیے",
+      "hi": "उसके लिए",
+      "id": "baginya",
+      "bn": "জন্যে তার",
+      "ru": "для нее"
+    }
+  },
+  {
+    "id": "word_245",
+    "arabic": "فهم",
+    "frequency": 41,
+    "translations": {
+      "en": "so they",
+      "tr": "onlar",
+      "ur": "تو وہ",
+      "hi": "तो वो",
+      "id": "maka mereka",
+      "bn": "অতঃপর তারা",
+      "ru": "и они"
+    }
+  },
+  {
+    "id": "word_246",
+    "arabic": "بهم",
+    "frequency": 41,
+    "translations": {
+      "en": "with them",
+      "tr": "onlarla",
+      "ur": "ان کو",
+      "hi": "उन्हें",
+      "id": "dengan mereka",
+      "bn": "তাদের সাথে",
+      "ru": "их"
+    }
+  },
+  {
+    "id": "word_247",
+    "arabic": "لعلهم",
+    "frequency": 41,
+    "translations": {
+      "en": "so that they may",
+      "tr": "umulur ki",
+      "ur": "شاید کہ وہ",
+      "hi": "ताकि वो",
+      "id": "agar mereka",
+      "bn": "যাতে তারা",
+      "ru": "чтобы они"
+    }
+  },
+  {
+    "id": "word_248",
+    "arabic": "أمر",
+    "frequency": 41,
+    "translations": {
+      "en": "(the) Command",
+      "tr": "emri",
+      "ur": "حکم",
+      "hi": "हुक्म",
+      "id": "perintah",
+      "bn": "নির্দেশ",
+      "ru": "повеление"
+    }
+  },
+  {
+    "id": "word_249",
+    "arabic": "هؤلاء",
+    "frequency": 41,
+    "translations": {
+      "en": "these",
+      "tr": "bunlar",
+      "ur": "یہ لوگ",
+      "hi": "ये लोग",
+      "id": "mereka itu",
+      "bn": "এসব",
+      "ru": "этих"
+    }
+  },
+  {
+    "id": "word_250",
+    "arabic": "قوما",
+    "frequency": 40,
+    "translations": {
+      "en": "a people",
+      "tr": "bir topluluk",
+      "ur": "ایک قوم کو",
+      "hi": "लोग",
+      "id": "kaum",
+      "bn": "সম্প্রদায়",
+      "ru": "людьми"
+    }
+  },
+  {
+    "id": "word_251",
+    "arabic": "إليهم",
+    "frequency": 40,
+    "translations": {
+      "en": "to them",
+      "tr": "onlara",
+      "ur": "ان کی طرف",
+      "hi": "तरफ़ उनके",
+      "id": "kepada mereka",
+      "bn": "তাদের প্রতি",
+      "ru": "к ним"
+    }
+  },
+  {
+    "id": "word_252",
+    "arabic": "وعلى",
+    "frequency": 39,
+    "translations": {
+      "en": "and on",
+      "tr": "ve",
+      "ur": "اور پر",
+      "hi": "और ऊपर",
+      "id": "dan atas",
+      "bn": "এবং উপর",
+      "ru": "и на"
+    }
+  },
+  {
+    "id": "word_253",
+    "arabic": "يقول",
+    "frequency": 39,
+    "translations": {
+      "en": "say",
+      "tr": "der",
+      "ur": "وہ کہتا ہے",
+      "hi": "वो कहता है",
+      "id": "berkata",
+      "bn": "বলেন",
+      "ru": "говорит:"
+    }
+  },
+  {
+    "id": "word_254",
+    "arabic": "يحب",
+    "frequency": 39,
+    "translations": {
+      "en": "love",
+      "tr": "sever",
+      "ur": "پسند کرتا",
+      "hi": "नहीं वो पसंद करता",
+      "id": "Dia menyukai",
+      "bn": "ভালোবাসেন",
+      "ru": "любит"
+    }
+  },
+  {
+    "id": "word_255",
+    "arabic": "حكيم",
+    "frequency": 39,
+    "translations": {
+      "en": "All-Wise",
+      "tr": "hüküm ve hikmet sahibi",
+      "ur": "حکمت والا ہے",
+      "hi": "ख़ूब हिकमत वाला है",
+      "id": "Maha Bijaksana",
+      "bn": "মহাবিজ্ঞ",
+      "ru": "мудрый"
+    }
+  },
+  {
+    "id": "word_256",
+    "arabic": "دونه",
+    "frequency": 38,
+    "translations": {
+      "en": "besides Him",
+      "tr": "O'ndan başka",
+      "ur": "اس کے سوا",
+      "hi": "उसके सिवा",
+      "id": "selain Dia",
+      "bn": "তাঁকে",
+      "ru": "помимо Него"
+    }
+  },
+  {
+    "id": "word_257",
+    "arabic": "هدى",
+    "frequency": 38,
+    "translations": {
+      "en": "guidance",
+      "tr": "yol gösterme",
+      "ur": "ہدایت",
+      "hi": "हिदायत",
+      "id": "petunjuk",
+      "bn": "পথনির্দেশ",
+      "ru": "руководство"
+    }
+  },
+  {
+    "id": "word_258",
+    "arabic": "عذابا",
+    "frequency": 38,
+    "translations": {
+      "en": "a punishment",
+      "tr": "bir azab",
+      "ur": "عذاب",
+      "hi": "अज़ाब",
+      "id": "azab",
+      "bn": "শাস্তি",
+      "ru": "наказание"
+    }
+  },
+  {
+    "id": "word_259",
+    "arabic": "وعد",
+    "frequency": 38,
+    "translations": {
+      "en": "(the) Promise",
+      "tr": "va'di",
+      "ur": "وعدہ",
+      "hi": "वादा",
+      "id": "janji",
+      "bn": "প্রতিশ্রুতি",
+      "ru": "обещание"
+    }
+  },
+  {
+    "id": "word_260",
+    "arabic": "وكذلك",
+    "frequency": 38,
+    "translations": {
+      "en": "And thus",
+      "tr": "ve böylece",
+      "ur": "اور اسی طرح",
+      "hi": "और इसी तरह",
+      "id": "dan demikianlah",
+      "bn": "এবং এভাবে",
+      "ru": "И так"
+    }
+  },
+  {
+    "id": "word_261",
+    "arabic": "الملائكة",
+    "frequency": 38,
+    "translations": {
+      "en": "the Angels",
+      "tr": "melekler",
+      "ur": "فرشتے",
+      "hi": "फ़रिश्ते",
+      "id": "Malaikat",
+      "bn": "ফেরেশতারা",
+      "ru": "ангелов"
+    }
+  },
+  {
+    "id": "word_262",
+    "arabic": "كلا",
+    "frequency": 38,
+    "translations": {
+      "en": "Nay!",
+      "tr": "hayır",
+      "ur": "ہرگز نہیں",
+      "hi": "हरगिज़ नहीं ",
+      "id": "sekali-kali tidak",
+      "bn": "কখনও না",
+      "ru": "Но нет же!"
+    }
+  },
+  {
+    "id": "word_263",
+    "arabic": "أكثرهم",
+    "frequency": 38,
+    "translations": {
+      "en": "most of them",
+      "tr": "çokları",
+      "ur": "اکثر ان میں سے",
+      "hi": "अक्सर उनके",
+      "id": "kebanyakan mereka",
+      "bn": "অধিকাংশই তাদের",
+      "ru": "большинство их"
+    }
+  },
+  {
+    "id": "word_264",
+    "arabic": "أنفسكم",
+    "frequency": 38,
+    "translations": {
+      "en": "yourselves",
+      "tr": "kendiniz",
+      "ur": "اپنے نفسوں کو",
+      "hi": "अपने नफ़्सों को",
+      "id": "diri kalian sendiri",
+      "bn": "তোমাদের নিজেদের",
+      "ru": "самих себя"
+    }
+  },
+  {
+    "id": "word_265",
+    "arabic": "ذكر",
+    "frequency": 38,
+    "translations": {
+      "en": "(the) remembrance",
+      "tr": "anma",
+      "ur": "ذکر",
+      "hi": "ज़िक्र किया जाता है",
+      "id": "peringatan",
+      "bn": "উপদেশ",
+      "ru": "напоминание"
+    }
+  },
+  {
+    "id": "word_266",
+    "arabic": "لولا",
+    "frequency": 38,
+    "translations": {
+      "en": "Why not",
+      "tr": "değil miydi?",
+      "ur": "کیوں نہیں",
+      "hi": "क्यों नहीं",
+      "id": "mengapa tidak",
+      "bn": "\"কেন না",
+      "ru": "«Почему не"
+    }
+  },
+  {
+    "id": "word_267",
+    "arabic": "يريد",
+    "frequency": 38,
+    "translations": {
+      "en": "He intends",
+      "tr": "istiyor",
+      "ur": "چاہتا ہے",
+      "hi": "चाहता है",
+      "id": "menghendaki",
+      "bn": "চান",
+      "ru": "желает"
+    }
+  },
+  {
+    "id": "word_268",
+    "arabic": "بكم",
+    "frequency": 37,
+    "translations": {
+      "en": "for you",
+      "tr": "sizin için",
+      "ur": "تم کو",
+      "hi": "तुम्हें",
+      "id": "dengan",
+      "bn": "তোমাদেরকে",
+      "ru": "вас"
+    }
+  },
+  {
+    "id": "word_269",
+    "arabic": "خيرا",
+    "frequency": 37,
+    "translations": {
+      "en": "better",
+      "tr": "daha iyi",
+      "ur": "بہتر",
+      "hi": "बेहतर",
+      "id": "kebaikan",
+      "bn": "উত্তম",
+      "ru": "лучше"
+    }
+  },
+  {
+    "id": "word_270",
+    "arabic": "قدير",
+    "frequency": 37,
+    "translations": {
+      "en": "All-Powerful",
+      "tr": "Kadir",
+      "ur": "قدرت رکھنے والا ہے",
+      "hi": "ख़ूब क़ुदरत रखने वाला है",
+      "id": "Maha Kuasa",
+      "bn": "সর্বশক্তিমান",
+      "ru": "мощен!"
+    }
+  },
+  {
+    "id": "word_271",
+    "arabic": "وجعلنا",
+    "frequency": 37,
+    "translations": {
+      "en": "and We made",
+      "tr": "ve yaptık",
+      "ur": "اور بنایا ہم نے",
+      "hi": "और बनाया हमने",
+      "id": "dan Kami jadikan",
+      "bn": "এবং আমরা বানিয়েছি",
+      "ru": "и сделали Мы"
+    }
+  },
+  {
+    "id": "word_272",
+    "arabic": "عنه",
+    "frequency": 37,
+    "translations": {
+      "en": "from it",
+      "tr": "ondan",
+      "ur": "اس سے",
+      "hi": "उससे ",
+      "id": "daripadanya",
+      "bn": "তা থেকে",
+      "ru": "от него"
+    }
+  },
+  {
+    "id": "word_273",
+    "arabic": "آمنا",
+    "frequency": 37,
+    "translations": {
+      "en": "We believe",
+      "tr": "inandık",
+      "ur": "ایمان لائے ہم",
+      "hi": "ईमान लाए हम",
+      "id": "kami beriman",
+      "bn": "আমরা ঈমান এনেছি",
+      "ru": "«Мы уверовали"
+    }
+  },
+  {
+    "id": "word_274",
+    "arabic": "صالحا",
+    "frequency": 36,
+    "translations": {
+      "en": "righteous (deeds)",
+      "tr": "iyi işler",
+      "ur": "اچھے",
+      "hi": "नेक",
+      "id": "kebajikan",
+      "bn": "সৎ",
+      "ru": "праведное"
+    }
+  },
+  {
+    "id": "word_275",
+    "arabic": "العظيم",
+    "frequency": 36,
+    "translations": {
+      "en": "the great",
+      "tr": "büyük",
+      "ur": "بڑی",
+      "hi": "बहुत बड़ी",
+      "id": "yang besar",
+      "bn": "মহা",
+      "ru": "великий!"
+    }
+  },
+  {
+    "id": "word_276",
+    "arabic": "قومه",
+    "frequency": 36,
+    "translations": {
+      "en": "his people",
+      "tr": "kavmi",
+      "ur": "اس کی قوم",
+      "hi": "उसकी क़ौम में से",
+      "id": "kaumnya",
+      "bn": "জাতির তার",
+      "ru": "его народа:"
+    }
+  },
+  {
+    "id": "word_277",
+    "arabic": "تحتها",
+    "frequency": 36,
+    "translations": {
+      "en": "underneath it",
+      "tr": "altları",
+      "ur": "ان کے نیچے",
+      "hi": "उनके नीचे से",
+      "id": "bawahnya",
+      "bn": "তার নিচ",
+      "ru": "под которыми"
+    }
+  },
+  {
+    "id": "word_278",
+    "arabic": "يكون",
+    "frequency": 35,
+    "translations": {
+      "en": "will be",
+      "tr": "olur",
+      "ur": "ہو",
+      "hi": "हो",
+      "id": "adalah",
+      "bn": "হবে",
+      "ru": "будет"
+    }
+  },
+  {
+    "id": "word_279",
+    "arabic": "منا",
+    "frequency": 35,
+    "translations": {
+      "en": "from Us",
+      "tr": "bizden",
+      "ur": "ہم سے",
+      "hi": "अपनी तरफ़ से",
+      "id": "dari Kami",
+      "bn": "আমাদের থেকে",
+      "ru": "от Нас"
+    }
+  },
+  {
+    "id": "word_280",
+    "arabic": "أولم",
+    "frequency": 35,
+    "translations": {
+      "en": "Do not",
+      "tr": "-mediler mi?",
+      "ur": "کیا بھلا نہیں",
+      "hi": "क्या भला नहीं",
+      "id": "ataukah tidak",
+      "bn": "কি না",
+      "ru": "Разве не"
+    }
+  },
+  {
+    "id": "word_281",
+    "arabic": "ماء",
+    "frequency": 35,
+    "translations": {
+      "en": "water",
+      "tr": "su",
+      "ur": "پانی",
+      "hi": "पानी",
+      "id": "air",
+      "bn": "পানি",
+      "ru": "воду"
+    }
+  },
+  {
+    "id": "word_282",
+    "arabic": "شديد",
+    "frequency": 35,
+    "translations": {
+      "en": "severe",
+      "tr": "çetin",
+      "ur": "سخت",
+      "hi": "सख़्त",
+      "id": "sangat keras",
+      "bn": "কঠোর",
+      "ru": "силён"
+    }
+  },
+  {
+    "id": "word_283",
+    "arabic": "الساعة",
+    "frequency": 35,
+    "translations": {
+      "en": "the Hour",
+      "tr": "sa'at",
+      "ur": "قیامت",
+      "hi": "क़यामत",
+      "id": "hari kiamat",
+      "bn": "ক্বিয়ামাত",
+      "ru": "Час"
+    }
+  },
+  {
+    "id": "word_284",
+    "arabic": "فبأي",
+    "frequency": 35,
+    "translations": {
+      "en": "So which",
+      "tr": "şimdi hangi?",
+      "ur": "تو ساتھ کون سی",
+      "hi": "तो कौन सी ",
+      "id": "maka yang mana",
+      "bn": "অতএব কোন কোন",
+      "ru": "Какое же"
+    }
+  },
+  {
+    "id": "word_285",
+    "arabic": "الموت",
+    "frequency": 35,
+    "translations": {
+      "en": "[the] death",
+      "tr": "ölüm",
+      "ur": "موت",
+      "hi": "मौत",
+      "id": "kematian",
+      "bn": "মৃত্যু",
+      "ru": "смерть,"
+    }
+  },
+  {
+    "id": "word_286",
+    "arabic": "وكانوا",
+    "frequency": 35,
+    "translations": {
+      "en": "and they were",
+      "tr": "ve oldular",
+      "ur": "اور تھے وہ",
+      "hi": "और थे वो",
+      "id": "dan adalah mereka",
+      "bn": "এবং তারা ছিলো",
+      "ru": "и были они"
+    }
+  },
+  {
+    "id": "word_287",
+    "arabic": "بآيات",
+    "frequency": 34,
+    "translations": {
+      "en": "in (the) Signs",
+      "tr": "ayetlerinde",
+      "ur": "آیات کو",
+      "hi": "साथ आयात के",
+      "id": "dengan ayat-ayat",
+      "bn": "নিদর্শনাবলীকে",
+      "ru": "в знамения"
+    }
+  },
+  {
+    "id": "word_288",
+    "arabic": "أولياء",
+    "frequency": 34,
+    "translations": {
+      "en": "protectors",
+      "tr": "dostlar",
+      "ur": "دوست",
+      "hi": "दोस्त",
+      "id": "pemimpin",
+      "bn": "বন্ধু",
+      "ru": "сторонники"
+    }
+  },
+  {
+    "id": "word_289",
+    "arabic": "آياتنا",
+    "frequency": 34,
+    "translations": {
+      "en": "Our Verses",
+      "tr": "ayetlerimiz",
+      "ur": "ہماری آیات",
+      "hi": "आयात हमारी ",
+      "id": "ayat-ayat Kami",
+      "bn": "আমাদের নিদর্শনাবলী",
+      "ru": "Наши знамения"
+    }
+  },
+  {
+    "id": "word_290",
+    "arabic": "آلاء",
+    "frequency": 34,
+    "translations": {
+      "en": "(of the) favors",
+      "tr": "ni'metlerini",
+      "ur": "نعمتوں کے",
+      "hi": "नेअमतों को",
+      "id": "ni'mat",
+      "bn": "অনুগ্রহ সমূহকে",
+      "ru": "из благодеяний"
+    }
+  },
+  {
+    "id": "word_291",
+    "arabic": "حق",
+    "frequency": 34,
+    "translations": {
+      "en": "(is) true",
+      "tr": "gerçek",
+      "ur": "سچا ہے",
+      "hi": "सच्चा है",
+      "id": "benar",
+      "bn": "সত্য",
+      "ru": "достойным"
+    }
+  },
+  {
+    "id": "word_292",
+    "arabic": "الرحيم",
+    "frequency": 34,
+    "translations": {
+      "en": "the Most Merciful",
+      "tr": "çok esirgeyen",
+      "ur": "رحم فرمانے والا ہے",
+      "hi": "निहायत रहम करने वाला है",
+      "id": "Maha Penyayang",
+      "bn": "পরম দয়ালু",
+      "ru": "Милосердный!"
+    }
+  },
+  {
+    "id": "word_293",
+    "arabic": "بكل",
+    "frequency": 34,
+    "translations": {
+      "en": "of every",
+      "tr": "her",
+      "ur": "ہر",
+      "hi": "हर",
+      "id": "dengan segala",
+      "bn": "সম্পর্কে সব",
+      "ru": "о всякой"
+    }
+  },
+  {
+    "id": "word_294",
+    "arabic": "رحمة",
+    "frequency": 34,
+    "translations": {
+      "en": "mercy",
+      "tr": "bir rahmet",
+      "ur": "رحمت",
+      "hi": "रहमत",
+      "id": "rahmat",
+      "bn": "অনুগ্রহ",
+      "ru": "милости"
+    }
+  },
+  {
+    "id": "word_295",
+    "arabic": "قيل",
+    "frequency": 34,
+    "translations": {
+      "en": "it is said",
+      "tr": "dendiği",
+      "ur": "کہا گیا",
+      "hi": "कहा जाता है",
+      "id": "dikatakan",
+      "bn": "বলা হয়",
+      "ru": "говорится"
+    }
+  },
+  {
+    "id": "word_296",
+    "arabic": "معه",
+    "frequency": 34,
+    "translations": {
+      "en": "with him",
+      "tr": "onunla beraber",
+      "ur": "اس کے ساتھ",
+      "hi": "साथ उसके",
+      "id": "bersama dia",
+      "bn": "তার সাথে",
+      "ru": "вместе с ним"
+    }
+  },
+  {
+    "id": "word_297",
+    "arabic": "مؤمنين",
+    "frequency": 34,
+    "translations": {
+      "en": "believers",
+      "tr": "inananlar",
+      "ur": "ایمان لانے والے",
+      "hi": "ईमान लाने वाले",
+      "id": "orang-orang yang beriman",
+      "bn": "মু'মিন",
+      "ru": "верующими!"
+    }
+  },
+  {
+    "id": "word_298",
+    "arabic": "ولئن",
+    "frequency": 33,
+    "translations": {
+      "en": "And if",
+      "tr": "ve eğer",
+      "ur": "اور البتہ اگر",
+      "hi": "और अलबत्ता अगर",
+      "id": "dan jika",
+      "bn": "এবং অবশ্যই যদি",
+      "ru": "И клянусь, если"
+    }
+  },
+  {
+    "id": "word_299",
+    "arabic": "نوح",
+    "frequency": 33,
+    "translations": {
+      "en": "(of) Nuh",
+      "tr": "Nuh (a.s)",
+      "ur": "نوح نے",
+      "hi": "नूह ने",
+      "id": "Nuh",
+      "bn": "নূহের",
+      "ru": "Нуха"
+    }
+  },
+  {
+    "id": "word_300",
+    "arabic": "وإنا",
+    "frequency": 33,
+    "translations": {
+      "en": "and indeed we",
+      "tr": "ve elbette biz",
+      "ur": "اور بیشک ہم",
+      "hi": "और बेशक हम",
+      "id": "dan sesungguhnya kami",
+      "bn": "এবং নিশ্চয়ই আমরা",
+      "ru": "и, поистине, мы"
+    }
+  },
+  {
+    "id": "word_301",
+    "arabic": "مريم",
+    "frequency": 33,
+    "translations": {
+      "en": "(of) Maryam",
+      "tr": "Hz. Meryem",
+      "ur": "مریم",
+      "hi": "ऐ मरियम",
+      "id": "Maryam",
+      "bn": "মারইয়ামের",
+      "ru": "Марьям,"
+    }
+  },
+  {
+    "id": "word_302",
+    "arabic": "بعضهم",
+    "frequency": 33,
+    "translations": {
+      "en": "some of them",
+      "tr": "bir kısmı",
+      "ur": "ان میں سے بعض",
+      "hi": "उनके बाज़ को",
+      "id": "sebagian mereka",
+      "bn": "তাদের একে",
+      "ru": "одни из них"
+    }
+  },
+  {
+    "id": "word_303",
+    "arabic": "ربكما",
+    "frequency": 33,
+    "translations": {
+      "en": "(of) your Lord",
+      "tr": "Rabbinizin",
+      "ur": "اپنے رب کی",
+      "hi": "अपने रब की ",
+      "id": "Tuhanmu berdua",
+      "bn": "তোমাদের উভয়ের রবের",
+      "ru": "Господа вашего (двоих)"
+    }
+  },
+  {
+    "id": "word_304",
+    "arabic": "وفي",
+    "frequency": 33,
+    "translations": {
+      "en": "and in",
+      "tr": "ve içinde",
+      "ur": "اور میں",
+      "hi": "और आख़िरत में",
+      "id": "dan pada",
+      "bn": "এবং মধ্যে",
+      "ru": "и в"
+    }
+  },
+  {
+    "id": "word_305",
+    "arabic": "قبلك",
+    "frequency": 33,
+    "translations": {
+      "en": "before you",
+      "tr": "senden önce",
+      "ur": "آپ سے پہلے",
+      "hi": "आपसे पहले",
+      "id": "sebelum kamu",
+      "bn": "তোমার পূর্ব",
+      "ru": "до тебя"
+    }
+  }
+]

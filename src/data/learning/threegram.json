@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "threegram_1",
+    "arabic": "بسم الله الرحمن",
+    "frequency": 114,
+    "wordCount": 3,
+    "translations": {
+      "en": "in the name of ALLAH, the most mercifull",
+      "tr": "merhametli olan Allah adıyla",
+      "ur": "اللہ کے نام سے جو سب سے زیادہ رحم کرنے والا ہے۔",
+      "hi": "अल्लाह के नाम पर, सबसे दयालु",
+      "id": "dengan menyebut nama ALLAH yang maha penyayang",
+      "bn": "পরম করুণাময় আল্লাহর নামে",
+      "ru": "во имя АЛЛАХА Милостивого"
+    }
+  },
+  {
+    "id": "threegram_2",
+    "arabic": "يا أيها الذين",
+    "frequency": 92,
+    "wordCount": 3,
+    "translations": {
+      "en": "O you who",
+      "tr": "Ey sen kim",
+      "ur": "اے جو",
+      "hi": "हे तुम कौन",
+      "id": "Wahai kamu siapa",
+      "bn": "হে আপনি যারা",
+      "ru": "О ты, кто"
+    }
+  },
+  {
+    "id": "threegram_3",
+    "arabic": "أيها الذين آمنوا",
+    "frequency": 89,
+    "wordCount": 3,
+    "translations": {
+      "en": "O you who believe",
+      "tr": "Ey inananlar",
+      "ur": "اے ایمان والو!",
+      "hi": "हे तुम जो विश्वास करते हो",
+      "id": "Wahai orang-orang yang beriman",
+      "bn": "হে ঈমানদারগণ",
+      "ru": "О вы, кто верит"
+    }
+  },
+  {
+    "id": "threegram_4",
+    "arabic": "من دون الله",
+    "frequency": 71,
+    "wordCount": 3,
+    "translations": {
+      "en": "without God",
+      "tr": "Tanrı olmadan",
+      "ur": "خدا کے بغیر",
+      "hi": "भगवान के बिना",
+      "id": "tanpa Tuhan",
+      "bn": "ঈশ্বর ছাড়া",
+      "ru": "без Бога"
+    }
+  },
+  {
+    "id": "threegram_5",
+    "arabic": "على كل شيء",
+    "frequency": 52,
+    "wordCount": 3,
+    "translations": {
+      "en": "for everything",
+      "tr": "herşey için",
+      "ur": "ہر چیز کے لئے",
+      "hi": "प्रत्येक वस्तु के लिए",
+      "id": "untuk semuanya",
+      "bn": "সব কিছুর জন্য",
+      "ru": "За все"
+    }
+  },
+  {
+    "id": "threegram_6",
+    "arabic": "إن في ذلك",
+    "frequency": 50,
+    "wordCount": 3,
+    "translations": {
+      "en": "It's in it",
+      "tr": "onun içinde",
+      "ur": "یہ اس میں ہے۔",
+      "hi": "यह इसमें है",
+      "id": "Ada di dalamnya",
+      "bn": "এটা আছে",
+      "ru": "это в нем"
+    }
+  },
+  {
+    "id": "threegram_7",
+    "arabic": "آمنوا وعملوا الصالحات",
+    "frequency": 50,
+    "wordCount": 3,
+    "translations": {
+      "en": "Believe and do good deeds",
+      "tr": "İnan ve iyilik yap",
+      "ur": "ایمان لاؤ اور نیک عمل کرو",
+      "hi": "विश्वास करो और अच्छे कर्म करो",
+      "id": "Percaya dan lakukan perbuatan baik",
+      "bn": "বিশ্বাস করুন এবং ভাল কাজ করুন",
+      "ru": "Верь и делай добрые дела"
+    }
+  },
+  {
+    "id": "threegram_8",
+    "arabic": "في سبيل الله",
+    "frequency": 44,
+    "wordCount": 3,
+    "translations": {
+      "en": "For God's sake",
+      "tr": "Allah yolunda",
+      "ur": "خدا کا واسطہ",
+      "hi": "भगवान के लिए",
+      "id": "Demi tuhan",
+      "bn": "আল্লার দোহাই",
+      "ru": "Ради бога"
+    }
+  },
+  {
+    "id": "threegram_9",
+    "arabic": "ما في السماوات",
+    "frequency": 39,
+    "wordCount": 3,
+    "translations": {
+      "en": "What's in the heavens",
+      "tr": "cennette ne var",
+      "ur": "آسمانوں میں کیا ہے۔",
+      "hi": "स्वर्ग में क्या है",
+      "id": "Apa yang ada di surga",
+      "bn": "স্বর্গে কি আছে",
+      "ru": "Что на небесах"
+    }
+  },
+  {
+    "id": "threegram_10",
+    "arabic": "الذين آمنوا وعملوا",
+    "frequency": 36,
+    "wordCount": 3,
+    "translations": {
+      "en": "Those who believed and worked",
+      "tr": "İnananlar ve çalışanlar",
+      "ur": "جو ایمان لائے اور کام کیا۔",
+      "hi": "जिन्होंने विश्वास किया और काम किया",
+      "id": "Mereka yang percaya dan bekerja",
+      "bn": "যারা বিশ্বাস করেছিল এবং কাজ করেছিল",
+      "ru": "Те, кто верил и работал"
+    }
+  },
+  {
+    "id": "threegram_11",
+    "arabic": "تجري من تحتها",
+    "frequency": 34,
+    "wordCount": 3,
+    "translations": {
+      "en": "running under it",
+      "tr": "altında koşmak",
+      "ur": "اس کے نیچے چل رہا ہے",
+      "hi": "इसके तहत चल रहा है",
+      "id": "berlari di bawahnya",
+      "bn": "এর অধীনে চলমান",
+      "ru": "работает под ним"
+    }
+  },
+  {
+    "id": "threegram_12",
+    "arabic": "من تحتها الأنهار",
+    "frequency": 34,
+    "wordCount": 3,
+    "translations": {
+      "en": "Underneath are the rivers",
+      "tr": "Altında nehirler var",
+      "ur": "نیچے دریا ہیں۔",
+      "hi": "नीचे नदियाँ हैं",
+      "id": "Di bawahnya ada sungai",
+      "bn": "নীচে নদী",
+      "ru": "Внизу реки"
+    }
+  },
+  {
+    "id": "threegram_13",
+    "arabic": "كل شيء قدير",
+    "frequency": 33,
+    "wordCount": 3,
+    "translations": {
+      "en": "everything is worthy",
+      "tr": "her şey layık",
+      "ur": "سب کچھ قابل ہے",
+      "hi": "सब कुछ योग्य है",
+      "id": "semuanya layak",
+      "bn": "সবকিছুই যোগ্য",
+      "ru": "все достойно"
+    }
+  },
+  {
+    "id": "threegram_14",
+    "arabic": "فبأي آلاء ربكما",
+    "frequency": 31,
+    "wordCount": 3,
+    "translations": {
+      "en": "So what are the favors of your Lord",
+      "tr": "O halde Rabbinizin nimetleri nelerdir",
+      "ur": "تو تیرے رب کی کیا نعمتیں ہیں؟",
+      "hi": "तो तुम्हारे रब की क्या कृपा है",
+      "id": "Jadi apa nikmat Tuhanmu",
+      "bn": "তাহলে আপনার পালনকর্তার অনুগ্রহ কি",
+      "ru": "Итак, каковы милости твоего Господа"
+    }
+  },
+  {
+    "id": "threegram_15",
+    "arabic": "في السماوات والأرض",
+    "frequency": 30,
+    "wordCount": 3,
+    "translations": {
+      "en": "in the heavens and the earth",
+      "tr": "göklerde ve yerde",
+      "ur": "آسمانوں اور زمین میں",
+      "hi": "आकाश और पृथ्वी में",
+      "id": "di langit dan di bumi",
+      "bn": "আকাশ ও পৃথিবীতে",
+      "ru": "на небесах и на земле"
+    }
+  },
+  {
+    "id": "threegram_16",
+    "arabic": "إله إلا هو",
+    "frequency": 30,
+    "wordCount": 3,
+    "translations": {
+      "en": "God but He",
+      "tr": "Allah ancak O",
+      "ur": "خدا مگر وہ",
+      "hi": "भगवान लेकिन वह",
+      "id": "Tuhan tapi Dia",
+      "bn": "ঈশ্বর কিন্তু তিনি",
+      "ru": "Бог, но Он"
+    }
+  },
+  {
+    "id": "threegram_17",
+    "arabic": "من بعد ما",
+    "frequency": 29,
+    "wordCount": 3,
+    "translations": {
+      "en": "from after what",
+      "tr": "neyden sonra",
+      "ur": "کس کے بعد سے",
+      "hi": "किस के बाद से",
+      "id": "dari setelah apa",
+      "bn": "কি থেকে",
+      "ru": "после чего"
+    }
+  },
+  {
+    "id": "threegram_18",
+    "arabic": "إن الله لا",
+    "frequency": 29,
+    "wordCount": 3,
+    "translations": {
+      "en": "God does not",
+      "tr": "Tanrı yapmaz",
+      "ur": "خدا نہیں کرتا",
+      "hi": "भगवान नहीं करता",
+      "id": "Tuhan tidak",
+      "bn": "ঈশ্বর না",
+      "ru": "Бог не"
+    }
+  },
+  {
+    "id": "threegram_19",
+    "arabic": "وما في الأرض",
+    "frequency": 28,
+    "wordCount": 3,
+    "translations": {
+      "en": "And what is on earth",
+      "tr": "Ve yeryüzünde ne var",
+      "ur": "اور جو کچھ زمین پر ہے۔",
+      "hi": "और पृथ्वी पर क्या है",
+      "id": "Dan apa yang ada di bumi",
+      "bn": "আর পৃথিবীতে যা আছে",
+      "ru": "А что на земле"
+    }
+  },
+  {
+    "id": "threegram_20",
+    "arabic": "إن كنتم صادقين",
+    "frequency": 28,
+    "wordCount": 3,
+    "translations": {
+      "en": "If you are honest",
+      "tr": "eğer dürüstsen",
+      "ur": "اگر تم ایماندار ہو۔",
+      "hi": "अगर आप ईमानदार हैं",
+      "id": "Jika kamu jujur",
+      "bn": "আপনি যদি সৎ হন",
+      "ru": "если ты честен"
+    }
+  },
+  {
+    "id": "threegram_21",
+    "arabic": "في السماوات وما",
+    "frequency": 28,
+    "wordCount": 3,
+    "translations": {
+      "en": "in the heavens and what",
+      "tr": "göklerde ve ne",
+      "ur": "آسمانوں میں اور کیا",
+      "hi": "स्वर्ग में और क्या",
+      "id": "di surga dan apa",
+      "bn": "স্বর্গে এবং কি",
+      "ru": "на небесах и что"
+    }
+  },
+  {
+    "id": "threegram_22",
+    "arabic": "عن سبيل الله",
+    "frequency": 24,
+    "wordCount": 3,
+    "translations": {
+      "en": "for the sake of Allah",
+      "tr": "Allah rızası için",
+      "ur": "اللہ کی خاطر",
+      "hi": "अल्लाह की खातिर",
+      "id": "demi Allah",
+      "bn": "আল্লাহর সন্তুষ্টির জন্য",
+      "ru": "ради Аллаха"
+    }
+  },
+  {
+    "id": "threegram_23",
+    "arabic": "الذين من قبلهم",
+    "frequency": 24,
+    "wordCount": 3,
+    "translations": {
+      "en": "those before them",
+      "tr": "onlardan öncekiler",
+      "ur": "ان سے پہلے والے",
+      "hi": "उनसे पहले वाले",
+      "id": "yang sebelum mereka",
+      "bn": "তাদের আগে যারা",
+      "ru": "те, кто до них"
+    }
+  },
+  {
+    "id": "threegram_24",
+    "arabic": "في ذلك لآيات",
+    "frequency": 24,
+    "wordCount": 3,
+    "translations": {
+      "en": "In it for the verses",
+      "tr": "İçinde ayetler için",
+      "ur": "اس میں آیات کے لیے",
+      "hi": "इसमें छंद के लिए",
+      "id": "Di dalamnya untuk ayat",
+      "bn": "আয়াত জন্য এটা",
+      "ru": "В нем для стихов"
+    }
+  },
+  {
+    "id": "threegram_25",
+    "arabic": "السماوات والأرض وما",
+    "frequency": 23,
+    "wordCount": 3,
+    "translations": {
+      "en": "the heavens and the earth and what",
+      "tr": "gökler ve yer ve ne",
+      "ur": "آسمان اور زمین اور کیا",
+      "hi": "आकाश और पृथ्वी और क्या",
+      "id": "langit dan bumi dan apa",
+      "bn": "আকাশমন্ডলী এবং পৃথিবী এবং কি",
+      "ru": "небо и земля и что"
+    }
+  },
+  {
+    "id": "threegram_26",
+    "arabic": "إن الله كان",
+    "frequency": 22,
+    "wordCount": 3,
+    "translations": {
+      "en": "God was",
+      "tr": "Tanrı",
+      "ur": "خدا تھا۔",
+      "hi": "भगवान था",
+      "id": "Tuhan adalah",
+      "bn": "ঈশ্বর ছিলেন",
+      "ru": "Бог был"
+    }
+  },
+  {
+    "id": "threegram_27",
+    "arabic": "من قبل أن",
+    "frequency": 21,
+    "wordCount": 3,
+    "translations": {
+      "en": "by that",
+      "tr": "bunun için",
+      "ur": "اس سے",
+      "hi": "उस से",
+      "id": "dengan itu",
+      "bn": "এটা দ্বারা",
+      "ru": "тем"
+    }
+  },
+  {
+    "id": "threegram_28",
+    "arabic": "كيف كان عاقبة",
+    "frequency": 21,
+    "wordCount": 3,
+    "translations": {
+      "en": "How was the punishment",
+      "tr": "ceza nasıldı",
+      "ur": "سزا کیسی تھی؟",
+      "hi": "कैसी लगी सजा",
+      "id": "Bagaimana hukumannya",
+      "bn": "কেমন ছিল শাস্তি",
+      "ru": "Как было наказание"
+    }
+  },
+  {
+    "id": "threegram_29",
+    "arabic": "يا أيها الناس",
+    "frequency": 20,
+    "wordCount": 3,
+    "translations": {
+      "en": "Hey people",
+      "tr": "Hey insanlar",
+      "ur": "ارے لوگو",
+      "hi": "नमस्कार लोगों",
+      "id": "Hai orang-orang",
+      "bn": "হেই মানুষ",
+      "ru": "Эй, люди"
+    }
+  },
+  {
+    "id": "threegram_30",
+    "arabic": "في ذلك لآية",
+    "frequency": 20,
+    "wordCount": 3,
+    "translations": {
+      "en": "in it for a verse",
+      "tr": "içinde bir ayet için",
+      "ur": "اس میں ایک آیت کے لیے",
+      "hi": "इसमें एक श्लोक के लिए",
+      "id": "di dalamnya untuk sebuah ayat",
+      "bn": "একটি আয়াত জন্য এটি মধ্যে",
+      "ru": "в нем для стиха"
+    }
+  },
+  {
+    "id": "threegram_31",
+    "arabic": "تحتها الأنهار خالدين",
+    "frequency": 20,
+    "wordCount": 3,
+    "translations": {
+      "en": "Under them are the rivers immortal",
+      "tr": "Altlarında ölümsüz nehirler var",
+      "ur": "ان کے نیچے دریا لافانی ہیں۔",
+      "hi": "उनके नीचे अमर नदियाँ हैं",
+      "id": "Di bawah mereka adalah sungai abadi",
+      "bn": "তাদের নীচে নদীগুলি অমর",
+      "ru": "Под ними бессмертные реки"
+    }
+  },
+  {
+    "id": "threegram_32",
+    "arabic": "من السماء ماء",
+    "frequency": 20,
+    "wordCount": 3,
+    "translations": {
+      "en": "water from the sky",
+      "tr": "gökten su",
+      "ur": "آسمان سے پانی",
+      "hi": "आसमान से पानी",
+      "id": "air dari langit",
+      "bn": "আকাশ থেকে জল",
+      "ru": "вода с неба"
+    }
+  },
+  {
+    "id": "threegram_33",
+    "arabic": "بالله واليوم الآخر",
+    "frequency": 19,
+    "wordCount": 3,
+    "translations": {
+      "en": "God and the last day",
+      "tr": "Allah ve son gün",
+      "ur": "خدا اور آخری دن",
+      "hi": "भगवान और अंतिम दिन",
+      "id": "Tuhan dan hari terakhir",
+      "bn": "ঈশ্বর এবং শেষ দিন",
+      "ru": "Бог и последний день"
+    }
+  },
+  {
+    "id": "threegram_34",
+    "arabic": "ملك السماوات والأرض",
+    "frequency": 19,
+    "wordCount": 3,
+    "translations": {
+      "en": "King of the heavens and the earth",
+      "tr": "Göklerin ve yerin kralı",
+      "ur": "آسمانوں اور زمین کا بادشاہ",
+      "hi": "स्वर्ग और पृथ्वी का राजा",
+      "id": "Raja langit dan bumi",
+      "bn": "আকাশ ও পৃথিবীর রাজা",
+      "ru": "Царь небес и земли"
+    }
+  },
+  {
+    "id": "threegram_35",
+    "arabic": "لا يهدي القوم",
+    "frequency": 19,
+    "wordCount": 3,
+    "translations": {
+      "en": "He does not guide the people",
+      "tr": "İnsanlara rehberlik etmez.",
+      "ur": "وہ لوگوں کی رہنمائی نہیں کرتا",
+      "hi": "वह लोगों का मार्गदर्शन नहीं करता",
+      "id": "Dia tidak membimbing orang-orang",
+      "bn": "তিনি মানুষকে পথ দেখান না",
+      "ru": "Он не ведет людей"
+    }
+  },
+  {
+    "id": "threegram_36",
+    "arabic": "والأرض وما بينهما",
+    "frequency": 19,
+    "wordCount": 3,
+    "translations": {
+      "en": "and the earth and what is in between",
+      "tr": "Ve yeryüzü ve ikisi arasındakiler",
+      "ur": "اور زمین اور جو کچھ درمیان میں ہے۔",
+      "hi": "और पृथ्वी और बीच में क्या है",
+      "id": "Dan bumi dan apa yang ada di antaranya",
+      "bn": "এবং পৃথিবী এবং তার মধ্যে যা আছে",
+      "ru": "И земля и то, что между ними"
+    }
+  },
+  {
+    "id": "threegram_37",
+    "arabic": "في الحياة الدنيا",
+    "frequency": 19,
+    "wordCount": 3,
+    "translations": {
+      "en": "in the life of the world",
+      "tr": "dünya hayatında",
+      "ur": "دنیا کی زندگی میں",
+      "hi": "दुनिया के जीवन में",
+      "id": "dalam kehidupan dunia",
+      "bn": "পৃথিবীর জীবনে",
+      "ru": "в жизни мира"
+    }
+  },
+  {
+    "id": "threegram_38",
+    "arabic": "قال يا قوم",
+    "frequency": 19,
+    "wordCount": 3,
+    "translations": {
+      "en": "He said oh people",
+      "tr": "ey insanlar dedi",
+      "ur": "اس نے کہا اے لوگو",
+      "hi": "उसने कहा हे लोग",
+      "id": "Dia berkata oh orang",
+      "bn": "তিনি বললেন ওহে মানুষ",
+      "ru": "Он сказал о люди"
+    }
+  },
+  {
+    "id": "threegram_39",
+    "arabic": "ما كانوا يعملون",
+    "frequency": 18,
+    "wordCount": 3,
+    "translations": {
+      "en": "What were they doing",
+      "tr": "Onlar ne yapıyordu",
+      "ur": "وہ کیا کر رہے تھے؟",
+      "hi": "वे क्या कर रहे थे",
+      "id": "Apa yang mereka lakukan",
+      "bn": "তারা কি করছিল",
+      "ru": "Что они делали"
+    }
+  },
+  {
+    "id": "threegram_40",
+    "arabic": "إن الذين كفروا",
+    "frequency": 18,
+    "wordCount": 3,
+    "translations": {
+      "en": "Those who disbelieve",
+      "tr": "inanmayanlar",
+      "ur": "جو کافر ہیں۔",
+      "hi": "अविश्वास करने वाले",
+      "id": "Mereka yang kafir",
+      "bn": "যারা অবিশ্বাস করে",
+      "ru": "Те, кто не верят"
+    }
+  },
+  {
+    "id": "threegram_41",
+    "arabic": "الله على كل",
+    "frequency": 18,
+    "wordCount": 3,
+    "translations": {
+      "en": "God is over all",
+      "tr": "Tanrı her şeyin üzerindedir",
+      "ur": "خدا سب پر ہے۔",
+      "hi": "भगवान सब पर है",
+      "id": "Tuhan di atas segalanya",
+      "bn": "ঈশ্বর সব উপরে",
+      "ru": "Бог над всем"
+    }
+  },
+  {
+    "id": "threegram_42",
+    "arabic": "من عند الله",
+    "frequency": 17,
+    "wordCount": 3,
+    "translations": {
+      "en": "from God",
+      "tr": "Tanrı'dan",
+      "ur": "اللہ کی طرف سے",
+      "hi": "भगवान से",
+      "id": "dari Tuhan",
+      "bn": "প্রভু থেকে",
+      "ru": "от Бога"
+    }
+  },
+  {
+    "id": "threegram_43",
+    "arabic": "أكثر الناس لا",
+    "frequency": 17,
+    "wordCount": 3,
+    "translations": {
+      "en": "Most people do not",
+      "tr": "Çoğu insan yapmaz",
+      "ur": "زیادہ تر لوگ ایسا نہیں کرتے",
+      "hi": "ज्यादातर लोग नहीं",
+      "id": "Kebanyakan orang tidak",
+      "bn": "অধিকাংশ মানুষ না",
+      "ru": "Большинство людей не"
+    }
+  },
+  {
+    "id": "threegram_44",
+    "arabic": "ولكن أكثر الناس",
+    "frequency": 17,
+    "wordCount": 3,
+    "translations": {
+      "en": "But most people",
+      "tr": "Ama çoğu insan",
+      "ur": "لیکن زیادہ تر لوگ",
+      "hi": "लेकिन ज्यादातर लोग",
+      "id": "Tapi kebanyakan orang",
+      "bn": "কিন্তু অধিকাংশ মানুষ",
+      "ru": "Но большинство людей"
+    }
+  },
+  {
+    "id": "threegram_45",
+    "arabic": "إن الذين آمنوا",
+    "frequency": 16,
+    "wordCount": 3,
+    "translations": {
+      "en": "Those who believe",
+      "tr": "inananlar",
+      "ur": "جو ایمان لائے",
+      "hi": "विश्वास करने वाले",
+      "id": "Mereka yang percaya",
+      "bn": "যারা বিশ্বাস করে",
+      "ru": "Те, кто верят"
+    }
+  },
+  {
+    "id": "threegram_46",
+    "arabic": "بكل شيء عليم",
+    "frequency": 16,
+    "wordCount": 3,
+    "translations": {
+      "en": "Knowing everything",
+      "tr": "her şeyi bilmek",
+      "ur": "سب کچھ جاننے والا",
+      "hi": "सब कुछ जानना",
+      "id": "Mengetahui segalanya",
+      "bn": "সবকিছু জেনেও",
+      "ru": "Зная все"
+    }
+  },
+  {
+    "id": "threegram_47",
+    "arabic": "إن كنتم مؤمنين",
+    "frequency": 16,
+    "wordCount": 3,
+    "translations": {
+      "en": "If you believe",
+      "tr": "Eğer inanıyorsan",
+      "ur": "اگر آپ کو یقین",
+      "hi": "अगर तुम्हे लगता है कि",
+      "id": "Jika kamu percaya",
+      "bn": "তুমি যদি বিশ্বাস করো",
+      "ru": "Если ты веришь"
+    }
+  },
+  {
+    "id": "threegram_48",
+    "arabic": "بما كنتم تعملون",
+    "frequency": 16,
+    "wordCount": 3,
+    "translations": {
+      "en": "What have you been doing",
+      "tr": "Nerelerdeydin",
+      "ur": "تم کیا کرتے رہے ہو؟",
+      "hi": "आप क्या कर रहे हो",
+      "id": "Sudah lakukan apa",
+      "bn": "তুমি কি করছিলে",
+      "ru": "Что ты делал"
+    }
+  },
+  {
+    "id": "threegram_49",
+    "arabic": "الذين أوتوا الكتاب",
+    "frequency": 16,
+    "wordCount": 3,
+    "translations": {
+      "en": "who were given the book",
+      "tr": "kitap kime verildi",
+      "ur": "جنہیں کتاب دی گئی۔",
+      "hi": "जिन्हें किताब दी गई",
+      "id": "siapa yang diberi buku",
+      "bn": "যাদের বই দেওয়া হয়েছে",
+      "ru": "кому подарили книгу"
+    }
+  },
+  {
+    "id": "threegram_50",
+    "arabic": "هم فيها خالدون",
+    "frequency": 16,
+    "wordCount": 3,
+    "translations": {
+      "en": "They are immortal",
+      "tr": "onlar ölümsüz",
+      "ur": "وہ لافانی ہیں۔",
+      "hi": "वे अमर हैं",
+      "id": "Mereka abadi",
+      "bn": "তারা অমর",
+      "ru": "Они бессмертны"
+    }
+  },
+  {
+    "id": "threegram_51",
+    "arabic": "ألم تر إلى",
+    "frequency": 15,
+    "wordCount": 3,
+    "translations": {
+      "en": "Haven't you seen",
+      "tr": "görmedin mi",
+      "ur": "تم نے نہیں دیکھا؟",
+      "hi": "क्या आपने नहीं देखा",
+      "id": "Apakah kamu tidak melihat",
+      "bn": "তুমি কি দেখেনি",
+      "ru": "Разве ты не видел"
+    }
+  },
+  {
+    "id": "threegram_52",
+    "arabic": "أكثرهم لا يعلمون",
+    "frequency": 15,
+    "wordCount": 3,
+    "translations": {
+      "en": "Most of them don't know",
+      "tr": "çoğu bilmiyor",
+      "ur": "ان میں سے اکثر نہیں جانتے",
+      "hi": "उनमें से ज्यादातर नहीं जानते",
+      "id": "Kebanyakan dari mereka tidak tahu",
+      "bn": "তাদের অধিকাংশই জানে না",
+      "ru": "Большинство из них не знают"
+    }
+  },
+  {
+    "id": "threegram_53",
+    "arabic": "إن هذا إلا",
+    "frequency": 15,
+    "wordCount": 3,
+    "translations": {
+      "en": "This is only",
+      "tr": "Bu sadece",
+      "ur": "یہ صرف",
+      "hi": "यह केवल .... ही",
+      "id": "Hanya ini",
+      "bn": "এই শুধুমাত্র",
+      "ru": "Это только"
+    }
+  },
+  {
+    "id": "threegram_54",
+    "arabic": "والله بما تعملون",
+    "frequency": 15,
+    "wordCount": 3,
+    "translations": {
+      "en": "God, what are you doing",
+      "tr": "Tanrım, ne yapıyorsun",
+      "ur": "خدا، تم کیا کر رہے ہو؟",
+      "hi": "भगवान, तुम क्या कर रहे हो",
+      "id": "Tuhan, apa yang kamu lakukan",
+      "bn": "ঈশ্বর, আপনি কি করছেন",
+      "ru": "Боже, что ты делаешь"
+    }
+  },
+  {
+    "id": "threegram_55",
+    "arabic": "ذلك لآيات لقوم",
+    "frequency": 14,
+    "wordCount": 3,
+    "translations": {
+      "en": "That is for signs for a people",
+      "tr": "Bu, bir kavim için işaretler içindir.",
+      "ur": "یہ لوگوں کے لیے نشانیوں کے لیے ہے۔",
+      "hi": "यह लोगों के लिए संकेतों के लिए है",
+      "id": "Itu untuk tanda-tanda bagi suatu kaum",
+      "bn": "এটি একটি মানুষের জন্য নিদর্শন জন্য",
+      "ru": "Это для знаков для людей"
+    }
+  },
+  {
+    "id": "threegram_56",
+    "arabic": "إن الله غفور",
+    "frequency": 14,
+    "wordCount": 3,
+    "translations": {
+      "en": "God is forgiving",
+      "tr": "Tanrı bağışlayıcıdır",
+      "ur": "خدا بخشنے والا ہے۔",
+      "hi": "भगवान क्षमा कर रहे हैं",
+      "id": "Tuhan Maha Pengampun",
+      "bn": "ঈশ্বর ক্ষমাশীল",
+      "ru": "Бог прощает"
+    }
+  },
+  {
+    "id": "threegram_57",
+    "arabic": "ما لكم من",
+    "frequency": 14,
+    "wordCount": 3,
+    "translations": {
+      "en": "What do you have",
+      "tr": "Neye sahipsin",
+      "ur": "تمھارے پاس کیاہے؟",
+      "hi": "तुम्हारे पास क्या है",
+      "id": "Apa yang kamu punya",
+      "bn": "তোমার কী আছে",
+      "ru": "Что у тебя есть"
+    }
+  },
+  {
+    "id": "threegram_58",
+    "arabic": "من يشاء والله",
+    "frequency": 14,
+    "wordCount": 3,
+    "translations": {
+      "en": "Whomever God wills",
+      "tr": "Allah kimi dilerse",
+      "ur": "جسے اللہ چاہے",
+      "hi": "भगवान जिसे चाहे",
+      "id": "Siapapun yang Tuhan kehendaki",
+      "bn": "আল্লাহ যাকে ইচ্ছা করেন",
+      "ru": "Кто угодно Богу"
+    }
+  },
+  {
+    "id": "threegram_59",
+    "arabic": "الذين لا يؤمنون",
+    "frequency": 14,
+    "wordCount": 3,
+    "translations": {
+      "en": "who do not believe",
+      "tr": "kim inanmaz",
+      "ur": "جو نہیں مانتے",
+      "hi": "जो विश्वास नहीं करते",
+      "id": "siapa yang tidak percaya",
+      "bn": "যারা বিশ্বাস করে না",
+      "ru": "кто не верит"
+    }
+  },
+  {
+    "id": "threegram_60",
+    "arabic": "والله غفور رحيم",
+    "frequency": 13,
+    "wordCount": 3,
+    "translations": {
+      "en": "God is Forgiving, Most Merciful",
+      "tr": "Allah çok bağışlayandır, çok merhamet edendir",
+      "ur": "خدا بخشنے والا مہربان ہے۔",
+      "hi": "ईश्वर क्षमाशील, परम दयालु है",
+      "id": "Tuhan Maha Pengampun, Maha Penyayang",
+      "bn": "আল্লাহ ক্ষমাশীল, পরম করুণাময়",
+      "ru": "Бог Прощающий, Милосердный"
+    }
+  },
+  {
+    "id": "threegram_61",
+    "arabic": "ما أنزل الله",
+    "frequency": 13,
+    "wordCount": 3,
+    "translations": {
+      "en": "What has God sent down",
+      "tr": "Allah ne indirdi",
+      "ur": "اللہ نے کیا نازل کیا ہے؟",
+      "hi": "भगवान ने क्या भेजा है",
+      "id": "Apa yang diturunkan Tuhan",
+      "bn": "আল্লাহ কি নাযিল করেছেন",
+      "ru": "Что ниспослал Бог"
+    }
+  },
+  {
+    "id": "threegram_62",
+    "arabic": "كانوا به يستهزئون",
+    "frequency": 13,
+    "wordCount": 3,
+    "translations": {
+      "en": "They were mocking him",
+      "tr": "onunla alay ediyorlardı",
+      "ur": "وہ اس کا مذاق اڑا رہے تھے۔",
+      "hi": "वे उसका मजाक उड़ा रहे थे",
+      "id": "Mereka mengejeknya",
+      "bn": "তারা তাকে উপহাস করছিল",
+      "ru": "Они издевались над ним"
+    }
+  },
+  {
+    "id": "threegram_63",
+    "arabic": "والله عليم حكيم",
+    "frequency": 13,
+    "wordCount": 3,
+    "translations": {
+      "en": "God is All-Knowing, Wise",
+      "tr": "Allah her şeyi bilendir, hikmet sahibidir",
+      "ur": "خدا سب کچھ جاننے والا، حکمت والا ہے۔",
+      "hi": "ईश्वर सर्वज्ञ, ज्ञानी है",
+      "id": "Tuhan Maha Mengetahui, Bijaksana",
+      "bn": "আল্লাহ সর্বজ্ঞ, প্রজ্ঞাময়",
+      "ru": "Бог Всезнающий, Мудрый"
+    }
+  },
+  {
+    "id": "threegram_64",
+    "arabic": "الذين كفروا من",
+    "frequency": 13,
+    "wordCount": 3,
+    "translations": {
+      "en": "who disbelieved from",
+      "tr": "kim inkar etti",
+      "ur": "جس سے کفر ہوا۔",
+      "hi": "जिसने अविश्वास किया",
+      "id": "siapa yang kafir dari",
+      "bn": "যারা থেকে অবিশ্বাসী",
+      "ru": "кто не уверовал из"
+    }
+  },
+  {
+    "id": "threegram_65",
+    "arabic": "وإذا قيل لهم",
+    "frequency": 13,
+    "wordCount": 3,
+    "translations": {
+      "en": "And if they are told",
+      "tr": "Ve eğer onlara söylenirse",
+      "ur": "اور اگر ان کو بتایا جائے۔",
+      "hi": "और अगर उन्हें बताया जाए",
+      "id": "Dan jika mereka diberitahu",
+      "bn": "আর যদি তাদের বলা হয়",
+      "ru": "А если им скажут"
+    }
+  },
+  {
+    "id": "threegram_66",
+    "arabic": "في ضلال مبين",
+    "frequency": 13,
+    "wordCount": 3,
+    "translations": {
+      "en": "in manifest error",
+      "tr": "açık hata",
+      "ur": "واضح غلطی میں",
+      "hi": "प्रकट त्रुटि में",
+      "id": "dalam kesalahan nyata",
+      "bn": "প্রকাশ্য ত্রুটিতে",
+      "ru": "явная ошибка"
+    }
+  },
+  {
+    "id": "threegram_67",
+    "arabic": "يا أيها النبي",
+    "frequency": 13,
+    "wordCount": 3,
+    "translations": {
+      "en": "O Prophet",
+      "tr": "Ey Peygamber",
+      "ur": "اے نبی!",
+      "hi": "हे पैगंबर",
+      "id": "Wahai Nabi",
+      "bn": "হে নবী সা",
+      "ru": "о пророк"
+    }
+  },
+  {
+    "id": "threegram_68",
+    "arabic": "ولا هم يحزنون",
+    "frequency": 13,
+    "wordCount": 3,
+    "translations": {
+      "en": "Nor do they grieve",
+      "tr": "onlar da üzülmüyor",
+      "ur": "نہ ہی وہ غمگین ہوتے ہیں۔",
+      "hi": "न ही वे शोक करते हैं",
+      "id": "Mereka juga tidak berduka",
+      "bn": "তারা শোকও করে না",
+      "ru": "И не скорбят"
+    }
+  },
+  {
+    "id": "threegram_69",
+    "arabic": "في الدنيا والآخرة",
+    "frequency": 13,
+    "wordCount": 3,
+    "translations": {
+      "en": "in life and afterlife",
+      "tr": "hayatta ve ahirette",
+      "ur": "زندگی اور بعد کی زندگی میں",
+      "hi": "जीवन और बाद के जीवन में",
+      "id": "dalam kehidupan dan akhirat",
+      "bn": "জীবনে এবং পরকালে",
+      "ru": "в жизни и в загробной жизни"
+    }
+  },
+  {
+    "id": "threegram_70",
+    "arabic": "والله لا يهدي",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "God does not guide",
+      "tr": "Allah yol göstermez",
+      "ur": "خدا ہدایت نہیں دیتا",
+      "hi": "भगवान मार्गदर्शन नहीं करता",
+      "id": "Tuhan tidak membimbing",
+      "bn": "আল্লাহ পথ দেখান না",
+      "ru": "Бог не ведет"
+    }
+  },
+  {
+    "id": "threegram_71",
+    "arabic": "من في السماوات",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "Who is in the heavens",
+      "tr": "kim var göklerde",
+      "ur": "جو آسمانوں میں ہے۔",
+      "hi": "स्वर्ग में कौन है",
+      "id": "Siapa yang ada di surga",
+      "bn": "যিনি স্বর্গে আছেন",
+      "ru": "Кто на небесах"
+    }
+  },
+  {
+    "id": "threegram_72",
+    "arabic": "يا أهل الكتاب",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "O People of the Book",
+      "tr": "Ey Kitap Ehli",
+      "ur": "اے اہل کتاب",
+      "hi": "हे किताब के लोग",
+      "id": "Wahai Ahli Kitab",
+      "bn": "হে আহলে কিতাব",
+      "ru": "О Люди Книги"
+    }
+  },
+  {
+    "id": "threegram_73",
+    "arabic": "ولهم عذاب أليم",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "And for them is a painful torment",
+      "tr": "Ve onlar için acıklı bir azap vardır.",
+      "ur": "اور ان کے لیے دردناک عذاب ہے۔",
+      "hi": "और उनके लिए दर्दनाक यातना है",
+      "id": "Dan bagi mereka siksaan yang pedih",
+      "bn": "আর তাদের জন্য রয়েছে যন্ত্রণাদায়ক আযাব",
+      "ru": "И для них мучительная мука"
+    }
+  },
+  {
+    "id": "threegram_74",
+    "arabic": "تر إلى الذين",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "see who",
+      "tr": "kim olduğunu gör",
+      "ur": "دیکھیں کون",
+      "hi": "देखें कौन",
+      "id": "Lihat siapa",
+      "bn": "দেখ কে",
+      "ru": "увидеть, кто"
+    }
+  },
+  {
+    "id": "threegram_75",
+    "arabic": "وهو العزيز الحكيم",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "He is the Mighty, the Wise",
+      "tr": "O, Güçlüdür, Bilgedir",
+      "ur": "وہ غالب اور حکمت والا ہے۔",
+      "hi": "वह पराक्रमी, बुद्धिमान है",
+      "id": "Dialah Yang Maha Perkasa lagi Maha Bijaksana",
+      "bn": "তিনি পরাক্রমশালী, প্রজ্ঞাময়",
+      "ru": "Он Могучий, Мудрый"
+    }
+  },
+  {
+    "id": "threegram_76",
+    "arabic": "إلى يوم القيامة",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "until doomsday",
+      "tr": "kıyamete kadar",
+      "ur": "قیامت تک",
+      "hi": "कयामत तक",
+      "id": "sampai hari kiamat",
+      "bn": "কেয়ামত পর্যন্ত",
+      "ru": "до конца света"
+    }
+  },
+  {
+    "id": "threegram_77",
+    "arabic": "ولو شاء الله",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "If God wills",
+      "tr": "Allah dilerse",
+      "ur": "اگر اللہ نے چاہا۔",
+      "hi": "यदि ईश्वर ने चाहा",
+      "id": "Jika Tuhan berkehendak",
+      "bn": "ঈশ্বরের ইচ্ছা হলে",
+      "ru": "Если Богу угодно"
+    }
+  },
+  {
+    "id": "threegram_78",
+    "arabic": "والله على كل",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "God is over all",
+      "tr": "Tanrı her şeyin üzerindedir",
+      "ur": "خدا سب پر ہے۔",
+      "hi": "भगवान सब पर है",
+      "id": "Tuhan di atas segalanya",
+      "bn": "ঈশ্বর সব উপরে",
+      "ru": "Бог над всем"
+    }
+  },
+  {
+    "id": "threegram_79",
+    "arabic": "وقال الذين كفروا",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "And those who disbelieve said",
+      "tr": "Ve inkar edenler dediler ki:",
+      "ur": "اور کافروں نے کہا",
+      "hi": "और इनकार करने वालों ने कहा,",
+      "id": "Dan orang-orang kafir berkata,",
+      "bn": "আর যারা কাফের তারা বলে,",
+      "ru": "А неверующие сказали:"
+    }
+  },
+  {
+    "id": "threegram_80",
+    "arabic": "واعلموا أن الله",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "And know that God",
+      "tr": "Ve bil ki Allah",
+      "ur": "اور جان لو کہ خدا",
+      "hi": "और जानो कि भगवान",
+      "id": "Dan ketahuilah bahwa Tuhan",
+      "bn": "আর জেনে রাখো আল্লাহ",
+      "ru": "И знай, что Бог"
+    }
+  },
+  {
+    "id": "threegram_81",
+    "arabic": "افترى على الله",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "slander God",
+      "tr": "Allah'a iftira atmak",
+      "ur": "خدا پر بہتان لگانا",
+      "hi": "भगवान की बदनामी",
+      "id": "fitnah tuhan",
+      "bn": "ঈশ্বরের অপবাদ",
+      "ru": "клеветать на Бога"
+    }
+  },
+  {
+    "id": "threegram_82",
+    "arabic": "من أهل الكتاب",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "From the People of the Book",
+      "tr": "Kitap Ehli'nden",
+      "ur": "اہل کتاب سے",
+      "hi": "किताब के लोगों से",
+      "id": "Dari Ahli Kitab",
+      "bn": "আহলে কিতাবের পক্ষ থেকে",
+      "ru": "От людей книги"
+    }
+  },
+  {
+    "id": "threegram_83",
+    "arabic": "الذي خلق السماوات",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "who created the heavens",
+      "tr": "gökleri kim yarattı",
+      "ur": "جس نے آسمانوں کو پیدا کیا۔",
+      "hi": "जिसने स्वर्ग बनाया",
+      "id": "siapa yang menciptakan langit",
+      "bn": "যিনি আকাশ সৃষ্টি করেছেন",
+      "ru": "кто сотворил небеса"
+    }
+  },
+  {
+    "id": "threegram_84",
+    "arabic": "لكم إن كنتم",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "to you if you",
+      "tr": "sana eğer sen",
+      "ur": "آپ کو اگر آپ",
+      "hi": "आप के लिए यदि आप",
+      "id": "kepada Anda jika Anda",
+      "bn": "আপনি যদি আপনি",
+      "ru": "тебе, если ты"
+    }
+  },
+  {
+    "id": "threegram_85",
+    "arabic": "عيسى ابن مريم",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "Jesus son of mary",
+      "tr": "Meryem oğlu İsa",
+      "ur": "عیسیٰ ابن مریم",
+      "hi": "मरियम का पुत्र यीशु",
+      "id": "Yesus putra maria",
+      "bn": "মরিয়ম পুত্র যীশু",
+      "ru": "Иисус сын Марии"
+    }
+  },
+  {
+    "id": "threegram_86",
+    "arabic": "عليهم ولا هم",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "Neither them nor them",
+      "tr": "Ne onlar ne de onlar",
+      "ur": "نہ ان کو اور نہ ان کو",
+      "hi": "न वे और न ही",
+      "id": "Baik mereka maupun mereka",
+      "bn": "তারাও না তাদেরও না",
+      "ru": "Ни они, ни они"
+    }
+  },
+  {
+    "id": "threegram_87",
+    "arabic": "إلى صراط مستقيم",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "to a straight path",
+      "tr": "düz bir yola",
+      "ur": "سیدھے راستے کی طرف",
+      "hi": "सीधे रास्ते पर",
+      "id": "ke jalan yang lurus",
+      "bn": "সোজা পথে",
+      "ru": "на прямой путь"
+    }
+  },
+  {
+    "id": "threegram_88",
+    "arabic": "الصلاة وآتوا الزكاة",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "Prayer and pay zakat",
+      "tr": "Namaz kılmak ve zekat vermek",
+      "ur": "نماز اور زکوٰۃ ادا کریں۔",
+      "hi": "नमाज़ अदा करो और जकात अदा करो",
+      "id": "Sholat dan bayar zakat",
+      "bn": "নামায পড়া এবং যাকাত প্রদান করা",
+      "ru": "Молитва и выплата закята"
+    }
+  },
+  {
+    "id": "threegram_89",
+    "arabic": "من بعد ذلك",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "from then",
+      "tr": "o andan itibaren",
+      "ur": "تب سے",
+      "hi": "तब से",
+      "id": "sejak saat itu",
+      "bn": "তখন থেকে",
+      "ru": "с тех пор"
+    }
+  },
+  {
+    "id": "threegram_90",
+    "arabic": "بما تعملون بصير",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "What do you do",
+      "tr": "Ne yaparsın",
+      "ur": "آپ کیا کرتے ہیں؟",
+      "hi": "आप क्या करते हैं",
+      "id": "Apa pekerjaanmu",
+      "bn": "আপনি কি করেন",
+      "ru": "Что вы делаете"
+    }
+  },
+  {
+    "id": "threegram_91",
+    "arabic": "عنهم ما كانوا",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "about them what they were",
+      "tr": "onlar hakkında ne oldukları",
+      "ur": "ان کے بارے میں کہ وہ کیا تھے۔",
+      "hi": "उनके बारे में वे क्या थे",
+      "id": "tentang mereka apa adanya",
+      "bn": "তাদের সম্পর্কে তারা কি ছিল",
+      "ru": "о них, что они были"
+    }
+  },
+  {
+    "id": "threegram_92",
+    "arabic": "وما أدراك ما",
+    "frequency": 12,
+    "wordCount": 3,
+    "translations": {
+      "en": "What do you know",
+      "tr": "Ne biliyorsun",
+      "ur": "تمہیں کیا پتہ ہے؟",
+      "hi": "आप क्या जानते हैं",
+      "id": "Apa yang Anda tahu",
+      "bn": "তুমি কি জানো",
+      "ru": "Что ты знаешь"
+    }
+  },
+  {
+    "id": "threegram_93",
+    "arabic": "وهم لا يظلمون",
+    "frequency": 11,
+    "wordCount": 3,
+    "translations": {
+      "en": "And they are not wronged",
+      "tr": "Ve haksız değiller",
+      "ur": "اور ان پر ظلم نہیں کیا جاتا",
+      "hi": "और उनके साथ अन्याय नहीं है",
+      "id": "Dan mereka tidak dianiaya",
+      "bn": "এবং তাদের প্রতি জুলুম করা হয় না",
+      "ru": "И они не обижены"
+    }
+  },
+  {
+    "id": "threegram_94",
+    "arabic": "ألم تر أن",
+    "frequency": 11,
+    "wordCount": 3,
+    "translations": {
+      "en": "Didn't you see that",
+      "tr": "bunu görmedin mi",
+      "ur": "کیا آپ نے وہ نہیں دیکھا؟",
+      "hi": "क्या आपने यह नहीं देखा",
+      "id": "Apakah kamu tidak melihat itu",
+      "bn": "তুমি কি সেটা দেখোনি",
+      "ru": "Разве ты не видел, что"
+    }
+  },
+  {
+    "id": "threegram_95",
+    "arabic": "إن هو إلا",
+    "frequency": 11,
+    "wordCount": 3,
+    "translations": {
+      "en": "If it is only",
+      "tr": "eğer sadece",
+      "ur": "اگر یہ صرف ہے۔",
+      "hi": "अगर यह केवल",
+      "id": "Jika hanya",
+      "bn": "যদি হয় তবেই",
+      "ru": "Если это только"
+    }
+  },
+  {
+    "id": "threegram_96",
+    "arabic": "الذين آمنوا إذا",
+    "frequency": 11,
+    "wordCount": 3,
+    "translations": {
+      "en": "who believed then",
+      "tr": "kim inandı o zaman",
+      "ur": "جس نے پھر یقین کیا",
+      "hi": "तब कौन विश्वास करता था",
+      "id": "siapa yang percaya saat itu",
+      "bn": "যারা তখন বিশ্বাস করেছিল",
+      "ru": "кто тогда верил"
+    }
+  },
+  {
+    "id": "threegram_97",
+    "arabic": "ولكن أكثرهم لا",
+    "frequency": 11,
+    "wordCount": 3,
+    "translations": {
+      "en": "But most of them do not",
+      "tr": "Ama çoğu yok",
+      "ur": "لیکن ان میں سے اکثر ایسا نہیں کرتے",
+      "hi": "लेकिन उनमें से ज्यादातर नहीं",
+      "id": "Tapi kebanyakan dari mereka tidak",
+      "bn": "কিন্তু তাদের অধিকাংশই তা করে না",
+      "ru": "Но большинство из них не"
+    }
+  },
+  {
+    "id": "threegram_98",
+    "arabic": "رب السماوات والأرض",
+    "frequency": 11,
+    "wordCount": 3,
+    "translations": {
+      "en": "Lord of the heavens and the earth",
+      "tr": "Göklerin ve yerin Rabbi",
+      "ur": "آسمانوں اور زمین کا رب",
+      "hi": "आकाशों और पृथ्वी के स्वामी",
+      "id": "Tuhan langit dan bumi",
+      "bn": "আসমান ও জমিনের পালনকর্তা",
+      "ru": "Господь небес и земли"
+    }
+  },
+  {
+    "id": "threegram_99",
+    "arabic": "الناس لا يعلمون",
+    "frequency": 11,
+    "wordCount": 3,
+    "translations": {
+      "en": "People don't know",
+      "tr": "İnsanlar bilmiyor",
+      "ur": "لوگ نہیں جانتے",
+      "hi": "लोग नहीं जानते",
+      "id": "Orang tidak tahu",
+      "bn": "মানুষ জানে না",
+      "ru": "Люди не знают"
+    }
+  },
+  {
+    "id": "threegram_100",
+    "arabic": "ما كانوا به",
+    "frequency": 11,
+    "wordCount": 3,
+    "translations": {
+      "en": "what they were",
+      "tr": "onlar neydi",
+      "ur": "وہ کیا تھے",
+      "hi": "वे क्या थे",
+      "id": "apa mereka",
+      "bn": "তারা কি ছিল",
+      "ru": "что они были"
+    }
+  },
+  {
+    "id": "threegram_101",
+    "arabic": "خالدين فيها أبدا",
+    "frequency": 11,
+    "wordCount": 3,
+    "translations": {
+      "en": "Immortal in it forever",
+      "tr": "sonsuza kadar içinde",
+      "ur": "اس میں ہمیشہ کے لیے",
+      "hi": "इसमें हमेशा के लिए",
+      "id": "Selamanya di dalamnya",
+      "bn": "এর মধ্যে চিরকাল",
+      "ru": "Навсегда в нем"
+    }
+  },
+  {
+    "id": "threegram_102",
+    "arabic": "إلى أجل مسمى",
+    "frequency": 11,
+    "wordCount": 3,
+    "translations": {
+      "en": "indefinitely",
+      "tr": "süresiz olarak",
+      "ur": "غیر معینہ مدت تک",
+      "hi": "अनिश्चित काल के लिए",
+      "id": "tanpa batas waktu",
+      "bn": "অনির্দিষ্টকালের জন্য",
+      "ru": "на неопределенный срок"
+    }
+  },
+  {
+    "id": "threegram_103",
+    "arabic": "في الأرض وما",
+    "frequency": 11,
+    "wordCount": 3,
+    "translations": {
+      "en": "in the earth and what",
+      "tr": "yeryüzünde ve ne",
+      "ur": "زمین میں اور کیا",
+      "hi": "धरती में और क्या",
+      "id": "di bumi dan apa",
+      "bn": "পৃথিবীতে এবং কি",
+      "ru": "на земле и что"
+    }
+  },
+  {
+    "id": "threegram_104",
+    "arabic": "لا يؤمنون بالآخرة",
+    "frequency": 11,
+    "wordCount": 3,
+    "translations": {
+      "en": "They do not believe in the afterlife",
+      "tr": "Ahirete inanmıyorlar",
+      "ur": "وہ آخرت پر یقین نہیں رکھتے",
+      "hi": "वे बाद के जीवन में विश्वास नहीं करते हैं",
+      "id": "Mereka tidak percaya pada kehidupan setelah kematian",
+      "bn": "তারা পরকালে বিশ্বাস করে না",
+      "ru": "Они не верят в загробную жизнь"
+    }
+  },
+  {
+    "id": "threegram_105",
+    "arabic": "الله لا يهدي",
+    "frequency": 11,
+    "wordCount": 3,
+    "translations": {
+      "en": "God does not guide",
+      "tr": "Allah yol göstermez",
+      "ur": "خدا ہدایت نہیں دیتا",
+      "hi": "भगवान मार्गदर्शन नहीं करते",
+      "id": "Tuhan tidak membimbing",
+      "bn": "আল্লাহ পথ দেখান না",
+      "ru": "Бог не ведет"
+    }
+  },
+  {
+    "id": "threegram_106",
+    "arabic": "ويل يومئذ للمكذبين",
+    "frequency": 11,
+    "wordCount": 3,
+    "translations": {
+      "en": "Woe on that day to the liars!",
+      "tr": "O gün yalancıların vay haline!",
+      "ur": "اس دن جھوٹ بولنے والوں پر افسوس!",
+      "hi": "धिक्कार है उस दिन झूठे लोगों पर!",
+      "id": "Celakalah pada hari itu bagi para pendusta!",
+      "bn": "মিথ্যাবাদীদের জন্য সেদিন আফসোস!",
+      "ru": "Горе в тот день лжецам!"
+    }
+  },
+  {
+    "id": "threegram_107",
+    "arabic": "يشاء من عباده",
+    "frequency": 11,
+    "wordCount": 3,
+    "translations": {
+      "en": "He wills of his servants",
+      "tr": "O, kullarının vasiyetini",
+      "ur": "وہ اپنے بندوں کی مرضی",
+      "hi": "वह अपने सेवकों की इच्छा",
+      "id": "Dia menghendaki hamba-hambanya",
+      "bn": "তিনি তাঁর বান্দাদের ইচ্ছা করেন",
+      "ru": "Он желает своих слуг"
+    }
+  },
+  {
+    "id": "threegram_108",
+    "arabic": "والذين آمنوا وعملوا",
+    "frequency": 11,
+    "wordCount": 3,
+    "translations": {
+      "en": "And those who believed and worked",
+      "tr": "Ve inananlar ve çalışanlar",
+      "ur": "اور جو ایمان لائے اور عمل کیا۔",
+      "hi": "और जिन्होंने ईमान लाया और काम किया",
+      "id": "Dan orang-orang yang beriman dan bekerja",
+      "bn": "আর যারা ঈমান এনেছে ও কাজ করেছে",
+      "ru": "А те, кто верил и работал"
+    }
+  },
+  {
+    "id": "threegram_109",
+    "arabic": "الذي جعل لكم",
+    "frequency": 11,
+    "wordCount": 3,
+    "translations": {
+      "en": "who made you",
+      "tr": "seni kim yaptı",
+      "ur": "جس نے آپ کو بنایا",
+      "hi": "आपको किसने बनाया",
+      "id": "siapa yang membuatmu",
+      "bn": "যে তোমাকে বানিয়েছে",
+      "ru": "кто сделал тебя"
+    }
+  },
+  {
+    "id": "threegram_110",
+    "arabic": "ما لا تعلمون",
+    "frequency": 11,
+    "wordCount": 3,
+    "translations": {
+      "en": "What do you not know",
+      "tr": "neyi bilmiyorsun",
+      "ur": "تم کیا نہیں جانتے",
+      "hi": "आप क्या नहीं जानते",
+      "id": "Apa yang kamu tidak tahu",
+      "bn": "আপনি কি জানেন না",
+      "ru": "Что ты не знаешь"
+    }
+  },
+  {
+    "id": "threegram_111",
+    "arabic": "له ملك السماوات",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "He is the king of the heavens",
+      "tr": "O göklerin kralı",
+      "ur": "وہ آسمانوں کا بادشاہ ہے۔",
+      "hi": "वह स्वर्ग का राजा है",
+      "id": "Dia adalah raja surga",
+      "bn": "তিনি স্বর্গের রাজা",
+      "ru": "Он царь небес"
+    }
+  },
+  {
+    "id": "threegram_112",
+    "arabic": "ولقد آتينا موسى",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "And We gave Moses",
+      "tr": "Ve Musa'ya verdik",
+      "ur": "اور ہم نے موسیٰ کو دیا۔",
+      "hi": "और हमने मूसा को दिया",
+      "id": "Dan Kami berikan kepada Musa",
+      "bn": "আর আমি মূসাকে দান করেছি",
+      "ru": "И Мы дали Моисею"
+    }
+  },
+  {
+    "id": "threegram_113",
+    "arabic": "لكم من إله",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "you from god",
+      "tr": "sen tanrıdan",
+      "ur": "تم خدا کی طرف سے",
+      "hi": "आप भगवान से",
+      "id": "kamu dari tuhan",
+      "bn": "আপনি ঈশ্বরের কাছ থেকে",
+      "ru": "ты от бога"
+    }
+  },
+  {
+    "id": "threegram_114",
+    "arabic": "من ولي ولا",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "who is my guardian",
+      "tr": "benim koruyucum kim",
+      "ur": "جو میرا سرپرست ہے۔",
+      "hi": "मेरा संरक्षक कौन है",
+      "id": "siapa wali saya",
+      "bn": "যিনি আমার অভিভাবক",
+      "ru": "кто мой опекун"
+    }
+  },
+  {
+    "id": "threegram_115",
+    "arabic": "الحمد لله الذي",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "Thank God who",
+      "tr": "Tanrıya şükür kim",
+      "ur": "اللہ کا شکر ہے جس نے",
+      "hi": "भगवान का शुक्र है जो",
+      "id": "Terima kasih Tuhan siapa",
+      "bn": "ঈশ্বর কে ধন্যবাদ",
+      "ru": "Слава Богу, кто"
+    }
+  },
+  {
+    "id": "threegram_116",
+    "arabic": "وهو على كل",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "and he is over all",
+      "tr": "ve o her şeyin üzerinde",
+      "ur": "اور وہ سب پر ہے۔",
+      "hi": "और वह सब खत्म हो गया है",
+      "id": "dan dia di atas segalanya",
+      "bn": "এবং তিনি সব কিছুর উপরে",
+      "ru": "и он над всеми"
+    }
+  },
+  {
+    "id": "threegram_117",
+    "arabic": "الله لا يحب",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "God does not love",
+      "tr": "Allah sevmez",
+      "ur": "خدا محبت نہیں کرتا",
+      "hi": "भगवान प्यार नहीं करता",
+      "id": "Tuhan tidak mencintai",
+      "bn": "ঈশ্বর ভালবাসেন না",
+      "ru": "Бог не любит"
+    }
+  },
+  {
+    "id": "threegram_118",
+    "arabic": "إن كنت من",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "if you are from",
+      "tr": "eğer sen",
+      "ur": "اگر آپ سے ہیں",
+      "hi": "यदि आप . से हैं",
+      "id": "jika Anda berasal dari",
+      "bn": "আপনি যদি থেকে",
+      "ru": "если вы из"
+    }
+  },
+  {
+    "id": "threegram_119",
+    "arabic": "وهم لا يشعرون",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "And they don't feel",
+      "tr": "Ve hissetmiyorlar",
+      "ur": "اور وہ محسوس نہیں کرتے",
+      "hi": "और वे महसूस नहीं करते",
+      "id": "Dan mereka tidak merasa",
+      "bn": "এবং তারা অনুভব করে না",
+      "ru": "И они не чувствуют"
+    }
+  },
+  {
+    "id": "threegram_120",
+    "arabic": "فيها من كل",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "in which from all",
+      "tr": "hangi hepsinden",
+      "ur": "جس میں سب سے",
+      "hi": "जिसमें सभी से",
+      "id": "di mana dari semua",
+      "bn": "যার মধ্যে সবার থেকে",
+      "ru": "в котором из всех"
+    }
+  },
+  {
+    "id": "threegram_121",
+    "arabic": "وعد الله حق",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "God's promise is true",
+      "tr": "Allah'ın vaadi doğrudur",
+      "ur": "خدا کا وعدہ سچا ہے۔",
+      "hi": "भगवान का वादा सच है",
+      "id": "Janji Tuhan itu benar",
+      "bn": "ঈশ্বরের প্রতিশ্রুতি সত্য",
+      "ru": "Божье обещание верно"
+    }
+  },
+  {
+    "id": "threegram_122",
+    "arabic": "بما كانوا يعملون",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "What were they doing",
+      "tr": "Onlar ne yapıyordu",
+      "ur": "وہ کیا کر رہے تھے؟",
+      "hi": "वे क्या कर रहे थे",
+      "id": "Apa yang mereka lakukan",
+      "bn": "তারা কি করছিল",
+      "ru": "Что они делали"
+    }
+  },
+  {
+    "id": "threegram_123",
+    "arabic": "النار هم فيها",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "The fire is in them",
+      "tr": "Ateş onların içinde",
+      "ur": "آگ ان میں ہے۔",
+      "hi": "आग उनमें है",
+      "id": "Api ada di dalamnya",
+      "bn": "আগুন তাদের মধ্যে",
+      "ru": "Огонь в них"
+    }
+  },
+  {
+    "id": "threegram_124",
+    "arabic": "إن كنتم تعلمون",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "If you know",
+      "tr": "Eğer biliyorsan",
+      "ur": "اگر تم جانتے ہو",
+      "hi": "यदि आप जानते हैं",
+      "id": "Bila kamu tahu",
+      "bn": "যদি তুমি জানো",
+      "ru": "Если вы знаете"
+    }
+  },
+  {
+    "id": "threegram_125",
+    "arabic": "أصحاب النار هم",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "The owners of the fire are",
+      "tr": "Yangının sahipleri",
+      "ur": "آگ کے مالک ہیں۔",
+      "hi": "आग के मालिक हैं",
+      "id": "Pemilik api adalah",
+      "bn": "আগুনের মালিক মো",
+      "ru": "Хозяевами огня являются"
+    }
+  },
+  {
+    "id": "threegram_126",
+    "arabic": "واتقوا الله إن",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "And fear God,",
+      "tr": "Ve Allah'tan korkun,",
+      "ur": "اور خدا سے ڈرو،",
+      "hi": "और भगवान से डरो,",
+      "id": "Dan takut akan Tuhan,",
+      "bn": "আর আল্লাহকে ভয় করো,",
+      "ru": "И бойся Бога,"
+    }
+  },
+  {
+    "id": "threegram_127",
+    "arabic": "عالم الغيب والشهادة",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "The world of the unseen and the testimony",
+      "tr": "Görünmeyen ve tanıklık dünyası",
+      "ur": "غیب کی دنیا اور شہادت",
+      "hi": "अनदेखी और गवाही की दुनिया",
+      "id": "Dunia yang gaib dan kesaksian",
+      "bn": "অদেখা জগত ও সাক্ষ্য",
+      "ru": "Мир невидимого и свидетельство"
+    }
+  },
+  {
+    "id": "threegram_128",
+    "arabic": "في الأرض ولا",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "in the ground no",
+      "tr": "yerde hayır",
+      "ur": "زمین نمبر میں",
+      "hi": "ग्राउंड नंबर में",
+      "id": "di tanah tidak",
+      "bn": "নং স্থলে",
+      "ru": "в земле нет"
+    }
+  },
+  {
+    "id": "threegram_129",
+    "arabic": "إن الله عليم",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "God is All-Knowing",
+      "tr": "Allah her şeyi bilendir",
+      "ur": "خدا سب کچھ جاننے والا ہے۔",
+      "hi": "ईश्वर सर्वज्ञ है",
+      "id": "Tuhan Maha Mengetahui",
+      "bn": "আল্লাহ সর্বজ্ঞ",
+      "ru": "Бог всезнающий"
+    }
+  },
+  {
+    "id": "threegram_130",
+    "arabic": "الذين آمنوا إن",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "Those who believed",
+      "tr": "İnananlar",
+      "ur": "جو ایمان لائے",
+      "hi": "विश्वास करने वाले",
+      "id": "Mereka yang percaya",
+      "bn": "যারা বিশ্বাস করেছিল",
+      "ru": "Те, кто верил"
+    }
+  },
+  {
+    "id": "threegram_131",
+    "arabic": "لا ريب فيه",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "no doubt",
+      "tr": "şüphesiz",
+      "ur": "کوئی شک",
+      "hi": "इसमें कोई शक नहीं",
+      "id": "tanpa keraguan",
+      "bn": "কোনো সন্দেহ নেই",
+      "ru": "без сомнений"
+    }
+  },
+  {
+    "id": "threegram_132",
+    "arabic": "إن الله يحب",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "God loves",
+      "tr": "Tanrı sever",
+      "ur": "خدا پیار کرتا ہے۔",
+      "hi": "भगवान प्यार करता है",
+      "id": "Tuhan mencintai",
+      "bn": "ঈশ্বর ভালবাসেন",
+      "ru": "Бог любит"
+    }
+  },
+  {
+    "id": "threegram_133",
+    "arabic": "ومن الناس من",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "It is people from",
+      "tr": "gelen insanlar",
+      "ur": "یہ سے لوگ ہیں۔",
+      "hi": "यह के लोग हैं",
+      "id": "Ini adalah orang-orang dari",
+      "bn": "এটা থেকে মানুষ",
+      "ru": "это люди из"
+    }
+  },
+  {
+    "id": "threegram_134",
+    "arabic": "فما له من",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "What is his",
+      "tr": "Bu nedir",
+      "ur": "اس کا کیا ہے",
+      "hi": "उसका क्या है",
+      "id": "apa miliknya",
+      "bn": "কি তার",
+      "ru": "Какой его"
+    }
+  },
+  {
+    "id": "threegram_135",
+    "arabic": "فاتقوا الله وأطيعون",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "Fear God and obey",
+      "tr": "Allah'tan korkun ve itaat edin",
+      "ur": "خدا سے ڈرو اور اطاعت کرو",
+      "hi": "भगवान से डरो और आज्ञा मानो",
+      "id": "Takut akan Tuhan dan taat",
+      "bn": "আল্লাহকে ভয় কর এবং আনুগত্য কর",
+      "ru": "Бойтесь Бога и повинуйтесь"
+    }
+  },
+  {
+    "id": "threegram_136",
+    "arabic": "في قلوبهم مرض",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "disease in their hearts",
+      "tr": "kalplerinde hastalık",
+      "ur": "ان کے دلوں میں بیماری",
+      "hi": "उनके दिल में बीमारी",
+      "id": "penyakit di hati mereka",
+      "bn": "তাদের হৃদয়ে রোগ",
+      "ru": "болезнь в их сердцах"
+    }
+  },
+  {
+    "id": "threegram_137",
+    "arabic": "تر أن الله",
+    "frequency": 10,
+    "wordCount": 3,
+    "translations": {
+      "en": "see that God",
+      "tr": "gör ki Allah",
+      "ur": "اس خدا کو دیکھو",
+      "hi": "देखो कि भगवान",
+      "id": "lihat itu Tuhan",
+      "bn": "যে ঈশ্বর দেখুন",
+      "ru": "увидеть, что Бог"
+    }
+  },
+  {
+    "id": "threegram_138",
+    "arabic": "بما أنزل الله",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "What God has sent down",
+      "tr": "Allah ne indirdi",
+      "ur": "جو اللہ نے نازل کیا ہے۔",
+      "hi": "भगवान ने क्या भेजा है",
+      "id": "Yang diturunkan Tuhan",
+      "bn": "আল্লাহ যা নাযিল করেছেন",
+      "ru": "Что Бог ниспослал"
+    }
+  },
+  {
+    "id": "threegram_139",
+    "arabic": "الذين كذبوا بآياتنا",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "Those who denied Our revelations",
+      "tr": "Ayetlerimizi yalanlayanlar",
+      "ur": "جنہوں نے ہماری آیتوں کو جھٹلایا",
+      "hi": "जिन्होंने हमारी आयतों को झुठलाया",
+      "id": "Mereka yang mengingkari wahyu Kami",
+      "bn": "যারা আমার আয়াতসমূহকে অস্বীকার করেছে",
+      "ru": "Те, кто отрицал Наши откровения"
+    }
+  },
+  {
+    "id": "threegram_140",
+    "arabic": "يا قوم اعبدوا",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "O people, worship",
+      "tr": "Ey insanlar, ibadet",
+      "ur": "اے لوگو عبادت کرو",
+      "hi": "हे लोगों, पूजा",
+      "id": "Wahai manusia, sembahlah",
+      "bn": "হে মানুষ, ইবাদত কর",
+      "ru": "О люди, поклоняйтесь"
+    }
+  },
+  {
+    "id": "threegram_141",
+    "arabic": "قوم اعبدوا الله",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "People worship God",
+      "tr": "İnsanlar Tanrı'ya ibadet eder",
+      "ur": "لوگ خدا کی عبادت کرتے ہیں۔",
+      "hi": "लोग भगवान की पूजा करते हैं",
+      "id": "Orang menyembah Tuhan",
+      "bn": "মানুষ ঈশ্বরের উপাসনা করে",
+      "ru": "Люди поклоняются Богу"
+    }
+  },
+  {
+    "id": "threegram_142",
+    "arabic": "اعبدوا الله ما",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "Worship God what",
+      "tr": "Allah'a kul ne",
+      "ur": "خدا کی عبادت کیا",
+      "hi": "भगवान की पूजा क्या",
+      "id": "Sembah Tuhan apa",
+      "bn": "ঈশ্বরের উপাসনা কি",
+      "ru": "Поклоняться Богу, что"
+    }
+  },
+  {
+    "id": "threegram_143",
+    "arabic": "أجري إلا على",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "I only run on",
+      "tr": "sadece koşuyorum",
+      "ur": "میں صرف چلاتا ہوں۔",
+      "hi": "मैं ही चलता हूँ",
+      "id": "Saya hanya berjalan terus",
+      "bn": "আমি শুধু দৌড়াই",
+      "ru": "я бегу только на"
+    }
+  },
+  {
+    "id": "threegram_144",
+    "arabic": "من إله غيره",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "Who is another god",
+      "tr": "Başka bir tanrı kim",
+      "ur": "دوسرا خدا کون ہے؟",
+      "hi": "दूसरा भगवान कौन है",
+      "id": "Siapa tuhan yang lain",
+      "bn": "অন্য দেবতা কে",
+      "ru": "Кто еще бог"
+    }
+  },
+  {
+    "id": "threegram_145",
+    "arabic": "في الأرض جميعا",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "all over the earth",
+      "tr": "dünyanın her yerinde",
+      "ur": "تمام زمین پر",
+      "hi": "पूरी पृथ्वी पर",
+      "id": "di seluruh bumi",
+      "bn": "সমস্ত পৃথিবী জুড়ে",
+      "ru": "по всей земле"
+    }
+  },
+  {
+    "id": "threegram_146",
+    "arabic": "كنت من الصادقين",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "You are honest",
+      "tr": "Sen dürüstsün",
+      "ur": "تم ایماندار ہو۔",
+      "hi": "आप सच्चे हैं",
+      "id": "Kamu jujur",
+      "bn": "তুমি সৎ",
+      "ru": "ты честный"
+    }
+  },
+  {
+    "id": "threegram_147",
+    "arabic": "فانظر كيف كان",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "See how it was",
+      "tr": "nasıl olduğunu gör",
+      "ur": "دیکھو کیسا تھا۔",
+      "hi": "देखें कि यह कैसा था",
+      "id": "Lihat bagaimana itu",
+      "bn": "এটা কেমন ছিল দেখুন",
+      "ru": "Посмотрите, как это было"
+    }
+  },
+  {
+    "id": "threegram_148",
+    "arabic": "الرزق لمن يشاء",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "The sustenance is for whomever he wills",
+      "tr": "Rızık, dilediği kimse içindir.",
+      "ur": "رزق جس کے لیے چاہتا ہے۔",
+      "hi": "जीविका है जिसके लिए वह चाहता है",
+      "id": "Rezeki itu untuk siapa saja yang dia kehendaki",
+      "bn": "রিযিক যার ইচ্ছা তার জন্য",
+      "ru": "Пропитание для кого он хочет"
+    }
+  },
+  {
+    "id": "threegram_149",
+    "arabic": "الله يعلم ما",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "God knows what",
+      "tr": "Tanrı bilir ne",
+      "ur": "خدا جانے کیا",
+      "hi": "भगवान जाने क्या",
+      "id": "Tuhan tahu apa",
+      "bn": "ঈশ্বর কি জানেন",
+      "ru": "Бог знает что"
+    }
+  },
+  {
+    "id": "threegram_150",
+    "arabic": "آتينا موسى الكتاب",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "We gave Moses the book",
+      "tr": "Musa'ya kitabı verdik.",
+      "ur": "ہم نے موسیٰ کو کتاب دی۔",
+      "hi": "हमने मूसा को पुस्तक दी",
+      "id": "Kami memberi Musa buku itu",
+      "bn": "আমরা মুসাকে কিতাব দিয়েছিলাম",
+      "ru": "Мы дали Моисею книгу"
+    }
+  },
+  {
+    "id": "threegram_151",
+    "arabic": "يبسط الرزق لمن",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "It simplifies the sustenance for whom",
+      "tr": "Kimin rızkını kolaylaştırır",
+      "ur": "یہ کس کے لیے رزق کو آسان بناتا ہے۔",
+      "hi": "यह किसके लिए जीविका को सरल करता है",
+      "id": "Mempermudah rezeki untuk siapa",
+      "bn": "এটা কার জন্য জীবিকা সহজতর",
+      "ru": "Это упрощает пропитание для тех,"
+    }
+  },
+  {
+    "id": "threegram_152",
+    "arabic": "إن الله على",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "God is upon",
+      "tr": "Tanrı üzerinde",
+      "ur": "خدا پر ہے",
+      "hi": "भगवान पर है",
+      "id": "Tuhan ada di atas",
+      "bn": "ঈশ্বরের উপর আছে",
+      "ru": "Бог на"
+    }
+  },
+  {
+    "id": "threegram_153",
+    "arabic": "بعضهم على بعض",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "each other",
+      "tr": "birbiri üzerine",
+      "ur": "ایک دوسرے پر ایک دوسرے",
+      "hi": "एक दूसरे पर एक दूसरे",
+      "id": "satu sama lain satu sama lain",
+      "bn": "একে অপরের উপর একে অপরের",
+      "ru": "друг на друга"
+    }
+  },
+  {
+    "id": "threegram_154",
+    "arabic": "وكان الله غفورا",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "And God was forgiving",
+      "tr": "Ve Tanrı affediciydi",
+      "ur": "اور خدا بخشنے والا تھا۔",
+      "hi": "और भगवान क्षमा कर रहे थे",
+      "id": "Dan Tuhan mengampuni",
+      "bn": "এবং ঈশ্বর ক্ষমাশীল ছিল",
+      "ru": "И Бог прощал"
+    }
+  },
+  {
+    "id": "threegram_155",
+    "arabic": "أظلم ممن افترى",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "darker than those who forged",
+      "tr": "dövenlerden daha koyu",
+      "ur": "جعل سازی کرنے والوں سے زیادہ سیاہ",
+      "hi": "जाली बनाने वालों की तुलना में गहरा",
+      "id": "lebih gelap dari mereka yang memalsukan",
+      "bn": "যারা নকল করেছে তাদের চেয়ে অন্ধকার",
+      "ru": "темнее тех, кто подделал"
+    }
+  },
+  {
+    "id": "threegram_156",
+    "arabic": "إلا أن قالوا",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "except that they said",
+      "tr": "dedikleri dışında",
+      "ur": "سوائے اس کے کہ انہوں نے کہا",
+      "hi": "सिवाय इसके कि उन्होंने कहा",
+      "id": "kecuali mereka berkata",
+      "bn": "তারা বলেন যে ছাড়া",
+      "ru": "кроме того, что они сказали"
+    }
+  },
+  {
+    "id": "threegram_157",
+    "arabic": "كذلك يبين الله",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "God also shows",
+      "tr": "Tanrı da gösterir",
+      "ur": "خدا بھی دکھاتا ہے۔",
+      "hi": "भगवान भी दिखाते हैं",
+      "id": "Tuhan juga menunjukkan",
+      "bn": "ঈশ্বরও দেখান",
+      "ru": "Бог также показывает"
+    }
+  },
+  {
+    "id": "threegram_158",
+    "arabic": "الله الذين آمنوا",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "God those who believe",
+      "tr": "Allah iman edenler",
+      "ur": "خدا جو ایمان لائے",
+      "hi": "भगवान जो विश्वास करते हैं",
+      "id": "Tuhan mereka yang percaya",
+      "bn": "ঈশ্বর যারা বিশ্বাসী",
+      "ru": "Бог тех, кто верит"
+    }
+  },
+  {
+    "id": "threegram_159",
+    "arabic": "خير لكم إن",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "good for you if",
+      "tr": "senin için iyi eğer",
+      "ur": "آپ کے لئے اچھا ہے اگر",
+      "hi": "आपके लिए अच्छा है अगर",
+      "id": "baik untukmu jika",
+      "bn": "আপনার জন্য ভাল যদি",
+      "ru": "хорошо для тебя, если"
+    }
+  },
+  {
+    "id": "threegram_160",
+    "arabic": "يبين الله لكم",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "God shows you",
+      "tr": "Tanrı sana gösterir",
+      "ur": "خدا تمہیں دکھاتا ہے۔",
+      "hi": "भगवान आपको दिखाता है",
+      "id": "Tuhan tunjukkan padamu",
+      "bn": "ঈশ্বর আপনাকে দেখান",
+      "ru": "Бог показывает тебе"
+    }
+  },
+  {
+    "id": "threegram_161",
+    "arabic": "دون الله ما",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "Without God what",
+      "tr": "Tanrı olmadan ne",
+      "ur": "خدا کے بغیر کیا",
+      "hi": "भगवान के बिना क्या",
+      "id": "Tanpa Tuhan apa",
+      "bn": "ঈশ্বর ছাড়া কি",
+      "ru": "Без Бога что"
+    }
+  },
+  {
+    "id": "threegram_162",
+    "arabic": "من الله من",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "from God from",
+      "tr": "Tanrı'dan",
+      "ur": "خدا کی طرف سے",
+      "hi": "भगवान से",
+      "id": "dari Tuhan dari",
+      "bn": "ঈশ্বর থেকে",
+      "ru": "от Бога от"
+    }
+  },
+  {
+    "id": "threegram_163",
+    "arabic": "ومن أظلم ممن",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "And who is darker than",
+      "tr": "Ve kim daha karanlık",
+      "ur": "اور اس سے زیادہ سیاہ کون ہے؟",
+      "hi": "और कौन है गहरा",
+      "id": "Dan siapa yang lebih gelap dari",
+      "bn": "আর কার চেয়ে অন্ধকার",
+      "ru": "И кто темнее"
+    }
+  },
+  {
+    "id": "threegram_164",
+    "arabic": "من الله شيئا",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "something from God",
+      "tr": "Tanrı'dan bir şey",
+      "ur": "خدا کی طرف سے کچھ",
+      "hi": "भगवान से कुछ",
+      "id": "sesuatu dari Tuhan",
+      "bn": "ঈশ্বরের কাছ থেকে কিছু",
+      "ru": "что-то от Бога"
+    }
+  },
+  {
+    "id": "threegram_165",
+    "arabic": "الله بكل شيء",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "God is everything",
+      "tr": "Allah herşeydir",
+      "ur": "خدا سب کچھ ہے۔",
+      "hi": "भगवान सब कुछ है",
+      "id": "Tuhan adalah segalanya",
+      "bn": "ঈশ্বরই সবকিছু",
+      "ru": "Бог это все"
+    }
+  },
+  {
+    "id": "threegram_166",
+    "arabic": "ممن افترى على",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "who slandered me",
+      "tr": "kim bana iftira attı",
+      "ur": "جس نے مجھے بدنام کیا",
+      "hi": "जिसने मुझे बदनाम किया",
+      "id": "siapa yang memfitnah saya",
+      "bn": "যারা আমাকে অপবাদ দিয়েছে",
+      "ru": "кто оклеветал меня"
+    }
+  },
+  {
+    "id": "threegram_167",
+    "arabic": "تدعون من دون",
+    "frequency": 9,
+    "wordCount": 3,
+    "translations": {
+      "en": "you call without",
+      "tr": "sen aramadan",
+      "ur": "تم بلاوجہ کال کرو",
+      "hi": "आप बिना कॉल करें",
+      "id": "Anda menelepon tanpa",
+      "bn": "আপনি ছাড়া কল",
+      "ru": "ты звонишь без"
+    }
+  },
+  {
+    "id": "threegram_168",
+    "arabic": "ذلك لآية وما",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "That is for a verse and what",
+      "tr": "Bu bir ayet ve ne için",
+      "ur": "یہ ایک آیت کے لیے ہے اور کیا؟",
+      "hi": "वह एक श्लोक के लिए है और क्या",
+      "id": "Itu untuk satu ayat dan apa",
+      "bn": "যে একটি আয়াত জন্য এবং কি",
+      "ru": "Это за стих и что"
+    }
+  },
+  {
+    "id": "threegram_169",
+    "arabic": "كان عاقبة الذين",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "was the punishment of those who",
+      "tr": "yapanların cezasıydı",
+      "ur": "ان لوگوں کی سزا تھی۔",
+      "hi": "उन लोगों की सजा थी जो",
+      "id": "adalah hukuman bagi mereka yang",
+      "bn": "যারা তাদের শাস্তি ছিল",
+      "ru": "было наказанием тех, кто"
+    }
+  },
+  {
+    "id": "threegram_170",
+    "arabic": "وما كان أكثرهم",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "And what was most of them",
+      "tr": "Ve çoğu neydi",
+      "ur": "اور ان میں سے زیادہ تر کیا تھا؟",
+      "hi": "और उनमें से अधिकतर क्या थे",
+      "id": "Dan apa yang kebanyakan dari mereka",
+      "bn": "এবং তাদের অধিকাংশ কি ছিল",
+      "ru": "А что было в большинстве"
+    }
+  },
+  {
+    "id": "threegram_171",
+    "arabic": "كان أكثرهم مؤمنين",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "Most of them were believers",
+      "tr": "Çoğu mümindi",
+      "ur": "ان میں سے اکثر مومن تھے۔",
+      "hi": "उनमें से अधिकांश विश्वासी थे",
+      "id": "Kebanyakan dari mereka adalah orang percaya",
+      "bn": "তাদের অধিকাংশই ছিল বিশ্বাসী",
+      "ru": "Большинство из них были верующими"
+    }
+  },
+  {
+    "id": "threegram_172",
+    "arabic": "ربك لهو العزيز",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "Your Lord is dear",
+      "tr": "senin Rabbin sevgili",
+      "ur": "تیرا رب عزیز ہے۔",
+      "hi": "आपका प्रभु प्रिय है",
+      "id": "Tuhanmu sayang",
+      "bn": "তোমার প্রভু প্রিয়",
+      "ru": "Ваш Господь дорог"
+    }
+  },
+  {
+    "id": "threegram_173",
+    "arabic": "والله سميع عليم",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "God is All-Hearing, All-Knowing",
+      "tr": "Allah her şeyi işitendir, her şeyi bilendir",
+      "ur": "خدا سب کچھ سننے والا، سب کچھ جاننے والا ہے۔",
+      "hi": "ईश्वर सब कुछ सुनने वाला, जानने वाला है",
+      "id": "Tuhan Maha Mendengar, Maha Mengetahui",
+      "bn": "আল্লাহ সর্বশ্রোতা, সর্বজ্ঞ",
+      "ru": "Бог Всеслышащий, Всезнающий"
+    }
+  },
+  {
+    "id": "threegram_174",
+    "arabic": "لهو العزيز الرحيم",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "He is dear, most merciful",
+      "tr": "O sevgili, çok merhametli",
+      "ur": "وہ پیارا، بڑا مہربان ہے۔",
+      "hi": "वह प्रिय है, परम दयालु है",
+      "id": "Dia sayang, paling penyayang",
+      "bn": "তিনি প্রিয়, পরম করুণাময়",
+      "ru": "Он милый, самый милосердный"
+    }
+  },
+  {
+    "id": "threegram_175",
+    "arabic": "ما كنتم تعملون",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "what were you doing",
+      "tr": "ne yapıyordun",
+      "ur": "تم کیاکررہےتھے",
+      "hi": "आप क्या कर रहे थे",
+      "id": "apa yang kamu lakukan",
+      "bn": "তুমি কি করছিলে",
+      "ru": "что ты делал"
+    }
+  },
+  {
+    "id": "threegram_176",
+    "arabic": "الله شديد العقاب",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "God is severe in punishment",
+      "tr": "Allah'ın cezası çetindir",
+      "ur": "خدا سخت سزا دینے والا ہے۔",
+      "hi": "भगवान दंड में कठोर है",
+      "id": "Tuhan sangat keras hukumannya",
+      "bn": "আল্লাহ কঠোর শাস্তিদাতা",
+      "ru": "Бог суров в наказании"
+    }
+  },
+  {
+    "id": "threegram_177",
+    "arabic": "وعلى الله فليتوكل",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "And on God let him put his trust",
+      "tr": "Ve Tanrı'ya güvenmesine izin ver",
+      "ur": "اور اللہ پر بھروسہ کرے۔",
+      "hi": "और भगवान पर उसे भरोसा करने दो",
+      "id": "Dan pada Tuhan biarkan dia bersandar",
+      "bn": "আর আল্লাহর উপর ভরসা করুক",
+      "ru": "И на Бога пусть уповает"
+    }
+  },
+  {
+    "id": "threegram_178",
+    "arabic": "يعلم ما في",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "knows what's in",
+      "tr": "içinde ne olduğunu biliyor",
+      "ur": "جانتا ہے کہ کیا ہے",
+      "hi": "जानता है कि क्या है",
+      "id": "tahu apa yang ada di",
+      "bn": "কি আছে জানে",
+      "ru": "знает, что внутри"
+    }
+  },
+  {
+    "id": "threegram_179",
+    "arabic": "لله رب العالمين",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "God, Lord of the worlds",
+      "tr": "Allah, alemlerin Rabbi",
+      "ur": "خدا، رب العالمین",
+      "hi": "भगवान, दुनिया के भगवान",
+      "id": "Tuhan, Tuhan semesta alam",
+      "bn": "ঈশ্বর, বিশ্বজগতের পালনকর্তা",
+      "ru": "Бог, Господь миров"
+    }
+  },
+  {
+    "id": "threegram_180",
+    "arabic": "قد خلت من",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "have gone out of",
+      "tr": "dışarı çıktı",
+      "ur": "سے باہر چلے گئے ہیں",
+      "hi": "से बाहर गए हैं",
+      "id": "telah keluar",
+      "bn": "থেকে বেরিয়ে গেছে",
+      "ru": "вышли из"
+    }
+  },
+  {
+    "id": "threegram_181",
+    "arabic": "الذين آمنوا اتقوا",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "Those who believe, fear Allah",
+      "tr": "İman edenler Allah'tan korkun",
+      "ur": "جو لوگ ایمان لائے ہیں وہ اللہ سے ڈرتے ہیں۔",
+      "hi": "ईमान लाने वाले अल्लाह से डरते हैं",
+      "id": "Orang-orang yang beriman, bertakwalah kepada Allah",
+      "bn": "যারা ঈমান এনেছে তারা আল্লাহকে ভয় কর",
+      "ru": "Те, кто уверовали, бойтесь Аллаха"
+    }
+  },
+  {
+    "id": "threegram_182",
+    "arabic": "عليه من أجر",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "He gets paid",
+      "tr": "o ödeme alır",
+      "ur": "اسے تنخواہ ملتی ہے۔",
+      "hi": "उसे भुगतान मिलता है",
+      "id": "Dia dibayar",
+      "bn": "সে বেতন পায়",
+      "ru": "ему платят"
+    }
+  },
+  {
+    "id": "threegram_183",
+    "arabic": "عذاب يوم عظيم",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "The torment of a great day",
+      "tr": "Büyük bir günün azabı",
+      "ur": "ایک عظیم دن کا عذاب",
+      "hi": "एक महान दिन की पीड़ा",
+      "id": "Siksaan hari yang menyenangkan",
+      "bn": "একটি মহান দিনের যন্ত্রণা",
+      "ru": "Мучения великого дня"
+    }
+  },
+  {
+    "id": "threegram_184",
+    "arabic": "من يشاء من",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "who wants who",
+      "tr": "kim kimi istiyor",
+      "ur": "کون کون چاہتا ہے",
+      "hi": "कौन चाहता है",
+      "id": "siapa mau siapa",
+      "bn": "কে কে চায়",
+      "ru": "кто кого хочет"
+    }
+  },
+  {
+    "id": "threegram_185",
+    "arabic": "بل أكثرهم لا",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "But most of them do not",
+      "tr": "Ama çoğu yok",
+      "ur": "لیکن ان میں سے اکثر ایسا نہیں کرتے",
+      "hi": "लेकिन उनमें से ज्यादातर नहीं",
+      "id": "Tapi kebanyakan dari mereka tidak",
+      "bn": "কিন্তু তাদের অধিকাংশই তা করে না",
+      "ru": "Но большинство из них не"
+    }
+  },
+  {
+    "id": "threegram_186",
+    "arabic": "قل أرأيتم إن",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "Say did you see that",
+      "tr": "söyle gördün mü",
+      "ur": "بولو کیا تم نے دیکھا ہے؟",
+      "hi": "कहो क्या तुमने देखा",
+      "id": "Katakan apakah kamu melihat itu",
+      "bn": "আপনি কি দেখেছেন বলুন",
+      "ru": "Скажи, ты видел это"
+    }
+  },
+  {
+    "id": "threegram_187",
+    "arabic": "إن ربك هو",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "Your Lord is",
+      "tr": "senin Rabbin",
+      "ur": "تمہارا رب ہے۔",
+      "hi": "आपका भगवान है",
+      "id": "Tuhanmu adalah",
+      "bn": "তোমার প্রভু",
+      "ru": "Ваш Господь"
+    }
+  },
+  {
+    "id": "threegram_188",
+    "arabic": "بما كانوا يكسبون",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "what they earn",
+      "tr": "Ne kazandılar",
+      "ur": "انہوں نے کیا کمایا؟",
+      "hi": "उन्होंने क्या कमाया",
+      "id": "Apa yang mereka peroleh",
+      "bn": "তারা কি উপার্জন করেছে",
+      "ru": "Что они заработали"
+    }
+  },
+  {
+    "id": "threegram_189",
+    "arabic": "إلا بإذن الله",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "Except by God's will",
+      "tr": "Allah'ın dilemesi dışında",
+      "ur": "سوائے اللہ کی مرضی کے",
+      "hi": "भगवान की इच्छा के अलावा",
+      "id": "Kecuali dengan kehendak Tuhan",
+      "bn": "ঈশ্বরের ইচ্ছা ছাড়া",
+      "ru": "Кроме как по воле Божией"
+    }
+  },
+  {
+    "id": "threegram_190",
+    "arabic": "لو كانوا يعلمون",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "If they knew",
+      "tr": "bilselerdi",
+      "ur": "اگر وہ جانتے",
+      "hi": "अगर वे जानते थे",
+      "id": "Jika mereka tahu",
+      "bn": "যদি তারা জানত",
+      "ru": "Если бы они знали"
+    }
+  },
+  {
+    "id": "threegram_191",
+    "arabic": "كل نفس ما",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "all the same what",
+      "tr": "hepsi aynı ne",
+      "ur": "سب ایک ہی کیا",
+      "hi": "सब वही क्या",
+      "id": "semua sama apa",
+      "bn": "সব একই কি",
+      "ru": "все равно что"
+    }
+  },
+  {
+    "id": "threegram_192",
+    "arabic": "فإن الله غفور",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "God is forgiving",
+      "tr": "Tanrı bağışlayıcıdır",
+      "ur": "خدا بخشنے والا ہے۔",
+      "hi": "भगवान क्षमा कर रहे हैं",
+      "id": "Tuhan Maha Pengampun",
+      "bn": "ঈশ্বর ক্ষমাশীল",
+      "ru": "Бог прощает"
+    }
+  },
+  {
+    "id": "threegram_193",
+    "arabic": "وما لكم من",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "And what do you have",
+      "tr": "Ve neyin var",
+      "ur": "اور تمہارے پاس کیا ہے؟",
+      "hi": "और तुम्हारे पास क्या है",
+      "id": "Dan apa yang Anda miliki",
+      "bn": "এবং আপনার কি আছে",
+      "ru": "А что у вас есть"
+    }
+  },
+  {
+    "id": "threegram_194",
+    "arabic": "دون الله من",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "without God from",
+      "tr": "Tanrı olmadan",
+      "ur": "خدا کے بغیر",
+      "hi": "भगवान के बिना",
+      "id": "tanpa Tuhan dari",
+      "bn": "থেকে ঈশ্বর ছাড়া",
+      "ru": "без Бога из"
+    }
+  },
+  {
+    "id": "threegram_195",
+    "arabic": "إليك من ربك",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "to you from your Lord",
+      "tr": "sana Rabbinden",
+      "ur": "آپ کو آپ کے رب کی طرف سے",
+      "hi": "अपने रब की ओर से",
+      "id": "untukmu dari Tuhanmu",
+      "bn": "তোমার প্রভুর পক্ষ থেকে তোমার কাছে",
+      "ru": "тебе от твоего Господа"
+    }
+  },
+  {
+    "id": "threegram_196",
+    "arabic": "الأرض بعد موتها",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "earth after death",
+      "tr": "ölümden sonra dünya",
+      "ur": "موت کے بعد زمین",
+      "hi": "मृत्यु के बाद पृथ्वी",
+      "id": "bumi setelah kematian",
+      "bn": "মৃত্যুর পরে পৃথিবী",
+      "ru": "земля после смерти"
+    }
+  },
+  {
+    "id": "threegram_197",
+    "arabic": "إن وعد الله",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "God's promise",
+      "tr": "Tanrı'nın vaadi",
+      "ur": "خدا کا وعدہ",
+      "hi": "भगवान का वादा",
+      "id": "janji tuhan",
+      "bn": "ঈশ্বরের প্রতিশ্রুতি",
+      "ru": "обещание Бога"
+    }
+  },
+  {
+    "id": "threegram_198",
+    "arabic": "إن الله هو",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "God is",
+      "tr": "Tanrı",
+      "ur": "خدا ہے",
+      "hi": "भगवान है",
+      "id": "Tuhan adalah",
+      "bn": "উপাস্য নেই",
+      "ru": "Бог это"
+    }
+  },
+  {
+    "id": "threegram_199",
+    "arabic": "إلا أن يشاء",
+    "frequency": 8,
+    "wordCount": 3,
+    "translations": {
+      "en": "except that he wills",
+      "tr": "onun dilemesi dışında",
+      "ur": "سوائے اس کے کہ وہ چاہے",
+      "hi": "सिवाय इसके कि वह चाहता है",
+      "id": "kecuali dia berkehendak",
+      "bn": "ব্যতীত যে সে ইচ্ছা করে",
+      "ru": "кроме того, что он хочет"
+    }
+  },
+  {
+    "id": "threegram_200",
+    "arabic": "الذين أوتوا العلم",
+    "frequency": 7,
+    "wordCount": 3,
+    "translations": {
+      "en": "who were given knowledge",
+      "tr": "kimlere bilgi verildi",
+      "ur": "جنہیں علم دیا گیا تھا۔",
+      "hi": "जिन्हें ज्ञान दिया गया",
+      "id": "yang diberi ilmu",
+      "bn": "যাদের জ্ঞান দেওয়া হয়েছিল",
+      "ru": "кому дали знания"
+    }
+  }
+]

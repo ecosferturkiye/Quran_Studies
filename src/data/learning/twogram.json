@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "twogram_1",
+    "arabic": "إن الله",
+    "frequency": 205,
+    "wordCount": 2,
+    "translations": {
+      "en": "God is",
+      "tr": "Allah",
+      "ur": "خدا ہے",
+      "hi": "भगवान है",
+      "id": "Tuhan adalah",
+      "bn": "উপাস্য নেই",
+      "ru": "Бог это"
+    }
+  },
+  {
+    "id": "twogram_2",
+    "arabic": "الذين آمنوا",
+    "frequency": 184,
+    "wordCount": 2,
+    "translations": {
+      "en": "who believed",
+      "tr": "kim inandı",
+      "ur": "جو ایمان لائے",
+      "hi": "जो विश्वास करता था",
+      "id": "siapa yang percaya?",
+      "bn": "যারা বিশ্বাস করেছিল",
+      "ru": "кто верил"
+    }
+  },
+  {
+    "id": "twogram_3",
+    "arabic": "في الأرض",
+    "frequency": 176,
+    "wordCount": 2,
+    "translations": {
+      "en": "in Earth",
+      "tr": "Dünya'da",
+      "ur": "زمین میں",
+      "hi": "धरती में",
+      "id": "di Bumi",
+      "bn": "পৃথিবীতে",
+      "ru": "на Земле"
+    }
+  },
+  {
+    "id": "twogram_4",
+    "arabic": "الذين كفروا",
+    "frequency": 134,
+    "wordCount": 2,
+    "translations": {
+      "en": "who disbelieved",
+      "tr": "kim inanmadı",
+      "ur": "جنہوں نے کفر کیا۔",
+      "hi": "जिसने अविश्वास किया",
+      "id": "siapa yang tidak percaya?",
+      "bn": "যারা অবিশ্বাস করেছিল",
+      "ru": "кто не поверил"
+    }
+  },
+  {
+    "id": "twogram_5",
+    "arabic": "السماوات والأرض",
+    "frequency": 133,
+    "wordCount": 2,
+    "translations": {
+      "en": "Heavens and Earth",
+      "tr": "Gökler ve Dünya",
+      "ur": "آسمان اور زمین",
+      "hi": "स्वर्ग और पृथ्वी",
+      "id": "Langit dan Bumi",
+      "bn": "আকাশ ও পৃথিবী",
+      "ru": "Небеса и Земля"
+    }
+  },
+  {
+    "id": "twogram_6",
+    "arabic": "الرحمن الرحيم",
+    "frequency": 118,
+    "wordCount": 2,
+    "translations": {
+      "en": "Most Merciful",
+      "tr": "Rahman ve Rahim",
+      "ur": "سب سے زیادہ رحم کرنے والا",
+      "hi": "परम दयालु",
+      "id": "Maha Penyayang",
+      "bn": "পরম করুণাময়",
+      "ru": "Самый Милосердный"
+    }
+  },
+  {
+    "id": "twogram_7",
+    "arabic": "بسم الله",
+    "frequency": 115,
+    "wordCount": 2,
+    "translations": {
+      "en": "In the name of God",
+      "tr": "Bismillah",
+      "ur": "خدا کے نام پر",
+      "hi": "भगवान के नाम पर",
+      "id": "Atas nama tuhan",
+      "bn": "আল্লাহর নামে",
+      "ru": "Во имя Бога"
+    }
+  },
+  {
+    "id": "twogram_8",
+    "arabic": "الله الرحمن",
+    "frequency": 114,
+    "wordCount": 2,
+    "translations": {
+      "en": "God the Most Gracious",
+      "tr": "Tanrı en merhametli",
+      "ur": "خدا سب سے زیادہ مہربان",
+      "hi": "भगवान सबसे दयालु",
+      "id": "Tuhan Yang Maha Pemurah",
+      "bn": "পরম করুণাময় ঈশ্বর",
+      "ru": "Бог Милостивый"
+    }
+  },
+  {
+    "id": "twogram_9",
+    "arabic": "من قبل",
+    "frequency": 92,
+    "wordCount": 2,
+    "translations": {
+      "en": "From before",
+      "tr": "önceden",
+      "ur": "پہلے سے",
+      "hi": "पहले से",
+      "id": "Dari sebelumnya",
+      "bn": "আগে থেকে",
+      "ru": "Раньше"
+    }
+  },
+  {
+    "id": "twogram_10",
+    "arabic": "من الله",
+    "frequency": 89,
+    "wordCount": 2,
+    "translations": {
+      "en": "Of God",
+      "tr": "Tanrının",
+      "ur": "خدا کا",
+      "hi": "भगवान की",
+      "id": "Tuhan",
+      "bn": "ঈশ্বরের",
+      "ru": "Бога"
+    }
+  },
+  {
+    "id": "twogram_11",
+    "arabic": "كل شيء",
+    "frequency": 87,
+    "wordCount": 2,
+    "translations": {
+      "en": "everything",
+      "tr": "her şey",
+      "ur": "سب کچھ",
+      "hi": "हर चीज़",
+      "id": "semuanya",
+      "bn": "সবকিছু",
+      "ru": "все"
+    }
+  },
+  {
+    "id": "twogram_12",
+    "arabic": "من بعد",
+    "frequency": 84,
+    "wordCount": 2,
+    "translations": {
+      "en": "remote",
+      "tr": "uzak",
+      "ur": "دور دراز",
+      "hi": "दूरस्थ",
+      "id": "terpencil",
+      "bn": "দূরবর্তী",
+      "ru": "удаленный"
+    }
+  },
+  {
+    "id": "twogram_13",
+    "arabic": "إن الذين",
+    "frequency": 84,
+    "wordCount": 2,
+    "translations": {
+      "en": "who",
+      "tr": "kim",
+      "ur": "ڈبلیو ایچ او",
+      "hi": "कौन",
+      "id": "yang",
+      "bn": "কে",
+      "ru": "кто"
+    }
+  },
+  {
+    "id": "twogram_14",
+    "arabic": "من دون",
+    "frequency": 83,
+    "wordCount": 2,
+    "translations": {
+      "en": "without",
+      "tr": "olmadan",
+      "ur": "بغیر",
+      "hi": "बिना",
+      "id": "tanpa",
+      "bn": "বিনা",
+      "ru": "без"
+    }
+  },
+  {
+    "id": "twogram_15",
+    "arabic": "إن كنتم",
+    "frequency": 80,
+    "wordCount": 2,
+    "translations": {
+      "en": "if you",
+      "tr": "Eğer sen",
+      "ur": "اگر تم",
+      "hi": "अगर तुम",
+      "id": "jika kamu",
+      "bn": "আপনি যদি",
+      "ru": "если вы"
+    }
+  },
+  {
+    "id": "twogram_16",
+    "arabic": "دون الله",
+    "frequency": 72,
+    "wordCount": 2,
+    "translations": {
+      "en": "without God",
+      "tr": "Tanrı olmadan",
+      "ur": "خدا کے بغیر",
+      "hi": "भगवान के बिना",
+      "id": "tanpa Tuhan",
+      "bn": "ঈশ্বর ছাড়া",
+      "ru": "без Бога"
+    }
+  },
+  {
+    "id": "twogram_17",
+    "arabic": "على الله",
+    "frequency": 72,
+    "wordCount": 2,
+    "translations": {
+      "en": "on God",
+      "tr": "Tanrı üzerine",
+      "ur": "خدا پر",
+      "hi": "भगवान पर",
+      "id": "pada Tuhan",
+      "bn": "ঈশ্বরের উপর",
+      "ru": "на Бога"
+    }
+  },
+  {
+    "id": "twogram_18",
+    "arabic": "في السماوات",
+    "frequency": 71,
+    "wordCount": 2,
+    "translations": {
+      "en": "in the heavens",
+      "tr": "cennette",
+      "ur": "آسمانوں میں",
+      "hi": "स्वर्ग में",
+      "id": "di surga",
+      "bn": "স্বর্গে",
+      "ru": "в небесах"
+    }
+  },
+  {
+    "id": "twogram_19",
+    "arabic": "سبيل الله",
+    "frequency": 69,
+    "wordCount": 2,
+    "translations": {
+      "en": "God's path",
+      "tr": "Tanrı'nın yolu",
+      "ur": "خدا کا راستہ",
+      "hi": "भगवान का मार्ग",
+      "id": "jalan Tuhan",
+      "bn": "ঈশ্বরের পথ",
+      "ru": "Божий путь"
+    }
+  },
+  {
+    "id": "twogram_20",
+    "arabic": "ما في",
+    "frequency": 69,
+    "wordCount": 2,
+    "translations": {
+      "en": "what's in",
+      "tr": "içindeki nedir",
+      "ur": "میں کیا ہے",
+      "hi": "इसमें क्या है",
+      "id": "apa yang ada didalam",
+      "bn": "এইখানে কি",
+      "ru": "Что в"
+    }
+  },
+  {
+    "id": "twogram_21",
+    "arabic": "من يشاء",
+    "frequency": 62,
+    "wordCount": 2,
+    "translations": {
+      "en": "who wants",
+      "tr": "kim istiyor",
+      "ur": "کون چاہتا ہے",
+      "hi": "कौन चाहता है",
+      "id": "siapa yang mau",
+      "bn": "কে চাও",
+      "ru": "кто хочет"
+    }
+  },
+  {
+    "id": "twogram_22",
+    "arabic": "عند الله",
+    "frequency": 61,
+    "wordCount": 2,
+    "translations": {
+      "en": "with God",
+      "tr": "Tanrı ile",
+      "ur": "خدا کے ساتھ",
+      "hi": "ईश्वर के साथ",
+      "id": "dengan Tuhan",
+      "bn": "ঈশ্বরের সঙ্গে",
+      "ru": "с Богом"
+    }
+  },
+  {
+    "id": "twogram_23",
+    "arabic": "الحياة الدنيا",
+    "frequency": 61,
+    "wordCount": 2,
+    "translations": {
+      "en": "Worldly life",
+      "tr": "Dünyevi Yaşam",
+      "ur": "دنیاوی زندگی",
+      "hi": "सांसारिक जीवन",
+      "id": "Kehidupan duniawi",
+      "bn": "পার্থিব জীবন",
+      "ru": "Мирская жизнь"
+    }
+  },
+  {
+    "id": "twogram_24",
+    "arabic": "يوم القيامة",
+    "frequency": 60,
+    "wordCount": 2,
+    "translations": {
+      "en": "Doomsday",
+      "tr": "kıyamet günü",
+      "ur": "قیامت",
+      "hi": "कयामत का दिन",
+      "id": "Kiamat",
+      "bn": "কেয়ামত",
+      "ru": "Конец света"
+    }
+  },
+  {
+    "id": "twogram_25",
+    "arabic": "إن في",
+    "frequency": 57,
+    "wordCount": 2,
+    "translations": {
+      "en": "my nose",
+      "tr": "burnum",
+      "ur": "میری ناک",
+      "hi": "मेरी नाक",
+      "id": "hidung saya",
+      "bn": "আমার নাক",
+      "ru": "мой нос"
+    }
+  },
+  {
+    "id": "twogram_26",
+    "arabic": "على كل",
+    "frequency": 56,
+    "wordCount": 2,
+    "translations": {
+      "en": "All over",
+      "tr": "Baştan",
+      "ur": "ہر جا",
+      "hi": "सब खतम",
+      "id": "Seluruh",
+      "bn": "সব শেষ",
+      "ru": "Всюду"
+    }
+  },
+  {
+    "id": "twogram_27",
+    "arabic": "ما كانوا",
+    "frequency": 53,
+    "wordCount": 2,
+    "translations": {
+      "en": "what they were",
+      "tr": "onlar neydi",
+      "ur": "وہ کیا تھے",
+      "hi": "वे क्या थे",
+      "id": "apa mereka?",
+      "bn": "তারা কি ছিল",
+      "ru": "что они были"
+    }
+  },
+  {
+    "id": "twogram_28",
+    "arabic": "وعملوا الصالحات",
+    "frequency": 53,
+    "wordCount": 2,
+    "translations": {
+      "en": "And they did good deeds",
+      "tr": "Ve iyi işler yaptılar",
+      "ur": "اور انہوں نے اچھے کام کئے",
+      "hi": "और उन्होंने अच्छे काम किए",
+      "id": "Dan mereka melakukan perbuatan baik",
+      "bn": "এবং তারা ভাল কাজ করেছে",
+      "ru": "И делали добрые дела"
+    }
+  },
+  {
+    "id": "twogram_29",
+    "arabic": "في ذلك",
+    "frequency": 52,
+    "wordCount": 2,
+    "translations": {
+      "en": "in that",
+      "tr": "şöyle",
+      "ur": "اس میں",
+      "hi": "के कारण से",
+      "id": "karena",
+      "bn": "তার মধ্যে",
+      "ru": "в этом"
+    }
+  },
+  {
+    "id": "twogram_30",
+    "arabic": "أن الله",
+    "frequency": 52,
+    "wordCount": 2,
+    "translations": {
+      "en": "that God",
+      "tr": "Allah",
+      "ur": "وہ خدا",
+      "hi": "वह भगवान",
+      "id": "Tuhan itu",
+      "bn": "যে ঈশ্বর",
+      "ru": "что Бог"
+    }
+  },
+  {
+    "id": "twogram_31",
+    "arabic": "وما كان",
+    "frequency": 51,
+    "wordCount": 2,
+    "translations": {
+      "en": "And what was",
+      "tr": "ve neydi",
+      "ur": "اور کیا تھا۔",
+      "hi": "और क्या था",
+      "id": "Dan apa itu?",
+      "bn": "এবং কি ছিল",
+      "ru": "И что было"
+    }
+  },
+  {
+    "id": "twogram_32",
+    "arabic": "من السماء",
+    "frequency": 51,
+    "wordCount": 2,
+    "translations": {
+      "en": "From the sky",
+      "tr": "Gökyüzünden",
+      "ur": "آسمان سے",
+      "hi": "आसमान से",
+      "id": "Dari langit",
+      "bn": "আকাশ থেকে",
+      "ru": "С неба"
+    }
+  },
+  {
+    "id": "twogram_33",
+    "arabic": "آمنوا وعملوا",
+    "frequency": 50,
+    "wordCount": 2,
+    "translations": {
+      "en": "They believed and worked",
+      "tr": "İnandılar ve çalıştılar",
+      "ur": "انہوں نے یقین کیا اور کام کیا۔",
+      "hi": "उन्होंने विश्वास किया और काम किया",
+      "id": "Mereka percaya dan bekerja",
+      "bn": "তারা বিশ্বাস করেছিল এবং কাজ করেছিল",
+      "ru": "Верили и работали"
+    }
+  },
+  {
+    "id": "twogram_34",
+    "arabic": "لكم من",
+    "frequency": 49,
+    "wordCount": 2,
+    "translations": {
+      "en": "you from",
+      "tr": "Nerelisiniz",
+      "ur": "آپ سے",
+      "hi": "आप कहां से हैं",
+      "id": "kamu dari",
+      "bn": "আপনি থেকে",
+      "ru": "вы из"
+    }
+  },
+  {
+    "id": "twogram_35",
+    "arabic": "إلا أن",
+    "frequency": 48,
+    "wordCount": 2,
+    "translations": {
+      "en": "except if",
+      "tr": "yalnızca, sadece, şu anlık",
+      "ur": "سوائے اگر",
+      "hi": "सिवाय अगर",
+      "id": "kecuali jika",
+      "bn": "যদি ছাড়া",
+      "ru": "если только"
+    }
+  },
+  {
+    "id": "twogram_36",
+    "arabic": "فإن الله",
+    "frequency": 47,
+    "wordCount": 2,
+    "translations": {
+      "en": "God is",
+      "tr": "Tanrı",
+      "ur": "خدا ہے",
+      "hi": "भगवान है",
+      "id": "Tuhan adalah",
+      "bn": "উপাস্য নেই",
+      "ru": "Бог это"
+    }
+  },
+  {
+    "id": "twogram_37",
+    "arabic": "في سبيل",
+    "frequency": 45,
+    "wordCount": 2,
+    "translations": {
+      "en": "For",
+      "tr": "İçin",
+      "ur": "کے لیے",
+      "hi": "के लिये",
+      "id": "Untuk",
+      "bn": "জন্য",
+      "ru": "Для"
+    }
+  },
+  {
+    "id": "twogram_38",
+    "arabic": "الله ورسوله",
+    "frequency": 44,
+    "wordCount": 2,
+    "translations": {
+      "en": "Allah and his prophet",
+      "tr": "Allah ve peygamberi",
+      "ur": "اللہ اور اس کا رسول",
+      "hi": "अल्लाह और उसके नबी",
+      "id": "Allah dan nabinya",
+      "bn": "আল্লাহ ও তার রাসূল সা",
+      "ru": "Аллах и его пророк"
+    }
+  },
+  {
+    "id": "twogram_39",
+    "arabic": "لا يعلمون",
+    "frequency": 43,
+    "wordCount": 2,
+    "translations": {
+      "en": "they do not know",
+      "tr": "bilmiyorlar",
+      "ur": "وہ نہیں جانتے",
+      "hi": "वे नहीं जानते",
+      "id": "mereka tidak tahu",
+      "bn": "তারা জানে না",
+      "ru": "они не знают"
+    }
+  },
+  {
+    "id": "twogram_40",
+    "arabic": "لا يؤمنون",
+    "frequency": 43,
+    "wordCount": 2,
+    "translations": {
+      "en": "don't believe",
+      "tr": "inanma",
+      "ur": "یقین نہ کرو",
+      "hi": "विश्वास मत करो",
+      "id": "tidak percaya",
+      "bn": "বিশ্বাস করবেন না",
+      "ru": "не верь"
+    }
+  },
+  {
+    "id": "twogram_41",
+    "arabic": "بما كانوا",
+    "frequency": 42,
+    "wordCount": 2,
+    "translations": {
+      "en": "what they were",
+      "tr": "onlar neydi",
+      "ur": "وہ کیا تھے",
+      "hi": "वे क्या थे",
+      "id": "apa mereka?",
+      "bn": "তারা কি ছিল",
+      "ru": "что они были"
+    }
+  },
+  {
+    "id": "twogram_42",
+    "arabic": "غفور رحيم",
+    "frequency": 42,
+    "wordCount": 2,
+    "translations": {
+      "en": "Forgiving and Merciful",
+      "tr": "Bağışlayan ve Merhametli",
+      "ur": "بخشنے والا اور رحم کرنے والا",
+      "hi": "क्षमाशील और दयालु",
+      "id": "Pemaaf dan Penyayang",
+      "bn": "ক্ষমাশীল ও করুণাময়",
+      "ru": "Прощающий и Милосердный"
+    }
+  },
+  {
+    "id": "twogram_43",
+    "arabic": "حتى إذا",
+    "frequency": 42,
+    "wordCount": 2,
+    "translations": {
+      "en": "even if",
+      "tr": "olsa bile",
+      "ur": "یہاں تک کہ اگر",
+      "hi": "भले ही",
+      "id": "bahkan jika",
+      "bn": "যদিও",
+      "ru": "даже если"
+    }
+  },
+  {
+    "id": "twogram_44",
+    "arabic": "بما تعملون",
+    "frequency": 41,
+    "wordCount": 2,
+    "translations": {
+      "en": "what are you doing",
+      "tr": "ne yapıyorsun",
+      "ur": "تم کیا کر رہے ہو",
+      "hi": "तुम क्या कर रहे हो",
+      "id": "apa yang sedang kamu lakukan",
+      "bn": "তুমি কি করছো",
+      "ru": "что вы делаете"
+    }
+  },
+  {
+    "id": "twogram_45",
+    "arabic": "إله إلا",
+    "frequency": 40,
+    "wordCount": 2,
+    "translations": {
+      "en": "god but",
+      "tr": "tanrı ama",
+      "ur": "خدا لیکن",
+      "hi": "भगवान लेकिन",
+      "id": "tuhan tapi",
+      "bn": "ঈশ্বর কিন্তু",
+      "ru": "Боже, но"
+    }
+  },
+  {
+    "id": "twogram_46",
+    "arabic": "من كل",
+    "frequency": 40,
+    "wordCount": 2,
+    "translations": {
+      "en": "Of all",
+      "tr": "Tümünden",
+      "ur": "تمام میں سے",
+      "hi": "के सभी",
+      "id": "Dari semua",
+      "bn": "সবগুলো",
+      "ru": "Из всех"
+    }
+  },
+  {
+    "id": "twogram_47",
+    "arabic": "وكان الله",
+    "frequency": 40,
+    "wordCount": 2,
+    "translations": {
+      "en": "God was",
+      "tr": "Tanrı",
+      "ur": "خدا تھا۔",
+      "hi": "भगवान था",
+      "id": "Tuhan adalah",
+      "bn": "ঈশ্বর ছিলেন",
+      "ru": "Бог был"
+    }
+  },
+  {
+    "id": "twogram_48",
+    "arabic": "خالدين فيها",
+    "frequency": 40,
+    "wordCount": 2,
+    "translations": {
+      "en": "immortal in it",
+      "tr": "içinde ölümsüz",
+      "ur": "اس میں لافانی",
+      "hi": "इसमें अमर",
+      "id": "abadi di dalamnya",
+      "bn": "এতে অমর",
+      "ru": "бессмертный в нем"
+    }
+  },
+  {
+    "id": "twogram_49",
+    "arabic": "إلا هو",
+    "frequency": 39,
+    "wordCount": 2,
+    "translations": {
+      "en": "except him",
+      "tr": "onun dışında",
+      "ur": "سوائے اس کے",
+      "hi": "उसके सिवा",
+      "id": "kecuali dia",
+      "bn": "তাকে ছাড়া",
+      "ru": "кроме него"
+    }
+  },
+  {
+    "id": "twogram_50",
+    "arabic": "من شيء",
+    "frequency": 38,
+    "wordCount": 2,
+    "translations": {
+      "en": "of something",
+      "tr": "bir şeyin",
+      "ur": "کسی چیز کا",
+      "hi": "किसी चीज़ की",
+      "id": "dari sesuatu",
+      "bn": "কোন কিছু এর",
+      "ru": "чего-либо"
+    }
+  },
+  {
+    "id": "twogram_51",
+    "arabic": "يا قوم",
+    "frequency": 38,
+    "wordCount": 2,
+    "translations": {
+      "en": "oh people",
+      "tr": "ah insanlar",
+      "ur": "اے لوگو",
+      "hi": "ओह लोग",
+      "id": "oh orang",
+      "bn": "ওহ মানুষ",
+      "ru": "о люди"
+    }
+  },
+  {
+    "id": "twogram_52",
+    "arabic": "قال يا",
+    "frequency": 38,
+    "wordCount": 2,
+    "translations": {
+      "en": "he said oh",
+      "tr": "oh dedi",
+      "ur": "اس نے کہا اوہ",
+      "hi": "उसने कहा ओह",
+      "id": "dia berkata oh",
+      "bn": "তিনি বলেন ওহ",
+      "ru": "он сказал о"
+    }
+  },
+  {
+    "id": "twogram_53",
+    "arabic": "من دونه",
+    "frequency": 38,
+    "wordCount": 2,
+    "translations": {
+      "en": "without him",
+      "tr": "onsuz",
+      "ur": "اس کے بغیر",
+      "hi": "उसके बिना",
+      "id": "tanpa dia",
+      "bn": "তাকে ছাড়া",
+      "ru": "без него"
+    }
+  },
+  {
+    "id": "twogram_54",
+    "arabic": "من قبلهم",
+    "frequency": 37,
+    "wordCount": 2,
+    "translations": {
+      "en": "by them",
+      "tr": "onlar tarafından",
+      "ur": "ان کی طرف سے",
+      "hi": "उनके द्वारा",
+      "id": "oleh mereka",
+      "bn": "তাদের দ্বারা",
+      "ru": "ими"
+    }
+  },
+  {
+    "id": "twogram_55",
+    "arabic": "عذاب أليم",
+    "frequency": 37,
+    "wordCount": 2,
+    "translations": {
+      "en": "painful torment",
+      "tr": "acı azap",
+      "ur": "دردناک عذاب",
+      "hi": "दर्दनाक पीड़ा",
+      "id": "siksaan yang menyakitkan",
+      "bn": "বেদনাদায়ক যন্ত্রণা",
+      "ru": "болезненная мука"
+    }
+  },
+  {
+    "id": "twogram_56",
+    "arabic": "إن هذا",
+    "frequency": 36,
+    "wordCount": 2,
+    "translations": {
+      "en": "this is",
+      "tr": "bu",
+      "ur": "یہ وہ جگہ ہے",
+      "hi": "ये है",
+      "id": "ini",
+      "bn": "এই",
+      "ru": "Это"
+    }
+  },
+  {
+    "id": "twogram_57",
+    "arabic": "الذين من",
+    "frequency": 36,
+    "wordCount": 2,
+    "translations": {
+      "en": "who from",
+      "tr": "kimden",
+      "ur": "کس سے؟",
+      "hi": "किससे",
+      "id": "dari siapa",
+      "bn": "কার কাছ থেকে",
+      "ru": "Кто из"
+    }
+  },
+  {
+    "id": "twogram_58",
+    "arabic": "إلى الله",
+    "frequency": 36,
+    "wordCount": 2,
+    "translations": {
+      "en": "to GOD",
+      "tr": "tanrıya",
+      "ur": "خدا کو",
+      "hi": "ईश्वर को",
+      "id": "kepada Tuhan",
+      "bn": "ঈশ্বর",
+      "ru": "Богу"
+    }
+  },
+  {
+    "id": "twogram_59",
+    "arabic": "تحتها الأنهار",
+    "frequency": 35,
+    "wordCount": 2,
+    "translations": {
+      "en": "Underneath are the rivers",
+      "tr": "Altında nehirler var",
+      "ur": "نیچے دریا ہیں۔",
+      "hi": "नीचे नदियाँ हैं",
+      "id": "Di bawahnya ada sungai",
+      "bn": "নীচে নদী",
+      "ru": "Внизу реки"
+    }
+  },
+  {
+    "id": "twogram_60",
+    "arabic": "من تحتها",
+    "frequency": 35,
+    "wordCount": 2,
+    "translations": {
+      "en": "from under it",
+      "tr": "altından",
+      "ur": "اس کے نیچے سے",
+      "hi": "इसके नीचे से",
+      "id": "dari bawahnya",
+      "bn": "এর নিচে থেকে",
+      "ru": "из-под него"
+    }
+  },
+  {
+    "id": "twogram_61",
+    "arabic": "إلا ما",
+    "frequency": 35,
+    "wordCount": 2,
+    "translations": {
+      "en": "only what",
+      "tr": "Sadece ne",
+      "ur": "صرف کیا",
+      "hi": "सिर्फ क्या",
+      "id": "hanya apa",
+      "bn": "শুধুমাত্র কি",
+      "ru": "только что"
+    }
+  },
+  {
+    "id": "twogram_62",
+    "arabic": "والذين آمنوا",
+    "frequency": 35,
+    "wordCount": 2,
+    "translations": {
+      "en": "and those who believe",
+      "tr": "ve inananlar",
+      "ur": "اور جو لوگ ایمان رکھتے ہیں",
+      "hi": "और जो विश्वास करते हैं",
+      "id": "dan orang-orang yang beriman",
+      "bn": "এবং যারা বিশ্বাস করে",
+      "ru": "и те, кто верит"
+    }
+  },
+  {
+    "id": "twogram_63",
+    "arabic": "كانوا يعملون",
+    "frequency": 35,
+    "wordCount": 2,
+    "translations": {
+      "en": "have been working",
+      "tr": "çalışıyordu",
+      "ur": "کام کر رہے ہیں",
+      "hi": "काम कर रहे हैं",
+      "id": "sedang bekerja",
+      "bn": "আছে কাজ করা",
+      "ru": "работал"
+    }
+  },
+  {
+    "id": "twogram_64",
+    "arabic": "من ربك",
+    "frequency": 34,
+    "wordCount": 2,
+    "translations": {
+      "en": "from your God",
+      "tr": "senin tanrından",
+      "ur": "اپنے خدا سے",
+      "hi": "अपने भगवान से",
+      "id": "dari Tuhanmu",
+      "bn": "তোমার ঈশ্বরের কাছ থেকে",
+      "ru": "от твоего Бога"
+    }
+  },
+  {
+    "id": "twogram_65",
+    "arabic": "رب العالمين",
+    "frequency": 34,
+    "wordCount": 2,
+    "translations": {
+      "en": "Lord of the Worlds",
+      "tr": "Dünyaların Efendisi",
+      "ur": "رب العالمین",
+      "hi": "दुनिया के भगवान",
+      "id": "Tuhan Dunia",
+      "bn": "বিশ্বজগতের প্রভু",
+      "ru": "Господь миров"
+    }
+  },
+  {
+    "id": "twogram_66",
+    "arabic": "على ما",
+    "frequency": 34,
+    "wordCount": 2,
+    "translations": {
+      "en": "on what",
+      "tr": "ne üstüne",
+      "ur": "کس چیز پر",
+      "hi": "किस पर",
+      "id": "tentang apa",
+      "bn": "কিসে",
+      "ru": "На что"
+    }
+  },
+  {
+    "id": "twogram_67",
+    "arabic": "قال رب",
+    "frequency": 33,
+    "wordCount": 2,
+    "translations": {
+      "en": "Lord said",
+      "tr": "Tanrı dedi",
+      "ur": "رب نے کہا",
+      "hi": "भगवान ने कहा",
+      "id": "Tuhan berkata",
+      "bn": "প্রভু বললেন",
+      "ru": "Господь сказал"
+    }
+  },
+  {
+    "id": "twogram_68",
+    "arabic": "بعد ما",
+    "frequency": 33,
+    "wordCount": 2,
+    "translations": {
+      "en": "after what",
+      "tr": "neyden sonra",
+      "ur": "کے بعد کیا",
+      "hi": "बाद में क्या",
+      "id": "setelah apa",
+      "bn": "পরে কি",
+      "ru": "после чего"
+    }
+  },
+  {
+    "id": "twogram_69",
+    "arabic": "ولا هم",
+    "frequency": 32,
+    "wordCount": 2,
+    "translations": {
+      "en": "Neither are they",
+      "tr": "onlar da değil",
+      "ur": "وہ بھی نہیں ہیں۔",
+      "hi": "वे भी नहीं हैं",
+      "id": "Mereka juga tidak",
+      "bn": "তারাও নয়",
+      "ru": "И они не"
+    }
+  },
+  {
+    "id": "twogram_70",
+    "arabic": "وهم لا",
+    "frequency": 31,
+    "wordCount": 2,
+    "translations": {
+      "en": "and they don't",
+      "tr": "ve yapmazlar",
+      "ur": "اور وہ نہیں کرتے",
+      "hi": "और वे नहीं करते",
+      "id": "dan mereka tidak",
+      "bn": "এবং তারা না",
+      "ru": "и они не"
+    }
+  },
+  {
+    "id": "twogram_71",
+    "arabic": "لهم من",
+    "frequency": 31,
+    "wordCount": 2,
+    "translations": {
+      "en": "them from",
+      "tr": "onlardan",
+      "ur": "ان سے",
+      "hi": "उन्हें . से",
+      "id": "mereka dari",
+      "bn": "তাদের থেকে",
+      "ru": "их из"
+    }
+  },
+  {
+    "id": "twogram_72",
+    "arabic": "أهل الكتاب",
+    "frequency": 31,
+    "wordCount": 2,
+    "translations": {
+      "en": "People of the Book",
+      "tr": "Kitap İnsanları",
+      "ur": "اہل کتاب",
+      "hi": "किताब के लोग",
+      "id": "Orang-orang Kitab",
+      "bn": "আহলে কিতাব",
+      "ru": "Люди Книги"
+    }
+  },
+  {
+    "id": "twogram_73",
+    "arabic": "له من",
+    "frequency": 31,
+    "wordCount": 2,
+    "translations": {
+      "en": "him from",
+      "tr": "ondan",
+      "ur": "اس سے",
+      "hi": "उसे . से",
+      "id": "dia dari",
+      "bn": "তার থেকে",
+      "ru": "его от"
+    }
+  },
+  {
+    "id": "twogram_74",
+    "arabic": "ألم تر",
+    "frequency": 31,
+    "wordCount": 2,
+    "translations": {
+      "en": "didn't you see",
+      "tr": "görmedin mi",
+      "ur": "تم نے نہیں دیکھا؟",
+      "hi": "क्या तुमने नहीं देखा",
+      "id": "tidakkah kamu melihat?",
+      "bn": "আপনি দেখেন নি",
+      "ru": "разве ты не видел"
+    }
+  },
+  {
+    "id": "twogram_75",
+    "arabic": "من ربكم",
+    "frequency": 31,
+    "wordCount": 2,
+    "translations": {
+      "en": "from your Lord",
+      "tr": "Rabbinden",
+      "ur": "اپنے رب کی طرف سے",
+      "hi": "अपने रब से",
+      "id": "dari Tuhanmu",
+      "bn": "তোমার প্রভুর কাছ থেকে",
+      "ru": "от твоего Господа"
+    }
+  },
+  {
+    "id": "twogram_76",
+    "arabic": "الذين لا",
+    "frequency": 30,
+    "wordCount": 2,
+    "translations": {
+      "en": "who do not",
+      "tr": "Kim yapmaz",
+      "ur": "جو نہیں کرتے",
+      "hi": "नहीं है जो",
+      "id": "siapa yang tidak",
+      "bn": "কে করে না",
+      "ru": "кто не"
+    }
+  },
+  {
+    "id": "twogram_77",
+    "arabic": "واتقوا الله",
+    "frequency": 30,
+    "wordCount": 2,
+    "translations": {
+      "en": "And fear God",
+      "tr": "Ve Allah'tan korkun",
+      "ur": "اور خدا سے ڈرو",
+      "hi": "और भगवान से डरो",
+      "id": "Dan takut akan Tuhan",
+      "bn": "আর আল্লাহকে ভয় কর",
+      "ru": "И бойтесь Бога"
+    }
+  },
+  {
+    "id": "twogram_78",
+    "arabic": "قبل أن",
+    "frequency": 29,
+    "wordCount": 2,
+    "translations": {
+      "en": "Before",
+      "tr": "Önce",
+      "ur": "اس سے پہلے",
+      "hi": "पहले",
+      "id": "Sebelum",
+      "bn": "আগে",
+      "ru": "До"
+    }
+  },
+  {
+    "id": "twogram_79",
+    "arabic": "بما كنتم",
+    "frequency": 29,
+    "wordCount": 2,
+    "translations": {
+      "en": "what you were",
+      "tr": "sen neydin",
+      "ur": "تم کیا تھے",
+      "hi": "तुम क्या थे",
+      "id": "apa kamu?",
+      "bn": "তুমি কি ছিলে",
+      "ru": "кем ты был"
+    }
+  },
+  {
+    "id": "twogram_80",
+    "arabic": "إنه كان",
+    "frequency": 29,
+    "wordCount": 2,
+    "translations": {
+      "en": "He was",
+      "tr": "o",
+      "ur": "وہ تھا۔",
+      "hi": "वह था",
+      "id": "dia adalah",
+      "bn": "সে ছিল",
+      "ru": "Он был"
+    }
+  },
+  {
+    "id": "twogram_81",
+    "arabic": "شاء الله",
+    "frequency": 28,
+    "wordCount": 2,
+    "translations": {
+      "en": "If God wants",
+      "tr": "Tanrı isterse",
+      "ur": "اگر اللہ نے چاہا۔",
+      "hi": "अगर भगवान् चाहते हों",
+      "id": "Jika Tuhan menghendaki",
+      "bn": "যদি ঈশ্বর চায়",
+      "ru": "Если Бог хочет"
+    }
+  },
+  {
+    "id": "twogram_82",
+    "arabic": "هو الذي",
+    "frequency": 28,
+    "wordCount": 2,
+    "translations": {
+      "en": "he who",
+      "tr": "o kim",
+      "ur": "وہ جو",
+      "hi": "वह कौन",
+      "id": "dia siapa",
+      "bn": "সে যা",
+      "ru": "Кто он"
+    }
+  },
+  {
+    "id": "twogram_83",
+    "arabic": "في الدنيا",
+    "frequency": 28,
+    "wordCount": 2,
+    "translations": {
+      "en": "in this life",
+      "tr": "bu hayatta",
+      "ur": "اس زندگی میں",
+      "hi": "इस जीवन में",
+      "id": "dalam hidup ini",
+      "bn": "এই জীবনে",
+      "ru": "в этой жизни"
+    }
+  },
+  {
+    "id": "twogram_84",
+    "arabic": "إن ربك",
+    "frequency": 28,
+    "wordCount": 2,
+    "translations": {
+      "en": "Your Lord",
+      "tr": "Rabbin",
+      "ur": "تیرا رب",
+      "hi": "आपका भगवान",
+      "id": "Tuhanmu",
+      "bn": "তোমার প্রভু",
+      "ru": "Ваш Господь"
+    }
+  },
+  {
+    "id": "twogram_85",
+    "arabic": "وهو الذي",
+    "frequency": 28,
+    "wordCount": 2,
+    "translations": {
+      "en": "and he who",
+      "tr": "ve o kim",
+      "ur": "اور وہ جو",
+      "hi": "और वह जो",
+      "id": "dan dia siapa",
+      "bn": "এবং তিনি যিনি",
+      "ru": "и тот, кто"
+    }
+  },
+  {
+    "id": "twogram_86",
+    "arabic": "كنتم صادقين",
+    "frequency": 28,
+    "wordCount": 2,
+    "translations": {
+      "en": "you were honest",
+      "tr": "dürüsttün",
+      "ur": "تم ایماندار تھے",
+      "hi": "आप ईमानदार थे",
+      "id": "kamu jujur",
+      "bn": "আপনি সৎ ছিলেন",
+      "ru": "ты был честен"
+    }
+  },
+  {
+    "id": "twogram_87",
+    "arabic": "من قبلك",
+    "frequency": 28,
+    "wordCount": 2,
+    "translations": {
+      "en": "by you",
+      "tr": "senin tarafından",
+      "ur": "آپ کی طرف سے",
+      "hi": "आपके द्वारा",
+      "id": "oleh Anda",
+      "bn": "তোমার দ্বারা",
+      "ru": "тобой"
+    }
+  },
+  {
+    "id": "twogram_88",
+    "arabic": "السماوات وما",
+    "frequency": 28,
+    "wordCount": 2,
+    "translations": {
+      "en": "Heavens and what",
+      "tr": "cennet ve ne",
+      "ur": "آسمان اور کیا",
+      "hi": "स्वर्ग और क्या",
+      "id": "Surga dan apa?",
+      "bn": "স্বর্গ এবং কি",
+      "ru": "Небеса и что"
+    }
+  },
+  {
+    "id": "twogram_89",
+    "arabic": "وما في",
+    "frequency": 28,
+    "wordCount": 2,
+    "translations": {
+      "en": "and what's in",
+      "tr": "ve içinde ne var",
+      "ur": "اور کیا ہے",
+      "hi": "और इसमें क्या है",
+      "id": "dan apa yang ada di",
+      "bn": "এবং কি আছে",
+      "ru": "и что внутри"
+    }
+  },
+  {
+    "id": "twogram_90",
+    "arabic": "يعلم ما",
+    "frequency": 27,
+    "wordCount": 2,
+    "translations": {
+      "en": "knows what",
+      "tr": "ne biliyor",
+      "ur": "کیا جانتا ہے",
+      "hi": "जानता है क्या",
+      "id": "tahu apa",
+      "bn": "কি জানে",
+      "ru": "знает что"
+    }
+  },
+  {
+    "id": "twogram_91",
+    "arabic": "به من",
+    "frequency": 27,
+    "wordCount": 2,
+    "translations": {
+      "en": "to from",
+      "tr": "-den",
+      "ur": "سے",
+      "hi": "से करने के लिए",
+      "id": "untuk dari",
+      "bn": "থেকে",
+      "ru": "от"
+    }
+  },
+  {
+    "id": "twogram_92",
+    "arabic": "من الذين",
+    "frequency": 27,
+    "wordCount": 2,
+    "translations": {
+      "en": "who",
+      "tr": "kim",
+      "ur": "ڈبلیو ایچ او",
+      "hi": "कौन",
+      "id": "yang",
+      "bn": "কে",
+      "ru": "кто"
+    }
+  },
+  {
+    "id": "twogram_93",
+    "arabic": "والأرض وما",
+    "frequency": 27,
+    "wordCount": 2,
+    "translations": {
+      "en": "and the earth and what",
+      "tr": "ve dünya ve ne",
+      "ur": "اور زمین اور کیا",
+      "hi": "और पृथ्वी और क्या",
+      "id": "dan bumi dan apa",
+      "bn": "এবং পৃথিবী এবং কি",
+      "ru": "и земля и что"
+    }
+  },
+  {
+    "id": "twogram_94",
+    "arabic": "قالوا يا",
+    "frequency": 26,
+    "wordCount": 2,
+    "translations": {
+      "en": "They said oh",
+      "tr": "oh dediler",
+      "ur": "کہنے لگے اوہ",
+      "hi": "उन्होंने कहा ओह",
+      "id": "Mereka berkata oh",
+      "bn": "তারা বলল ওহ",
+      "ru": "Они сказали о"
+    }
+  },
+  {
+    "id": "twogram_95",
+    "arabic": "كنتم تعملون",
+    "frequency": 26,
+    "wordCount": 2,
+    "translations": {
+      "en": "you were working",
+      "tr": "sen çalışıyordun",
+      "ur": "تم کام کر رہے تھے",
+      "hi": "आप काम कर रहे थे",
+      "id": "kamu sedang bekerja",
+      "bn": "তুমি কাজ করছিলে",
+      "ru": "Вы работали"
+    }
+  },
+  {
+    "id": "twogram_96",
+    "arabic": "الذين أوتوا",
+    "frequency": 26,
+    "wordCount": 2,
+    "translations": {
+      "en": "who were given",
+      "tr": "kime verildi",
+      "ur": "جنہیں دیا گیا تھا۔",
+      "hi": "जो दिए गए थे",
+      "id": "siapa yang diberikan",
+      "bn": "যাদের দেওয়া হয়েছিল",
+      "ru": "кому дали"
+    }
+  },
+  {
+    "id": "twogram_97",
+    "arabic": "أولئك الذين",
+    "frequency": 26,
+    "wordCount": 2,
+    "translations": {
+      "en": "Those Who",
+      "tr": "Kimler",
+      "ur": "وہ لوگ جو",
+      "hi": "वे जो",
+      "id": "Orang-orang yang",
+      "bn": "যারা",
+      "ru": "Те, кто"
+    }
+  },
+  {
+    "id": "twogram_98",
+    "arabic": "أنزل الله",
+    "frequency": 26,
+    "wordCount": 2,
+    "translations": {
+      "en": "God sent down",
+      "tr": "Tanrı indirdi",
+      "ur": "اللہ نے نازل کیا۔",
+      "hi": "भगवान ने नीचे भेजा",
+      "id": "Tuhan menurunkan",
+      "bn": "আল্লাহ নাযিল করেছেন",
+      "ru": "Бог послал вниз"
+    }
+  },
+  {
+    "id": "twogram_99",
+    "arabic": "الله هو",
+    "frequency": 26,
+    "wordCount": 2,
+    "translations": {
+      "en": "God is",
+      "tr": "Tanrı",
+      "ur": "خدا ہے",
+      "hi": "भगवान है",
+      "id": "Tuhan adalah",
+      "bn": "উপাস্য নেই",
+      "ru": "Бог это"
+    }
+  },
+  {
+    "id": "twogram_100",
+    "arabic": "إذ قال",
+    "frequency": 26,
+    "wordCount": 2,
+    "translations": {
+      "en": "he said",
+      "tr": "dedi",
+      "ur": "انہوں نے کہا",
+      "hi": "उसने बोला",
+      "id": "dia berkata",
+      "bn": "সে বলেছিল",
+      "ru": "он сказал"
+    }
+  },
+  {
+    "id": "twogram_101",
+    "arabic": "بكل شيء",
+    "frequency": 25,
+    "wordCount": 2,
+    "translations": {
+      "en": "in everything",
+      "tr": "her şeyin içinde",
+      "ur": "ہر چیز میں",
+      "hi": "प्रत्येक चीज़ में",
+      "id": "dalam segala hal",
+      "bn": "সবকিছুতে",
+      "ru": "во всем"
+    }
+  },
+  {
+    "id": "twogram_102",
+    "arabic": "الله غفور",
+    "frequency": 25,
+    "wordCount": 2,
+    "translations": {
+      "en": "God is forgiving",
+      "tr": "Tanrı bağışlayıcıdır",
+      "ur": "خدا بخشنے والا ہے۔",
+      "hi": "भगवान क्षमा कर रहे हैं",
+      "id": "Tuhan Maha Pengampun",
+      "bn": "ঈশ্বর ক্ষমাশীল",
+      "ru": "Бог прощает"
+    }
+  },
+  {
+    "id": "twogram_103",
+    "arabic": "قل إن",
+    "frequency": 25,
+    "wordCount": 2,
+    "translations": {
+      "en": "say that",
+      "tr": "şunu söyle",
+      "ur": "کہہ دو",
+      "hi": "कहते हैं कि",
+      "id": "mengatakan bahwa",
+      "bn": "ওটা বল",
+      "ru": "скажи это"
+    }
+  },
+  {
+    "id": "twogram_104",
+    "arabic": "لا يهدي",
+    "frequency": 24,
+    "wordCount": 2,
+    "translations": {
+      "en": "does not guide",
+      "tr": "rehberlik etmez",
+      "ur": "رہنمائی نہیں کرتا",
+      "hi": "मार्गदर्शन नहीं करता",
+      "id": "tidak membimbing",
+      "bn": "গাইড করে না",
+      "ru": "не ведет"
+    }
+  },
+  {
+    "id": "twogram_105",
+    "arabic": "عن سبيل",
+    "frequency": 24,
+    "wordCount": 2,
+    "translations": {
+      "en": "for a way",
+      "tr": "bir yol için",
+      "ur": "دور کے لئے",
+      "hi": "दूर के लिए",
+      "id": "untuk suatu cara",
+      "bn": "একটি উপায় জন্য",
+      "ru": "для пути"
+    }
+  },
+  {
+    "id": "twogram_106",
+    "arabic": "كان من",
+    "frequency": 24,
+    "wordCount": 2,
+    "translations": {
+      "en": "It was",
+      "tr": "Öyleydi",
+      "ur": "یہ تھا",
+      "hi": "वह था",
+      "id": "Dulu",
+      "bn": "ইহা ছিল",
+      "ru": "Это было"
+    }
+  },
+  {
+    "id": "twogram_107",
+    "arabic": "في قلوبهم",
+    "frequency": 24,
+    "wordCount": 2,
+    "translations": {
+      "en": "in their hearts",
+      "tr": "kalplerinde",
+      "ur": "ان کے دلوں میں",
+      "hi": "उनके दिलों में",
+      "id": "di hati mereka",
+      "bn": "তাদের হৃদয়ে",
+      "ru": "в их сердцах"
+    }
+  },
+  {
+    "id": "twogram_108",
+    "arabic": "ذلك لآيات",
+    "frequency": 24,
+    "wordCount": 2,
+    "translations": {
+      "en": "That's for verses",
+      "tr": "bu ayetler için",
+      "ur": "یہ آیات کے لیے ہے۔",
+      "hi": "वह छंद के लिए है",
+      "id": "Itu untuk ayat",
+      "bn": "যে আয়াত জন্য",
+      "ru": "Это для стихов"
+    }
+  },
+  {
+    "id": "twogram_109",
+    "arabic": "ما كان",
+    "frequency": 24,
+    "wordCount": 2,
+    "translations": {
+      "en": "What was",
+      "tr": "Neydi",
+      "ur": "کیا تھا",
+      "hi": "क्या था",
+      "id": "Apa itu?",
+      "bn": "কি ছিল",
+      "ru": "Что было"
+    }
+  },
+  {
+    "id": "twogram_110",
+    "arabic": "والله عليم",
+    "frequency": 24,
+    "wordCount": 2,
+    "translations": {
+      "en": "God is All-Knowing",
+      "tr": "Allah her şeyi bilendir",
+      "ur": "خدا سب کچھ جاننے والا ہے۔",
+      "hi": "ईश्वर सर्वज्ञ है",
+      "id": "Tuhan Maha Mengetahui",
+      "bn": "আল্লাহ সর্বজ্ঞ",
+      "ru": "Бог всезнающий"
+    }
+  },
+  {
+    "id": "twogram_111",
+    "arabic": "في الآخرة",
+    "frequency": 24,
+    "wordCount": 2,
+    "translations": {
+      "en": "in the hereafter",
+      "tr": "ahirette",
+      "ur": "آخرت میں",
+      "hi": "इसके बाद में",
+      "id": "di akhirat",
+      "bn": "পরকালে",
+      "ru": "в будущем"
+    }
+  },
+  {
+    "id": "twogram_112",
+    "arabic": "إلى يوم",
+    "frequency": 23,
+    "wordCount": 2,
+    "translations": {
+      "en": "until today",
+      "tr": "bugüne kadar",
+      "ur": "آج تک",
+      "hi": "आज तक",
+      "id": "sampai hari ini",
+      "bn": "আজ পর্যন্ত",
+      "ru": "до сегодняшнего дня"
+    }
+  },
+  {
+    "id": "twogram_113",
+    "arabic": "ابن مريم",
+    "frequency": 23,
+    "wordCount": 2,
+    "translations": {
+      "en": "son of Mary",
+      "tr": "Meryem oğlu",
+      "ur": "مریم کا بیٹا",
+      "hi": "मरियम का पुत्र",
+      "id": "putra Mary",
+      "bn": "মরিয়মের ছেলে",
+      "ru": "сын Марии"
+    }
+  },
+  {
+    "id": "twogram_114",
+    "arabic": "لا يحب",
+    "frequency": 23,
+    "wordCount": 2,
+    "translations": {
+      "en": "Does not like",
+      "tr": "Sevmez",
+      "ur": "پسند نہیں کرتا",
+      "hi": "पसंद नहीं है",
+      "id": "Tidak suka",
+      "bn": "পছন্দ করে না",
+      "ru": "Не любит"
+    }
+  },
+  {
+    "id": "twogram_115",
+    "arabic": "ولهم عذاب",
+    "frequency": 23,
+    "wordCount": 2,
+    "translations": {
+      "en": "And they have torment",
+      "tr": "Ve azapları var",
+      "ur": "اور ان پر عذاب ہے۔",
+      "hi": "और उन्हें पीड़ा है",
+      "id": "Dan mereka memiliki siksaan",
+      "bn": "এবং তাদের আযাব আছে",
+      "ru": "И у них есть мучения"
+    }
+  },
+  {
+    "id": "twogram_116",
+    "arabic": "ما كنتم",
+    "frequency": 23,
+    "wordCount": 2,
+    "translations": {
+      "en": "what were you",
+      "tr": "sen neydin",
+      "ur": "تم کیا تھے",
+      "hi": "आप क्या थे",
+      "id": "apa kamu?",
+      "bn": "তুমি কি ছিলে",
+      "ru": "кем ты был"
+    }
+  },
+  {
+    "id": "twogram_117",
+    "arabic": "الله لكم",
+    "frequency": 23,
+    "wordCount": 2,
+    "translations": {
+      "en": "God is yours",
+      "tr": "Tanrı senin",
+      "ur": "خدا تمہارا ہے۔",
+      "hi": "भगवान आपका है",
+      "id": "Tuhan adalah milikmu",
+      "bn": "ঈশ্বর তোমার",
+      "ru": "Бог твой"
+    }
+  },
+  {
+    "id": "twogram_118",
+    "arabic": "بعد ذلك",
+    "frequency": 23,
+    "wordCount": 2,
+    "translations": {
+      "en": "Then",
+      "tr": "sonra",
+      "ur": "پھر",
+      "hi": "फिर",
+      "id": "Kemudian",
+      "bn": "তারপর",
+      "ru": "потом"
+    }
+  },
+  {
+    "id": "twogram_119",
+    "arabic": "صراط مستقيم",
+    "frequency": 23,
+    "wordCount": 2,
+    "translations": {
+      "en": "straight path",
+      "tr": "düz yol",
+      "ur": "سیدھا راستہ",
+      "hi": "सीधा रास्ता",
+      "id": "jalan yang lurus",
+      "bn": "সোজা পথ",
+      "ru": "прямой путь"
+    }
+  },
+  {
+    "id": "twogram_120",
+    "arabic": "وعد الله",
+    "frequency": 23,
+    "wordCount": 2,
+    "translations": {
+      "en": "God's Promise",
+      "tr": "Tanrı'nın Vaadi",
+      "ur": "خدا کا وعدہ",
+      "hi": "भगवान का वादा",
+      "id": "Janji Tuhan",
+      "bn": "ঈশ্বরের প্রতিশ্রুতি",
+      "ru": "Божье обетование"
+    }
+  },
+  {
+    "id": "twogram_121",
+    "arabic": "إلا قليلا",
+    "frequency": 23,
+    "wordCount": 2,
+    "translations": {
+      "en": "only a little",
+      "tr": "sadece biraz",
+      "ur": "صرف تھوڑا سا",
+      "hi": "केवल थोड़ा सा",
+      "id": "hanya sedikit",
+      "bn": "নামমাত্র",
+      "ru": "лишь малость"
+    }
+  },
+  {
+    "id": "twogram_122",
+    "arabic": "كان عاقبة",
+    "frequency": 22,
+    "wordCount": 2,
+    "translations": {
+      "en": "was a consequence",
+      "tr": "bir sonuçtu",
+      "ur": "ایک نتیجہ تھا",
+      "hi": "एक परिणाम था",
+      "id": "adalah konsekuensi",
+      "bn": "একটি পরিণতি ছিল",
+      "ru": "было следствием"
+    }
+  },
+  {
+    "id": "twogram_123",
+    "arabic": "كل نفس",
+    "frequency": 22,
+    "wordCount": 2,
+    "translations": {
+      "en": "all the same",
+      "tr": "hepsi aynı",
+      "ur": "سب ایک جیسے ہیں",
+      "hi": "सब एक जैसे",
+      "id": "semua sama",
+      "bn": "একই",
+      "ru": "все так же"
+    }
+  },
+  {
+    "id": "twogram_124",
+    "arabic": "واليوم الآخر",
+    "frequency": 22,
+    "wordCount": 2,
+    "translations": {
+      "en": "And the other day",
+      "tr": "Ve diğer gün",
+      "ur": "اور دوسرے دن",
+      "hi": "और दूसरे दिन",
+      "id": "Dan hari lainnya",
+      "bn": "এবং অন্য দিন",
+      "ru": "И на днях"
+    }
+  },
+  {
+    "id": "twogram_125",
+    "arabic": "من عند",
+    "frequency": 22,
+    "wordCount": 2,
+    "translations": {
+      "en": "from",
+      "tr": "itibaren",
+      "ur": "سے",
+      "hi": "से",
+      "id": "dari",
+      "bn": "থেকে",
+      "ru": "от"
+    }
+  },
+  {
+    "id": "twogram_126",
+    "arabic": "هذا إلا",
+    "frequency": 22,
+    "wordCount": 2,
+    "translations": {
+      "en": "This is only",
+      "tr": "Bu sadece",
+      "ur": "یہ صرف",
+      "hi": "यह केवल .... ही",
+      "id": "Hanya ini",
+      "bn": "এই শুধুমাত্র",
+      "ru": "Это только"
+    }
+  },
+  {
+    "id": "twogram_127",
+    "arabic": "كيف كان",
+    "frequency": 21,
+    "wordCount": 2,
+    "translations": {
+      "en": "how it was",
+      "tr": "nasıldı",
+      "ur": "یہ کیسا تھا",
+      "hi": "यह कैसे था",
+      "id": "bagaimana itu?",
+      "bn": "কেমন ছিল",
+      "ru": "как это было"
+    }
+  },
+  {
+    "id": "twogram_128",
+    "arabic": "على الذين",
+    "frequency": 21,
+    "wordCount": 2,
+    "translations": {
+      "en": "on who",
+      "tr": "kimin üzerinde",
+      "ur": "کس پر",
+      "hi": "किस पर",
+      "id": "pada siapa",
+      "bn": "কার উপর",
+      "ru": "на кого"
+    }
+  },
+  {
+    "id": "twogram_129",
+    "arabic": "الله عليكم",
+    "frequency": 21,
+    "wordCount": 2,
+    "translations": {
+      "en": "God be upon you",
+      "tr": "Tanrı senin üzerine olsun",
+      "ur": "خدا تم پر ہو۔",
+      "hi": "भगवान आप पर हो",
+      "id": "Tuhan atasmu",
+      "bn": "ঈশ্বর আপনার উপর থাকুক",
+      "ru": "Бог с тобой"
+    }
+  },
+  {
+    "id": "twogram_130",
+    "arabic": "الحمد لله",
+    "frequency": 21,
+    "wordCount": 2,
+    "translations": {
+      "en": "Thank God",
+      "tr": "Allah'a şükür",
+      "ur": "خدا کا شکر ہے",
+      "hi": "सुकर है",
+      "id": "Terima kasih Tuhan",
+      "bn": "সৃষ্টিকর্তাকে ধন্যবাদ",
+      "ru": "Слава Богу"
+    }
+  },
+  {
+    "id": "twogram_131",
+    "arabic": "وما بينهما",
+    "frequency": 21,
+    "wordCount": 2,
+    "translations": {
+      "en": "And what's in between",
+      "tr": "Ve arada ne var",
+      "ur": "اور درمیان میں کیا ہے۔",
+      "hi": "और बीच में क्या है",
+      "id": "Dan apa yang ada di antara",
+      "bn": "আর এর মাঝে কি আছে",
+      "ru": "И что между"
+    }
+  },
+  {
+    "id": "twogram_132",
+    "arabic": "الله وما",
+    "frequency": 21,
+    "wordCount": 2,
+    "translations": {
+      "en": "God and what",
+      "tr": "Tanrı ve ne",
+      "ur": "خدا اور کیا",
+      "hi": "भगवान और क्या",
+      "id": "Tuhan dan apa?",
+      "bn": "ঈশ্বর এবং কি",
+      "ru": "Боже и что"
+    }
+  },
+  {
+    "id": "twogram_133",
+    "arabic": "ومنهم من",
+    "frequency": 21,
+    "wordCount": 2,
+    "translations": {
+      "en": "and some of them",
+      "tr": "ve bazıları",
+      "ur": "اور ان میں سے کچھ",
+      "hi": "और उनमें से कुछ",
+      "id": "dan beberapa di antaranya",
+      "bn": "এবং তাদের কিছু",
+      "ru": "и некоторые из них"
+    }
+  },
+  {
+    "id": "twogram_134",
+    "arabic": "لا تعلمون",
+    "frequency": 21,
+    "wordCount": 2,
+    "translations": {
+      "en": "you don't know",
+      "tr": "bilmiyorsun",
+      "ur": "تم نہیں جانتے",
+      "hi": "आप नहीं जानते",
+      "id": "kamu tidak tahu",
+      "bn": "তুমি জানো না",
+      "ru": "ты не знаешь"
+    }
+  },
+  {
+    "id": "twogram_135",
+    "arabic": "وقال الذين",
+    "frequency": 21,
+    "wordCount": 2,
+    "translations": {
+      "en": "Who said",
+      "tr": "Kim dedi",
+      "ur": "کس نے کہا",
+      "hi": "किसने कहा",
+      "id": "Siapa bilang",
+      "bn": "কে বলেছে",
+      "ru": "Кто это сказал"
+    }
+  },
+  {
+    "id": "twogram_136",
+    "arabic": "أيها الناس",
+    "frequency": 21,
+    "wordCount": 2,
+    "translations": {
+      "en": "Dear people",
+      "tr": "sevgili insanlar",
+      "ur": "پیارے لوگو",
+      "hi": "प्रिय लोग",
+      "id": "Orang-orang tersayang",
+      "bn": "প্রিয় মানুষ",
+      "ru": "Уважаемые люди"
+    }
+  },
+  {
+    "id": "twogram_137",
+    "arabic": "الذي خلق",
+    "frequency": 21,
+    "wordCount": 2,
+    "translations": {
+      "en": "who created",
+      "tr": "kim yarattı",
+      "ur": "جس نے پیدا کیا",
+      "hi": "जो बनाया",
+      "id": "siapa yang menciptakan",
+      "bn": "যিনি সৃষ্টি করেছেন",
+      "ru": "кто создал"
+    }
+  },
+  {
+    "id": "twogram_138",
+    "arabic": "فأولئك هم",
+    "frequency": 21,
+    "wordCount": 2,
+    "translations": {
+      "en": "Those are",
+      "tr": "Onlar",
+      "ur": "وہ ہیں",
+      "hi": "वे हैं",
+      "id": "Yaitu",
+      "bn": "ঐগুলি",
+      "ru": "Это"
+    }
+  },
+  {
+    "id": "twogram_139",
+    "arabic": "في الحياة",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "In life",
+      "tr": "hayatta",
+      "ur": "زندگی میں",
+      "hi": "ज़िन्दगी में",
+      "id": "Dalam hidup",
+      "bn": "জীবনে",
+      "ru": "В жизни"
+    }
+  },
+  {
+    "id": "twogram_140",
+    "arabic": "ما لم",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "Unless",
+      "tr": "Meğer ki",
+      "ur": "جب تک",
+      "hi": "जब तक",
+      "id": "Kecuali kalau",
+      "bn": "যদি না",
+      "ru": "Пока не"
+    }
+  },
+  {
+    "id": "twogram_141",
+    "arabic": "أكثرهم لا",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "Most of them do not",
+      "tr": "Çoğu yok",
+      "ur": "ان میں سے اکثر ایسا نہیں کرتے",
+      "hi": "उनमें से ज्यादातर नहीं",
+      "id": "Kebanyakan dari mereka tidak",
+      "bn": "তাদের অধিকাংশই করে না",
+      "ru": "Большинство из них не"
+    }
+  },
+  {
+    "id": "twogram_142",
+    "arabic": "ذلك بأنهم",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "that they",
+      "tr": "onlar ki",
+      "ur": "کہ وہ",
+      "hi": "कि वे",
+      "id": "bahwa mereka",
+      "bn": "তারা যে",
+      "ru": "что они"
+    }
+  },
+  {
+    "id": "twogram_143",
+    "arabic": "لهم عذاب",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "them torment",
+      "tr": "onlara eziyet",
+      "ur": "انہیں عذاب",
+      "hi": "उन्हें पीड़ा",
+      "id": "mereka menyiksa",
+      "bn": "তাদের যন্ত্রণা",
+      "ru": "их мучить"
+    }
+  },
+  {
+    "id": "twogram_144",
+    "arabic": "الأنهار خالدين",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "rivers are immortal",
+      "tr": "nehirler ölümsüzdür",
+      "ur": "دریا لافانی ہیں",
+      "hi": "नदियाँ अमर हैं",
+      "id": "sungai itu abadi",
+      "bn": "নদী অমর",
+      "ru": "реки бессмертны"
+    }
+  },
+  {
+    "id": "twogram_145",
+    "arabic": "من في",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "who in",
+      "tr": "kimde",
+      "ur": "کون میں",
+      "hi": "में कौन",
+      "id": "siapa di",
+      "bn": "যারা",
+      "ru": "кто в"
+    }
+  },
+  {
+    "id": "twogram_146",
+    "arabic": "لمن يشاء",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "whomever he wants",
+      "tr": "kimi isterse",
+      "ur": "وہ جسے چاہے",
+      "hi": "वह जिसे चाहे",
+      "id": "siapapun yang dia mau",
+      "bn": "তিনি যাকে চান",
+      "ru": "кого он хочет"
+    }
+  },
+  {
+    "id": "twogram_147",
+    "arabic": "يا بني",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "my son",
+      "tr": "oğlum",
+      "ur": "میرا بیٹا",
+      "hi": "मेरा बेटा",
+      "id": "anakku",
+      "bn": "আমার ছেলে",
+      "ru": "мой сын"
+    }
+  },
+  {
+    "id": "twogram_148",
+    "arabic": "أصحاب النار",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "owners of fire",
+      "tr": "ateşin sahipleri",
+      "ur": "آگ کے مالکان",
+      "hi": "आग के मालिक",
+      "id": "pemilik api",
+      "bn": "আগুনের মালিকরা",
+      "ru": "владельцы огня"
+    }
+  },
+  {
+    "id": "twogram_149",
+    "arabic": "والذين كفروا",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "And those who disbelieve",
+      "tr": "Ve inkar edenler",
+      "ur": "اور جو کافر ہیں۔",
+      "hi": "और जो अविश्वास करते हैं",
+      "id": "Dan orang-orang yang kafir",
+      "bn": "আর যারা অবিশ্বাস করে",
+      "ru": "А те, кто не верит"
+    }
+  },
+  {
+    "id": "twogram_150",
+    "arabic": "في ضلال",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "astray",
+      "tr": "yoldan çıkmak",
+      "ur": "گمراہ",
+      "hi": "गुमराह",
+      "id": "sesat",
+      "bn": "পথভ্রষ্ট",
+      "ru": "заблудший"
+    }
+  },
+  {
+    "id": "twogram_151",
+    "arabic": "أولئك هم",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "those are",
+      "tr": "onlar",
+      "ur": "وہ ہیں",
+      "hi": "वे हैं",
+      "id": "yaitu",
+      "bn": "ঐগুলি",
+      "ru": "это"
+    }
+  },
+  {
+    "id": "twogram_152",
+    "arabic": "ما لكم",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "what's yours",
+      "tr": "seninki nedir",
+      "ur": "کیا تمہارا ہے",
+      "hi": "आपका क्या है",
+      "id": "apa milikmu",
+      "bn": "তোমার কোনটা",
+      "ru": "что твое"
+    }
+  },
+  {
+    "id": "twogram_153",
+    "arabic": "ثم لا",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "then no",
+      "tr": "o zaman hayır",
+      "ur": "پھر نہیں",
+      "hi": "फिर नहीं",
+      "id": "maka tidak",
+      "bn": "তাহলে না",
+      "ru": "Тогда нет"
+    }
+  },
+  {
+    "id": "twogram_154",
+    "arabic": "إلا الذين",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "Except those who",
+      "tr": "olanlar hariç",
+      "ur": "سوائے ان کے جو",
+      "hi": "सिवाय उन लोगों के जो",
+      "id": "Kecuali mereka yang",
+      "bn": "যারা ছাড়া",
+      "ru": "Кроме тех, кто"
+    }
+  },
+  {
+    "id": "twogram_155",
+    "arabic": "ما أنزل",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "what was sent down",
+      "tr": "ne gönderildi",
+      "ur": "جو نازل کیا گیا تھا",
+      "hi": "नीचे क्या भेजा गया था",
+      "id": "apa yang diturunkan",
+      "bn": "যা নাযিল হয়েছিল",
+      "ru": "что было отправлено"
+    }
+  },
+  {
+    "id": "twogram_156",
+    "arabic": "ذلك لآية",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "That's a verse",
+      "tr": "bu bir ayet",
+      "ur": "وہ ایک آیت ہے۔",
+      "hi": "यह एक श्लोक है",
+      "id": "Itu adalah sebuah ayat",
+      "bn": "এটা একটা আয়াত",
+      "ru": "это стих"
+    }
+  },
+  {
+    "id": "twogram_157",
+    "arabic": "أكثر الناس",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "most people",
+      "tr": "çoğu insan",
+      "ur": "اکثر لوگ",
+      "hi": "ज्यादातर लोग",
+      "id": "kebanyakan orang",
+      "bn": "বেশিরভাগ মানুষ",
+      "ru": "большинство людей"
+    }
+  },
+  {
+    "id": "twogram_158",
+    "arabic": "قيل لهم",
+    "frequency": 20,
+    "wordCount": 2,
+    "translations": {
+      "en": "They were told",
+      "tr": "Söylendi",
+      "ur": "انہیں بتایا گیا۔",
+      "hi": "उन्हें बताया गया था",
+      "id": "Mereka diberitahu",
+      "bn": "তাদের বলা হয়েছিল",
+      "ru": "Им сказали"
+    }
+  },
+  {
+    "id": "twogram_159",
+    "arabic": "القوم الظالمين",
+    "frequency": 19,
+    "wordCount": 2,
+    "translations": {
+      "en": "The unjust people",
+      "tr": "adaletsiz insanlar",
+      "ur": "ظالم لوگ",
+      "hi": "अन्यायी लोग",
+      "id": "Orang-orang yang tidak adil",
+      "bn": "অন্যায়কারী মানুষ",
+      "ru": "Несправедливые люди"
+    }
+  },
+  {
+    "id": "twogram_160",
+    "arabic": "من بعده",
+    "frequency": 19,
+    "wordCount": 2,
+    "translations": {
+      "en": "after him",
+      "tr": "ondan sonra",
+      "ur": "اس کے بعد",
+      "hi": "उसके पीछे",
+      "id": "setelah dia",
+      "bn": "তার পরে",
+      "ru": "после него"
+    }
+  },
+  {
+    "id": "twogram_161",
+    "arabic": "الذين كذبوا",
+    "frequency": 19,
+    "wordCount": 2,
+    "translations": {
+      "en": "who lied",
+      "tr": "kim yalan söyledi",
+      "ur": "جس نے جھوٹ بولا",
+      "hi": "किसने झूठ बोला",
+      "id": "siapa yang berbohong?",
+      "bn": "যারা মিথ্যা বলেছে",
+      "ru": "кто солгал"
+    }
+  },
+  {
+    "id": "twogram_162",
+    "arabic": "الله أن",
+    "frequency": 19,
+    "wordCount": 2,
+    "translations": {
+      "en": "God that",
+      "tr": "Tanrım ki",
+      "ur": "خدا کہ",
+      "hi": "भगवान कि",
+      "id": "Tuhan itu",
+      "bn": "ঈশ্বর যে",
+      "ru": "Боже, что"
+    }
+  },
+  {
+    "id": "twogram_163",
+    "arabic": "فيها خالدون",
+    "frequency": 19,
+    "wordCount": 2,
+    "translations": {
+      "en": "there are immortals",
+      "tr": "ölümsüzler var",
+      "ur": "لافانی ہیں",
+      "hi": "अमर हैं",
+      "id": "ada yang abadi",
+      "bn": "অমর আছে",
+      "ru": "есть бессмертные"
+    }
+  },
+  {
+    "id": "twogram_164",
+    "arabic": "إنه هو",
+    "frequency": 19,
+    "wordCount": 2,
+    "translations": {
+      "en": "it is him",
+      "tr": "o o",
+      "ur": "یہ وہ ہے",
+      "hi": "यह वह है",
+      "id": "itu dia",
+      "bn": "এটা সে",
+      "ru": "Это ему"
+    }
+  },
+  {
+    "id": "twogram_165",
+    "arabic": "ملك السماوات",
+    "frequency": 19,
+    "wordCount": 2,
+    "translations": {
+      "en": "king of the heavens",
+      "tr": "göklerin kralı",
+      "ur": "آسمانوں کے بادشاہ",
+      "hi": "स्वर्ग का राजा",
+      "id": "raja surga",
+      "bn": "স্বর্গের রাজা",
+      "ru": "король небес"
+    }
+  },
+  {
+    "id": "twogram_166",
+    "arabic": "من المؤمنين",
+    "frequency": 19,
+    "wordCount": 2,
+    "translations": {
+      "en": "of the believers",
+      "tr": "inananların",
+      "ur": "مومنوں کی",
+      "hi": "विश्वासियों का",
+      "id": "dari orang-orang percaya",
+      "bn": "বিশ্বাসীদের",
+      "ru": "верующих"
+    }
+  },
+  {
+    "id": "twogram_167",
+    "arabic": "إلا الله",
+    "frequency": 19,
+    "wordCount": 2,
+    "translations": {
+      "en": "only God",
+      "tr": "sadece Tanrı",
+      "ur": "صرف اللہ",
+      "hi": "केवल भगवान",
+      "id": "hanya Tuhan",
+      "bn": "একমাত্র আল্লাহ",
+      "ru": "только Бог"
+    }
+  },
+  {
+    "id": "twogram_168",
+    "arabic": "من كان",
+    "frequency": 19,
+    "wordCount": 2,
+    "translations": {
+      "en": "Who was he",
+      "tr": "O kimdi",
+      "ur": "وہ کون تھا",
+      "hi": "वह कौन था",
+      "id": "Siapa dia",
+      "bn": "সে কে ছিল",
+      "ru": "Кто был он"
+    }
+  },
+  {
+    "id": "twogram_169",
+    "arabic": "يهدي القوم",
+    "frequency": 19,
+    "wordCount": 2,
+    "translations": {
+      "en": "guides the people",
+      "tr": "insanlara rehberlik eder",
+      "ur": "لوگوں کی رہنمائی کرتا ہے۔",
+      "hi": "लोगों का मार्गदर्शन करता है",
+      "id": "membimbing orang-orang",
+      "bn": "মানুষকে পথ দেখায়",
+      "ru": "ведет людей"
+    }
+  },
+  {
+    "id": "twogram_170",
+    "arabic": "عند ربهم",
+    "frequency": 19,
+    "wordCount": 2,
+    "translations": {
+      "en": "with their Lord",
+      "tr": "Rableri ile",
+      "ur": "اپنے رب کے ساتھ",
+      "hi": "उनके भगवान के साथ",
+      "id": "dengan Tuhan mereka",
+      "bn": "তাদের প্রভুর সাথে",
+      "ru": "с их Господом"
+    }
+  },
+  {
+    "id": "twogram_171",
+    "arabic": "وما أنزل",
+    "frequency": 19,
+    "wordCount": 2,
+    "translations": {
+      "en": "And what was sent down",
+      "tr": "Ve ne indirildi",
+      "ur": "اور جو نازل کیا گیا۔",
+      "hi": "और क्या नीचे भेजा गया था",
+      "id": "Dan apa yang diturunkan",
+      "bn": "আর যা নাযিল হয়েছে",
+      "ru": "И что было отправлено"
+    }
+  },
+  {
+    "id": "twogram_172",
+    "arabic": "أعلم بما",
+    "frequency": 19,
+    "wordCount": 2,
+    "translations": {
+      "en": "I know what",
+      "tr": "ne biliyorum",
+      "ur": "میں جانتا ہوں کیا",
+      "hi": "मैं जानता हूँ",
+      "id": "aku tahu apa",
+      "bn": "আমি কি জানি",
+      "ru": "я знаю что"
+    }
+  },
+  {
+    "id": "twogram_173",
+    "arabic": "خير لكم",
+    "frequency": 19,
+    "wordCount": 2,
+    "translations": {
+      "en": "good for you",
+      "tr": "Aferin",
+      "ur": "تمہارے لئے اچھا ہے",
+      "hi": "आपके लिए अच्छा हैं",
+      "id": "bagus untukmu",
+      "bn": "তোমার জন্য ভালো",
+      "ru": "повезло тебе"
+    }
+  },
+  {
+    "id": "twogram_174",
+    "arabic": "أوتوا الكتاب",
+    "frequency": 18,
+    "wordCount": 2,
+    "translations": {
+      "en": "Get the book",
+      "tr": "kitabı al",
+      "ur": "کتاب حاصل کریں۔",
+      "hi": "पुस्तक प्राप्त करें",
+      "id": "Dapatkan bukunya",
+      "bn": "বইটি পান",
+      "ru": "Получить книгу"
+    }
+  },
+  {
+    "id": "twogram_175",
+    "arabic": "كذبوا بآياتنا",
+    "frequency": 18,
+    "wordCount": 2,
+    "translations": {
+      "en": "They lied about our verses",
+      "tr": "Ayetlerimiz hakkında yalan söylediler",
+      "ur": "انہوں نے ہماری آیات کے بارے میں جھوٹ بولا۔",
+      "hi": "उन्होंने हमारी आयतों के बारे में झूठ बोला",
+      "id": "Mereka berbohong tentang ayat-ayat kami",
+      "bn": "তারা আমাদের আয়াত সম্পর্কে মিথ্যা",
+      "ru": "Они лгали о наших стихах"
+    }
+  },
+  {
+    "id": "twogram_176",
+    "arabic": "إنا كنا",
+    "frequency": 18,
+    "wordCount": 2,
+    "translations": {
+      "en": "I was",
+      "tr": "ben ... idim",
+      "ur": "میں تھا",
+      "hi": "मैं था",
+      "id": "saya adalah",
+      "bn": "আমি ছিলাম",
+      "ru": "я был"
+    }
+  },
+  {
+    "id": "twogram_177",
+    "arabic": "فيها من",
+    "frequency": 18,
+    "wordCount": 2,
+    "translations": {
+      "en": "in which from",
+      "tr": "hangisinden",
+      "ur": "جس میں سے",
+      "hi": "जिसमें से",
+      "id": "dari mana",
+      "bn": "যা থেকে",
+      "ru": "в котором из"
+    }
+  },
+  {
+    "id": "twogram_178",
+    "arabic": "على أن",
+    "frequency": 18,
+    "wordCount": 2,
+    "translations": {
+      "en": "on that",
+      "tr": "üzerine",
+      "ur": "اس پر",
+      "hi": "उस पर",
+      "id": "tentang itu",
+      "bn": "ওই ক্ষেত্র",
+      "ru": "на том"
+    }
+  },
+  {
+    "id": "twogram_179",
+    "arabic": "فضل الله",
+    "frequency": 18,
+    "wordCount": 2,
+    "translations": {
+      "en": "God's grace",
+      "tr": "Tanrı'nın lütfu",
+      "ur": "خدا کا فضل",
+      "hi": "भगवान की कृपा",
+      "id": "rahmat Tuhan",
+      "bn": "ঈশ্বরের করুণা",
+      "ru": "Божья благодать"
+    }
+  },
+  {
+    "id": "twogram_180",
+    "arabic": "للذين آمنوا",
+    "frequency": 18,
+    "wordCount": 2,
+    "translations": {
+      "en": "for those who believe",
+      "tr": "inananlar için",
+      "ur": "ایمان والوں کے لیے",
+      "hi": "विश्वास करने वालों के लिए",
+      "id": "bagi yang percaya",
+      "bn": "যারা বিশ্বাসী তাদের জন্য",
+      "ru": "для тех, кто верит"
+    }
+  },
+  {
+    "id": "twogram_181",
+    "arabic": "الكتاب من",
+    "frequency": 18,
+    "wordCount": 2,
+    "translations": {
+      "en": "the book from",
+      "tr": "kitap",
+      "ur": "سے کتاب",
+      "hi": "से किताब",
+      "id": "buku dari",
+      "bn": "থেকে বই",
+      "ru": "книга из"
+    }
+  },
+  {
+    "id": "twogram_182",
+    "arabic": "ضلال مبين",
+    "frequency": 18,
+    "wordCount": 2,
+    "translations": {
+      "en": "manifest error",
+      "tr": "açık hata",
+      "ur": "واضح غلطی",
+      "hi": "प्रकट त्रुटि",
+      "id": "kesalahan nyata",
+      "bn": "স্পষ্ট ত্রুটি",
+      "ru": "явная ошибка"
+    }
+  },
+  {
+    "id": "twogram_183",
+    "arabic": "في السماء",
+    "frequency": 18,
+    "wordCount": 2,
+    "translations": {
+      "en": "in the sky",
+      "tr": "gökyüzünde",
+      "ur": "آسمان میں",
+      "hi": "आकाश में",
+      "id": "di langit",
+      "bn": "আকাশে",
+      "ru": "в небе"
+    }
+  },
+  {
+    "id": "twogram_184",
+    "arabic": "من قبلكم",
+    "frequency": 18,
+    "wordCount": 2,
+    "translations": {
+      "en": "before you",
+      "tr": "senden önce",
+      "ur": "تم سے پہلے",
+      "hi": "तुमसे पहले",
+      "id": "sebelum Anda",
+      "bn": "তোমার আগে",
+      "ru": "до тебя"
+    }
+  },
+  {
+    "id": "twogram_185",
+    "arabic": "ولكن أكثر",
+    "frequency": 17,
+    "wordCount": 2,
+    "translations": {
+      "en": "but more",
+      "tr": "ama daha fazla",
+      "ur": "لیکن زیادہ",
+      "hi": "लेकिन और",
+      "id": "tapi lebih",
+      "bn": "কিন্তু আরো",
+      "ru": "но больше"
+    }
+  },
+  {
+    "id": "twogram_186",
+    "arabic": "إنهم كانوا",
+    "frequency": 17,
+    "wordCount": 2,
+    "translations": {
+      "en": "They were",
+      "tr": "Onlar",
+      "ur": "وہ تھے",
+      "hi": "वह थे",
+      "id": "Mereka",
+      "bn": "তারা ছিল",
+      "ru": "Они были"
+    }
+  },
+  {
+    "id": "twogram_187",
+    "arabic": "وأولئك هم",
+    "frequency": 17,
+    "wordCount": 2,
+    "translations": {
+      "en": "And those are",
+      "tr": "ve bunlar",
+      "ur": "اور وہ ہیں۔",
+      "hi": "और वो हैं",
+      "id": "Dan itu adalah",
+      "bn": "এবং যারা",
+      "ru": "И это"
+    }
+  },
+  {
+    "id": "twogram_188",
+    "arabic": "إلا على",
+    "frequency": 17,
+    "wordCount": 2,
+    "translations": {
+      "en": "the above",
+      "tr": "Yukarıdaki",
+      "ur": "اوپر",
+      "hi": "उपरोक्त",
+      "id": "di atas",
+      "bn": "সর্বোপরি",
+      "ru": "вышесказанное"
+    }
+  },
+  {
+    "id": "twogram_189",
+    "arabic": "جعل لكم",
+    "frequency": 17,
+    "wordCount": 2,
+    "translations": {
+      "en": "made for you",
+      "tr": "senin için yapıldı",
+      "ur": "آپ کے لئے بنایا",
+      "hi": "आपक लिए बनाया गया",
+      "id": "dibuat untukmu",
+      "bn": "তোমার জন্য তৈরি",
+      "ru": "сделано для тебя"
+    }
+  },
+  {
+    "id": "twogram_190",
+    "arabic": "لآيات لقوم",
+    "frequency": 17,
+    "wordCount": 2,
+    "translations": {
+      "en": "Signs for a people",
+      "tr": "Bir halk için işaretler",
+      "ur": "لوگوں کے لیے نشانیاں",
+      "hi": "लोगों के लिए संकेत",
+      "id": "Tanda-tanda untuk suatu umat",
+      "bn": "একটি মানুষের জন্য লক্ষণ",
+      "ru": "Знаки для людей"
+    }
+  },
+  {
+    "id": "twogram_191",
+    "arabic": "الليل والنهار",
+    "frequency": 17,
+    "wordCount": 2,
+    "translations": {
+      "en": "Night and day",
+      "tr": "gece ve gündüz",
+      "ur": "رات اور دن",
+      "hi": "रात और दिन",
+      "id": "Malam dan hari",
+      "bn": "দিন রাত্রি",
+      "ru": "Ночь и день"
+    }
+  },
+  {
+    "id": "twogram_192",
+    "arabic": "من المشركين",
+    "frequency": 17,
+    "wordCount": 2,
+    "translations": {
+      "en": "of the polytheists",
+      "tr": "müşriklerin",
+      "ur": "مشرکوں کی",
+      "hi": "बहुदेववादियों का",
+      "id": "dari orang-orang musyrik",
+      "bn": "মুশরিকদের",
+      "ru": "многобожников"
+    }
+  },
+  {
+    "id": "twogram_193",
+    "arabic": "على بعض",
+    "frequency": 17,
+    "wordCount": 2,
+    "translations": {
+      "en": "on each other",
+      "tr": "her birine",
+      "ur": "ایک دوسرے پر",
+      "hi": "एक दूसरे पर",
+      "id": "pada satu sama lain",
+      "bn": "একে অপরের উপর",
+      "ru": "друг на друга"
+    }
+  },
+  {
+    "id": "twogram_194",
+    "arabic": "قل إنما",
+    "frequency": 17,
+    "wordCount": 2,
+    "translations": {
+      "en": "say but",
+      "tr": "söyle ama",
+      "ur": "کہو لیکن",
+      "hi": "कहो लेकिन",
+      "id": "katakan tapi",
+      "bn": "বলো কিন্তু",
+      "ru": "сказать, но"
+    }
+  },
+  {
+    "id": "twogram_195",
+    "arabic": "يشاء والله",
+    "frequency": 17,
+    "wordCount": 2,
+    "translations": {
+      "en": "God wills",
+      "tr": "Tanrı isterse",
+      "ur": "خدا چاہے",
+      "hi": "भगवान ने चाहा",
+      "id": "kehendak Tuhan",
+      "bn": "ঈশ্বরের ইচ্ছা",
+      "ru": "Бог воля"
+    }
+  },
+  {
+    "id": "twogram_196",
+    "arabic": "من بعدهم",
+    "frequency": 17,
+    "wordCount": 2,
+    "translations": {
+      "en": "after them",
+      "tr": "onlardan sonra",
+      "ur": "ان کے بعد",
+      "hi": "उनके बाद",
+      "id": "setelah mereka",
+      "bn": "তাদের পরে",
+      "ru": "после них"
+    }
+  },
+  {
+    "id": "twogram_197",
+    "arabic": "ولو شاء",
+    "frequency": 17,
+    "wordCount": 2,
+    "translations": {
+      "en": "if he wants",
+      "tr": "eğer isterse",
+      "ur": "اگر وہ چاہتا ہے",
+      "hi": "यदि वह चाहता है",
+      "id": "jika dia mau",
+      "bn": "যদি সে চায়",
+      "ru": "если он хочет"
+    }
+  },
+  {
+    "id": "twogram_198",
+    "arabic": "إن كان",
+    "frequency": 17,
+    "wordCount": 2,
+    "translations": {
+      "en": "if",
+      "tr": "Eğer",
+      "ur": "اگر",
+      "hi": "अगर",
+      "id": "jika",
+      "bn": "যদি",
+      "ru": "если"
+    }
+  },
+  {
+    "id": "twogram_199",
+    "arabic": "رسول الله",
+    "frequency": 17,
+    "wordCount": 2,
+    "translations": {
+      "en": "Messenger of God",
+      "tr": "Resulullah",
+      "ur": "خدا کے رسول",
+      "hi": "भगवान के दूत",
+      "id": "Utusan Tuhan",
+      "bn": "রসূল সা",
+      "ru": "Посланник Бога"
+    }
+  },
+  {
+    "id": "twogram_200",
+    "arabic": "من ربهم",
+    "frequency": 16,
+    "wordCount": 2,
+    "translations": {
+      "en": "from their Lord",
+      "tr": "Rablerinden",
+      "ur": "اپنے رب کی طرف سے",
+      "hi": "उनके रब से",
+      "id": "dari Tuhan mereka",
+      "bn": "তাদের পালনকর্তার কাছ থেকে",
+      "ru": "от их Господа"
+    }
+  }
+]

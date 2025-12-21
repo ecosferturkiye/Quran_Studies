@@ -39,3 +39,8 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Raw data files (can be re-downloaded)
+scripts/*.txt
+scripts/*.zip
+src/data/quran-master/
