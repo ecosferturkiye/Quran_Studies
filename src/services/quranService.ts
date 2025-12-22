@@ -6,18 +6,21 @@ import { getLocalVersesByChapter, LocalVerse } from "./quranLocal";
 
 const QURAN_API_BASE = "https://api.quran.com/api/v4";
 const ELMALILI_TRANSLATION_ID = 52;
+const TRANSLITERATION_ID = 57;
 
 export interface Verse {
   id: number;
   verseNumber: number;
   verseKey: string;
   textArabic: string;
+  transliteration: string;
   translationTurkishDiyanet: string;
   translationTurkishElmalili: string;
   translationEnglish: string;
   translationHaleem: string;
   translationClearQuran: string;
   translationStudyQuran: string;
+  commentaryStudyQuran: string;
   pageNumber: number;
   juzNumber: number;
 }
@@ -69,6 +72,30 @@ async function fetchElmaliliTranslations(
   return translations;
 }
 
+// Fetch transliteration from quran.com API
+async function fetchTransliteration(
+  chapterId: number
+): Promise<Map<number, string>> {
+  const transliterations = new Map<number, string>();
+
+  try {
+    const response = await fetch(
+      `${QURAN_API_BASE}/quran/translations/${TRANSLITERATION_ID}?chapter_number=${chapterId}`
+    );
+    const data = await response.json();
+    const translations = data.translations || [];
+
+    translations.forEach((item: { verse_key: string; text: string }) => {
+      const verseNumber = parseInt(item.verse_key.split(":")[1]);
+      transliterations.set(verseNumber, cleanText(item.text));
+    });
+  } catch (error) {
+    console.error("Error fetching transliteration:", error);
+  }
+
+  return transliterations;
+}
+
 // Fetch verse metadata (page, juz) from quran.com API
 async function fetchVerseMetadata(
   chapterId: number
@@ -103,9 +130,10 @@ export async function fetchVersesByChapter(chapterId: number): Promise<Verse[]> 
     throw new Error("Surah not found in local data");
   }
 
-  // Fetch Elmalılı translations and metadata from API
-  const [elmaliliMap, metadataMap] = await Promise.all([
+  // Fetch Elmalılı translations, transliteration, and metadata from API
+  const [elmaliliMap, transliterationMap, metadataMap] = await Promise.all([
     fetchElmaliliTranslations(chapterId),
+    fetchTransliteration(chapterId),
     fetchVerseMetadata(chapterId),
   ]);
 
@@ -121,6 +149,7 @@ export async function fetchVersesByChapter(chapterId: number): Promise<Verse[]> 
       verseNumber: localVerse.verseNumber,
       verseKey: localVerse.verseKey,
       textArabic: localVerse.textArabic,
+      transliteration: transliterationMap.get(localVerse.verseNumber) || "",
       translationTurkishDiyanet: localVerse.translationTurkish,
       translationTurkishElmalili:
         elmaliliMap.get(localVerse.verseNumber) || "",
@@ -128,6 +157,7 @@ export async function fetchVersesByChapter(chapterId: number): Promise<Verse[]> 
       translationHaleem: localVerse.translationHaleem,
       translationClearQuran: localVerse.translationClearQuran,
       translationStudyQuran: localVerse.translationStudyQuran,
+      commentaryStudyQuran: localVerse.commentaryStudyQuran,
       pageNumber: metadata.page,
       juzNumber: metadata.juz,
     };
@@ -145,12 +175,14 @@ export function getVersesOffline(chapterId: number): Verse[] {
     verseNumber: localVerse.verseNumber,
     verseKey: localVerse.verseKey,
     textArabic: localVerse.textArabic,
+    transliteration: "", // Not available offline
     translationTurkishDiyanet: localVerse.translationTurkish,
     translationTurkishElmalili: "", // Not available offline
     translationEnglish: localVerse.translationEnglish,
     translationHaleem: localVerse.translationHaleem,
     translationClearQuran: localVerse.translationClearQuran,
     translationStudyQuran: localVerse.translationStudyQuran,
+    commentaryStudyQuran: localVerse.commentaryStudyQuran,
     pageNumber: 0,
     juzNumber: 0,
   }));

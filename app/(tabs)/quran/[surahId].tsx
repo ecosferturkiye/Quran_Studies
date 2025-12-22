@@ -38,12 +38,14 @@ function StopIcon({ color, size = 20 }: { color: string; size?: number }) {
 function VerseCard({
   verse,
   theme,
+  showTransliteration,
   showDiyanet,
   showElmalili,
   showEnglish,
   showHaleem,
   showClearQuran,
   showStudyQuran,
+  showCommentary,
   isPlaying,
   isCurrentVerse,
   onPlayPress,
@@ -52,12 +54,14 @@ function VerseCard({
 }: {
   verse: Verse;
   theme: any;
+  showTransliteration: boolean;
   showDiyanet: boolean;
   showElmalili: boolean;
   showEnglish: boolean;
   showHaleem: boolean;
   showClearQuran: boolean;
   showStudyQuran: boolean;
+  showCommentary: boolean;
   isPlaying: boolean;
   isCurrentVerse: boolean;
   onPlayPress: () => void;
@@ -105,6 +109,12 @@ function VerseCard({
       ) : (
         <Text style={[styles.arabicText, { color: theme.text }]}>
           {verse.textArabic}
+        </Text>
+      )}
+
+      {showTransliteration && verse.transliteration && (
+        <Text style={[styles.transliterationText, { color: theme.primary }]}>
+          {verse.transliteration}
         </Text>
       )}
 
@@ -170,6 +180,17 @@ function VerseCard({
           </Text>
           <Text style={[styles.translationText, { color: theme.textSecondary }]}>
             {verse.translationStudyQuran}
+          </Text>
+        </View>
+      )}
+
+      {showCommentary && verse.commentaryStudyQuran && (
+        <View style={[styles.translationSection, styles.commentarySection]}>
+          <Text style={[styles.translationLabel, styles.commentaryLabel, { color: theme.primary }]}>
+            Study Quran Commentary
+          </Text>
+          <Text style={[styles.commentaryText, { color: theme.textSecondary }]}>
+            {verse.commentaryStudyQuran}
           </Text>
         </View>
       )}
@@ -262,12 +283,14 @@ export default function SurahDetailScreen() {
   const [verses, setVerses] = useState<Verse[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [showTransliteration, setShowTransliteration] = useState(false);
   const [showDiyanet, setShowDiyanet] = useState(true);
   const [showElmalili, setShowElmalili] = useState(false);
   const [showEnglish, setShowEnglish] = useState(false);
   const [showHaleem, setShowHaleem] = useState(false);
   const [showClearQuran, setShowClearQuran] = useState(false);
   const [showStudyQuran, setShowStudyQuran] = useState(false);
+  const [showCommentary, setShowCommentary] = useState(false);
 
   const surah = surahs.find((s) => s.id === parseInt(surahId || "1"));
 
@@ -393,6 +416,23 @@ export default function SurahDetailScreen() {
           <TouchableOpacity
             style={[
               styles.toggleButton,
+              styles.transliterationToggle,
+              showTransliteration && { backgroundColor: "#10B981" },
+            ]}
+            onPress={() => setShowTransliteration(!showTransliteration)}
+          >
+            <Text
+              style={[
+                styles.toggleText,
+                { color: showTransliteration ? "#fff" : theme.textSecondary },
+              ]}
+            >
+              TL
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={[
+              styles.toggleButton,
               showDiyanet && { backgroundColor: theme.primary },
             ]}
             onPress={() => setShowDiyanet(!showDiyanet)}
@@ -486,6 +526,23 @@ export default function SurahDetailScreen() {
               SQ
             </Text>
           </TouchableOpacity>
+          <TouchableOpacity
+            style={[
+              styles.toggleButton,
+              styles.commentaryToggle,
+              showCommentary && { backgroundColor: "#8B5CF6" },
+            ]}
+            onPress={() => setShowCommentary(!showCommentary)}
+          >
+            <Text
+              style={[
+                styles.toggleText,
+                { color: showCommentary ? "#fff" : theme.textSecondary },
+              ]}
+            >
+              CMT
+            </Text>
+          </TouchableOpacity>
         </View>
       </View>
 
@@ -569,12 +626,14 @@ export default function SurahDetailScreen() {
                   key={verse.id}
                   verse={verse}
                   theme={theme}
+                  showTransliteration={showTransliteration}
                   showDiyanet={showDiyanet}
                   showElmalili={showElmalili}
                   showEnglish={showEnglish}
                   showHaleem={showHaleem}
                   showClearQuran={showClearQuran}
                   showStudyQuran={showStudyQuran}
+                  showCommentary={showCommentary}
                   isPlaying={isPlaying}
                   isCurrentVerse={isCurrentVerse}
                   onPlayPress={() => handlePlayVerse(verse.verseKey)}
@@ -819,6 +878,13 @@ const styles = StyleSheet.create({
     marginBottom: spacing.md,
     fontFamily: "System",
   },
+  transliterationText: {
+    fontSize: 16,
+    lineHeight: 26,
+    textAlign: "left",
+    marginBottom: spacing.md,
+    fontStyle: "italic",
+  },
   translationSection: {
     marginTop: spacing.sm,
     paddingTop: spacing.sm,
@@ -833,6 +899,30 @@ const styles = StyleSheet.create({
   translationText: {
     fontSize: 15,
     lineHeight: 24,
+  },
+  commentaryToggle: {
+    borderWidth: 1,
+    borderColor: "#8B5CF6",
+  },
+  transliterationToggle: {
+    borderWidth: 1,
+    borderColor: "#10B981",
+  },
+  commentarySection: {
+    backgroundColor: "rgba(139, 92, 246, 0.05)",
+    marginTop: spacing.md,
+    padding: spacing.md,
+    borderRadius: 8,
+    borderLeftWidth: 3,
+    borderLeftColor: "#8B5CF6",
+  },
+  commentaryLabel: {
+    color: "#8B5CF6",
+  },
+  commentaryText: {
+    fontSize: 14,
+    lineHeight: 22,
+    textAlign: "justify",
   },
   navigation: {
     flexDirection: "row",
