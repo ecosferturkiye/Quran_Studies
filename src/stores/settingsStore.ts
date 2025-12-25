@@ -14,6 +14,7 @@ interface SettingsState {
 
   // Quran Settings
   showTranslation: boolean;
+  showCommentary: boolean;
   autoAdvance: boolean;
   playbackSpeed: number;
   repeatMode: "none" | "ayah" | "page" | "range";
@@ -31,6 +32,7 @@ interface SettingsState {
   setPrimaryLanguage: (lang: SupportedLanguage) => void;
   setSecondaryLanguage: (lang: SupportedLanguage | null) => void;
   setShowTranslation: (show: boolean) => void;
+  setShowCommentary: (show: boolean) => void;
   setAutoAdvance: (auto: boolean) => void;
   setPlaybackSpeed: (speed: number) => void;
   setRepeatMode: (mode: "none" | "ayah" | "page" | "range") => void;
@@ -48,6 +50,7 @@ export const useSettingsStore = create<SettingsState>()(
       primaryLanguage: "tr",
       secondaryLanguage: "en",
       showTranslation: true,
+      showCommentary: false,
       autoAdvance: true,
       playbackSpeed: 1.0,
       repeatMode: "none",
@@ -61,6 +64,7 @@ export const useSettingsStore = create<SettingsState>()(
       setPrimaryLanguage: (primaryLanguage) => set({ primaryLanguage }),
       setSecondaryLanguage: (secondaryLanguage) => set({ secondaryLanguage }),
       setShowTranslation: (showTranslation) => set({ showTranslation }),
+      setShowCommentary: (showCommentary) => set({ showCommentary }),
       setAutoAdvance: (autoAdvance) => set({ autoAdvance }),
       setPlaybackSpeed: (playbackSpeed) => set({ playbackSpeed }),
       setRepeatMode: (repeatMode) => set({ repeatMode }),

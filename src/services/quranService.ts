@@ -20,7 +20,18 @@ export interface Verse {
   translationHaleem: string;
   translationClearQuran: string;
   translationStudyQuran: string;
+  translationHayrat: string;
   commentaryStudyQuran: string;
+  commentaryKuranYolu: string;
+  commentaryHayrat: string;
+  // Kur'an Yolu tefsir range info (for grouped verses)
+  kuranYoluRangeKey?: string;
+  kuranYoluStartVerse?: number;
+  kuranYoluEndVerse?: number;
+  // Diyanet translation range info (for combined verse translations)
+  diyanetRangeKey?: string;
+  diyanetStartVerse?: number;
+  diyanetEndVerse?: number;
   pageNumber: number;
   juzNumber: number;
 }
@@ -80,14 +91,18 @@ async function fetchTransliteration(
 
   try {
     const response = await fetch(
-      `${QURAN_API_BASE}/quran/translations/${TRANSLITERATION_ID}?chapter_number=${chapterId}`
+      `${QURAN_API_BASE}/verses/by_chapter/${chapterId}?translations=${TRANSLITERATION_ID}&per_page=300`
     );
     const data = await response.json();
-    const translations = data.translations || [];
+    const verses: ApiVerse[] = data.verses || [];
 
-    translations.forEach((item: { verse_key: string; text: string }) => {
-      const verseNumber = parseInt(item.verse_key.split(":")[1]);
-      transliterations.set(verseNumber, cleanText(item.text));
+    verses.forEach((verse) => {
+      const translitText = verse.translations?.find(
+        (t) => t.resource_id === TRANSLITERATION_ID
+      );
+      if (translitText) {
+        transliterations.set(verse.verse_number, cleanText(translitText.text));
+      }
     });
   } catch (error) {
     console.error("Error fetching transliteration:", error);
@@ -157,7 +172,16 @@ export async function fetchVersesByChapter(chapterId: number): Promise<Verse[]> 
       translationHaleem: localVerse.translationHaleem,
       translationClearQuran: localVerse.translationClearQuran,
       translationStudyQuran: localVerse.translationStudyQuran,
+      translationHayrat: localVerse.translationHayrat,
       commentaryStudyQuran: localVerse.commentaryStudyQuran,
+      commentaryKuranYolu: localVerse.commentaryKuranYolu,
+      commentaryHayrat: localVerse.commentaryHayrat,
+      kuranYoluRangeKey: localVerse.kuranYoluRangeKey,
+      kuranYoluStartVerse: localVerse.kuranYoluStartVerse,
+      kuranYoluEndVerse: localVerse.kuranYoluEndVerse,
+      diyanetRangeKey: localVerse.diyanetRangeKey,
+      diyanetStartVerse: localVerse.diyanetStartVerse,
+      diyanetEndVerse: localVerse.diyanetEndVerse,
       pageNumber: metadata.page,
       juzNumber: metadata.juz,
     };
@@ -182,7 +206,16 @@ export function getVersesOffline(chapterId: number): Verse[] {
     translationHaleem: localVerse.translationHaleem,
     translationClearQuran: localVerse.translationClearQuran,
     translationStudyQuran: localVerse.translationStudyQuran,
+    translationHayrat: localVerse.translationHayrat,
     commentaryStudyQuran: localVerse.commentaryStudyQuran,
+    commentaryKuranYolu: localVerse.commentaryKuranYolu,
+    commentaryHayrat: localVerse.commentaryHayrat,
+    kuranYoluRangeKey: localVerse.kuranYoluRangeKey,
+    kuranYoluStartVerse: localVerse.kuranYoluStartVerse,
+    kuranYoluEndVerse: localVerse.kuranYoluEndVerse,
+    diyanetRangeKey: localVerse.diyanetRangeKey,
+    diyanetStartVerse: localVerse.diyanetStartVerse,
+    diyanetEndVerse: localVerse.diyanetEndVerse,
     pageNumber: 0,
     juzNumber: 0,
   }));

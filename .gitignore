@@ -44,3 +44,5 @@ yarn-error.*
 scripts/*.txt
 scripts/*.zip
 src/data/quran-master/
+
+.vercel

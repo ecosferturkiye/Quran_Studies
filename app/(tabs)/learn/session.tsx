@@ -9,6 +9,7 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 import { router, useLocalSearchParams } from "expo-router";
 import Svg, { Path } from "react-native-svg";
+import { Ionicons } from "@expo/vector-icons";
 import { colors, typography, spacing } from "../../../src/theme";
 import { Flashcard } from "../../../src/components";
 import { useLearningStore, useSettingsStore } from "../../../src/stores";
@@ -76,6 +77,7 @@ export default function SessionScreen() {
     incorrect: 0,
   });
   const [isComplete, setIsComplete] = useState(false);
+  const [showTransliteration, setShowTransliteration] = useState(false);
 
   const theme = isDark
     ? {
@@ -283,7 +285,21 @@ export default function SessionScreen() {
         <Text style={[styles.headerTitle, { color: theme.text }]}>
           {CATEGORY_TITLES[category || "words"]}
         </Text>
-        <View style={styles.closeButton} />
+        <Pressable
+          style={[
+            styles.tlButton,
+            showTransliteration && { backgroundColor: colors.primary[500] },
+          ]}
+          onPress={() => setShowTransliteration(!showTransliteration)}
+          accessibilityLabel="Transliterasyon göster/gizle"
+        >
+          <Text style={[
+            styles.tlButtonText,
+            { color: showTransliteration ? '#fff' : theme.textSecondary }
+          ]}>
+            TL
+          </Text>
+        </Pressable>
       </View>
 
       {/* Progress */}
@@ -311,6 +327,7 @@ export default function SessionScreen() {
           language={primaryLanguage}
           onRate={handleRate}
           intervalPreviews={intervalPreviews}
+          showTransliteration={showTransliteration}
         />
       )}
     </SafeAreaView>
@@ -333,6 +350,19 @@ const styles = StyleSheet.create({
     height: 44,
     justifyContent: "center",
     alignItems: "center",
+  },
+  tlButton: {
+    width: 44,
+    height: 44,
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: colors.primary[500],
+  },
+  tlButtonText: {
+    fontSize: 14,
+    fontWeight: "700",
   },
   headerTitle: {
     fontSize: typography.h4.fontSize,

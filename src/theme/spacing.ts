@@ -62,21 +62,21 @@ export const shadows = {
 };
 
 export const layout = {
-  screenPadding: spacing.lg,
-  cardPadding: spacing.lg,
-  listItemPadding: spacing.md,
+  screenPadding: spacing.xl,
+  cardPadding: spacing.xl,
+  listItemPadding: spacing.lg,
   iconSize: {
-    sm: 16,
+    sm: 18,
     md: 24,
     lg: 32,
     xl: 48,
   },
   buttonHeight: {
-    sm: 32,
-    md: 44,
+    sm: 36,
+    md: 48,
     lg: 56,
   },
-  inputHeight: 48,
-  tabBarHeight: 60,
-  headerHeight: 56,
+  inputHeight: 52,
+  tabBarHeight: 64,
+  headerHeight: 60,
 };

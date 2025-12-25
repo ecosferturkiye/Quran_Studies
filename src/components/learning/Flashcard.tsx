@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import {
   View,
   Text,
   StyleSheet,
   Pressable,
   useColorScheme,
+  Platform,
 } from "react-native";
 import Animated, {
   useSharedValue,
@@ -13,14 +14,50 @@ import Animated, {
   interpolate,
   Easing,
 } from "react-native-reanimated";
+import { Ionicons } from "@expo/vector-icons";
 import { colors, typography, spacing } from "../../theme";
 import type { VocabularyWord, Phrase, UserRating, SupportedLanguage } from "../../types";
+
+// Arabic to Latin transliteration map
+const ARABIC_TO_LATIN: Record<string, string> = {
+  'ا': 'a', 'أ': 'a', 'إ': 'i', 'آ': 'aa', 'ء': "'",
+  'ب': 'b', 'ت': 't', 'ث': 'th', 'ج': 'j', 'ح': 'h',
+  'خ': 'kh', 'د': 'd', 'ذ': 'dh', 'ر': 'r', 'ز': 'z',
+  'س': 's', 'ش': 'sh', 'ص': 's', 'ض': 'd', 'ط': 't',
+  'ظ': 'z', 'ع': "'", 'غ': 'gh', 'ف': 'f', 'ق': 'q',
+  'ك': 'k', 'ل': 'l', 'م': 'm', 'ن': 'n', 'ه': 'h',
+  'و': 'w', 'ي': 'y', 'ى': 'a', 'ة': 'h',
+  'َ': 'a', 'ُ': 'u', 'ِ': 'i', 'ً': 'an', 'ٌ': 'un', 'ٍ': 'in',
+  'ْ': '', 'ّ': '', 'ٰ': 'a', 'ٓ': '',
+  ' ': ' ', 'ال': 'al-',
+};
+
+function transliterate(arabic: string): string {
+  let result = '';
+  for (let i = 0; i < arabic.length; i++) {
+    const char = arabic[i];
+    result += ARABIC_TO_LATIN[char] || char;
+  }
+  return result;
+}
+
+// Text-to-speech function
+function speakArabic(text: string) {
+  if (Platform.OS === 'web' && typeof window !== 'undefined' && 'speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'ar-SA';
+    utterance.rate = 0.8;
+    window.speechSynthesis.speak(utterance);
+  }
+}
 
 interface FlashcardProps {
   item: VocabularyWord | Phrase;
   language: SupportedLanguage;
   onRate: (rating: UserRating) => void;
   intervalPreviews?: Record<UserRating, string>;
+  showTransliteration?: boolean;
 }
 
 const RATING_COLORS: Record<UserRating, string> = {
@@ -37,10 +74,11 @@ const RATING_LABELS: Record<UserRating, string> = {
   easy: "Kolay",
 };
 
-export function Flashcard({ item, language, onRate, intervalPreviews }: FlashcardProps) {
+export function Flashcard({ item, language, onRate, intervalPreviews, showTransliteration = false }: FlashcardProps) {
   const colorScheme = useColorScheme();
   const isDark = colorScheme === "dark";
   const [isFlipped, setIsFlipped] = useState(false);
+  const [isSpeaking, setIsSpeaking] = useState(false);
 
   const rotation = useSharedValue(0);
 
@@ -50,12 +88,14 @@ export function Flashcard({ item, language, onRate, intervalPreviews }: Flashcar
         text: colors.neutral[50],
         textSecondary: colors.neutral[400],
         border: colors.neutral[700],
+        primary: colors.primary[400],
       }
     : {
         cardBg: colors.neutral[0],
         text: colors.neutral[900],
         textSecondary: colors.neutral[600],
         border: colors.neutral[200],
+        primary: colors.primary[500],
       };
 
   const handleFlip = () => {
@@ -66,6 +106,14 @@ export function Flashcard({ item, language, onRate, intervalPreviews }: Flashcar
     });
     setIsFlipped(!isFlipped);
   };
+
+  const handleSpeak = useCallback(() => {
+    setIsSpeaking(true);
+    speakArabic(item.arabic);
+    setTimeout(() => setIsSpeaking(false), 1500);
+  }, [item.arabic]);
+
+  const transliterationText = transliterate(item.arabic);
 
   const frontAnimatedStyle = useAnimatedStyle(() => {
     const rotateY = interpolate(rotation.value, [0, 180], [0, 180]);
@@ -96,9 +144,28 @@ export function Flashcard({ item, language, onRate, intervalPreviews }: Flashcar
             frontAnimatedStyle,
           ]}
         >
+          <Pressable
+            style={[styles.speakButton, { backgroundColor: theme.primary + '20' }]}
+            onPress={(e) => {
+              e.stopPropagation();
+              handleSpeak();
+            }}
+            accessibilityLabel="Sesli oku"
+          >
+            <Ionicons
+              name={isSpeaking ? "volume-high" : "volume-medium-outline"}
+              size={28}
+              color={theme.primary}
+            />
+          </Pressable>
           <Text style={[styles.arabicText, { color: theme.text }]}>
             {item.arabic}
           </Text>
+          {showTransliteration && (
+            <Text style={[styles.transliterationText, { color: theme.primary }]}>
+              {transliterationText}
+            </Text>
+          )}
           <Text style={[styles.hintText, { color: theme.textSecondary }]}>
             Cevirmek icin dokun
           </Text>
@@ -113,9 +180,28 @@ export function Flashcard({ item, language, onRate, intervalPreviews }: Flashcar
             backAnimatedStyle,
           ]}
         >
+          <Pressable
+            style={[styles.speakButton, { backgroundColor: theme.primary + '20' }]}
+            onPress={(e) => {
+              e.stopPropagation();
+              handleSpeak();
+            }}
+            accessibilityLabel="Sesli oku"
+          >
+            <Ionicons
+              name={isSpeaking ? "volume-high" : "volume-medium-outline"}
+              size={24}
+              color={theme.primary}
+            />
+          </Pressable>
           <Text style={[styles.arabicTextSmall, { color: theme.textSecondary }]}>
             {item.arabic}
           </Text>
+          {showTransliteration && (
+            <Text style={[styles.transliterationTextSmall, { color: theme.primary }]}>
+              {transliterationText}
+            </Text>
+          )}
           <Text style={[styles.translationText, { color: theme.text }]}>
             {translation}
           </Text>
@@ -206,6 +292,28 @@ const styles = StyleSheet.create({
   hintText: {
     fontSize: 14,
     marginTop: spacing.xl,
+  },
+  speakButton: {
+    position: "absolute",
+    top: spacing.lg,
+    right: spacing.lg,
+    width: 48,
+    height: 48,
+    borderRadius: 24,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  transliterationText: {
+    fontSize: 18,
+    fontStyle: "italic",
+    marginTop: spacing.md,
+    textAlign: "center",
+  },
+  transliterationTextSmall: {
+    fontSize: 14,
+    fontStyle: "italic",
+    marginBottom: spacing.sm,
+    textAlign: "center",
   },
   ratingContainer: {
     flexDirection: "row",

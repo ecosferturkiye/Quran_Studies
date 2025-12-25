@@ -15,28 +15,28 @@ export const fontFamilies = {
 export const fontSizes = {
   // Arabic text sizes
   arabic: {
-    small: 24,
-    medium: 28,
-    large: 34,
+    small: 26,
+    medium: 30,
+    large: 36,
   },
 
-  // UI text sizes
-  xs: 10,
-  sm: 12,
-  md: 14,
-  lg: 16,
-  xl: 18,
-  "2xl": 20,
-  "3xl": 24,
-  "4xl": 30,
-  "5xl": 36,
+  // UI text sizes - improved for readability
+  xs: 12,  // Was 10, now meets minimum readable size
+  sm: 14,  // Was 12, improved for labels/meta
+  md: 16,  // Was 14, Apple HIG recommended body size
+  lg: 17,  // Was 16, iOS standard body text
+  xl: 19,  // Was 18
+  "2xl": 22, // Was 20
+  "3xl": 26, // Was 24
+  "4xl": 32, // Was 30
+  "5xl": 40, // Was 36
 };
 
 export const lineHeights = {
-  tight: 1.2,
-  normal: 1.5,
-  relaxed: 1.75,
-  arabic: 2.0, // Arabic text needs more line height
+  tight: 1.3,    // Was 1.2, improved for headings
+  normal: 1.6,   // Was 1.5, optimal for body text readability
+  relaxed: 1.8,  // Was 1.75, for translations
+  arabic: 2.2,   // Was 2.0, Arabic text needs more breathing room
 };
 
 export const fontWeights = {

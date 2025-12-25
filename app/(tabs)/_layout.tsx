@@ -7,6 +7,10 @@ function QuranIcon({ color }: { color: string }) {
   return <Text style={{ fontSize: 20, color }}>📖</Text>;
 }
 
+function TefsirIcon({ color }: { color: string }) {
+  return <Text style={{ fontSize: 20, color }}>📜</Text>;
+}
+
 function LearnIcon({ color }: { color: string }) {
   return <Text style={{ fontSize: 20, color }}>🎓</Text>;
 }
@@ -61,9 +65,16 @@ export default function TabsLayout() {
         }}
       />
       <Tabs.Screen
+        name="tefsir"
+        options={{
+          title: "Tefsir",
+          tabBarIcon: ({ color }) => <TefsirIcon color={color} />,
+        }}
+      />
+      <Tabs.Screen
         name="learn"
         options={{
-          title: "Ogren",
+          title: "Kartlar",
           tabBarIcon: ({ color }) => <LearnIcon color={color} />,
         }}
       />

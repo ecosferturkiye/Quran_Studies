@@ -86,8 +86,8 @@ export const darkTheme = {
   surface: colors.neutral[800],
   surfaceVariant: colors.neutral[700],
   text: colors.neutral[50],
-  textSecondary: colors.neutral[400],
-  textTertiary: colors.neutral[500],
+  textSecondary: colors.neutral[300], // Improved contrast: 400 -> 300
+  textTertiary: colors.neutral[400], // Improved contrast: 500 -> 400
   border: colors.neutral[700],
   divider: colors.neutral[700],
   primary: colors.primary[400],
@@ -99,7 +99,7 @@ export const darkTheme = {
   cardBackground: colors.neutral[800],
   tabBarBackground: colors.neutral[900],
   tabBarActive: colors.primary[400],
-  tabBarInactive: colors.neutral[500],
+  tabBarInactive: colors.neutral[400], // Improved contrast: 500 -> 400
 };
 
 export type Theme = typeof lightTheme;

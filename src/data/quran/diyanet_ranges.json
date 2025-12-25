@@ -1,0 +1,3429 @@
+{
+  "metadata": {
+    "description": "Diyanet Turkish translation verse ranges - where translator combined multiple verses",
+    "total_ranges": 570,
+    "total_affected_verses": 1413
+  },
+  "ranges": {
+    "2:26-27": {
+      "surahId": 2,
+      "startVerse": 26,
+      "endVerse": 27,
+      "verseCount": 2
+    },
+    "2:45-46": {
+      "surahId": 2,
+      "startVerse": 45,
+      "endVerse": 46,
+      "verseCount": 2
+    },
+    "2:65-66": {
+      "surahId": 2,
+      "startVerse": 65,
+      "endVerse": 66,
+      "verseCount": 2
+    },
+    "2:159-160": {
+      "surahId": 2,
+      "startVerse": 159,
+      "endVerse": 160,
+      "verseCount": 2
+    },
+    "2:183-184": {
+      "surahId": 2,
+      "startVerse": 183,
+      "endVerse": 184,
+      "verseCount": 2
+    },
+    "2:204-205": {
+      "surahId": 2,
+      "startVerse": 204,
+      "endVerse": 205,
+      "verseCount": 2
+    },
+    "3:3-4": {
+      "surahId": 3,
+      "startVerse": 3,
+      "endVerse": 4,
+      "verseCount": 2
+    },
+    "3:16-17": {
+      "surahId": 3,
+      "startVerse": 16,
+      "endVerse": 17,
+      "verseCount": 2
+    },
+    "3:33-34": {
+      "surahId": 3,
+      "startVerse": 33,
+      "endVerse": 34,
+      "verseCount": 2
+    },
+    "3:48-49": {
+      "surahId": 3,
+      "startVerse": 48,
+      "endVerse": 49,
+      "verseCount": 2
+    },
+    "3:50-51": {
+      "surahId": 3,
+      "startVerse": 50,
+      "endVerse": 51,
+      "verseCount": 2
+    },
+    "3:55-56": {
+      "surahId": 3,
+      "startVerse": 55,
+      "endVerse": 56,
+      "verseCount": 2
+    },
+    "3:72-73": {
+      "surahId": 3,
+      "startVerse": 72,
+      "endVerse": 73,
+      "verseCount": 2
+    },
+    "3:105-106": {
+      "surahId": 3,
+      "startVerse": 105,
+      "endVerse": 106,
+      "verseCount": 2
+    },
+    "3:113-114": {
+      "surahId": 3,
+      "startVerse": 113,
+      "endVerse": 114,
+      "verseCount": 2
+    },
+    "3:124-125": {
+      "surahId": 3,
+      "startVerse": 124,
+      "endVerse": 125,
+      "verseCount": 2
+    },
+    "3:126-127": {
+      "surahId": 3,
+      "startVerse": 126,
+      "endVerse": 127,
+      "verseCount": 2
+    },
+    "3:166-167": {
+      "surahId": 3,
+      "startVerse": 166,
+      "endVerse": 167,
+      "verseCount": 2
+    },
+    "3:169-170": {
+      "surahId": 3,
+      "startVerse": 169,
+      "endVerse": 170,
+      "verseCount": 2
+    },
+    "3:196-197": {
+      "surahId": 3,
+      "startVerse": 196,
+      "endVerse": 197,
+      "verseCount": 2
+    },
+    "4:55-56": {
+      "surahId": 4,
+      "startVerse": 55,
+      "endVerse": 56,
+      "verseCount": 2
+    },
+    "4:67-68": {
+      "surahId": 4,
+      "startVerse": 67,
+      "endVerse": 68,
+      "verseCount": 2
+    },
+    "4:95-96": {
+      "surahId": 4,
+      "startVerse": 95,
+      "endVerse": 96,
+      "verseCount": 2
+    },
+    "4:117-119": {
+      "surahId": 4,
+      "startVerse": 117,
+      "endVerse": 119,
+      "verseCount": 3
+    },
+    "4:142-143": {
+      "surahId": 4,
+      "startVerse": 142,
+      "endVerse": 143,
+      "verseCount": 2
+    },
+    "4:150-151": {
+      "surahId": 4,
+      "startVerse": 150,
+      "endVerse": 151,
+      "verseCount": 2
+    },
+    "4:153-154": {
+      "surahId": 4,
+      "startVerse": 153,
+      "endVerse": 154,
+      "verseCount": 2
+    },
+    "4:156-158": {
+      "surahId": 4,
+      "startVerse": 156,
+      "endVerse": 158,
+      "verseCount": 3
+    },
+    "4:160-161": {
+      "surahId": 4,
+      "startVerse": 160,
+      "endVerse": 161,
+      "verseCount": 2
+    },
+    "4:164-165": {
+      "surahId": 4,
+      "startVerse": 164,
+      "endVerse": 165,
+      "verseCount": 2
+    },
+    "4:168-169": {
+      "surahId": 4,
+      "startVerse": 168,
+      "endVerse": 169,
+      "verseCount": 2
+    },
+    "5:83-84": {
+      "surahId": 5,
+      "startVerse": 83,
+      "endVerse": 84,
+      "verseCount": 2
+    },
+    "5:116-117": {
+      "surahId": 5,
+      "startVerse": 116,
+      "endVerse": 117,
+      "verseCount": 2
+    },
+    "6:61-62": {
+      "surahId": 6,
+      "startVerse": 61,
+      "endVerse": 62,
+      "verseCount": 2
+    },
+    "6:71-72": {
+      "surahId": 6,
+      "startVerse": 71,
+      "endVerse": 72,
+      "verseCount": 2
+    },
+    "6:84-86": {
+      "surahId": 6,
+      "startVerse": 84,
+      "endVerse": 86,
+      "verseCount": 3
+    },
+    "6:112-113": {
+      "surahId": 6,
+      "startVerse": 112,
+      "endVerse": 113,
+      "verseCount": 2
+    },
+    "6:155-157": {
+      "surahId": 6,
+      "startVerse": 155,
+      "endVerse": 157,
+      "verseCount": 3
+    },
+    "7:16-17": {
+      "surahId": 7,
+      "startVerse": 16,
+      "endVerse": 17,
+      "verseCount": 2
+    },
+    "7:44-45": {
+      "surahId": 7,
+      "startVerse": 44,
+      "endVerse": 45,
+      "verseCount": 2
+    },
+    "7:48-49": {
+      "surahId": 7,
+      "startVerse": 48,
+      "endVerse": 49,
+      "verseCount": 2
+    },
+    "7:50-51": {
+      "surahId": 7,
+      "startVerse": 50,
+      "endVerse": 51,
+      "verseCount": 2
+    },
+    "7:61-63": {
+      "surahId": 7,
+      "startVerse": 61,
+      "endVerse": 63,
+      "verseCount": 3
+    },
+    "7:68-69": {
+      "surahId": 7,
+      "startVerse": 68,
+      "endVerse": 69,
+      "verseCount": 2
+    },
+    "7:76-77": {
+      "surahId": 7,
+      "startVerse": 76,
+      "endVerse": 77,
+      "verseCount": 2
+    },
+    "7:80-81": {
+      "surahId": 7,
+      "startVerse": 80,
+      "endVerse": 81,
+      "verseCount": 2
+    },
+    "7:88-89": {
+      "surahId": 7,
+      "startVerse": 88,
+      "endVerse": 89,
+      "verseCount": 2
+    },
+    "7:107-108": {
+      "surahId": 7,
+      "startVerse": 107,
+      "endVerse": 108,
+      "verseCount": 2
+    },
+    "7:109-110": {
+      "surahId": 7,
+      "startVerse": 109,
+      "endVerse": 110,
+      "verseCount": 2
+    },
+    "7:111-112": {
+      "surahId": 7,
+      "startVerse": 111,
+      "endVerse": 112,
+      "verseCount": 2
+    },
+    "7:120-122": {
+      "surahId": 7,
+      "startVerse": 120,
+      "endVerse": 122,
+      "verseCount": 3
+    },
+    "7:123-124": {
+      "surahId": 7,
+      "startVerse": 123,
+      "endVerse": 124,
+      "verseCount": 2
+    },
+    "7:125-126": {
+      "surahId": 7,
+      "startVerse": 125,
+      "endVerse": 126,
+      "verseCount": 2
+    },
+    "7:138-139": {
+      "surahId": 7,
+      "startVerse": 138,
+      "endVerse": 139,
+      "verseCount": 2
+    },
+    "7:156-157": {
+      "surahId": 7,
+      "startVerse": 156,
+      "endVerse": 157,
+      "verseCount": 2
+    },
+    "7:169-170": {
+      "surahId": 7,
+      "startVerse": 169,
+      "endVerse": 170,
+      "verseCount": 2
+    },
+    "7:172-173": {
+      "surahId": 7,
+      "startVerse": 172,
+      "endVerse": 173,
+      "verseCount": 2
+    },
+    "8:2-3": {
+      "surahId": 8,
+      "startVerse": 2,
+      "endVerse": 3,
+      "verseCount": 2
+    },
+    "8:7-8": {
+      "surahId": 8,
+      "startVerse": 7,
+      "endVerse": 8,
+      "verseCount": 2
+    },
+    "8:20-21": {
+      "surahId": 8,
+      "startVerse": 20,
+      "endVerse": 21,
+      "verseCount": 2
+    },
+    "8:36-37": {
+      "surahId": 8,
+      "startVerse": 36,
+      "endVerse": 37,
+      "verseCount": 2
+    },
+    "8:50-51": {
+      "surahId": 8,
+      "startVerse": 50,
+      "endVerse": 51,
+      "verseCount": 2
+    },
+    "8:56-57": {
+      "surahId": 8,
+      "startVerse": 56,
+      "endVerse": 57,
+      "verseCount": 2
+    },
+    "8:62-63": {
+      "surahId": 8,
+      "startVerse": 62,
+      "endVerse": 63,
+      "verseCount": 2
+    },
+    "8:65-66": {
+      "surahId": 8,
+      "startVerse": 65,
+      "endVerse": 66,
+      "verseCount": 2
+    },
+    "9:1-2": {
+      "surahId": 9,
+      "startVerse": 1,
+      "endVerse": 2,
+      "verseCount": 2
+    },
+    "9:14-15": {
+      "surahId": 9,
+      "startVerse": 14,
+      "endVerse": 15,
+      "verseCount": 2
+    },
+    "9:21-22": {
+      "surahId": 9,
+      "startVerse": 21,
+      "endVerse": 22,
+      "verseCount": 2
+    },
+    "10:7-8": {
+      "surahId": 10,
+      "startVerse": 7,
+      "endVerse": 8,
+      "verseCount": 2
+    },
+    "10:28-29": {
+      "surahId": 10,
+      "startVerse": 28,
+      "endVerse": 29,
+      "verseCount": 2
+    },
+    "10:81-82": {
+      "surahId": 10,
+      "startVerse": 81,
+      "endVerse": 82,
+      "verseCount": 2
+    },
+    "10:85-86": {
+      "surahId": 10,
+      "startVerse": 85,
+      "endVerse": 86,
+      "verseCount": 2
+    },
+    "10:96-97": {
+      "surahId": 10,
+      "startVerse": 96,
+      "endVerse": 97,
+      "verseCount": 2
+    },
+    "10:105-106": {
+      "surahId": 10,
+      "startVerse": 105,
+      "endVerse": 106,
+      "verseCount": 2
+    },
+    "11:1-3": {
+      "surahId": 11,
+      "startVerse": 1,
+      "endVerse": 3,
+      "verseCount": 3
+    },
+    "11:25-26": {
+      "surahId": 11,
+      "startVerse": 25,
+      "endVerse": 26,
+      "verseCount": 2
+    },
+    "11:33-34": {
+      "surahId": 11,
+      "startVerse": 33,
+      "endVerse": 34,
+      "verseCount": 2
+    },
+    "11:36-37": {
+      "surahId": 11,
+      "startVerse": 36,
+      "endVerse": 37,
+      "verseCount": 2
+    },
+    "11:38-39": {
+      "surahId": 11,
+      "startVerse": 38,
+      "endVerse": 39,
+      "verseCount": 2
+    },
+    "11:54-57": {
+      "surahId": 11,
+      "startVerse": 54,
+      "endVerse": 57,
+      "verseCount": 4
+    },
+    "11:82-83": {
+      "surahId": 11,
+      "startVerse": 82,
+      "endVerse": 83,
+      "verseCount": 2
+    },
+    "11:96-97": {
+      "surahId": 11,
+      "startVerse": 96,
+      "endVerse": 97,
+      "verseCount": 2
+    },
+    "11:118-119": {
+      "surahId": 11,
+      "startVerse": 118,
+      "endVerse": 119,
+      "verseCount": 2
+    },
+    "11:121-122": {
+      "surahId": 11,
+      "startVerse": 121,
+      "endVerse": 122,
+      "verseCount": 2
+    },
+    "12:11-12": {
+      "surahId": 12,
+      "startVerse": 11,
+      "endVerse": 12,
+      "verseCount": 2
+    },
+    "12:16-17": {
+      "surahId": 12,
+      "startVerse": 16,
+      "endVerse": 17,
+      "verseCount": 2
+    },
+    "12:26-27": {
+      "surahId": 12,
+      "startVerse": 26,
+      "endVerse": 27,
+      "verseCount": 2
+    },
+    "12:28-29": {
+      "surahId": 12,
+      "startVerse": 28,
+      "endVerse": 29,
+      "verseCount": 2
+    },
+    "12:82-84": {
+      "surahId": 12,
+      "startVerse": 82,
+      "endVerse": 84,
+      "verseCount": 3
+    },
+    "12:92-93": {
+      "surahId": 12,
+      "startVerse": 92,
+      "endVerse": 93,
+      "verseCount": 2
+    },
+    "12:102-103": {
+      "surahId": 12,
+      "startVerse": 102,
+      "endVerse": 103,
+      "verseCount": 2
+    },
+    "13:9-10": {
+      "surahId": 13,
+      "startVerse": 9,
+      "endVerse": 10,
+      "verseCount": 2
+    },
+    "13:22-24": {
+      "surahId": 13,
+      "startVerse": 22,
+      "endVerse": 24,
+      "verseCount": 3
+    },
+    "14:1-2": {
+      "surahId": 14,
+      "startVerse": 1,
+      "endVerse": 2,
+      "verseCount": 2
+    },
+    "14:13-14": {
+      "surahId": 14,
+      "startVerse": 13,
+      "endVerse": 14,
+      "verseCount": 2
+    },
+    "14:24-25": {
+      "surahId": 14,
+      "startVerse": 24,
+      "endVerse": 25,
+      "verseCount": 2
+    },
+    "14:28-29": {
+      "surahId": 14,
+      "startVerse": 28,
+      "endVerse": 29,
+      "verseCount": 2
+    },
+    "14:32-33": {
+      "surahId": 14,
+      "startVerse": 32,
+      "endVerse": 33,
+      "verseCount": 2
+    },
+    "14:44-45": {
+      "surahId": 14,
+      "startVerse": 44,
+      "endVerse": 45,
+      "verseCount": 2
+    },
+    "14:47-48": {
+      "surahId": 14,
+      "startVerse": 47,
+      "endVerse": 48,
+      "verseCount": 2
+    },
+    "15:6-7": {
+      "surahId": 15,
+      "startVerse": 6,
+      "endVerse": 7,
+      "verseCount": 2
+    },
+    "15:12-13": {
+      "surahId": 15,
+      "startVerse": 12,
+      "endVerse": 13,
+      "verseCount": 2
+    },
+    "15:14-15": {
+      "surahId": 15,
+      "startVerse": 14,
+      "endVerse": 15,
+      "verseCount": 2
+    },
+    "15:28-29": {
+      "surahId": 15,
+      "startVerse": 28,
+      "endVerse": 29,
+      "verseCount": 2
+    },
+    "15:30-31": {
+      "surahId": 15,
+      "startVerse": 30,
+      "endVerse": 31,
+      "verseCount": 2
+    },
+    "15:34-35": {
+      "surahId": 15,
+      "startVerse": 34,
+      "endVerse": 35,
+      "verseCount": 2
+    },
+    "15:37-38": {
+      "surahId": 15,
+      "startVerse": 37,
+      "endVerse": 38,
+      "verseCount": 2
+    },
+    "15:39-40": {
+      "surahId": 15,
+      "startVerse": 39,
+      "endVerse": 40,
+      "verseCount": 2
+    },
+    "15:41-42": {
+      "surahId": 15,
+      "startVerse": 41,
+      "endVerse": 42,
+      "verseCount": 2
+    },
+    "15:49-50": {
+      "surahId": 15,
+      "startVerse": 49,
+      "endVerse": 50,
+      "verseCount": 2
+    },
+    "15:52-53": {
+      "surahId": 15,
+      "startVerse": 52,
+      "endVerse": 53,
+      "verseCount": 2
+    },
+    "15:56-57": {
+      "surahId": 15,
+      "startVerse": 56,
+      "endVerse": 57,
+      "verseCount": 2
+    },
+    "15:58-60": {
+      "surahId": 15,
+      "startVerse": 58,
+      "endVerse": 60,
+      "verseCount": 3
+    },
+    "15:61-62": {
+      "surahId": 15,
+      "startVerse": 61,
+      "endVerse": 62,
+      "verseCount": 2
+    },
+    "15:63-65": {
+      "surahId": 15,
+      "startVerse": 63,
+      "endVerse": 65,
+      "verseCount": 3
+    },
+    "15:68-69": {
+      "surahId": 15,
+      "startVerse": 68,
+      "endVerse": 69,
+      "verseCount": 2
+    },
+    "15:90-93": {
+      "surahId": 15,
+      "startVerse": 90,
+      "endVerse": 93,
+      "verseCount": 4
+    },
+    "15:95-96": {
+      "surahId": 15,
+      "startVerse": 95,
+      "endVerse": 96,
+      "verseCount": 2
+    },
+    "15:98-99": {
+      "surahId": 15,
+      "startVerse": 98,
+      "endVerse": 99,
+      "verseCount": 2
+    },
+    "16:15-16": {
+      "surahId": 16,
+      "startVerse": 15,
+      "endVerse": 16,
+      "verseCount": 2
+    },
+    "16:38-39": {
+      "surahId": 16,
+      "startVerse": 38,
+      "endVerse": 39,
+      "verseCount": 2
+    },
+    "16:43-44": {
+      "surahId": 16,
+      "startVerse": 43,
+      "endVerse": 44,
+      "verseCount": 2
+    },
+    "16:46-47": {
+      "surahId": 16,
+      "startVerse": 46,
+      "endVerse": 47,
+      "verseCount": 2
+    },
+    "16:54-55": {
+      "surahId": 16,
+      "startVerse": 54,
+      "endVerse": 55,
+      "verseCount": 2
+    },
+    "16:68-69": {
+      "surahId": 16,
+      "startVerse": 68,
+      "endVerse": 69,
+      "verseCount": 2
+    },
+    "17:2-3": {
+      "surahId": 17,
+      "startVerse": 2,
+      "endVerse": 3,
+      "verseCount": 2
+    },
+    "17:9-10": {
+      "surahId": 17,
+      "startVerse": 9,
+      "endVerse": 10,
+      "verseCount": 2
+    },
+    "17:50-51": {
+      "surahId": 17,
+      "startVerse": 50,
+      "endVerse": 51,
+      "verseCount": 2
+    },
+    "17:107-108": {
+      "surahId": 17,
+      "startVerse": 107,
+      "endVerse": 108,
+      "verseCount": 2
+    },
+    "18:1-4": {
+      "surahId": 18,
+      "startVerse": 1,
+      "endVerse": 4,
+      "verseCount": 4
+    },
+    "18:11-12": {
+      "surahId": 18,
+      "startVerse": 11,
+      "endVerse": 12,
+      "verseCount": 2
+    },
+    "18:13-15": {
+      "surahId": 18,
+      "startVerse": 13,
+      "endVerse": 15,
+      "verseCount": 3
+    },
+    "18:23-24": {
+      "surahId": 18,
+      "startVerse": 23,
+      "endVerse": 24,
+      "verseCount": 2
+    },
+    "18:30-31": {
+      "surahId": 18,
+      "startVerse": 30,
+      "endVerse": 31,
+      "verseCount": 2
+    },
+    "18:35-36": {
+      "surahId": 18,
+      "startVerse": 35,
+      "endVerse": 36,
+      "verseCount": 2
+    },
+    "18:37-41": {
+      "surahId": 18,
+      "startVerse": 37,
+      "endVerse": 41,
+      "verseCount": 5
+    },
+    "18:69-70": {
+      "surahId": 18,
+      "startVerse": 69,
+      "endVerse": 70,
+      "verseCount": 2
+    },
+    "18:87-88": {
+      "surahId": 18,
+      "startVerse": 87,
+      "endVerse": 88,
+      "verseCount": 2
+    },
+    "18:95-96": {
+      "surahId": 18,
+      "startVerse": 95,
+      "endVerse": 96,
+      "verseCount": 2
+    },
+    "18:100-101": {
+      "surahId": 18,
+      "startVerse": 100,
+      "endVerse": 101,
+      "verseCount": 2
+    },
+    "19:5-6": {
+      "surahId": 19,
+      "startVerse": 5,
+      "endVerse": 6,
+      "verseCount": 2
+    },
+    "19:12-14": {
+      "surahId": 19,
+      "startVerse": 12,
+      "endVerse": 14,
+      "verseCount": 3
+    },
+    "19:24-25": {
+      "surahId": 19,
+      "startVerse": 24,
+      "endVerse": 25,
+      "verseCount": 2
+    },
+    "19:27-28": {
+      "surahId": 19,
+      "startVerse": 27,
+      "endVerse": 28,
+      "verseCount": 2
+    },
+    "19:30-33": {
+      "surahId": 19,
+      "startVerse": 30,
+      "endVerse": 33,
+      "verseCount": 4
+    },
+    "19:60-61": {
+      "surahId": 19,
+      "startVerse": 60,
+      "endVerse": 61,
+      "verseCount": 2
+    },
+    "19:85-86": {
+      "surahId": 19,
+      "startVerse": 85,
+      "endVerse": 86,
+      "verseCount": 2
+    },
+    "19:90-91": {
+      "surahId": 19,
+      "startVerse": 90,
+      "endVerse": 91,
+      "verseCount": 2
+    },
+    "19:92-93": {
+      "surahId": 19,
+      "startVerse": 92,
+      "endVerse": 93,
+      "verseCount": 2
+    },
+    "20:2-4": {
+      "surahId": 20,
+      "startVerse": 2,
+      "endVerse": 4,
+      "verseCount": 3
+    },
+    "20:21-23": {
+      "surahId": 20,
+      "startVerse": 21,
+      "endVerse": 23,
+      "verseCount": 3
+    },
+    "20:25-35": {
+      "surahId": 20,
+      "startVerse": 25,
+      "endVerse": 35,
+      "verseCount": 11
+    },
+    "20:36-39": {
+      "surahId": 20,
+      "startVerse": 36,
+      "endVerse": 39,
+      "verseCount": 4
+    },
+    "20:46-48": {
+      "surahId": 20,
+      "startVerse": 46,
+      "endVerse": 48,
+      "verseCount": 3
+    },
+    "20:56-58": {
+      "surahId": 20,
+      "startVerse": 56,
+      "endVerse": 58,
+      "verseCount": 3
+    },
+    "20:63-64": {
+      "surahId": 20,
+      "startVerse": 63,
+      "endVerse": 64,
+      "verseCount": 2
+    },
+    "20:72-73": {
+      "surahId": 20,
+      "startVerse": 72,
+      "endVerse": 73,
+      "verseCount": 2
+    },
+    "20:75-76": {
+      "surahId": 20,
+      "startVerse": 75,
+      "endVerse": 76,
+      "verseCount": 2
+    },
+    "20:92-93": {
+      "surahId": 20,
+      "startVerse": 92,
+      "endVerse": 93,
+      "verseCount": 2
+    },
+    "20:99-100": {
+      "surahId": 20,
+      "startVerse": 99,
+      "endVerse": 100,
+      "verseCount": 2
+    },
+    "20:105-108": {
+      "surahId": 20,
+      "startVerse": 105,
+      "endVerse": 108,
+      "verseCount": 4
+    },
+    "20:116-119": {
+      "surahId": 20,
+      "startVerse": 116,
+      "endVerse": 119,
+      "verseCount": 4
+    },
+    "21:2-3": {
+      "surahId": 21,
+      "startVerse": 2,
+      "endVerse": 3,
+      "verseCount": 2
+    },
+    "21:60-61": {
+      "surahId": 21,
+      "startVerse": 60,
+      "endVerse": 61,
+      "verseCount": 2
+    },
+    "21:64-65": {
+      "surahId": 21,
+      "startVerse": 64,
+      "endVerse": 65,
+      "verseCount": 2
+    },
+    "21:66-67": {
+      "surahId": 21,
+      "startVerse": 66,
+      "endVerse": 67,
+      "verseCount": 2
+    },
+    "22:6-7": {
+      "surahId": 22,
+      "startVerse": 6,
+      "endVerse": 7,
+      "verseCount": 2
+    },
+    "22:8-9": {
+      "surahId": 22,
+      "startVerse": 8,
+      "endVerse": 9,
+      "verseCount": 2
+    },
+    "22:19-21": {
+      "surahId": 22,
+      "startVerse": 19,
+      "endVerse": 21,
+      "verseCount": 3
+    },
+    "22:34-35": {
+      "surahId": 22,
+      "startVerse": 34,
+      "endVerse": 35,
+      "verseCount": 2
+    },
+    "22:42-44": {
+      "surahId": 22,
+      "startVerse": 42,
+      "endVerse": 44,
+      "verseCount": 3
+    },
+    "22:67-69": {
+      "surahId": 22,
+      "startVerse": 67,
+      "endVerse": 69,
+      "verseCount": 3
+    },
+    "23:5-6": {
+      "surahId": 23,
+      "startVerse": 5,
+      "endVerse": 6,
+      "verseCount": 2
+    },
+    "23:10-11": {
+      "surahId": 23,
+      "startVerse": 10,
+      "endVerse": 11,
+      "verseCount": 2
+    },
+    "23:19-20": {
+      "surahId": 23,
+      "startVerse": 19,
+      "endVerse": 20,
+      "verseCount": 2
+    },
+    "23:24-25": {
+      "surahId": 23,
+      "startVerse": 24,
+      "endVerse": 25,
+      "verseCount": 2
+    },
+    "23:45-46": {
+      "surahId": 23,
+      "startVerse": 45,
+      "endVerse": 46,
+      "verseCount": 2
+    },
+    "23:47-48": {
+      "surahId": 23,
+      "startVerse": 47,
+      "endVerse": 48,
+      "verseCount": 2
+    },
+    "23:55-56": {
+      "surahId": 23,
+      "startVerse": 55,
+      "endVerse": 56,
+      "verseCount": 2
+    },
+    "23:57-61": {
+      "surahId": 23,
+      "startVerse": 57,
+      "endVerse": 61,
+      "verseCount": 5
+    },
+    "23:66-67": {
+      "surahId": 23,
+      "startVerse": 66,
+      "endVerse": 67,
+      "verseCount": 2
+    },
+    "23:73-74": {
+      "surahId": 23,
+      "startVerse": 73,
+      "endVerse": 74,
+      "verseCount": 2
+    },
+    "23:82-83": {
+      "surahId": 23,
+      "startVerse": 82,
+      "endVerse": 83,
+      "verseCount": 2
+    },
+    "23:93-94": {
+      "surahId": 23,
+      "startVerse": 93,
+      "endVerse": 94,
+      "verseCount": 2
+    },
+    "23:99-100": {
+      "surahId": 23,
+      "startVerse": 99,
+      "endVerse": 100,
+      "verseCount": 2
+    },
+    "23:108-111": {
+      "surahId": 23,
+      "startVerse": 108,
+      "endVerse": 111,
+      "verseCount": 4
+    },
+    "23:114-115": {
+      "surahId": 23,
+      "startVerse": 114,
+      "endVerse": 115,
+      "verseCount": 2
+    },
+    "24:6-7": {
+      "surahId": 24,
+      "startVerse": 6,
+      "endVerse": 7,
+      "verseCount": 2
+    },
+    "24:8-9": {
+      "surahId": 24,
+      "startVerse": 8,
+      "endVerse": 9,
+      "verseCount": 2
+    },
+    "24:23-24": {
+      "surahId": 24,
+      "startVerse": 23,
+      "endVerse": 24,
+      "verseCount": 2
+    },
+    "25:1-2": {
+      "surahId": 25,
+      "startVerse": 1,
+      "endVerse": 2,
+      "verseCount": 2
+    },
+    "25:7-8": {
+      "surahId": 25,
+      "startVerse": 7,
+      "endVerse": 8,
+      "verseCount": 2
+    },
+    "25:27-29": {
+      "surahId": 25,
+      "startVerse": 27,
+      "endVerse": 29,
+      "verseCount": 3
+    },
+    "25:45-46": {
+      "surahId": 25,
+      "startVerse": 45,
+      "endVerse": 46,
+      "verseCount": 2
+    },
+    "25:48-49": {
+      "surahId": 25,
+      "startVerse": 48,
+      "endVerse": 49,
+      "verseCount": 2
+    },
+    "25:65-66": {
+      "surahId": 25,
+      "startVerse": 65,
+      "endVerse": 66,
+      "verseCount": 2
+    },
+    "26:10-11": {
+      "surahId": 26,
+      "startVerse": 10,
+      "endVerse": 11,
+      "verseCount": 2
+    },
+    "26:12-14": {
+      "surahId": 26,
+      "startVerse": 12,
+      "endVerse": 14,
+      "verseCount": 3
+    },
+    "26:15-17": {
+      "surahId": 26,
+      "startVerse": 15,
+      "endVerse": 17,
+      "verseCount": 3
+    },
+    "26:18-19": {
+      "surahId": 26,
+      "startVerse": 18,
+      "endVerse": 19,
+      "verseCount": 2
+    },
+    "26:20-22": {
+      "surahId": 26,
+      "startVerse": 20,
+      "endVerse": 22,
+      "verseCount": 3
+    },
+    "26:34-35": {
+      "surahId": 26,
+      "startVerse": 34,
+      "endVerse": 35,
+      "verseCount": 2
+    },
+    "26:36-37": {
+      "surahId": 26,
+      "startVerse": 36,
+      "endVerse": 37,
+      "verseCount": 2
+    },
+    "26:46-48": {
+      "surahId": 26,
+      "startVerse": 46,
+      "endVerse": 48,
+      "verseCount": 3
+    },
+    "26:50-51": {
+      "surahId": 26,
+      "startVerse": 50,
+      "endVerse": 51,
+      "verseCount": 2
+    },
+    "26:53-56": {
+      "surahId": 26,
+      "startVerse": 53,
+      "endVerse": 56,
+      "verseCount": 4
+    },
+    "26:57-59": {
+      "surahId": 26,
+      "startVerse": 57,
+      "endVerse": 59,
+      "verseCount": 3
+    },
+    "26:72-73": {
+      "surahId": 26,
+      "startVerse": 72,
+      "endVerse": 73,
+      "verseCount": 2
+    },
+    "26:75-83": {
+      "surahId": 26,
+      "startVerse": 75,
+      "endVerse": 83,
+      "verseCount": 9
+    },
+    "26:84-89": {
+      "surahId": 26,
+      "startVerse": 84,
+      "endVerse": 89,
+      "verseCount": 6
+    },
+    "26:90-91": {
+      "surahId": 26,
+      "startVerse": 90,
+      "endVerse": 91,
+      "verseCount": 2
+    },
+    "26:92-93": {
+      "surahId": 26,
+      "startVerse": 92,
+      "endVerse": 93,
+      "verseCount": 2
+    },
+    "26:94-95": {
+      "surahId": 26,
+      "startVerse": 94,
+      "endVerse": 95,
+      "verseCount": 2
+    },
+    "26:96-102": {
+      "surahId": 26,
+      "startVerse": 96,
+      "endVerse": 102,
+      "verseCount": 7
+    },
+    "26:106-110": {
+      "surahId": 26,
+      "startVerse": 106,
+      "endVerse": 110,
+      "verseCount": 5
+    },
+    "26:112-115": {
+      "surahId": 26,
+      "startVerse": 112,
+      "endVerse": 115,
+      "verseCount": 4
+    },
+    "26:117-118": {
+      "surahId": 26,
+      "startVerse": 117,
+      "endVerse": 118,
+      "verseCount": 2
+    },
+    "26:124-135": {
+      "surahId": 26,
+      "startVerse": 124,
+      "endVerse": 135,
+      "verseCount": 12
+    },
+    "26:137-138": {
+      "surahId": 26,
+      "startVerse": 137,
+      "endVerse": 138,
+      "verseCount": 2
+    },
+    "26:142-152": {
+      "surahId": 26,
+      "startVerse": 142,
+      "endVerse": 152,
+      "verseCount": 11
+    },
+    "26:153-154": {
+      "surahId": 26,
+      "startVerse": 153,
+      "endVerse": 154,
+      "verseCount": 2
+    },
+    "26:155-156": {
+      "surahId": 26,
+      "startVerse": 155,
+      "endVerse": 156,
+      "verseCount": 2
+    },
+    "26:161-166": {
+      "surahId": 26,
+      "startVerse": 161,
+      "endVerse": 166,
+      "verseCount": 6
+    },
+    "26:168-169": {
+      "surahId": 26,
+      "startVerse": 168,
+      "endVerse": 169,
+      "verseCount": 2
+    },
+    "26:170-171": {
+      "surahId": 26,
+      "startVerse": 170,
+      "endVerse": 171,
+      "verseCount": 2
+    },
+    "26:177-184": {
+      "surahId": 26,
+      "startVerse": 177,
+      "endVerse": 184,
+      "verseCount": 8
+    },
+    "26:185-187": {
+      "surahId": 26,
+      "startVerse": 185,
+      "endVerse": 187,
+      "verseCount": 3
+    },
+    "26:193-195": {
+      "surahId": 26,
+      "startVerse": 193,
+      "endVerse": 195,
+      "verseCount": 3
+    },
+    "26:198-199": {
+      "surahId": 26,
+      "startVerse": 198,
+      "endVerse": 199,
+      "verseCount": 2
+    },
+    "26:200-202": {
+      "surahId": 26,
+      "startVerse": 200,
+      "endVerse": 202,
+      "verseCount": 3
+    },
+    "26:205-207": {
+      "surahId": 26,
+      "startVerse": 205,
+      "endVerse": 207,
+      "verseCount": 3
+    },
+    "26:208-209": {
+      "surahId": 26,
+      "startVerse": 208,
+      "endVerse": 209,
+      "verseCount": 2
+    },
+    "26:217-220": {
+      "surahId": 26,
+      "startVerse": 217,
+      "endVerse": 220,
+      "verseCount": 4
+    },
+    "26:225-226": {
+      "surahId": 26,
+      "startVerse": 225,
+      "endVerse": 226,
+      "verseCount": 2
+    },
+    "27:2-3": {
+      "surahId": 27,
+      "startVerse": 2,
+      "endVerse": 3,
+      "verseCount": 2
+    },
+    "27:10-12": {
+      "surahId": 27,
+      "startVerse": 10,
+      "endVerse": 12,
+      "verseCount": 3
+    },
+    "27:20-21": {
+      "surahId": 27,
+      "startVerse": 20,
+      "endVerse": 21,
+      "verseCount": 2
+    },
+    "27:22-26": {
+      "surahId": 27,
+      "startVerse": 22,
+      "endVerse": 26,
+      "verseCount": 5
+    },
+    "27:29-31": {
+      "surahId": 27,
+      "startVerse": 29,
+      "endVerse": 31,
+      "verseCount": 3
+    },
+    "27:34-35": {
+      "surahId": 27,
+      "startVerse": 34,
+      "endVerse": 35,
+      "verseCount": 2
+    },
+    "27:36-37": {
+      "surahId": 27,
+      "startVerse": 36,
+      "endVerse": 37,
+      "verseCount": 2
+    },
+    "27:67-68": {
+      "surahId": 27,
+      "startVerse": 67,
+      "endVerse": 68,
+      "verseCount": 2
+    },
+    "27:91-92": {
+      "surahId": 27,
+      "startVerse": 91,
+      "endVerse": 92,
+      "verseCount": 2
+    },
+    "28:5-6": {
+      "surahId": 28,
+      "startVerse": 5,
+      "endVerse": 6,
+      "verseCount": 2
+    },
+    "28:33-34": {
+      "surahId": 28,
+      "startVerse": 33,
+      "endVerse": 34,
+      "verseCount": 2
+    },
+    "28:76-77": {
+      "surahId": 28,
+      "startVerse": 76,
+      "endVerse": 77,
+      "verseCount": 2
+    },
+    "29:2-3": {
+      "surahId": 29,
+      "startVerse": 2,
+      "endVerse": 3,
+      "verseCount": 2
+    },
+    "29:20-21": {
+      "surahId": 29,
+      "startVerse": 20,
+      "endVerse": 21,
+      "verseCount": 2
+    },
+    "29:33-34": {
+      "surahId": 29,
+      "startVerse": 33,
+      "endVerse": 34,
+      "verseCount": 2
+    },
+    "29:54-55": {
+      "surahId": 29,
+      "startVerse": 54,
+      "endVerse": 55,
+      "verseCount": 2
+    },
+    "29:58-59": {
+      "surahId": 29,
+      "startVerse": 58,
+      "endVerse": 59,
+      "verseCount": 2
+    },
+    "29:65-66": {
+      "surahId": 29,
+      "startVerse": 65,
+      "endVerse": 66,
+      "verseCount": 2
+    },
+    "30:2-5": {
+      "surahId": 30,
+      "startVerse": 2,
+      "endVerse": 5,
+      "verseCount": 4
+    },
+    "30:17-18": {
+      "surahId": 30,
+      "startVerse": 17,
+      "endVerse": 18,
+      "verseCount": 2
+    },
+    "30:31-32": {
+      "surahId": 30,
+      "startVerse": 31,
+      "endVerse": 32,
+      "verseCount": 2
+    },
+    "30:33-34": {
+      "surahId": 30,
+      "startVerse": 33,
+      "endVerse": 34,
+      "verseCount": 2
+    },
+    "30:48-49": {
+      "surahId": 30,
+      "startVerse": 48,
+      "endVerse": 49,
+      "verseCount": 2
+    },
+    "31:2-3": {
+      "surahId": 31,
+      "startVerse": 2,
+      "endVerse": 3,
+      "verseCount": 2
+    },
+    "31:8-9": {
+      "surahId": 31,
+      "startVerse": 8,
+      "endVerse": 9,
+      "verseCount": 2
+    },
+    "32:7-9": {
+      "surahId": 32,
+      "startVerse": 7,
+      "endVerse": 9,
+      "verseCount": 3
+    },
+    "32:15-16": {
+      "surahId": 32,
+      "startVerse": 15,
+      "endVerse": 16,
+      "verseCount": 2
+    },
+    "33:18-19": {
+      "surahId": 33,
+      "startVerse": 18,
+      "endVerse": 19,
+      "verseCount": 2
+    },
+    "33:45-46": {
+      "surahId": 33,
+      "startVerse": 45,
+      "endVerse": 46,
+      "verseCount": 2
+    },
+    "33:64-65": {
+      "surahId": 33,
+      "startVerse": 64,
+      "endVerse": 65,
+      "verseCount": 2
+    },
+    "33:67-68": {
+      "surahId": 33,
+      "startVerse": 67,
+      "endVerse": 68,
+      "verseCount": 2
+    },
+    "33:70-71": {
+      "surahId": 33,
+      "startVerse": 70,
+      "endVerse": 71,
+      "verseCount": 2
+    },
+    "34:4-5": {
+      "surahId": 34,
+      "startVerse": 4,
+      "endVerse": 5,
+      "verseCount": 2
+    },
+    "34:7-8": {
+      "surahId": 34,
+      "startVerse": 7,
+      "endVerse": 8,
+      "verseCount": 2
+    },
+    "34:10-11": {
+      "surahId": 34,
+      "startVerse": 10,
+      "endVerse": 11,
+      "verseCount": 2
+    },
+    "34:51-52": {
+      "surahId": 34,
+      "startVerse": 51,
+      "endVerse": 52,
+      "verseCount": 2
+    },
+    "35:19-21": {
+      "surahId": 35,
+      "startVerse": 19,
+      "endVerse": 21,
+      "verseCount": 3
+    },
+    "35:42-43": {
+      "surahId": 35,
+      "startVerse": 42,
+      "endVerse": 43,
+      "verseCount": 2
+    },
+    "36:2-4": {
+      "surahId": 36,
+      "startVerse": 2,
+      "endVerse": 4,
+      "verseCount": 3
+    },
+    "36:5-6": {
+      "surahId": 36,
+      "startVerse": 5,
+      "endVerse": 6,
+      "verseCount": 2
+    },
+    "36:16-17": {
+      "surahId": 36,
+      "startVerse": 16,
+      "endVerse": 17,
+      "verseCount": 2
+    },
+    "36:26-27": {
+      "surahId": 36,
+      "startVerse": 26,
+      "endVerse": 27,
+      "verseCount": 2
+    },
+    "36:28-29": {
+      "surahId": 36,
+      "startVerse": 28,
+      "endVerse": 29,
+      "verseCount": 2
+    },
+    "36:41-42": {
+      "surahId": 36,
+      "startVerse": 41,
+      "endVerse": 42,
+      "verseCount": 2
+    },
+    "36:59-61": {
+      "surahId": 36,
+      "startVerse": 59,
+      "endVerse": 61,
+      "verseCount": 3
+    },
+    "36:77-78": {
+      "surahId": 36,
+      "startVerse": 77,
+      "endVerse": 78,
+      "verseCount": 2
+    },
+    "37:1-5": {
+      "surahId": 37,
+      "startVerse": 1,
+      "endVerse": 5,
+      "verseCount": 5
+    },
+    "37:8-9": {
+      "surahId": 37,
+      "startVerse": 8,
+      "endVerse": 9,
+      "verseCount": 2
+    },
+    "37:15-17": {
+      "surahId": 37,
+      "startVerse": 15,
+      "endVerse": 17,
+      "verseCount": 3
+    },
+    "37:22-23": {
+      "surahId": 37,
+      "startVerse": 22,
+      "endVerse": 23,
+      "verseCount": 2
+    },
+    "37:41-44": {
+      "surahId": 37,
+      "startVerse": 41,
+      "endVerse": 44,
+      "verseCount": 4
+    },
+    "37:45-47": {
+      "surahId": 37,
+      "startVerse": 45,
+      "endVerse": 47,
+      "verseCount": 3
+    },
+    "37:48-49": {
+      "surahId": 37,
+      "startVerse": 48,
+      "endVerse": 49,
+      "verseCount": 2
+    },
+    "37:51-53": {
+      "surahId": 37,
+      "startVerse": 51,
+      "endVerse": 53,
+      "verseCount": 3
+    },
+    "37:58-59": {
+      "surahId": 37,
+      "startVerse": 58,
+      "endVerse": 59,
+      "verseCount": 2
+    },
+    "37:78-79": {
+      "surahId": 37,
+      "startVerse": 78,
+      "endVerse": 79,
+      "verseCount": 2
+    },
+    "37:88-89": {
+      "surahId": 37,
+      "startVerse": 88,
+      "endVerse": 89,
+      "verseCount": 2
+    },
+    "37:91-92": {
+      "surahId": 37,
+      "startVerse": 91,
+      "endVerse": 92,
+      "verseCount": 2
+    },
+    "37:95-96": {
+      "surahId": 37,
+      "startVerse": 95,
+      "endVerse": 96,
+      "verseCount": 2
+    },
+    "37:103-105": {
+      "surahId": 37,
+      "startVerse": 103,
+      "endVerse": 105,
+      "verseCount": 3
+    },
+    "37:108-109": {
+      "surahId": 37,
+      "startVerse": 108,
+      "endVerse": 109,
+      "verseCount": 2
+    },
+    "37:119-120": {
+      "surahId": 37,
+      "startVerse": 119,
+      "endVerse": 120,
+      "verseCount": 2
+    },
+    "37:124-126": {
+      "surahId": 37,
+      "startVerse": 124,
+      "endVerse": 126,
+      "verseCount": 3
+    },
+    "37:127-128": {
+      "surahId": 37,
+      "startVerse": 127,
+      "endVerse": 128,
+      "verseCount": 2
+    },
+    "37:129-130": {
+      "surahId": 37,
+      "startVerse": 129,
+      "endVerse": 130,
+      "verseCount": 2
+    },
+    "37:134-135": {
+      "surahId": 37,
+      "startVerse": 134,
+      "endVerse": 135,
+      "verseCount": 2
+    },
+    "37:137-138": {
+      "surahId": 37,
+      "startVerse": 137,
+      "endVerse": 138,
+      "verseCount": 2
+    },
+    "37:143-144": {
+      "surahId": 37,
+      "startVerse": 143,
+      "endVerse": 144,
+      "verseCount": 2
+    },
+    "37:151-152": {
+      "surahId": 37,
+      "startVerse": 151,
+      "endVerse": 152,
+      "verseCount": 2
+    },
+    "37:161-163": {
+      "surahId": 37,
+      "startVerse": 161,
+      "endVerse": 163,
+      "verseCount": 3
+    },
+    "37:164-166": {
+      "surahId": 37,
+      "startVerse": 164,
+      "endVerse": 166,
+      "verseCount": 3
+    },
+    "37:167-169": {
+      "surahId": 37,
+      "startVerse": 167,
+      "endVerse": 169,
+      "verseCount": 3
+    },
+    "38:1-2": {
+      "surahId": 38,
+      "startVerse": 1,
+      "endVerse": 2,
+      "verseCount": 2
+    },
+    "38:4-5": {
+      "surahId": 38,
+      "startVerse": 4,
+      "endVerse": 5,
+      "verseCount": 2
+    },
+    "38:6-8": {
+      "surahId": 38,
+      "startVerse": 6,
+      "endVerse": 8,
+      "verseCount": 3
+    },
+    "38:12-13": {
+      "surahId": 38,
+      "startVerse": 12,
+      "endVerse": 13,
+      "verseCount": 2
+    },
+    "38:18-19": {
+      "surahId": 38,
+      "startVerse": 18,
+      "endVerse": 19,
+      "verseCount": 2
+    },
+    "38:21-22": {
+      "surahId": 38,
+      "startVerse": 21,
+      "endVerse": 22,
+      "verseCount": 2
+    },
+    "38:32-33": {
+      "surahId": 38,
+      "startVerse": 32,
+      "endVerse": 33,
+      "verseCount": 2
+    },
+    "38:36-38": {
+      "surahId": 38,
+      "startVerse": 36,
+      "endVerse": 38,
+      "verseCount": 3
+    },
+    "38:67-68": {
+      "surahId": 38,
+      "startVerse": 67,
+      "endVerse": 68,
+      "verseCount": 2
+    },
+    "38:71-72": {
+      "surahId": 38,
+      "startVerse": 71,
+      "endVerse": 72,
+      "verseCount": 2
+    },
+    "38:73-74": {
+      "surahId": 38,
+      "startVerse": 73,
+      "endVerse": 74,
+      "verseCount": 2
+    },
+    "38:77-78": {
+      "surahId": 38,
+      "startVerse": 77,
+      "endVerse": 78,
+      "verseCount": 2
+    },
+    "38:80-81": {
+      "surahId": 38,
+      "startVerse": 80,
+      "endVerse": 81,
+      "verseCount": 2
+    },
+    "38:82-83": {
+      "surahId": 38,
+      "startVerse": 82,
+      "endVerse": 83,
+      "verseCount": 2
+    },
+    "38:84-85": {
+      "surahId": 38,
+      "startVerse": 84,
+      "endVerse": 85,
+      "verseCount": 2
+    },
+    "39:17-18": {
+      "surahId": 39,
+      "startVerse": 17,
+      "endVerse": 18,
+      "verseCount": 2
+    },
+    "39:39-40": {
+      "surahId": 39,
+      "startVerse": 39,
+      "endVerse": 40,
+      "verseCount": 2
+    },
+    "39:57-58": {
+      "surahId": 39,
+      "startVerse": 57,
+      "endVerse": 58,
+      "verseCount": 2
+    },
+    "40:23-24": {
+      "surahId": 40,
+      "startVerse": 23,
+      "endVerse": 24,
+      "verseCount": 2
+    },
+    "40:30-31": {
+      "surahId": 40,
+      "startVerse": 30,
+      "endVerse": 31,
+      "verseCount": 2
+    },
+    "40:36-37": {
+      "surahId": 40,
+      "startVerse": 36,
+      "endVerse": 37,
+      "verseCount": 2
+    },
+    "40:53-54": {
+      "surahId": 40,
+      "startVerse": 53,
+      "endVerse": 54,
+      "verseCount": 2
+    },
+    "40:71-72": {
+      "surahId": 40,
+      "startVerse": 71,
+      "endVerse": 72,
+      "verseCount": 2
+    },
+    "40:73-74": {
+      "surahId": 40,
+      "startVerse": 73,
+      "endVerse": 74,
+      "verseCount": 2
+    },
+    "40:75-76": {
+      "surahId": 40,
+      "startVerse": 75,
+      "endVerse": 76,
+      "verseCount": 2
+    },
+    "41:2-5": {
+      "surahId": 41,
+      "startVerse": 2,
+      "endVerse": 5,
+      "verseCount": 4
+    },
+    "41:30-32": {
+      "surahId": 41,
+      "startVerse": 30,
+      "endVerse": 32,
+      "verseCount": 3
+    },
+    "41:41-42": {
+      "surahId": 41,
+      "startVerse": 41,
+      "endVerse": 42,
+      "verseCount": 2
+    },
+    "42:25-26": {
+      "surahId": 42,
+      "startVerse": 25,
+      "endVerse": 26,
+      "verseCount": 2
+    },
+    "42:36-38": {
+      "surahId": 42,
+      "startVerse": 36,
+      "endVerse": 38,
+      "verseCount": 3
+    },
+    "42:52-53": {
+      "surahId": 42,
+      "startVerse": 52,
+      "endVerse": 53,
+      "verseCount": 2
+    },
+    "43:2-3": {
+      "surahId": 43,
+      "startVerse": 2,
+      "endVerse": 3,
+      "verseCount": 2
+    },
+    "43:12-14": {
+      "surahId": 43,
+      "startVerse": 12,
+      "endVerse": 14,
+      "verseCount": 3
+    },
+    "43:26-27": {
+      "surahId": 43,
+      "startVerse": 26,
+      "endVerse": 27,
+      "verseCount": 2
+    },
+    "43:33-35": {
+      "surahId": 43,
+      "startVerse": 33,
+      "endVerse": 35,
+      "verseCount": 3
+    },
+    "43:38-39": {
+      "surahId": 43,
+      "startVerse": 38,
+      "endVerse": 39,
+      "verseCount": 2
+    },
+    "43:41-42": {
+      "surahId": 43,
+      "startVerse": 41,
+      "endVerse": 42,
+      "verseCount": 2
+    },
+    "43:88-89": {
+      "surahId": 43,
+      "startVerse": 88,
+      "endVerse": 89,
+      "verseCount": 2
+    },
+    "44:2-3": {
+      "surahId": 44,
+      "startVerse": 2,
+      "endVerse": 3,
+      "verseCount": 2
+    },
+    "44:4-7": {
+      "surahId": 44,
+      "startVerse": 4,
+      "endVerse": 7,
+      "verseCount": 4
+    },
+    "44:10-11": {
+      "surahId": 44,
+      "startVerse": 10,
+      "endVerse": 11,
+      "verseCount": 2
+    },
+    "44:13-14": {
+      "surahId": 44,
+      "startVerse": 13,
+      "endVerse": 14,
+      "verseCount": 2
+    },
+    "44:25-27": {
+      "surahId": 44,
+      "startVerse": 25,
+      "endVerse": 27,
+      "verseCount": 3
+    },
+    "44:30-31": {
+      "surahId": 44,
+      "startVerse": 30,
+      "endVerse": 31,
+      "verseCount": 2
+    },
+    "44:34-36": {
+      "surahId": 44,
+      "startVerse": 34,
+      "endVerse": 36,
+      "verseCount": 3
+    },
+    "44:43-46": {
+      "surahId": 44,
+      "startVerse": 43,
+      "endVerse": 46,
+      "verseCount": 4
+    },
+    "44:47-50": {
+      "surahId": 44,
+      "startVerse": 47,
+      "endVerse": 50,
+      "verseCount": 4
+    },
+    "44:51-52": {
+      "surahId": 44,
+      "startVerse": 51,
+      "endVerse": 52,
+      "verseCount": 2
+    },
+    "44:56-57": {
+      "surahId": 44,
+      "startVerse": 56,
+      "endVerse": 57,
+      "verseCount": 2
+    },
+    "44:58-59": {
+      "surahId": 44,
+      "startVerse": 58,
+      "endVerse": 59,
+      "verseCount": 2
+    },
+    "45:7-8": {
+      "surahId": 45,
+      "startVerse": 7,
+      "endVerse": 8,
+      "verseCount": 2
+    },
+    "45:9-10": {
+      "surahId": 45,
+      "startVerse": 9,
+      "endVerse": 10,
+      "verseCount": 2
+    },
+    "46:17-18": {
+      "surahId": 46,
+      "startVerse": 17,
+      "endVerse": 18,
+      "verseCount": 2
+    },
+    "46:24-25": {
+      "surahId": 46,
+      "startVerse": 24,
+      "endVerse": 25,
+      "verseCount": 2
+    },
+    "47:20-21": {
+      "surahId": 47,
+      "startVerse": 20,
+      "endVerse": 21,
+      "verseCount": 2
+    },
+    "48:8-9": {
+      "surahId": 48,
+      "startVerse": 8,
+      "endVerse": 9,
+      "verseCount": 2
+    },
+    "48:18-19": {
+      "surahId": 48,
+      "startVerse": 18,
+      "endVerse": 19,
+      "verseCount": 2
+    },
+    "49:7-8": {
+      "surahId": 49,
+      "startVerse": 7,
+      "endVerse": 8,
+      "verseCount": 2
+    },
+    "50:2-3": {
+      "surahId": 50,
+      "startVerse": 2,
+      "endVerse": 3,
+      "verseCount": 2
+    },
+    "50:7-8": {
+      "surahId": 50,
+      "startVerse": 7,
+      "endVerse": 8,
+      "verseCount": 2
+    },
+    "50:9-11": {
+      "surahId": 50,
+      "startVerse": 9,
+      "endVerse": 11,
+      "verseCount": 3
+    },
+    "50:12-14": {
+      "surahId": 50,
+      "startVerse": 12,
+      "endVerse": 14,
+      "verseCount": 3
+    },
+    "50:17-18": {
+      "surahId": 50,
+      "startVerse": 17,
+      "endVerse": 18,
+      "verseCount": 2
+    },
+    "50:24-26": {
+      "surahId": 50,
+      "startVerse": 24,
+      "endVerse": 26,
+      "verseCount": 3
+    },
+    "50:28-29": {
+      "surahId": 50,
+      "startVerse": 28,
+      "endVerse": 29,
+      "verseCount": 2
+    },
+    "50:32-34": {
+      "surahId": 50,
+      "startVerse": 32,
+      "endVerse": 34,
+      "verseCount": 3
+    },
+    "51:1-6": {
+      "surahId": 51,
+      "startVerse": 1,
+      "endVerse": 6,
+      "verseCount": 6
+    },
+    "51:7-8": {
+      "surahId": 51,
+      "startVerse": 7,
+      "endVerse": 8,
+      "verseCount": 2
+    },
+    "51:10-11": {
+      "surahId": 51,
+      "startVerse": 10,
+      "endVerse": 11,
+      "verseCount": 2
+    },
+    "51:15-16": {
+      "surahId": 51,
+      "startVerse": 15,
+      "endVerse": 16,
+      "verseCount": 2
+    },
+    "51:20-21": {
+      "surahId": 51,
+      "startVerse": 20,
+      "endVerse": 21,
+      "verseCount": 2
+    },
+    "51:26-27": {
+      "surahId": 51,
+      "startVerse": 26,
+      "endVerse": 27,
+      "verseCount": 2
+    },
+    "51:32-34": {
+      "surahId": 51,
+      "startVerse": 32,
+      "endVerse": 34,
+      "verseCount": 3
+    },
+    "51:41-42": {
+      "surahId": 51,
+      "startVerse": 41,
+      "endVerse": 42,
+      "verseCount": 2
+    },
+    "52:1-8": {
+      "surahId": 52,
+      "startVerse": 1,
+      "endVerse": 8,
+      "verseCount": 8
+    },
+    "52:9-12": {
+      "surahId": 52,
+      "startVerse": 9,
+      "endVerse": 12,
+      "verseCount": 4
+    },
+    "52:13-14": {
+      "surahId": 52,
+      "startVerse": 13,
+      "endVerse": 14,
+      "verseCount": 2
+    },
+    "52:15-16": {
+      "surahId": 52,
+      "startVerse": 15,
+      "endVerse": 16,
+      "verseCount": 2
+    },
+    "52:17-18": {
+      "surahId": 52,
+      "startVerse": 17,
+      "endVerse": 18,
+      "verseCount": 2
+    },
+    "52:19-20": {
+      "surahId": 52,
+      "startVerse": 19,
+      "endVerse": 20,
+      "verseCount": 2
+    },
+    "52:26-28": {
+      "surahId": 52,
+      "startVerse": 26,
+      "endVerse": 28,
+      "verseCount": 3
+    },
+    "53:5-7": {
+      "surahId": 53,
+      "startVerse": 5,
+      "endVerse": 7,
+      "verseCount": 3
+    },
+    "53:13-14": {
+      "surahId": 53,
+      "startVerse": 13,
+      "endVerse": 14,
+      "verseCount": 2
+    },
+    "53:19-20": {
+      "surahId": 53,
+      "startVerse": 19,
+      "endVerse": 20,
+      "verseCount": 2
+    },
+    "53:31-32": {
+      "surahId": 53,
+      "startVerse": 31,
+      "endVerse": 32,
+      "verseCount": 2
+    },
+    "53:33-34": {
+      "surahId": 53,
+      "startVerse": 33,
+      "endVerse": 34,
+      "verseCount": 2
+    },
+    "53:36-37": {
+      "surahId": 53,
+      "startVerse": 36,
+      "endVerse": 37,
+      "verseCount": 2
+    },
+    "53:45-46": {
+      "surahId": 53,
+      "startVerse": 45,
+      "endVerse": 46,
+      "verseCount": 2
+    },
+    "53:50-51": {
+      "surahId": 53,
+      "startVerse": 50,
+      "endVerse": 51,
+      "verseCount": 2
+    },
+    "53:53-54": {
+      "surahId": 53,
+      "startVerse": 53,
+      "endVerse": 54,
+      "verseCount": 2
+    },
+    "54:1-2": {
+      "surahId": 54,
+      "startVerse": 1,
+      "endVerse": 2,
+      "verseCount": 2
+    },
+    "54:7-8": {
+      "surahId": 54,
+      "startVerse": 7,
+      "endVerse": 8,
+      "verseCount": 2
+    },
+    "54:13-14": {
+      "surahId": 54,
+      "startVerse": 13,
+      "endVerse": 14,
+      "verseCount": 2
+    },
+    "54:19-20": {
+      "surahId": 54,
+      "startVerse": 19,
+      "endVerse": 20,
+      "verseCount": 2
+    },
+    "54:24-25": {
+      "surahId": 54,
+      "startVerse": 24,
+      "endVerse": 25,
+      "verseCount": 2
+    },
+    "54:34-35": {
+      "surahId": 54,
+      "startVerse": 34,
+      "endVerse": 35,
+      "verseCount": 2
+    },
+    "54:54-55": {
+      "surahId": 54,
+      "startVerse": 54,
+      "endVerse": 55,
+      "verseCount": 2
+    },
+    "55:1-2": {
+      "surahId": 55,
+      "startVerse": 1,
+      "endVerse": 2,
+      "verseCount": 2
+    },
+    "55:3-4": {
+      "surahId": 55,
+      "startVerse": 3,
+      "endVerse": 4,
+      "verseCount": 2
+    },
+    "55:11-12": {
+      "surahId": 55,
+      "startVerse": 11,
+      "endVerse": 12,
+      "verseCount": 2
+    },
+    "56:1-3": {
+      "surahId": 56,
+      "startVerse": 1,
+      "endVerse": 3,
+      "verseCount": 3
+    },
+    "56:4-7": {
+      "surahId": 56,
+      "startVerse": 4,
+      "endVerse": 7,
+      "verseCount": 4
+    },
+    "56:11-12": {
+      "surahId": 56,
+      "startVerse": 11,
+      "endVerse": 12,
+      "verseCount": 2
+    },
+    "56:13-14": {
+      "surahId": 56,
+      "startVerse": 13,
+      "endVerse": 14,
+      "verseCount": 2
+    },
+    "56:15-16": {
+      "surahId": 56,
+      "startVerse": 15,
+      "endVerse": 16,
+      "verseCount": 2
+    },
+    "56:17-21": {
+      "surahId": 56,
+      "startVerse": 17,
+      "endVerse": 21,
+      "verseCount": 5
+    },
+    "56:22-24": {
+      "surahId": 56,
+      "startVerse": 22,
+      "endVerse": 24,
+      "verseCount": 3
+    },
+    "56:27-34": {
+      "surahId": 56,
+      "startVerse": 27,
+      "endVerse": 34,
+      "verseCount": 8
+    },
+    "56:35-38": {
+      "surahId": 56,
+      "startVerse": 35,
+      "endVerse": 38,
+      "verseCount": 4
+    },
+    "56:39-40": {
+      "surahId": 56,
+      "startVerse": 39,
+      "endVerse": 40,
+      "verseCount": 2
+    },
+    "56:42-44": {
+      "surahId": 56,
+      "startVerse": 42,
+      "endVerse": 44,
+      "verseCount": 3
+    },
+    "56:45-46": {
+      "surahId": 56,
+      "startVerse": 45,
+      "endVerse": 46,
+      "verseCount": 2
+    },
+    "56:49-50": {
+      "surahId": 56,
+      "startVerse": 49,
+      "endVerse": 50,
+      "verseCount": 2
+    },
+    "56:58-59": {
+      "surahId": 56,
+      "startVerse": 58,
+      "endVerse": 59,
+      "verseCount": 2
+    },
+    "56:60-61": {
+      "surahId": 56,
+      "startVerse": 60,
+      "endVerse": 61,
+      "verseCount": 2
+    },
+    "56:63-64": {
+      "surahId": 56,
+      "startVerse": 63,
+      "endVerse": 64,
+      "verseCount": 2
+    },
+    "56:65-67": {
+      "surahId": 56,
+      "startVerse": 65,
+      "endVerse": 67,
+      "verseCount": 3
+    },
+    "56:68-69": {
+      "surahId": 56,
+      "startVerse": 68,
+      "endVerse": 69,
+      "verseCount": 2
+    },
+    "56:71-72": {
+      "surahId": 56,
+      "startVerse": 71,
+      "endVerse": 72,
+      "verseCount": 2
+    },
+    "56:75-76": {
+      "surahId": 56,
+      "startVerse": 75,
+      "endVerse": 76,
+      "verseCount": 2
+    },
+    "56:77-80": {
+      "surahId": 56,
+      "startVerse": 77,
+      "endVerse": 80,
+      "verseCount": 4
+    },
+    "56:83-85": {
+      "surahId": 56,
+      "startVerse": 83,
+      "endVerse": 85,
+      "verseCount": 3
+    },
+    "56:86-87": {
+      "surahId": 56,
+      "startVerse": 86,
+      "endVerse": 87,
+      "verseCount": 2
+    },
+    "56:88-89": {
+      "surahId": 56,
+      "startVerse": 88,
+      "endVerse": 89,
+      "verseCount": 2
+    },
+    "65:2-3": {
+      "surahId": 65,
+      "startVerse": 2,
+      "endVerse": 3,
+      "verseCount": 2
+    },
+    "68:1-2": {
+      "surahId": 68,
+      "startVerse": 1,
+      "endVerse": 2,
+      "verseCount": 2
+    },
+    "68:5-6": {
+      "surahId": 68,
+      "startVerse": 5,
+      "endVerse": 6,
+      "verseCount": 2
+    },
+    "68:10-14": {
+      "surahId": 68,
+      "startVerse": 10,
+      "endVerse": 14,
+      "verseCount": 5
+    },
+    "68:17-18": {
+      "surahId": 68,
+      "startVerse": 17,
+      "endVerse": 18,
+      "verseCount": 2
+    },
+    "68:19-20": {
+      "surahId": 68,
+      "startVerse": 19,
+      "endVerse": 20,
+      "verseCount": 2
+    },
+    "68:21-22": {
+      "surahId": 68,
+      "startVerse": 21,
+      "endVerse": 22,
+      "verseCount": 2
+    },
+    "68:23-24": {
+      "surahId": 68,
+      "startVerse": 23,
+      "endVerse": 24,
+      "verseCount": 2
+    },
+    "68:26-27": {
+      "surahId": 68,
+      "startVerse": 26,
+      "endVerse": 27,
+      "verseCount": 2
+    },
+    "68:42-43": {
+      "surahId": 68,
+      "startVerse": 42,
+      "endVerse": 43,
+      "verseCount": 2
+    },
+    "68:50-51": {
+      "surahId": 68,
+      "startVerse": 50,
+      "endVerse": 51,
+      "verseCount": 2
+    },
+    "69:11-12": {
+      "surahId": 69,
+      "startVerse": 11,
+      "endVerse": 12,
+      "verseCount": 2
+    },
+    "69:13-15": {
+      "surahId": 69,
+      "startVerse": 13,
+      "endVerse": 15,
+      "verseCount": 3
+    },
+    "69:19-20": {
+      "surahId": 69,
+      "startVerse": 19,
+      "endVerse": 20,
+      "verseCount": 2
+    },
+    "69:21-23": {
+      "surahId": 69,
+      "startVerse": 21,
+      "endVerse": 23,
+      "verseCount": 3
+    },
+    "69:25-29": {
+      "surahId": 69,
+      "startVerse": 25,
+      "endVerse": 29,
+      "verseCount": 5
+    },
+    "69:36-37": {
+      "surahId": 69,
+      "startVerse": 36,
+      "endVerse": 37,
+      "verseCount": 2
+    },
+    "69:38-40": {
+      "surahId": 69,
+      "startVerse": 38,
+      "endVerse": 40,
+      "verseCount": 3
+    },
+    "69:44-46": {
+      "surahId": 69,
+      "startVerse": 44,
+      "endVerse": 46,
+      "verseCount": 3
+    },
+    "70:1-3": {
+      "surahId": 70,
+      "startVerse": 1,
+      "endVerse": 3,
+      "verseCount": 3
+    },
+    "70:11-14": {
+      "surahId": 70,
+      "startVerse": 11,
+      "endVerse": 14,
+      "verseCount": 4
+    },
+    "70:15-18": {
+      "surahId": 70,
+      "startVerse": 15,
+      "endVerse": 18,
+      "verseCount": 4
+    },
+    "70:22-27": {
+      "surahId": 70,
+      "startVerse": 22,
+      "endVerse": 27,
+      "verseCount": 6
+    },
+    "70:29-30": {
+      "surahId": 70,
+      "startVerse": 29,
+      "endVerse": 30,
+      "verseCount": 2
+    },
+    "70:36-37": {
+      "surahId": 70,
+      "startVerse": 36,
+      "endVerse": 37,
+      "verseCount": 2
+    },
+    "70:40-41": {
+      "surahId": 70,
+      "startVerse": 40,
+      "endVerse": 41,
+      "verseCount": 2
+    },
+    "70:43-44": {
+      "surahId": 70,
+      "startVerse": 43,
+      "endVerse": 44,
+      "verseCount": 2
+    },
+    "71:3-4": {
+      "surahId": 71,
+      "startVerse": 3,
+      "endVerse": 4,
+      "verseCount": 2
+    },
+    "71:10-11": {
+      "surahId": 71,
+      "startVerse": 10,
+      "endVerse": 11,
+      "verseCount": 2
+    },
+    "71:19-20": {
+      "surahId": 71,
+      "startVerse": 19,
+      "endVerse": 20,
+      "verseCount": 2
+    },
+    "71:21-22": {
+      "surahId": 71,
+      "startVerse": 21,
+      "endVerse": 22,
+      "verseCount": 2
+    },
+    "72:1-2": {
+      "surahId": 72,
+      "startVerse": 1,
+      "endVerse": 2,
+      "verseCount": 2
+    },
+    "72:16-17": {
+      "surahId": 72,
+      "startVerse": 16,
+      "endVerse": 17,
+      "verseCount": 2
+    },
+    "72:27-28": {
+      "surahId": 72,
+      "startVerse": 27,
+      "endVerse": 28,
+      "verseCount": 2
+    },
+    "73:1-4": {
+      "surahId": 73,
+      "startVerse": 1,
+      "endVerse": 4,
+      "verseCount": 4
+    },
+    "73:12-13": {
+      "surahId": 73,
+      "startVerse": 12,
+      "endVerse": 13,
+      "verseCount": 2
+    },
+    "74:8-10": {
+      "surahId": 74,
+      "startVerse": 8,
+      "endVerse": 10,
+      "verseCount": 3
+    },
+    "74:11-14": {
+      "surahId": 74,
+      "startVerse": 11,
+      "endVerse": 14,
+      "verseCount": 4
+    },
+    "74:24-25": {
+      "surahId": 74,
+      "startVerse": 24,
+      "endVerse": 25,
+      "verseCount": 2
+    },
+    "74:32-37": {
+      "surahId": 74,
+      "startVerse": 32,
+      "endVerse": 37,
+      "verseCount": 6
+    },
+    "74:39-42": {
+      "surahId": 74,
+      "startVerse": 39,
+      "endVerse": 42,
+      "verseCount": 4
+    },
+    "74:50-51": {
+      "surahId": 74,
+      "startVerse": 50,
+      "endVerse": 51,
+      "verseCount": 2
+    },
+    "75:5-6": {
+      "surahId": 75,
+      "startVerse": 5,
+      "endVerse": 6,
+      "verseCount": 2
+    },
+    "75:7-10": {
+      "surahId": 75,
+      "startVerse": 7,
+      "endVerse": 10,
+      "verseCount": 4
+    },
+    "75:14-15": {
+      "surahId": 75,
+      "startVerse": 14,
+      "endVerse": 15,
+      "verseCount": 2
+    },
+    "75:22-23": {
+      "surahId": 75,
+      "startVerse": 22,
+      "endVerse": 23,
+      "verseCount": 2
+    },
+    "75:26-27": {
+      "surahId": 75,
+      "startVerse": 26,
+      "endVerse": 27,
+      "verseCount": 2
+    },
+    "75:31-33": {
+      "surahId": 75,
+      "startVerse": 31,
+      "endVerse": 33,
+      "verseCount": 3
+    },
+    "76:9-10": {
+      "surahId": 76,
+      "startVerse": 9,
+      "endVerse": 10,
+      "verseCount": 2
+    },
+    "77:1-7": {
+      "surahId": 77,
+      "startVerse": 1,
+      "endVerse": 7,
+      "verseCount": 7
+    },
+    "77:16-17": {
+      "surahId": 77,
+      "startVerse": 16,
+      "endVerse": 17,
+      "verseCount": 2
+    },
+    "77:20-22": {
+      "surahId": 77,
+      "startVerse": 20,
+      "endVerse": 22,
+      "verseCount": 3
+    },
+    "77:25-26": {
+      "surahId": 77,
+      "startVerse": 25,
+      "endVerse": 26,
+      "verseCount": 2
+    },
+    "77:30-31": {
+      "surahId": 77,
+      "startVerse": 30,
+      "endVerse": 31,
+      "verseCount": 2
+    },
+    "77:32-33": {
+      "surahId": 77,
+      "startVerse": 32,
+      "endVerse": 33,
+      "verseCount": 2
+    },
+    "78:2-3": {
+      "surahId": 78,
+      "startVerse": 2,
+      "endVerse": 3,
+      "verseCount": 2
+    },
+    "78:6-7": {
+      "surahId": 78,
+      "startVerse": 6,
+      "endVerse": 7,
+      "verseCount": 2
+    },
+    "78:14-16": {
+      "surahId": 78,
+      "startVerse": 14,
+      "endVerse": 16,
+      "verseCount": 3
+    },
+    "78:21-22": {
+      "surahId": 78,
+      "startVerse": 21,
+      "endVerse": 22,
+      "verseCount": 2
+    },
+    "78:24-26": {
+      "surahId": 78,
+      "startVerse": 24,
+      "endVerse": 26,
+      "verseCount": 3
+    },
+    "78:31-34": {
+      "surahId": 78,
+      "startVerse": 31,
+      "endVerse": 34,
+      "verseCount": 4
+    },
+    "79:4-5": {
+      "surahId": 79,
+      "startVerse": 4,
+      "endVerse": 5,
+      "verseCount": 2
+    },
+    "79:27-28": {
+      "surahId": 79,
+      "startVerse": 27,
+      "endVerse": 28,
+      "verseCount": 2
+    },
+    "79:34-35": {
+      "surahId": 79,
+      "startVerse": 34,
+      "endVerse": 35,
+      "verseCount": 2
+    },
+    "79:37-39": {
+      "surahId": 79,
+      "startVerse": 37,
+      "endVerse": 39,
+      "verseCount": 3
+    },
+    "79:40-41": {
+      "surahId": 79,
+      "startVerse": 40,
+      "endVerse": 41,
+      "verseCount": 2
+    },
+    "80:1-2": {
+      "surahId": 80,
+      "startVerse": 1,
+      "endVerse": 2,
+      "verseCount": 2
+    },
+    "80:5-6": {
+      "surahId": 80,
+      "startVerse": 5,
+      "endVerse": 6,
+      "verseCount": 2
+    },
+    "80:8-10": {
+      "surahId": 80,
+      "startVerse": 8,
+      "endVerse": 10,
+      "verseCount": 3
+    },
+    "80:13-14": {
+      "surahId": 80,
+      "startVerse": 13,
+      "endVerse": 14,
+      "verseCount": 2
+    },
+    "80:15-16": {
+      "surahId": 80,
+      "startVerse": 15,
+      "endVerse": 16,
+      "verseCount": 2
+    },
+    "80:26-31": {
+      "surahId": 80,
+      "startVerse": 26,
+      "endVerse": 31,
+      "verseCount": 6
+    },
+    "80:34-36": {
+      "surahId": 80,
+      "startVerse": 34,
+      "endVerse": 36,
+      "verseCount": 3
+    },
+    "80:38-39": {
+      "surahId": 80,
+      "startVerse": 38,
+      "endVerse": 39,
+      "verseCount": 2
+    },
+    "80:40-41": {
+      "surahId": 80,
+      "startVerse": 40,
+      "endVerse": 41,
+      "verseCount": 2
+    },
+    "81:3-4": {
+      "surahId": 81,
+      "startVerse": 3,
+      "endVerse": 4,
+      "verseCount": 2
+    },
+    "81:8-9": {
+      "surahId": 81,
+      "startVerse": 8,
+      "endVerse": 9,
+      "verseCount": 2
+    },
+    "81:15-16": {
+      "surahId": 81,
+      "startVerse": 15,
+      "endVerse": 16,
+      "verseCount": 2
+    },
+    "81:19-21": {
+      "surahId": 81,
+      "startVerse": 19,
+      "endVerse": 21,
+      "verseCount": 3
+    },
+    "81:27-28": {
+      "surahId": 81,
+      "startVerse": 27,
+      "endVerse": 28,
+      "verseCount": 2
+    },
+    "82:6-8": {
+      "surahId": 82,
+      "startVerse": 6,
+      "endVerse": 8,
+      "verseCount": 3
+    },
+    "82:10-12": {
+      "surahId": 82,
+      "startVerse": 10,
+      "endVerse": 12,
+      "verseCount": 3
+    },
+    "83:1-3": {
+      "surahId": 83,
+      "startVerse": 1,
+      "endVerse": 3,
+      "verseCount": 3
+    },
+    "83:4-5": {
+      "surahId": 83,
+      "startVerse": 4,
+      "endVerse": 5,
+      "verseCount": 2
+    },
+    "83:20-21": {
+      "surahId": 83,
+      "startVerse": 20,
+      "endVerse": 21,
+      "verseCount": 2
+    },
+    "83:22-23": {
+      "surahId": 83,
+      "startVerse": 22,
+      "endVerse": 23,
+      "verseCount": 2
+    },
+    "83:25-26": {
+      "surahId": 83,
+      "startVerse": 25,
+      "endVerse": 26,
+      "verseCount": 2
+    },
+    "83:27-28": {
+      "surahId": 83,
+      "startVerse": 27,
+      "endVerse": 28,
+      "verseCount": 2
+    },
+    "83:35-36": {
+      "surahId": 83,
+      "startVerse": 35,
+      "endVerse": 36,
+      "verseCount": 2
+    },
+    "84:1-2": {
+      "surahId": 84,
+      "startVerse": 1,
+      "endVerse": 2,
+      "verseCount": 2
+    },
+    "84:3-5": {
+      "surahId": 84,
+      "startVerse": 3,
+      "endVerse": 5,
+      "verseCount": 3
+    },
+    "84:7-9": {
+      "surahId": 84,
+      "startVerse": 7,
+      "endVerse": 9,
+      "verseCount": 3
+    },
+    "84:10-12": {
+      "surahId": 84,
+      "startVerse": 10,
+      "endVerse": 12,
+      "verseCount": 3
+    },
+    "85:4-7": {
+      "surahId": 85,
+      "startVerse": 4,
+      "endVerse": 7,
+      "verseCount": 4
+    },
+    "85:8-9": {
+      "surahId": 85,
+      "startVerse": 8,
+      "endVerse": 9,
+      "verseCount": 2
+    },
+    "85:14-15": {
+      "surahId": 85,
+      "startVerse": 14,
+      "endVerse": 15,
+      "verseCount": 2
+    },
+    "85:17-18": {
+      "surahId": 85,
+      "startVerse": 17,
+      "endVerse": 18,
+      "verseCount": 2
+    },
+    "85:21-22": {
+      "surahId": 85,
+      "startVerse": 21,
+      "endVerse": 22,
+      "verseCount": 2
+    },
+    "86:6-7": {
+      "surahId": 86,
+      "startVerse": 6,
+      "endVerse": 7,
+      "verseCount": 2
+    },
+    "86:8-9": {
+      "surahId": 86,
+      "startVerse": 8,
+      "endVerse": 9,
+      "verseCount": 2
+    },
+    "86:11-12": {
+      "surahId": 86,
+      "startVerse": 11,
+      "endVerse": 12,
+      "verseCount": 2
+    },
+    "87:14-15": {
+      "surahId": 87,
+      "startVerse": 14,
+      "endVerse": 15,
+      "verseCount": 2
+    },
+    "87:18-19": {
+      "surahId": 87,
+      "startVerse": 18,
+      "endVerse": 19,
+      "verseCount": 2
+    },
+    "88:6-7": {
+      "surahId": 88,
+      "startVerse": 6,
+      "endVerse": 7,
+      "verseCount": 2
+    },
+    "88:17-20": {
+      "surahId": 88,
+      "startVerse": 17,
+      "endVerse": 20,
+      "verseCount": 4
+    },
+    "88:23-24": {
+      "surahId": 88,
+      "startVerse": 23,
+      "endVerse": 24,
+      "verseCount": 2
+    },
+    "89:4-5": {
+      "surahId": 89,
+      "startVerse": 4,
+      "endVerse": 5,
+      "verseCount": 2
+    },
+    "89:6-8": {
+      "surahId": 89,
+      "startVerse": 6,
+      "endVerse": 8,
+      "verseCount": 3
+    },
+    "89:9-12": {
+      "surahId": 89,
+      "startVerse": 9,
+      "endVerse": 12,
+      "verseCount": 4
+    },
+    "90:1-2": {
+      "surahId": 90,
+      "startVerse": 1,
+      "endVerse": 2,
+      "verseCount": 2
+    },
+    "90:8-9": {
+      "surahId": 90,
+      "startVerse": 8,
+      "endVerse": 9,
+      "verseCount": 2
+    },
+    "90:14-16": {
+      "surahId": 90,
+      "startVerse": 14,
+      "endVerse": 16,
+      "verseCount": 3
+    },
+    "91:11-12": {
+      "surahId": 91,
+      "startVerse": 11,
+      "endVerse": 12,
+      "verseCount": 2
+    },
+    "92:5-7": {
+      "surahId": 92,
+      "startVerse": 5,
+      "endVerse": 7,
+      "verseCount": 3
+    },
+    "92:8-10": {
+      "surahId": 92,
+      "startVerse": 8,
+      "endVerse": 10,
+      "verseCount": 3
+    },
+    "92:15-16": {
+      "surahId": 92,
+      "startVerse": 15,
+      "endVerse": 16,
+      "verseCount": 2
+    },
+    "92:17-18": {
+      "surahId": 92,
+      "startVerse": 17,
+      "endVerse": 18,
+      "verseCount": 2
+    },
+    "92:19-20": {
+      "surahId": 92,
+      "startVerse": 19,
+      "endVerse": 20,
+      "verseCount": 2
+    },
+    "94:2-3": {
+      "surahId": 94,
+      "startVerse": 2,
+      "endVerse": 3,
+      "verseCount": 2
+    },
+    "96:3-5": {
+      "surahId": 96,
+      "startVerse": 3,
+      "endVerse": 5,
+      "verseCount": 3
+    },
+    "96:6-7": {
+      "surahId": 96,
+      "startVerse": 6,
+      "endVerse": 7,
+      "verseCount": 2
+    },
+    "96:9-10": {
+      "surahId": 96,
+      "startVerse": 9,
+      "endVerse": 10,
+      "verseCount": 2
+    },
+    "96:11-13": {
+      "surahId": 96,
+      "startVerse": 11,
+      "endVerse": 13,
+      "verseCount": 3
+    },
+    "98:1-3": {
+      "surahId": 98,
+      "startVerse": 1,
+      "endVerse": 3,
+      "verseCount": 3
+    },
+    "99:1-3": {
+      "surahId": 99,
+      "startVerse": 1,
+      "endVerse": 3,
+      "verseCount": 3
+    },
+    "99:4-5": {
+      "surahId": 99,
+      "startVerse": 4,
+      "endVerse": 5,
+      "verseCount": 2
+    },
+    "100:9-10": {
+      "surahId": 100,
+      "startVerse": 9,
+      "endVerse": 10,
+      "verseCount": 2
+    },
+    "101:6-7": {
+      "surahId": 101,
+      "startVerse": 6,
+      "endVerse": 7,
+      "verseCount": 2
+    },
+    "102:1-2": {
+      "surahId": 102,
+      "startVerse": 1,
+      "endVerse": 2,
+      "verseCount": 2
+    },
+    "104:1-2": {
+      "surahId": 104,
+      "startVerse": 1,
+      "endVerse": 2,
+      "verseCount": 2
+    },
+    "104:6-7": {
+      "surahId": 104,
+      "startVerse": 6,
+      "endVerse": 7,
+      "verseCount": 2
+    },
+    "104:8-9": {
+      "surahId": 104,
+      "startVerse": 8,
+      "endVerse": 9,
+      "verseCount": 2
+    },
+    "105:3-4": {
+      "surahId": 105,
+      "startVerse": 3,
+      "endVerse": 4,
+      "verseCount": 2
+    },
+    "106:1-2": {
+      "surahId": 106,
+      "startVerse": 1,
+      "endVerse": 2,
+      "verseCount": 2
+    },
+    "106:3-4": {
+      "surahId": 106,
+      "startVerse": 3,
+      "endVerse": 4,
+      "verseCount": 2
+    },
+    "107:2-3": {
+      "surahId": 107,
+      "startVerse": 2,
+      "endVerse": 3,
+      "verseCount": 2
+    },
+    "110:1-3": {
+      "surahId": 110,
+      "startVerse": 1,
+      "endVerse": 3,
+      "verseCount": 3
+    },
+    "111:4-5": {
+      "surahId": 111,
+      "startVerse": 4,
+      "endVerse": 5,
+      "verseCount": 2
+    },
+    "113:1-5": {
+      "surahId": 113,
+      "startVerse": 1,
+      "endVerse": 5,
+      "verseCount": 5
+    },
+    "114:1-6": {
+      "surahId": 114,
+      "startVerse": 1,
+      "endVerse": 6,
+      "verseCount": 6
+    }
+  }
+}

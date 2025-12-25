@@ -17,17 +17,17 @@ const CATEGORY_INFO: Record<
 > = {
   words: {
     title: "Kelimeler",
-    subtitle: "En sik kullanilan 305 kelime",
+    subtitle: "En sık kullanılan 305 kelime",
     color: colors.primary[500],
   },
   twogram: {
-    title: "Ikili Ifadeler",
-    subtitle: "200 yaygin ikili kalip",
+    title: "İkili İfadeler",
+    subtitle: "200 yaygın ikili kalıp",
     color: colors.secondary[500],
   },
   threegram: {
-    title: "Uclu Ifadeler",
-    subtitle: "200 yaygin uclu kalip",
+    title: "Üçlü İfadeler",
+    subtitle: "200 yaygın üçlü kalıp",
     color: colors.info,
   },
 };
@@ -108,7 +108,7 @@ export function CategoryCard({
         <View style={styles.stat}>
           <Text style={[styles.statValue, { color: info.color }]}>{masteredCards}</Text>
           <Text style={[styles.statLabel, { color: theme.textSecondary }]}>
-            Ogrenildi
+            Öğrenildi
           </Text>
         </View>
         <View style={styles.stat}>
@@ -136,7 +136,7 @@ export function CategoryCard({
         onPress={onPress}
       >
         <Text style={styles.startButtonText}>
-          {dueCards > 0 ? `${dueCards} Kart Calis` : "Calis"}
+          {dueCards > 0 ? `${dueCards} Kart Çalış` : "Çalış"}
         </Text>
       </Pressable>
     </Pressable>
