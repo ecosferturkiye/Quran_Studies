@@ -255,6 +255,18 @@ Some tafsirs cover multiple verses (e.g., "2:1-5"). The system:
 2. **Number Filtering**: Only match reasonable numbers (1-99), ignore large numbers like years.
 3. **Multiple References**: A verse may have multiple references; collect all.
 
+### Web TTS (Text-to-Speech)
+1. **Web Speech API Limitation**: Windows'ta varsayılan Arapça TTS sesi yok. Kullanıcı dil paketi yüklemeli.
+2. **CORS Issues**: Google Translate TTS, SoundOfText API gibi ücretsiz servisler CORS veya erişim kısıtlaması nedeniyle çalışmıyor.
+3. **ResponsiveVoice**: localhost'tan 403 Forbidden hatası veriyor.
+4. **expo-speech**: Sadece iOS/Android'de çalışır, web'de kullanılamaz.
+5. **Çözüm Önerileri**:
+   - Kullanıcıya Windows Arapça dil paketi yüklemesini öner
+   - Edge tarayıcısı kullan (yerleşik Arapça TTS var)
+   - Kendi backend proxy'si ile ses dosyaları sun
+   - Quran.com kelime audio API'sini kullan (Kur'an kelimeleri için)
+6. **Detaylı Dokümantasyon**: `.claude/skills/tts-lessons.md`
+
 ## Electron Desktop App
 
 ### Build Commands
@@ -305,3 +317,4 @@ dist/                 # Built web assets
 | Build Electron | `/build-electron` | Build & run desktop app |
 | Data Stats | `/data-stats` | Show data statistics |
 | Compare Tafsir | `/compare-tafsir` | Compare tafsir sources |
+| TTS Lessons | - | Web TTS implementation lessons (reference doc) |

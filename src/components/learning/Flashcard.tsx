@@ -1,13 +1,11 @@
-import { useState, useCallback } from "react";
+import { useState } from "react";
 import {
   View,
   Text,
   StyleSheet,
   Pressable,
   useColorScheme,
-  Platform,
 } from "react-native";
-import * as Speech from "expo-speech";
 import Animated, {
   useSharedValue,
   useAnimatedStyle,
@@ -15,8 +13,7 @@ import Animated, {
   interpolate,
   Easing,
 } from "react-native-reanimated";
-import { Ionicons } from "@expo/vector-icons";
-import { colors, typography, spacing } from "../../theme";
+import { colors, spacing } from "../../theme";
 import type { VocabularyWord, Phrase, UserRating, SupportedLanguage } from "../../types";
 
 // Arabic to Latin transliteration map
@@ -40,36 +37,6 @@ function transliterate(arabic: string): string {
     result += ARABIC_TO_LATIN[char] || char;
   }
   return result;
-}
-
-// Text-to-speech function - works on web, Electron, and React Native
-async function speakArabic(text: string): Promise<boolean> {
-  try {
-    // For React Native (iOS/Android), use expo-speech
-    if (Platform.OS === 'ios' || Platform.OS === 'android') {
-      await Speech.stop();
-      await Speech.speak(text, {
-        language: 'ar-SA',
-        rate: 0.7,
-        pitch: 1.0,
-      });
-      return true;
-    }
-
-    // For web/Electron, use Web Speech API
-    if (typeof window !== 'undefined' && window.speechSynthesis) {
-      window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'ar-SA';
-      utterance.rate = 0.7;
-      utterance.pitch = 1.0;
-      window.speechSynthesis.speak(utterance);
-      return true;
-    }
-  } catch (error) {
-    console.log('TTS not available:', error);
-  }
-  return false;
 }
 
 interface FlashcardProps {
@@ -98,7 +65,6 @@ export function Flashcard({ item, language, onRate, intervalPreviews, showTransl
   const colorScheme = useColorScheme();
   const isDark = colorScheme === "dark";
   const [isFlipped, setIsFlipped] = useState(false);
-  const [isSpeaking, setIsSpeaking] = useState(false);
 
   const rotation = useSharedValue(0);
 
@@ -126,16 +92,6 @@ export function Flashcard({ item, language, onRate, intervalPreviews, showTransl
     });
     setIsFlipped(!isFlipped);
   };
-
-  const handleSpeak = useCallback(async () => {
-    setIsSpeaking(true);
-    try {
-      await speakArabic(item.arabic);
-    } catch (error) {
-      console.log('Speech error:', error);
-    }
-    setTimeout(() => setIsSpeaking(false), 1500);
-  }, [item.arabic]);
 
   const transliterationText = transliterate(item.arabic);
 
@@ -168,20 +124,6 @@ export function Flashcard({ item, language, onRate, intervalPreviews, showTransl
             frontAnimatedStyle,
           ]}
         >
-          <Pressable
-            style={[styles.speakButton, { backgroundColor: theme.primary + '20' }]}
-            onPress={(e) => {
-              e.stopPropagation();
-              handleSpeak();
-            }}
-            accessibilityLabel="Sesli oku"
-          >
-            <Ionicons
-              name={isSpeaking ? "volume-high" : "volume-medium-outline"}
-              size={28}
-              color={theme.primary}
-            />
-          </Pressable>
           <Text style={[styles.arabicText, { color: theme.text }]}>
             {item.arabic}
           </Text>
@@ -204,20 +146,6 @@ export function Flashcard({ item, language, onRate, intervalPreviews, showTransl
             backAnimatedStyle,
           ]}
         >
-          <Pressable
-            style={[styles.speakButton, { backgroundColor: theme.primary + '20' }]}
-            onPress={(e) => {
-              e.stopPropagation();
-              handleSpeak();
-            }}
-            accessibilityLabel="Sesli oku"
-          >
-            <Ionicons
-              name={isSpeaking ? "volume-high" : "volume-medium-outline"}
-              size={24}
-              color={theme.primary}
-            />
-          </Pressable>
           <Text style={[styles.arabicTextSmall, { color: theme.textSecondary }]}>
             {item.arabic}
           </Text>
@@ -316,16 +244,6 @@ const styles = StyleSheet.create({
   hintText: {
     fontSize: 14,
     marginTop: spacing.xl,
-  },
-  speakButton: {
-    position: "absolute",
-    top: spacing.lg,
-    right: spacing.lg,
-    width: 48,
-    height: 48,
-    borderRadius: 24,
-    justifyContent: "center",
-    alignItems: "center",
   },
   transliterationText: {
     fontSize: 18,
