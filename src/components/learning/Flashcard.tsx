@@ -7,6 +7,7 @@ import {
   useColorScheme,
   Platform,
 } from "react-native";
+import * as Speech from "expo-speech";
 import Animated, {
   useSharedValue,
   useAnimatedStyle,
@@ -41,15 +42,34 @@ function transliterate(arabic: string): string {
   return result;
 }
 
-// Text-to-speech function
-function speakArabic(text: string) {
-  if (Platform.OS === 'web' && typeof window !== 'undefined' && 'speechSynthesis' in window) {
-    window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'ar-SA';
-    utterance.rate = 0.8;
-    window.speechSynthesis.speak(utterance);
+// Text-to-speech function - works on web, Electron, and React Native
+async function speakArabic(text: string): Promise<boolean> {
+  try {
+    // For React Native (iOS/Android), use expo-speech
+    if (Platform.OS === 'ios' || Platform.OS === 'android') {
+      await Speech.stop();
+      await Speech.speak(text, {
+        language: 'ar-SA',
+        rate: 0.7,
+        pitch: 1.0,
+      });
+      return true;
+    }
+
+    // For web/Electron, use Web Speech API
+    if (typeof window !== 'undefined' && window.speechSynthesis) {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'ar-SA';
+      utterance.rate = 0.7;
+      utterance.pitch = 1.0;
+      window.speechSynthesis.speak(utterance);
+      return true;
+    }
+  } catch (error) {
+    console.log('TTS not available:', error);
   }
+  return false;
 }
 
 interface FlashcardProps {
@@ -107,9 +127,13 @@ export function Flashcard({ item, language, onRate, intervalPreviews, showTransl
     setIsFlipped(!isFlipped);
   };
 
-  const handleSpeak = useCallback(() => {
+  const handleSpeak = useCallback(async () => {
     setIsSpeaking(true);
-    speakArabic(item.arabic);
+    try {
+      await speakArabic(item.arabic);
+    } catch (error) {
+      console.log('Speech error:', error);
+    }
     setTimeout(() => setIsSpeaking(false), 1500);
   }, [item.arabic]);
 
