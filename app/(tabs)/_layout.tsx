@@ -15,6 +15,10 @@ function LearnIcon({ color }: { color: string }) {
   return <Text style={{ fontSize: 20, color }}>🎓</Text>;
 }
 
+function ProgramIcon({ color }: { color: string }) {
+  return <Text style={{ fontSize: 20, color }}>📊</Text>;
+}
+
 function SettingsIcon({ color }: { color: string }) {
   return <Text style={{ fontSize: 20, color }}>⚙️</Text>;
 }
@@ -76,6 +80,13 @@ export default function TabsLayout() {
         options={{
           title: "Kartlar",
           tabBarIcon: ({ color }) => <LearnIcon color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="program"
+        options={{
+          title: "Program",
+          tabBarIcon: ({ color }) => <ProgramIcon color={color} />,
         }}
       />
       <Tabs.Screen
