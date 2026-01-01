@@ -105,7 +105,7 @@ export default function LogReadingScreen() {
 
       <ScrollView style={styles.content} showsVerticalScrollIndicator={false}>
         {/* Reading Type Selection */}
-        <Text style={[styles.label, { color: theme.text }]}>Okuma Turu</Text>
+        <Text style={[styles.label, { color: theme.text }]}>Okuma Türü</Text>
         <View style={styles.typeContainer}>
           {READING_TYPES.map((type) => (
             <Pressable
@@ -139,7 +139,7 @@ export default function LogReadingScreen() {
         </View>
 
         {/* Surah Selection */}
-        <Text style={[styles.label, { color: theme.text }]}>Sure</Text>
+        <Text style={[styles.label, { color: theme.text }]}>Sûre</Text>
         <Pressable
           style={[
             styles.surahSelector,
@@ -199,11 +199,11 @@ export default function LogReadingScreen() {
         )}
 
         {/* Verse Range */}
-        <Text style={[styles.label, { color: theme.text }]}>Ayet Araligi</Text>
+        <Text style={[styles.label, { color: theme.text }]}>Ayet Aralığı</Text>
         <View style={styles.verseRow}>
           <View style={styles.verseInputContainer}>
             <Text style={[styles.verseLabel, { color: theme.textSecondary }]}>
-              Baslangic
+              Başlangıç
             </Text>
             <TextInput
               style={[
@@ -220,7 +220,7 @@ export default function LogReadingScreen() {
           <Text style={[styles.verseDash, { color: theme.textSecondary }]}>-</Text>
           <View style={styles.verseInputContainer}>
             <Text style={[styles.verseLabel, { color: theme.textSecondary }]}>
-              Bitis
+              Bitiş
             </Text>
             <TextInput
               style={[
@@ -246,7 +246,7 @@ export default function LogReadingScreen() {
             }}
           >
             <Text style={[styles.quickButtonText, { color: theme.text }]}>
-              Tum Sure
+              Tüm Sûre
             </Text>
           </Pressable>
           <Pressable
@@ -277,7 +277,7 @@ export default function LogReadingScreen() {
         <View style={[styles.summary, { backgroundColor: theme.card }]}>
           <View style={styles.summaryRow}>
             <Text style={[styles.summaryLabel, { color: theme.textSecondary }]}>
-              Okuma Turu:
+              Okuma Türü:
             </Text>
             <Text style={[styles.summaryValue, { color: theme.text }]}>
               {READING_TYPES.find((t) => t.key === readingType)?.label}
@@ -285,7 +285,7 @@ export default function LogReadingScreen() {
           </View>
           <View style={styles.summaryRow}>
             <Text style={[styles.summaryLabel, { color: theme.textSecondary }]}>
-              Sure:
+              Sûre:
             </Text>
             <Text style={[styles.summaryValue, { color: theme.text }]}>
               {currentSurah?.nameTurkish}

@@ -7,6 +7,7 @@ import {
   useColorScheme,
   Pressable,
   Modal,
+  TextInput,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { router } from "expo-router";
@@ -15,9 +16,16 @@ import { colors, typography, spacing } from "../../../src/theme";
 import { useProgramStore } from "../../../src/stores/programStore";
 import { useLearningStore } from "../../../src/stores";
 import type { VocabularyWord } from "../../../src/types";
+import { surahs } from "../../../src/data/surahs";
 
 // Import word data
 import wordsData from "../../../src/data/learning/words_300.json";
+
+// Helper to get surah name
+const getSurahName = (surahId: number) => {
+  const surah = surahs.find((s) => s.id === surahId);
+  return surah?.nameTurkish || `Sure ${surahId}`;
+};
 
 interface ThemeColors {
   background: string;
@@ -33,6 +41,8 @@ export default function ProgramScreen() {
   const colorScheme = useColorScheme();
   const isDark = colorScheme === "dark";
   const [showWordPopup, setShowWordPopup] = useState(false);
+  const [showGoalModal, setShowGoalModal] = useState(false);
+  const [goalInput, setGoalInput] = useState("10");
 
   const {
     getProgressForDate,
@@ -103,6 +113,24 @@ export default function ProgramScreen() {
     router.push("/learn");
   };
 
+  const handleOpenGoalModal = () => {
+    if (dailyGoal) {
+      setGoalInput(String(dailyGoal.target));
+    }
+    setShowGoalModal(true);
+  };
+
+  const handleSaveGoal = () => {
+    const target = parseInt(goalInput, 10) || 10;
+    useProgramStore.getState().setGoal({
+      type: "daily",
+      target: Math.max(1, target),
+      readingType: "all",
+      isActive: true,
+    });
+    setShowGoalModal(false);
+  };
+
   // Count mastered words
   const masteredCount = Object.values(cardProgress).filter(
     (c) => c.category === "words" && c.masteryLevel === "mastered"
@@ -112,9 +140,9 @@ export default function ProgramScreen() {
     <SafeAreaView style={[styles.container, { backgroundColor: theme.background }]}>
       <ScrollView showsVerticalScrollIndicator={true} style={styles.scrollView}>
         <View style={styles.header}>
-          <Text style={[styles.title, { color: theme.text }]}>Okuma Programi</Text>
+          <Text style={[styles.title, { color: theme.text }]}>Okuma Programı</Text>
           <Text style={[styles.subtitle, { color: theme.textSecondary }]}>
-            Gunluk Kur'an okuma takibi
+            Günlük Kur'an okuma takibi
           </Text>
         </View>
 
@@ -128,7 +156,7 @@ export default function ProgramScreen() {
               {currentStreak}
             </Text>
             <Text style={[styles.statLabel, { color: theme.textSecondary }]}>
-              Gunluk Seri
+              Günlük Seri
             </Text>
           </View>
           <View style={styles.divider} />
@@ -140,7 +168,7 @@ export default function ProgramScreen() {
               {todayProgress.totalVerses}
             </Text>
             <Text style={[styles.statLabel, { color: theme.textSecondary }]}>
-              Bugun Okunan
+              Bugün Okunan
             </Text>
           </View>
           <View style={styles.divider} />
@@ -166,7 +194,7 @@ export default function ProgramScreen() {
             <View style={styles.wordCardTitleRow}>
               <Ionicons name="language" size={20} color={colors.primary[500]} />
               <Text style={[styles.sectionTitle, { color: theme.text, marginBottom: 0 }]}>
-                Siradaki Kelime
+                Sıradaki Kelime
               </Text>
             </View>
             <View style={styles.wordBadge}>
@@ -191,40 +219,71 @@ export default function ProgramScreen() {
         {/* Today's Details */}
         <View style={[styles.todayCard, { backgroundColor: theme.card }]}>
           <Text style={[styles.sectionTitle, { color: theme.text }]}>
-            Bugunun Detayi
+            Bugünün Detayı
           </Text>
           <View style={styles.todayDetails}>
-            <View style={styles.detailRow}>
-              <View style={[styles.detailIcon, { backgroundColor: colors.primary[100] }]}>
-                <Text style={styles.detailEmoji}>📖</Text>
+            {/* Meal Sessions */}
+            <View style={styles.detailSection}>
+              <View style={styles.detailRow}>
+                <View style={[styles.detailIcon, { backgroundColor: colors.primary[100] }]}>
+                  <Text style={styles.detailEmoji}>📖</Text>
+                </View>
+                <Text style={[styles.detailLabel, { color: theme.text }]}>Meal</Text>
+                <Text style={[styles.detailValue, { color: theme.textSecondary }]}>
+                  {todayProgress.mealVerses} ayet
+                </Text>
               </View>
-              <Text style={[styles.detailLabel, { color: theme.text }]}>Meal</Text>
-              <Text style={[styles.detailValue, { color: theme.textSecondary }]}>
-                {todayProgress.mealVerses} ayet
-              </Text>
+              {todayProgress.sessions
+                .filter((s) => s.type === "meal")
+                .map((session, idx) => (
+                  <View key={session.id} style={styles.sessionRow}>
+                    <Text style={[styles.sessionText, { color: theme.textSecondary }]}>
+                      • {getSurahName(session.surahId)} {session.startVerse}-{session.endVerse}
+                    </Text>
+                  </View>
+                ))}
             </View>
-            <View style={styles.detailRow}>
-              <View style={[styles.detailIcon, { backgroundColor: colors.secondary[100] }]}>
-                <Text style={styles.detailEmoji}>📜</Text>
+
+            {/* Tefsir Sessions */}
+            <View style={styles.detailSection}>
+              <View style={styles.detailRow}>
+                <View style={[styles.detailIcon, { backgroundColor: colors.secondary[100] }]}>
+                  <Text style={styles.detailEmoji}>📜</Text>
+                </View>
+                <Text style={[styles.detailLabel, { color: theme.text }]}>Tefsir</Text>
+                <Text style={[styles.detailValue, { color: theme.textSecondary }]}>
+                  {todayProgress.tefsirVerses} ayet
+                </Text>
               </View>
-              <Text style={[styles.detailLabel, { color: theme.text }]}>Tefsir</Text>
-              <Text style={[styles.detailValue, { color: theme.textSecondary }]}>
-                {todayProgress.tefsirVerses} ayet
-              </Text>
+              {todayProgress.sessions
+                .filter((s) => s.type === "tefsir")
+                .map((session, idx) => (
+                  <View key={session.id} style={styles.sessionRow}>
+                    <Text style={[styles.sessionText, { color: theme.textSecondary }]}>
+                      • {getSurahName(session.surahId)} {session.startVerse}-{session.endVerse}
+                    </Text>
+                  </View>
+                ))}
             </View>
           </View>
         </View>
 
         {/* Daily Goal Progress */}
         {dailyGoal && (
-          <View style={[styles.goalCard, { backgroundColor: theme.card }]}>
+          <Pressable
+            style={[styles.goalCard, { backgroundColor: theme.card }]}
+            onPress={handleOpenGoalModal}
+          >
             <View style={styles.goalHeader}>
               <Text style={[styles.sectionTitle, { color: theme.text }]}>
-                Gunluk Hedef
+                Günlük Hedef
               </Text>
-              <Text style={[styles.goalPercent, { color: colors.primary[500] }]}>
-                %{Math.round(goalProgress)}
-              </Text>
+              <View style={styles.goalEditHint}>
+                <Text style={[styles.goalPercent, { color: colors.primary[500] }]}>
+                  %{Math.round(goalProgress)}
+                </Text>
+                <Ionicons name="pencil" size={14} color={theme.textSecondary} />
+              </View>
             </View>
             <View style={[styles.progressBar, { backgroundColor: theme.border }]}>
               <View
@@ -240,13 +299,13 @@ export default function ProgramScreen() {
             <Text style={[styles.goalDetail, { color: theme.textSecondary }]}>
               {todayProgress.totalVerses} / {dailyGoal.target} ayet
             </Text>
-          </View>
+          </Pressable>
         )}
 
         {/* Weekly Overview */}
         <View style={[styles.weekCard, { backgroundColor: theme.card }]}>
           <Text style={[styles.sectionTitle, { color: theme.text }]}>
-            Son 7 Gun
+            Son 7 Gün
           </Text>
           <View style={styles.weekGrid}>
             {weekProgress.map((day, index) => {
@@ -291,18 +350,11 @@ export default function ProgramScreen() {
         {!dailyGoal && (
           <Pressable
             style={[styles.setGoalButton, { backgroundColor: theme.card, borderColor: theme.border }]}
-            onPress={() => {
-              useProgramStore.getState().setGoal({
-                type: "daily",
-                target: 10,
-                readingType: "all",
-                isActive: true,
-              });
-            }}
+            onPress={handleOpenGoalModal}
           >
             <Ionicons name="flag-outline" size={24} color={colors.primary[500]} />
             <Text style={[styles.setGoalText, { color: theme.text }]}>
-              Gunluk Hedef Belirle
+              Günlük Hedef Belirle
             </Text>
           </Pressable>
         )}
@@ -332,7 +384,7 @@ export default function ProgramScreen() {
           <View style={[styles.modalContent, { backgroundColor: theme.card }]}>
             <View style={styles.modalHeader}>
               <Text style={[styles.modalTitle, { color: theme.text }]}>
-                Siradaki Kelime
+                Sıradaki Kelime
               </Text>
               <Pressable onPress={() => setShowWordPopup(false)}>
                 <Ionicons name="close" size={24} color={theme.textSecondary} />
@@ -348,7 +400,7 @@ export default function ProgramScreen() {
                   {currentWord.translations.tr}
                 </Text>
                 <Text style={[styles.modalFrequency, { color: theme.textSecondary }]}>
-                  Kur'an'da {currentWord.frequency} kez gecmektedir
+                  Kur'an'da {currentWord.frequency} kez geçmektedir
                 </Text>
               </>
             )}
@@ -359,7 +411,7 @@ export default function ProgramScreen() {
                   {masteredCount}
                 </Text>
                 <Text style={[styles.modalStatLabel, { color: theme.textSecondary }]}>
-                  Ogrenildi
+                  Öğrenildi
                 </Text>
               </View>
               <View style={styles.modalStatItem}>
@@ -367,7 +419,7 @@ export default function ProgramScreen() {
                   {todayReviewed}
                 </Text>
                 <Text style={[styles.modalStatLabel, { color: theme.textSecondary }]}>
-                  Bugun
+                  Bugün
                 </Text>
               </View>
               <View style={styles.modalStatItem}>
@@ -388,6 +440,92 @@ export default function ProgramScreen() {
               <Text style={styles.modalButtonText}>Kartlara Git</Text>
             </Pressable>
           </View>
+        </Pressable>
+      </Modal>
+
+      {/* Goal Setting Modal */}
+      <Modal
+        visible={showGoalModal}
+        transparent
+        animationType="fade"
+        onRequestClose={() => setShowGoalModal(false)}
+      >
+        <Pressable
+          style={styles.modalOverlay}
+          onPress={() => setShowGoalModal(false)}
+        >
+          <Pressable
+            style={[styles.modalContent, { backgroundColor: theme.card }]}
+            onPress={(e) => e.stopPropagation()}
+          >
+            <View style={styles.modalHeader}>
+              <Text style={[styles.modalTitle, { color: theme.text }]}>
+                Günlük Hedef
+              </Text>
+              <Pressable onPress={() => setShowGoalModal(false)}>
+                <Ionicons name="close" size={24} color={theme.textSecondary} />
+              </Pressable>
+            </View>
+
+            <Text style={[styles.goalInputLabel, { color: theme.textSecondary }]}>
+              Günlük okumak istediğiniz ayet sayısı:
+            </Text>
+
+            <TextInput
+              style={[
+                styles.goalInput,
+                {
+                  backgroundColor: theme.border,
+                  color: theme.text,
+                  borderColor: colors.primary[500],
+                },
+              ]}
+              value={goalInput}
+              onChangeText={setGoalInput}
+              keyboardType="number-pad"
+              placeholder="10"
+              placeholderTextColor={theme.textSecondary}
+              selectTextOnFocus
+            />
+
+            <View style={styles.goalPresets}>
+              {[5, 10, 20, 50].map((preset) => (
+                <Pressable
+                  key={preset}
+                  style={[
+                    styles.goalPresetButton,
+                    {
+                      backgroundColor: goalInput === String(preset)
+                        ? colors.primary[500]
+                        : theme.border
+                    },
+                  ]}
+                  onPress={() => setGoalInput(String(preset))}
+                >
+                  <Text
+                    style={[
+                      styles.goalPresetText,
+                      {
+                        color: goalInput === String(preset)
+                          ? "#fff"
+                          : theme.text
+                      },
+                    ]}
+                  >
+                    {preset}
+                  </Text>
+                </Pressable>
+              ))}
+            </View>
+
+            <Pressable
+              style={[styles.modalButton, { backgroundColor: colors.primary[500] }]}
+              onPress={handleSaveGoal}
+            >
+              <Ionicons name="checkmark" size={20} color="#fff" />
+              <Text style={styles.modalButtonText}>Kaydet</Text>
+            </Pressable>
+          </Pressable>
         </Pressable>
       </Modal>
     </SafeAreaView>
@@ -509,7 +647,16 @@ const styles = StyleSheet.create({
     marginBottom: spacing.md,
   },
   todayDetails: {
-    gap: spacing.sm,
+    gap: spacing.md,
+  },
+  detailSection: {
+    gap: spacing.xs,
+  },
+  sessionRow: {
+    paddingLeft: 52,
+  },
+  sessionText: {
+    fontSize: 13,
   },
   detailRow: {
     flexDirection: "row",
@@ -545,6 +692,11 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
     marginBottom: spacing.sm,
+  },
+  goalEditHint: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: spacing.xs,
   },
   goalPercent: {
     fontSize: 16,
@@ -697,6 +849,38 @@ const styles = StyleSheet.create({
   modalButtonText: {
     color: "#fff",
     fontSize: 16,
+    fontWeight: "600",
+  },
+  goalInputLabel: {
+    fontSize: 14,
+    marginBottom: spacing.md,
+    textAlign: "center",
+  },
+  goalInput: {
+    fontSize: 32,
+    fontWeight: "700",
+    textAlign: "center",
+    paddingVertical: spacing.md,
+    paddingHorizontal: spacing.lg,
+    borderRadius: 12,
+    borderWidth: 2,
+    marginBottom: spacing.md,
+  },
+  goalPresets: {
+    flexDirection: "row",
+    justifyContent: "center",
+    gap: spacing.sm,
+    marginBottom: spacing.xl,
+  },
+  goalPresetButton: {
+    paddingVertical: spacing.sm,
+    paddingHorizontal: spacing.md,
+    borderRadius: 8,
+    minWidth: 50,
+    alignItems: "center",
+  },
+  goalPresetText: {
+    fontSize: 14,
     fontWeight: "600",
   },
 });
