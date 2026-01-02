@@ -1,0 +1,53 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"[Hook] Dosya değişikliği: $CLAUDE_TOOL_INPUT\" >> .claude/logs/file-changes.log"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/validate-bash.js"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/post-edit.js"
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": "TaskComplete",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/notify.js \"$CLAUDE_NOTIFICATION\""
+          }
+        ]
+      }
+    ]
+  },
+  "mcpServers": {
+    "quran": {
+      "command": "node",
+      "args": ["mcp-server/dist/index.js"],
+      "cwd": "."
+    }
+  }
+}
