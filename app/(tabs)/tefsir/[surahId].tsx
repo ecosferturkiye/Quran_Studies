@@ -7,16 +7,18 @@ import {
   TouchableOpacity,
   Pressable,
   ActivityIndicator,
+  Modal,
+  FlatList,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useLocalSearchParams, router } from "expo-router";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef, useCallback, useMemo } from "react";
+import { Platform } from "react-native";
 import { colors, typography, spacing } from "../../../src/theme";
 import { surahs } from "../../../src/data/surahs";
-import { fetchVersesByChapter, Verse } from "../../../src/services/quranService";
+import { fetchVersesByChapter, Verse, getSurahElmaliliTefsirAsync } from "../../../src/services/quranService";
 import { Ionicons } from "@expo/vector-icons";
-
-type TefsirSource = "studyquran" | "kuranyolu" | "hayrat";
+import { useTefsirStore, type TefsirSource } from "../../../src/stores/tefsirStore";
 
 function ToggleButton({
   label,
@@ -171,6 +173,104 @@ function HayratVerseCard({
   );
 }
 
+// Elmalılı Tefsir display (sure bazlı - surah-based commentary)
+function ElmaliliTefsirCard({
+  tefsir,
+  surahName,
+  verseCount,
+  theme,
+  isLoading,
+  highlightParagraph,
+}: {
+  tefsir: string;
+  surahName: string;
+  verseCount: number;
+  theme: any;
+  isLoading: boolean;
+  highlightParagraph: number | null;
+}) {
+  const commentaryColor = "#2563EB"; // Blue for Elmalılı
+
+  if (isLoading) {
+    return (
+      <View style={[styles.verseCard, { backgroundColor: theme.cardBackground }]}>
+        <ActivityIndicator size="large" color={commentaryColor} />
+        <Text style={[styles.loadingText, { color: theme.textSecondary, textAlign: "center", marginTop: spacing.md }]}>
+          Elmalılı tefsiri yükleniyor...
+        </Text>
+      </View>
+    );
+  }
+
+  if (!tefsir) {
+    return (
+      <View style={[styles.verseCard, { backgroundColor: theme.cardBackground }]}>
+        <View style={[styles.noCommentary, { borderLeftColor: theme.border }]}>
+          <Text style={[styles.noCommentaryText, { color: theme.textSecondary }]}>
+            Bu sure için Elmalılı tefsiri henüz yüklenmedi.
+          </Text>
+        </View>
+      </View>
+    );
+  }
+
+  // Tefsiri paragraflara böl
+  const paragraphs = tefsir.split('\n\n').filter(p => p.trim().length > 0);
+
+  return (
+    <View style={[styles.verseCard, { backgroundColor: theme.cardBackground }]}>
+      <View style={styles.verseHeader}>
+        <View style={[styles.verseNumber, { backgroundColor: commentaryColor, minWidth: 80 }]}>
+          <Text style={styles.verseNumberText}>Tefsir</Text>
+        </View>
+        <Text style={[styles.groupLabel, { color: commentaryColor }]}>
+          {verseCount} ayet • {paragraphs.length} paragraf
+        </Text>
+      </View>
+
+      <View style={[styles.commentarySection, { borderLeftColor: commentaryColor, backgroundColor: "rgba(37, 99, 235, 0.05)" }]}>
+        <View style={styles.commentaryHeader}>
+          <Ionicons name="book-outline" size={14} color={commentaryColor} />
+          <Text style={[styles.commentaryLabel, { color: commentaryColor }]}>
+            Hak Dini Kur'an Dili - Elmalılı Muhammed Hamdi Yazır
+          </Text>
+        </View>
+
+        {/* Tefsir info */}
+        <Text style={[styles.tefsirInfoText, { color: theme.textSecondary }]}>
+          {(tefsir.length / 1000).toFixed(1)}k karakter
+          {highlightParagraph !== null && ` • Kalınan: §${highlightParagraph + 1}`}
+        </Text>
+
+        {/* Paragraflar - kalınan paragraf sarı işaretli */}
+        {paragraphs.map((paragraph, index) => (
+          <View
+            key={index}
+            style={[
+              styles.paragraphContainer,
+              highlightParagraph === index && styles.highlightedParagraph,
+            ]}
+          >
+            {highlightParagraph === index && (
+              <View style={styles.highlightBar} />
+            )}
+            <Text
+              style={[
+                styles.commentaryText,
+                { color: theme.textSecondary },
+                highlightParagraph === index && styles.highlightedText,
+              ]}
+              selectable
+            >
+              {paragraph}
+            </Text>
+          </View>
+        ))}
+      </View>
+    </View>
+  );
+}
+
 // Grouped verses display for Kur'an Yolu (shows all verses in range together)
 function KuranYoluVerseCard({
   verses,
@@ -263,12 +363,21 @@ export default function TefsirDetailScreen() {
   const [verses, setVerses] = useState<Verse[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [tefsirSource, setTefsirSource] = useState<TefsirSource>("studyquran");
+  const [tefsirSource, setTefsirSource] = useState<TefsirSource>("elmalili");
+  const [elmaliliTefsir, setElmaliliTefsir] = useState<string>("");
+  const [elmaliliLoading, setElmaliliLoading] = useState(false);
+  const [showSurahPicker, setShowSurahPicker] = useState(false);
+  const [lastParagraphIndex, setLastParagraphIndex] = useState<number | null>(null);
+
+  // Store hooks
+  const { saveProgress, getProgress, getProgressForSource } = useTefsirStore();
+  const scrollViewRef = useRef<ScrollView>(null);
 
   const surah = surahs.find((s) => s.id === parseInt(surahId || "1"));
 
   const getPrimaryColor = () => {
     switch (tefsirSource) {
+      case "elmalili": return "#2563EB";
       case "studyquran": return "#8B5CF6";
       case "kuranyolu": return "#059669";
       case "hayrat": return "#D97706";
@@ -314,6 +423,75 @@ export default function TefsirDetailScreen() {
     loadVerses();
   }, [surah?.id]);
 
+  // Load Elmalılı tefsir when source is selected
+  useEffect(() => {
+    async function loadElmaliliTefsir() {
+      if (!surah || tefsirSource !== "elmalili") return;
+
+      setElmaliliLoading(true);
+      try {
+        const tefsir = await getSurahElmaliliTefsirAsync(surah.id);
+        setElmaliliTefsir(tefsir);
+      } catch (err) {
+        console.error("Elmalılı tefsir yüklenemedi:", err);
+        setElmaliliTefsir("");
+      } finally {
+        setElmaliliLoading(false);
+      }
+    }
+
+    loadElmaliliTefsir();
+  }, [surah?.id, tefsirSource]);
+
+  // Kalınan yeri yükle
+  useEffect(() => {
+    if (!surah) return;
+    const progress = getProgress(tefsirSource, surah.id);
+    if (progress) {
+      setLastParagraphIndex(progress.paragraphIndex);
+      // Scroll pozisyonuna git
+      setTimeout(() => {
+        scrollViewRef.current?.scrollTo({ y: progress.scrollPosition, animated: true });
+      }, 800);
+    } else {
+      setLastParagraphIndex(null);
+    }
+  }, [surah?.id, tefsirSource, getProgress]);
+
+  // Debounce için timeout ref
+  const scrollTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  // Scroll handler - web için debounced
+  const handleScroll = useCallback((event: any) => {
+    if (!surah || tefsirSource !== "elmalili" || !elmaliliTefsir) return;
+
+    const scrollY = event.nativeEvent.contentOffset.y;
+
+    // Debounce: 500ms bekle
+    if (scrollTimeoutRef.current) {
+      clearTimeout(scrollTimeoutRef.current);
+    }
+
+    scrollTimeoutRef.current = setTimeout(() => {
+      const paragraphs = elmaliliTefsir.split('\n\n').filter(p => p.trim().length > 0);
+      const avgParagraphHeight = 150;
+      const paragraphIndex = Math.min(
+        Math.floor(scrollY / avgParagraphHeight),
+        paragraphs.length - 1
+      );
+      saveProgress(tefsirSource, surah.id, scrollY, Math.max(0, paragraphIndex));
+    }, 500);
+  }, [surah?.id, tefsirSource, saveProgress, elmaliliTefsir]);
+
+  // Sure seçici fonksiyonu
+  const handleSurahSelect = (selectedSurahId: number) => {
+    setShowSurahPicker(false);
+    router.replace({
+      pathname: "/(tabs)/tefsir/[surahId]",
+      params: { surahId: selectedSurahId.toString() },
+    });
+  };
+
   if (!surah) {
     return (
       <SafeAreaView
@@ -343,10 +521,26 @@ export default function TefsirDetailScreen() {
           <Ionicons name="chevron-back" size={24} color={theme.primary} />
           <Text style={[styles.backText, { color: theme.primary }]}>Tefsir</Text>
         </TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => setShowSurahPicker(true)}
+          style={[styles.surahPickerButton, { borderColor: theme.primary }]}
+        >
+          <Text style={[styles.surahPickerText, { color: theme.primary }]}>
+            {surah.id}. {surah.nameTurkish}
+          </Text>
+          <Ionicons name="chevron-down" size={18} color={theme.primary} />
+        </TouchableOpacity>
       </View>
 
       {/* Tefsir Source Toggle */}
       <View style={styles.toggleContainer}>
+        <ToggleButton
+          label="Elmalılı"
+          isActive={tefsirSource === "elmalili"}
+          onPress={() => setTefsirSource("elmalili")}
+          activeColor="#2563EB"
+          inactiveColor={theme.textSecondary}
+        />
         <ToggleButton
           label={`Study Q. (${studyQuranCount})`}
           isActive={tefsirSource === "studyquran"}
@@ -371,8 +565,11 @@ export default function TefsirDetailScreen() {
       </View>
 
       <ScrollView
+        ref={scrollViewRef}
         contentContainerStyle={styles.content}
         showsVerticalScrollIndicator={false}
+        onScroll={handleScroll}
+        scrollEventThrottle={100}
       >
         <View
           style={[styles.surahHeader, { backgroundColor: theme.cardBackground }]}
@@ -387,7 +584,9 @@ export default function TefsirDetailScreen() {
             {surah.nameTurkish}
           </Text>
           <Text style={[styles.surahMeta, { color: theme.textSecondary }]}>
-            {tefsirSource === "studyquran"
+            {tefsirSource === "elmalili"
+              ? "Hak Dini Kur'an Dili - Elmalılı Muhammed Hamdi Yazır"
+              : tefsirSource === "studyquran"
               ? "The Study Quran - Seyyed Hossein Nasr"
               : tefsirSource === "kuranyolu"
               ? "Kur'an Yolu Tefsiri - Diyanet İşleri Başkanlığı"
@@ -436,7 +635,17 @@ export default function TefsirDetailScreen() {
               </View>
             )}
 
-            {tefsirSource === "studyquran" ? (
+            {tefsirSource === "elmalili" ? (
+              // Elmalılı: sure bazlı tefsir (surah-based commentary)
+              <ElmaliliTefsirCard
+                tefsir={elmaliliTefsir}
+                surahName={surah.nameTurkish}
+                verseCount={surah.totalVerses}
+                theme={theme}
+                isLoading={elmaliliLoading}
+                highlightParagraph={lastParagraphIndex}
+              />
+            ) : tefsirSource === "studyquran" ? (
               // Study Quran: render each verse individually
               verses.map((verse) => (
                 <StudyQuranVerseCard
@@ -528,6 +737,60 @@ export default function TefsirDetailScreen() {
           )}
         </View>
       </ScrollView>
+
+      {/* Sure Seçici Modal */}
+      <Modal
+        visible={showSurahPicker}
+        animationType="slide"
+        transparent={true}
+        onRequestClose={() => setShowSurahPicker(false)}
+      >
+        <View style={styles.modalOverlay}>
+          <View style={[styles.modalContent, { backgroundColor: theme.cardBackground }]}>
+            <View style={styles.modalHeader}>
+              <Text style={[styles.modalTitle, { color: theme.text }]}>Sure Seç</Text>
+              <TouchableOpacity onPress={() => setShowSurahPicker(false)}>
+                <Ionicons name="close" size={24} color={theme.text} />
+              </TouchableOpacity>
+            </View>
+            <FlatList
+              data={surahs}
+              keyExtractor={(item) => item.id.toString()}
+              renderItem={({ item }) => {
+                const progress = getProgress(tefsirSource, item.id);
+                const hasProgress = !!progress;
+                return (
+                  <TouchableOpacity
+                    style={[
+                      styles.surahItem,
+                      { borderBottomColor: theme.border },
+                      hasProgress && { backgroundColor: "rgba(250, 204, 21, 0.15)" },
+                    ]}
+                    onPress={() => handleSurahSelect(item.id)}
+                  >
+                    <View style={[styles.surahItemNumber, { backgroundColor: theme.primary }]}>
+                      <Text style={styles.surahItemNumberText}>{item.id}</Text>
+                    </View>
+                    <View style={styles.surahItemInfo}>
+                      <Text style={[styles.surahItemName, { color: theme.text }]}>
+                        {item.nameTurkish}
+                      </Text>
+                      <Text style={[styles.surahItemArabic, { color: theme.textSecondary }]}>
+                        {item.nameArabic}
+                      </Text>
+                    </View>
+                    {hasProgress && (
+                      <View style={styles.progressBadge}>
+                        <Ionicons name="bookmark" size={16} color="#FACC15" />
+                      </View>
+                    )}
+                  </TouchableOpacity>
+                );
+              }}
+            />
+          </View>
+        </View>
+      </Modal>
     </SafeAreaView>
   );
 }
@@ -725,9 +988,14 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
   commentaryText: {
-    fontSize: 14,
-    lineHeight: 22,
+    fontSize: 17,
+    lineHeight: 28,
     textAlign: "justify",
+  },
+  tefsirInfoText: {
+    fontSize: 12,
+    fontStyle: "italic",
+    marginBottom: spacing.sm,
   },
   noCommentary: {
     marginTop: spacing.md,
@@ -790,5 +1058,100 @@ const styles = StyleSheet.create({
   },
   navPlaceholder: {
     flex: 1,
+  },
+  // Sure Seçici Buton
+  surahPickerButton: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 4,
+    paddingHorizontal: spacing.md,
+    paddingVertical: spacing.xs,
+    borderRadius: 8,
+    borderWidth: 1,
+  },
+  surahPickerText: {
+    fontSize: 14,
+    fontWeight: "500",
+  },
+  // Modal Stilleri
+  modalOverlay: {
+    flex: 1,
+    backgroundColor: "rgba(0, 0, 0, 0.5)",
+    justifyContent: "flex-end",
+  },
+  modalContent: {
+    maxHeight: "80%",
+    borderTopLeftRadius: 20,
+    borderTopRightRadius: 20,
+    paddingBottom: spacing.xl,
+  },
+  modalHeader: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    padding: spacing.lg,
+    borderBottomWidth: 1,
+    borderBottomColor: "rgba(128, 128, 128, 0.2)",
+  },
+  modalTitle: {
+    fontSize: 18,
+    fontWeight: "600",
+  },
+  surahItem: {
+    flexDirection: "row",
+    alignItems: "center",
+    padding: spacing.md,
+    borderBottomWidth: 1,
+  },
+  surahItemNumber: {
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    justifyContent: "center",
+    alignItems: "center",
+    marginRight: spacing.md,
+  },
+  surahItemNumberText: {
+    color: "#fff",
+    fontSize: 14,
+    fontWeight: "600",
+  },
+  surahItemInfo: {
+    flex: 1,
+  },
+  surahItemName: {
+    fontSize: 16,
+    fontWeight: "500",
+  },
+  surahItemArabic: {
+    fontSize: 14,
+    marginTop: 2,
+  },
+  progressBadge: {
+    marginLeft: spacing.sm,
+  },
+  // Paragraf highlight stilleri
+  paragraphContainer: {
+    marginBottom: spacing.md,
+    position: "relative",
+  },
+  highlightedParagraph: {
+    backgroundColor: "rgba(250, 204, 21, 0.2)",
+    borderRadius: 8,
+    padding: spacing.sm,
+    marginLeft: -spacing.sm,
+    marginRight: -spacing.sm,
+  },
+  highlightBar: {
+    position: "absolute",
+    left: -spacing.sm,
+    top: 0,
+    bottom: 0,
+    width: 4,
+    backgroundColor: "#FACC15",
+    borderRadius: 2,
+  },
+  highlightedText: {
+    fontWeight: "500",
   },
 });

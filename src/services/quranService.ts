@@ -2,7 +2,10 @@
 // - Arabic, Diyanet (Turkish), English: Local JSON files
 // - Elmalılı (Turkish): quran.com API
 
-import { getLocalVersesByChapter, LocalVerse } from "./quranLocal";
+import { getLocalVersesByChapter, LocalVerse, getLocalSurah, getSurahElmaliliTefsir, getSurahElmaliliTefsirAsync, getElmaliliTefsirInfo, preloadElmaliliTefsir } from "./quranLocal";
+
+// Re-export Elmalılı tefsir functions for easy access
+export { getSurahElmaliliTefsir, getSurahElmaliliTefsirAsync, getElmaliliTefsirInfo, preloadElmaliliTefsir };
 
 const QURAN_API_BASE = "https://api.quran.com/api/v4";
 const ELMALILI_TRANSLATION_ID = 52;
@@ -34,6 +37,17 @@ export interface Verse {
   diyanetEndVerse?: number;
   pageNumber: number;
   juzNumber: number;
+}
+
+export interface Surah {
+  id: number;
+  nameArabic: string;
+  nameTransliteration: string;
+  nameTurkish: string;
+  type: "meccan" | "medinan";
+  totalVerses: number;
+  verses: Verse[];
+  elmaliliTefsir?: string; // Sure bazlı Elmalılı tefsiri
 }
 
 interface ApiTranslation {
@@ -219,4 +233,50 @@ export function getVersesOffline(chapterId: number): Verse[] {
     pageNumber: 0,
     juzNumber: 0,
   }));
+}
+
+// Fetch full surah with Elmalılı tefsir (online)
+export async function fetchSurahWithTefsir(chapterId: number): Promise<Surah> {
+  const localSurah = getLocalSurah(chapterId);
+  if (!localSurah) {
+    throw new Error("Surah not found in local data");
+  }
+
+  // Fetch verses and Elmalılı tefsir in parallel
+  const [verses, elmaliliTefsir] = await Promise.all([
+    fetchVersesByChapter(chapterId),
+    getSurahElmaliliTefsirAsync(chapterId),
+  ]);
+
+  return {
+    id: localSurah.id,
+    nameArabic: localSurah.nameArabic,
+    nameTransliteration: localSurah.nameTransliteration,
+    nameTurkish: localSurah.nameTurkish,
+    type: localSurah.type,
+    totalVerses: localSurah.totalVerses,
+    verses,
+    elmaliliTefsir: elmaliliTefsir || localSurah.elmaliliTefsir,
+  };
+}
+
+// Get full surah with Elmalılı tefsir (offline)
+export function getSurahOffline(chapterId: number): Surah | null {
+  const localSurah = getLocalSurah(chapterId);
+  if (!localSurah) {
+    return null;
+  }
+
+  const verses = getVersesOffline(chapterId);
+
+  return {
+    id: localSurah.id,
+    nameArabic: localSurah.nameArabic,
+    nameTransliteration: localSurah.nameTransliteration,
+    nameTurkish: localSurah.nameTurkish,
+    type: localSurah.type,
+    totalVerses: localSurah.totalVerses,
+    verses,
+    elmaliliTefsir: localSurah.elmaliliTefsir,
+  };
 }

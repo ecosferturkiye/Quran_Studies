@@ -12,6 +12,63 @@ import kuranYoluCommentary from "../data/quran/kuranyolu_commentary.json";
 import diyanetRanges from "../data/quran/diyanet_ranges.json";
 import hayratMeal from "../data/quran/hayrat_meal.json";
 
+// Elmalılı tefsir - lazy loaded due to large file size (12.8 MB)
+let elmaliliTefsirData: Record<string, ElmaliliSurahData> | null = null;
+let elmaliliTefsirLoading: Promise<Record<string, ElmaliliSurahData>> | null = null;
+
+interface ElmaliliSurahData {
+  surah_id: number;
+  surah_name: string;
+  pages: string[];
+  tefsir: string;
+}
+
+async function loadElmaliliTefsir(): Promise<Record<string, ElmaliliSurahData>> {
+  if (elmaliliTefsirData) return elmaliliTefsirData;
+
+  // Return existing loading promise if already in progress
+  if (elmaliliTefsirLoading) return elmaliliTefsirLoading;
+
+  elmaliliTefsirLoading = (async () => {
+    try {
+      // Use require for Node.js/bundler or fetch for browser
+      if (typeof require !== 'undefined') {
+        // eslint-disable-next-line @typescript-eslint/no-var-requires
+        const data = require("../data/quran/elmalili_tefsir.json");
+        elmaliliTefsirData = data.surahs || {};
+      } else {
+        // Browser environment - fetch from public
+        const response = await fetch('/data/quran/elmalili_tefsir.json');
+        const data = await response.json();
+        elmaliliTefsirData = data.surahs || {};
+      }
+      return elmaliliTefsirData;
+    } catch (error) {
+      console.warn("Elmalılı tefsir yüklenemedi:", error);
+      elmaliliTefsirData = {};
+      return {};
+    }
+  })();
+
+  return elmaliliTefsirLoading;
+}
+
+function getElmaliliTefsirSync(): Record<string, ElmaliliSurahData> {
+  return elmaliliTefsirData || {};
+}
+
+// Clean Clear Quran text - remove garbled footnote markers
+function cleanClearQuranText(text: string): string {
+  if (!text) return "";
+  return text
+    // Remove patterns like '2!, '4!, |®!, !Z®!, etc.
+    .replace(/'[0-9]+!/g, '')
+    .replace(/\|[^|]+!/g, '')
+    .replace(/![A-Z0-9®£¥€]+!/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 // Haleem, Clear Quran, Study Quran format: { "surahId": { "verseId": "text" } }
 const haleemData = quranHaleem as Record<string, Record<string, string>>;
 const clearQuranData = quranClearQuran as Record<string, Record<string, string>>;
@@ -29,6 +86,7 @@ const hayratData = hayratMeal as {
   translations: Record<string, string>;
   tafsir: Record<string, string>;
 };
+
 
 // Diyanet ranges format: { "ranges": { "surahId:start-end": { surahId, startVerse, endVerse, verseCount } } }
 // These are verses where the translator combined multiple Arabic verses into one Turkish translation
@@ -131,6 +189,7 @@ export interface LocalSurah {
   type: "meccan" | "medinan";
   totalVerses: number;
   verses: LocalVerse[];
+  elmaliliTefsir?: string; // Sure bazlı Elmalılı tefsiri
 }
 
 interface QuranJsonSurah {
@@ -174,7 +233,7 @@ export function getLocalSurah(surahId: number): LocalSurah | null {
       translationTurkish: turkishSurah?.verses[index]?.translation || "",
       translationEnglish: englishSurah?.verses[index]?.translation || "",
       translationHaleem: haleemSurah[String(verse.id)] || "",
-      translationClearQuran: clearQuranSurah[String(verse.id)] || "",
+      translationClearQuran: cleanClearQuranText(clearQuranSurah[String(verse.id)] || ""),
       translationStudyQuran: studyQuranSurah[String(verse.id)] || "",
       translationHayrat: hayratData.translations[verseKey] || "",
       commentaryStudyQuran: commentaryData[verseKey] || "",
@@ -189,6 +248,9 @@ export function getLocalSurah(surahId: number): LocalSurah | null {
     };
   });
 
+  // Get Elmalılı tefsir for this surah (if loaded)
+  const elmaliliSurah = getElmaliliTefsirSync()[String(surahId)];
+
   return {
     id: surahId,
     nameArabic: arabicSurah.name,
@@ -197,6 +259,7 @@ export function getLocalSurah(surahId: number): LocalSurah | null {
     type: arabicSurah.type === "meccan" ? "meccan" : "medinan",
     totalVerses: arabicSurah.total_verses,
     verses,
+    elmaliliTefsir: elmaliliSurah?.tefsir || "",
   };
 }
 
@@ -224,4 +287,35 @@ export function getAllSurahs(): Array<{
       totalVerses: surah.total_verses,
     };
   });
+}
+
+// Get Elmalılı tefsir for a specific surah (sure bazlı)
+export function getSurahElmaliliTefsir(surahId: number): string {
+  const surahData = getElmaliliTefsirSync()[String(surahId)];
+  return surahData?.tefsir || "";
+}
+
+// Get Elmalılı tefsir for a specific surah (async version)
+export async function getSurahElmaliliTefsirAsync(surahId: number): Promise<string> {
+  const data = await loadElmaliliTefsir();
+  return data[String(surahId)]?.tefsir || "";
+}
+
+// Get Elmalılı tefsir metadata
+export function getElmaliliTefsirInfo(surahId: number): {
+  surahName: string;
+  hasTefsir: boolean;
+  tefsirLength: number;
+} {
+  const surahData = getElmaliliTefsirSync()[String(surahId)];
+  return {
+    surahName: surahData?.surah_name || "",
+    hasTefsir: !!surahData?.tefsir,
+    tefsirLength: surahData?.tefsir?.length || 0,
+  };
+}
+
+// Preload Elmalılı tefsir data
+export async function preloadElmaliliTefsir(): Promise<void> {
+  await loadElmaliliTefsir();
 }
