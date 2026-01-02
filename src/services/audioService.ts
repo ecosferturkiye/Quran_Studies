@@ -154,8 +154,8 @@ export async function playVerseAudio(
       }
     };
 
-    // Use faster interval instead of ontimeupdate for smoother word highlighting
-    // ontimeupdate fires ~4 times per second, we need ~20 times per second (50ms)
+    // Use interval for word highlighting sync
+    // 80ms = ~12 updates/sec (balanced between smoothness and performance)
     if (progressInterval) {
       clearInterval(progressInterval);
     }
@@ -169,7 +169,7 @@ export async function playVerseAudio(
           didJustFinish: false,
         });
       }
-    }, 50);
+    }, 80);
 
     webAudio.onended = () => {
       console.log("Audio ended for verse:", verseKey);

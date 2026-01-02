@@ -190,30 +190,42 @@ export function getVerseWords(surahData: SurahWordData, verseNumber: number): Wo
   return verse?.words || [];
 }
 
+// Find current word index based on playback position using binary search
+// Words are sorted by startTime, so binary search is O(log n) vs O(n)
+export function findCurrentWordIndex(
+  words: WordData[],
+  positionMs: number
+): number {
+  if (words.length === 0) return -1;
+
+  let left = 0;
+  let right = words.length - 1;
+
+  while (left <= right) {
+    const mid = Math.floor((left + right) / 2);
+    const word = words[mid];
+
+    if (positionMs >= word.startTime && positionMs < word.endTime) {
+      return mid;
+    }
+
+    if (positionMs < word.startTime) {
+      right = mid - 1;
+    } else {
+      left = mid + 1;
+    }
+  }
+
+  return -1;
+}
+
 // Find current word based on playback position
 export function findCurrentWord(
   words: WordData[],
   positionMs: number
 ): WordData | null {
-  for (const word of words) {
-    if (positionMs >= word.startTime && positionMs < word.endTime) {
-      return word;
-    }
-  }
-  return null;
-}
-
-// Find current word index based on playback position
-export function findCurrentWordIndex(
-  words: WordData[],
-  positionMs: number
-): number {
-  for (let i = 0; i < words.length; i++) {
-    if (positionMs >= words[i].startTime && positionMs < words[i].endTime) {
-      return i;
-    }
-  }
-  return -1;
+  const index = findCurrentWordIndex(words, positionMs);
+  return index >= 0 ? words[index] : null;
 }
 
 // Get word color based on level
