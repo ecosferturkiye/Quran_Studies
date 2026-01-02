@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Icon Converter</title>
+</head>
+<body style="background: #333; padding: 20px;">
+  <h2 style="color: white;">Quran App Icon - Right-click and save as PNG</h2>
+  <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+    <div>
+      <h3 style="color: white;">1024x1024</h3>
+      <img src="quran-icon.svg" width="1024" height="1024" id="icon1024">
+    </div>
+    <div>
+      <h3 style="color: white;">256x256 (Preview)</h3>
+      <img src="quran-icon.svg" width="256" height="256">
+    </div>
+  </div>
+  <br>
+  <canvas id="canvas" width="1024" height="1024" style="display:none;"></canvas>
+  <button onclick="downloadPNG()" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
+    Download as PNG
+  </button>
+  <script>
+    function downloadPNG() {
+      const canvas = document.getElementById('canvas');
+      const ctx = canvas.getContext('2d');
+      const img = document.getElementById('icon1024');
+      ctx.drawImage(img, 0, 0, 1024, 1024);
+      const link = document.createElement('a');
+      link.download = 'icon.png';
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+    }
+  </script>
+</body>
+</html>
