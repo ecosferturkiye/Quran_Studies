@@ -46,3 +46,25 @@ scripts/*.zip
 src/data/quran-master/
 
 .vercel
+
+# Claude Code local files
+.claude/logs/
+.claude/hooks/
+.claude/settings.local.json
+
+# Scraper cache files
+scripts/cache_*/
+scripts/*.json
+
+# Backup files
+*.backup.json
+
+# Release/build output
+release/
+
+# Test files
+agents/test_*.py
+agents/test_*.txt
+
+# Windows artifacts
+nul
