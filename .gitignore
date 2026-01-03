@@ -58,6 +58,9 @@ scripts/*.json
 
 # Backup files
 *.backup.json
+*_backup.json
+*_old_backup.json
+*_new.json
 
 # Release/build output
 release/
