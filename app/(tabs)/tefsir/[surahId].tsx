@@ -117,6 +117,56 @@ function StudyQuranVerseCard({
   );
 }
 
+// Helper: Parse translation text with footnote references
+function parseHayratTranslation(text: string, refColor: string, textColor: string) {
+  if (!text) return null;
+
+  // Split by reference pattern (1), (2), etc.
+  const parts = text.split(/(\(\d+\))/g);
+
+  return parts.map((part, index) => {
+    const isRef = /^\(\d+\)$/.test(part);
+    if (isRef) {
+      return (
+        <Text
+          key={index}
+          style={{
+            color: refColor,
+            fontWeight: "700",
+            fontSize: 13,
+          }}
+        >
+          {part}
+        </Text>
+      );
+    }
+    return (
+      <Text key={index} style={{ color: textColor }}>
+        {part}
+      </Text>
+    );
+  });
+}
+
+// Helper: Parse tafsir into separate numbered sections
+function parseHayratTafsir(text: string): Array<{ num: string; content: string }> {
+  if (!text) return [];
+
+  // Match sections starting with (n)
+  const sections: Array<{ num: string; content: string }> = [];
+  const regex = /\((\d+)\)\s*([\s\S]*?)(?=\(\d+\)|$)/g;
+  let match;
+
+  while ((match = regex.exec(text)) !== null) {
+    sections.push({
+      num: match[1],
+      content: match[2].trim(),
+    });
+  }
+
+  return sections;
+}
+
 // Single verse display for Hayrat (Risale-i Nur based commentary)
 function HayratVerseCard({
   verse,
@@ -126,6 +176,10 @@ function HayratVerseCard({
   theme: any;
 }) {
   const commentaryColor = "#D97706"; // Amber/orange for Hayrat
+  const tafsirSections = useMemo(
+    () => parseHayratTafsir(verse.commentaryHayrat || ""),
+    [verse.commentaryHayrat]
+  );
 
   return (
     <View style={[styles.verseCard, { backgroundColor: theme.cardBackground }]}>
@@ -144,13 +198,32 @@ function HayratVerseCard({
           <Text style={[styles.translationLabel, { color: commentaryColor }]}>
             Hayrat Meali
           </Text>
-          <Text style={[styles.translationText, { color: theme.text }]} selectable>
-            {verse.translationHayrat}
+          <Text style={[styles.translationText]} selectable>
+            {parseHayratTranslation(verse.translationHayrat, commentaryColor, theme.text)}
           </Text>
         </View>
       )}
 
-      {verse.commentaryHayrat ? (
+      {tafsirSections.length > 0 ? (
+        <View style={[styles.commentarySection, { borderLeftColor: commentaryColor, backgroundColor: "rgba(217, 119, 6, 0.05)" }]}>
+          <View style={styles.commentaryHeader}>
+            <Ionicons name="library-outline" size={14} color={commentaryColor} />
+            <Text style={[styles.commentaryLabel, { color: commentaryColor }]}>
+              Risale-i Nur Külliyatı
+            </Text>
+          </View>
+          {tafsirSections.map((section, idx) => (
+            <View key={idx} style={styles.hayratTafsirSection}>
+              <View style={[styles.hayratRefBadge, { backgroundColor: commentaryColor }]}>
+                <Text style={styles.hayratRefText}>({section.num})</Text>
+              </View>
+              <Text style={[styles.commentaryText, { color: theme.textSecondary, flex: 1 }]} selectable>
+                {section.content}
+              </Text>
+            </View>
+          ))}
+        </View>
+      ) : verse.commentaryHayrat ? (
         <View style={[styles.commentarySection, { borderLeftColor: commentaryColor, backgroundColor: "rgba(217, 119, 6, 0.05)" }]}>
           <View style={styles.commentaryHeader}>
             <Ionicons name="library-outline" size={14} color={commentaryColor} />
@@ -1153,5 +1226,22 @@ const styles = StyleSheet.create({
   },
   highlightedText: {
     fontWeight: "500",
+  },
+  // Hayrat tafsir section styles
+  hayratTafsirSection: {
+    flexDirection: "row",
+    marginTop: spacing.md,
+    gap: spacing.sm,
+  },
+  hayratRefBadge: {
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 12,
+    alignSelf: "flex-start",
+  },
+  hayratRefText: {
+    color: "#fff",
+    fontSize: 12,
+    fontWeight: "700",
   },
 });
